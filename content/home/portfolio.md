@@ -34,6 +34,8 @@ content:
       tag: CV
     - name: NLP
       tag: NLP
+    - name: 课设
+      tag: 课程设计
 
 design:
   columns: '1'
