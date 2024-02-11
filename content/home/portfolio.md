@@ -36,6 +36,8 @@ content:
       tag: NLP
     - name: 课设
       tag: 课程设计
+    - name: 笔记
+      tag: 笔记
 
 design:
   columns: '1'

@@ -61,9 +61,7 @@ social:
 ---
 
 NUAA本科在读
-
 Email:092290209@nuaa.edu.cn
-
 Tel:19859807640
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
