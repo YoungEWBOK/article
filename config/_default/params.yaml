@@ -41,7 +41,9 @@ header:
     show_search: true
     highlight_active_link: false
 
-
+footer:
+  copyright: false
+  license : false
 
 # Localization
 
