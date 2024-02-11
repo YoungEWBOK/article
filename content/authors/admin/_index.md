@@ -42,10 +42,6 @@ bio: NUAA计算机本科在读
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    #link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-    mailto: 092290209@nuaa.edu.cn
   - icon: github
     icon_pack: fab
     link: https://github.com/YoungEWBOK
@@ -65,5 +61,7 @@ social:
 ---
 
 NUAA本科在读
+Email:092290209@nuaa.edu.cn
+Tel:19859807640
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
