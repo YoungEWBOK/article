@@ -38,8 +38,6 @@ content:
       tag: 课程设计
     - name: 笔记
       tag: 笔记
-    - name: Memory
-      tag: Memory
 
 design:
   columns: '1'
