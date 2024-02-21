@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: NUAA计算机本科在读
+# bio: NUAA计算机本科在读
 
 #interests:
 #- Artificial Intelligence
