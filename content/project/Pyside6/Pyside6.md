@@ -1,7 +1,7 @@
 ---
 title: Pyside6可视化界面制作
 date: '2024-02-21'
-summary: 正在学习中···持续更新
+summary: 示例代码来自：https://github.com/zyds/yolov5-code
 tags:
   - 笔记
 share: false
