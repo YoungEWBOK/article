@@ -375,9 +375,9 @@ void ListDelete_DuL(DuLinkList &L,int i,ElemType &e){  //删除带头结点的�
 
 算法步骤：依次取出Lb中的每个元素，执行以下操作：
 
-`1`在La中查找该元素
+`1`  在La中查找该元素
 
-`2`如果找不到，则将其插入La的最后
+`2`  如果找不到，则将其插入La的最后
 
 算法的时间复杂度是：O(ListLength(La)*ListLength(Lb))
 
