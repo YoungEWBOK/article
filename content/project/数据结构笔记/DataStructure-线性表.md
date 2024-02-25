@@ -434,7 +434,7 @@ void MergeList_Sq(SqList LA,SqList LB,SqList &LC){  //合并结果通过LC返回
 
 用La的头结点作为Lc的头结点
 
-`注意`：插入剩余段的操作`pc->next=pa?pa:pb;`相当于`if(pa) pc->next=pa;` `else pc->next=pb;`
+`注意`：插入剩余段的操作  `pc->next=pa?pa:pb;`  相当于  `if(pa) pc->next=pa;`   `else pc->next=pb;`
 
 算法的时间复杂度是： O(ListLength(La)+ListLength(Lb))  考虑最坏情况，La和Lb中元素依次轮流加到Lc中
 
