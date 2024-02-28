@@ -7,13 +7,13 @@ tags:
 share: false
 ---
 
-## 界面设计
+## **界面设计**
 
 ① 在Qt Designer完成界面设计后，命名为main_window.ui并保存至项目所在文件夹
 
 ② 将main_window.ui进行编译：右键选择Compile Qt UI File，会生成main_window_ui.py文件
 
-## 代码部分
+## **代码部分**
 
 **建议保存一个base内容，方便后续直接修改使用**
 
