@@ -10,7 +10,7 @@ share: false
 
 # **栈和队列**
 
-## 定义和特点
+## **定义和特点**
 
 栈和队列是限定插入和删除只能在表的“端点”进行的<u>**线性表**</u>，是线性表的子集（插入和删除位置受限的线性表）
 
@@ -52,9 +52,9 @@ share: false
 
 运算规则：只能在队首和队尾运算，且访问结点时依照FIFO原则
 
-## 栈的表示和操作的实现
+## **栈的表示和操作的实现**
 
-```c++
+```
 ADT Stack{
     数据对象:
     	D={ai|ai∈ElemSet, i=1,2,···,n,n≥0}
@@ -65,11 +65,132 @@ ADT Stack{
 }ADT Stack
 ```
 
+### 顺序栈的表示和实现
+
+利用一组地址连续的存储单元依次存放自栈底到栈顶的数据元素。栈底一般在低地址端。
+
+- 附设**top**指针，指示栈顶元素在顺序栈中的位置
+  - 但是为了方便操作，通常top指示真正的栈顶元素之上的下标地址
+- 另设**base**指针，指示栈底元素在顺序栈中的位置
+- 另外，用**stacksize**表示栈可使用的最大容量
+
+空栈：**base == top** 是栈空标志
+
+栈满：**top - base == stacksize**
+
+- 处理方法：**报错**，返回操作系统 / **分配更大的空间**，将原栈的内容移入新栈
+
+溢出：(数组大小固定)
+
+- **上溢**(overflow)：栈已经满，又要压入元素
+- **下溢**(underflow)：栈已经空，还要弹出元素
+- **注：**上溢是一种错误，使问题的处理无法进行；而下溢一般认为是一种结束条件，即问题结束处理
+
+#### 顺序栈的表示
+
+```c++
+#define MAXSIZE 100
+typedef struct{
+    SElemType *base;  //栈底指针
+    SElemType *top;  //栈顶指针
+    int stacksize;  //栈可用最大容量
+}SqStack;
+```
+
+#### 顺序栈的初始化
+
+```c++
+Status InitStack(SqStack &S){  //构造一个空栈
+    S.base=new SElemType[MAXSIZE];
+    if(!S.base)
+        exit(OVERFLOW);  //存储分配失败
+    S.top=S.base;  //栈顶指针等于栈底指针
+    S.stacksize=MAXSIZE;
+    return OK;
+}
+```
+
+#### 判断顺序栈是否为空
+
+```c++
+Status StackEmpty(SqStack S){  //若栈为空，返回TRUE；否则返回FALSE
+    if(S.top==S.base)
+        return TRUE;
+    else
+        return FALSE;
+}
+```
+
+#### 求顺序栈长度
+
+```c++
+int StackLength(SqStack S){
+    return S.top - S.base;
+}
+```
+
+#### 清空顺序栈
+
+```c++
+Status ClearStack(SqStack S){
+    if(S.base)
+        S.top=S.base;
+    return OK;
+}
+```
+
+#### 销毁顺序栈
+
+```c++
+Status DestroyStack(SqStack &S){
+    if(S.base){
+        delete S.base;
+        S.stacksize=0;
+        S.base=S.top=NULL;
+    }
+    return OK;
+}
+```
+
+#### 顺序栈的入栈
+
+1. 判断是否栈满，若满则出错(上溢)
+2. 元素e压入栈顶
+3. 栈顶指针加1
+
+```c++
+Status Push(SqStack &S,SElemType e){
+    if(S.top-S.base==S.stacksize)  //栈满
+        return ERROR;
+    *S.top++ = e;//相当于 *S.top=e; S.top++;
+    return OK;
+}
+```
+
+#### 顺序栈的出栈
+
+1. 判断是否栈空，若空则出错(下溢)
+2. 获取栈顶元素e
+3. 栈顶指针减1
+
+```c++
+Status Pop(SqStack &S,SElemType &e){  //若栈不空，则删除S的栈顶元素，用e返回其值；并返回OK；否则返回ERROR
+    if(S.top==S.base)  //等价于if(StackEmpty(S))
+        return ERROR;
+    e = *--S.top;  //指针先下移再取值，相当于 --S.top; e=*S.top;
+    return OK;
+}
+```
+
+### 链栈的表示和实现
+
+#### 链栈的表示
 
 
 
 
-## 栈与递归
+
+## **栈与递归**
 
 
 
@@ -77,5 +198,5 @@ ADT Stack{
 
 
 
-## 队列的表示和操作的实现
+## **队列的表示和操作的实现**
 
