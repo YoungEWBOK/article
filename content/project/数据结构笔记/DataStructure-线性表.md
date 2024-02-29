@@ -465,11 +465,7 @@ void MergeList_L(LinkList &La,LinkList &Lb,LinkList &Lc){
 
 ### 一元多项式的运算：实现两个多项式加、减、乘运算
 
-$$
-P_n(x)=p_0+p_1x+p_2x^2+···+p_nx^n
-$$
-
-`思路`：将多项式的系数视为线性表 $P=(p_0,p_1,p_2,···,p_n)$ 每一项的指数 $i$ 隐含在其系数 $p_i$ 的序号中
+`思路`：将多项式的系数视为线性表 P=(p_0,p_1,p_2,···,p_n) 每一项的指数 i 隐含在其系数 p_i 的序号中
 
 ```c++
 void PolyOperate(SqList &L1,SqList &L2,SqList &L3){
@@ -495,10 +491,6 @@ void PolyOperate(SqList &L1,SqList &L2,SqList &L3){
 ### 稀疏多项式的运算
 
 #### 顺序存储结构
-
-$$
-P_n(x)=p_1x^{e_1}+p_2x^{e_2}+···+p_mx^{e_m}
-$$
 
 `思路`：只存储系数不为0的项，避免浪费空间。每一项存储 `系数a[i]` 和 `指数` ，将其构成的序列记为线性表 $P=((p_1,e_1),(p_2,e_2),···,(p_m,e_m))$
 
