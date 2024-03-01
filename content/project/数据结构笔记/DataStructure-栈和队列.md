@@ -186,9 +186,78 @@ Status Pop(SqStack &S,SElemType &e){  //若栈不空，则删除S的栈顶元素
 
 #### 链栈的表示
 
+链栈是运算受限的单链表，只能在链表头部进行操作
 
+```c++
+typedef struct StackNode{
+    SElemType data;
+    struct StackNode *next;
+}StackNode,*LinkStack;
+```
 
+**注意：链栈中指针的方向是后继元素指向前驱元素**
 
+- 链表的头指针就是栈顶
+- 不需要头结点
+- 基本不存在栈满的情况
+- 空栈相当于头指针指向空
+- 插入和删除仅在栈顶处执行
+
+#### 链栈的初始化
+
+```c++
+void InitStack(LinkStack &S){
+    //构造一个空栈，栈顶指针置为空
+    S=NULL;
+    return OK;
+}
+```
+
+#### 判断链栈是否为空
+
+```c++
+Status StackEmpty(LinkStack S){
+    if(S==NULL)
+        return TRUE;
+    else
+        return FALSE;
+}
+```
+
+#### 链栈的入栈
+
+```c++
+Status Push(LinkStack &S,SElemType e){
+    p=new StackNode;  //生成新结点p
+    p->data=e;  //将新结点数据域置为e
+    p->next=S;  //将新结点插入栈顶，原先的栈顶元素作为其后继元素
+    S=p;  //修改栈顶指针，S指向新结点
+    return OK;
+}
+```
+
+#### 链栈的出栈
+
+```c++
+Status Pop(LinkStack &S,SElemType &e){
+    if(S==NULL)
+        return ERROR;
+    e=S->data;
+    p=S;
+    S=S->next;
+    delete p;
+    return OK;
+}
+```
+
+#### 取栈顶元素
+
+```c++
+SElemType GetTop(LinkStack S){
+    if(S!=NULL)
+        return S->data;
+}
+```
 
 ## **栈与递归**
 
