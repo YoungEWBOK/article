@@ -261,11 +261,189 @@ SElemType GetTop(LinkStack S){
 
 ## **栈与递归**
 
+**注意点：必须有一个明确的递归出口，或称递归的边界**
 
-
-
-
-
+函数嵌套调用遵循**"后调用的先返回"=>**用**栈**实现
 
 ## **队列的表示和操作的实现**
+
+```
+ADT Queue{
+    数据对象:
+    	D={ai|ai∈ElemSet, i=1,2,···,n,n≥0}
+    数据关系:
+        R1={<ai-1,ai>|ai-1,ai∈D, i=2,···,n}  //约定其中a1端为队列头，an端为队列尾
+    	约定an端为栈顶，ai端为栈底
+    基本操作:初始化、入队、出队、取队头元素等
+}ADT Queue
+```
+
+### 队列的顺序表示和实现(循环队列)
+
+#### 循环队列的类型定义
+
+**使用一维数组base[MAXQSIZE]**
+
+```c++
+#define MAXQSIZE 100  //最大队列长度
+typedef struct{
+    QElemType *base;  //初始化的动态分配存储空间
+    int front;  //头指针，若队列不空，指向队列头元素
+    int rear;  //尾指针，若队列不空，指向队列尾元素的下一个位置
+}SqQueue;  //SqQueue不是指针类型，引用成员用.号  //front和rear并非指针变量，只是用以表示数组当中元素的下标位置
+```
+
+- 真溢出：front=0，rear=MAXQSIZE
+- 假溢出：front≠0，rear=MAXQSIZE
+
+**解决假上溢的方法**——引入**循环队列**
+
+base[0]接在base[MAXQSIZE-1]之后，若rear+1==M，则令rear=0
+
+实现方法：利用**模(mod，C语言中: %)运算**
+
+**解决队空or队满的判断方法**
+
+- 另设标志区别队空/队满
+- 另设变量记录元素个数
+- 少用一个元素空间
+  - 队空：front==rear
+  - 队满：(rear+1)%MAXQSIZE==front
+
+#### 循环队列的初始化
+
+```c++
+Status InitQueue(SqQueue &Q){
+    Q.base=new QElemType[MAXQSIZE];  //分配数组空间
+    if(!Q.base)
+        exit(OVERFLOW);  //存储分配失败
+    Q.front=Q.rear=0;  //头指针、尾指针置为0，队列为空
+	return OK;
+}
+```
+
+#### 求循环队列的长度
+
+```c++
+int QueueLength(SqQueue Q){
+    return ((Q.rear-Q.front+MAXQSIZE)%MAXQSIZE);
+}
+```
+
+#### 循环队列的入队
+
+```c++
+Status EnQueue(SqQueue &Q,QElemType e){
+    if((Q.rear+1)%MAXQSIZE==Q.front)
+        return ERROR;  //队满
+    Q.base[Q.rear]=e;  //新元素加入队尾
+    Q.rear=(Q.rear+1)%MAXQSIZE;  //队尾指针+1
+    return OK;
+}
+```
+
+#### 循环队列的出队
+
+```c++
+Status DeQueue(SqQueue &Q,QElemType &e){
+    if(Q.front==Q.rear)
+        return ERROR;  //队空
+    e=Q.base[Q.front];  //保存队头元素
+    Q.front=(Q.front+1)%MAXQSIZE;  //队头指针+1
+    return OK;
+}
+```
+
+#### 取循环队列的队头元素
+
+```c++
+SElemType GetHead(SqQueue Q){
+    if(Q.front!=Q.rear)  //队列不为空
+        return Q.base[Q.front];  //返回队头指针元素的值，队头指针不变
+}
+```
+
+### 队列的链式表示和实现
+
+链式队列带有头结点，头指针Q.front指向头结点，尾指针Q.rear指向尾结点
+
+#### 链式队列的类型定义
+
+```c++
+#define MAXQSIZE 100  //最大队列长度
+typedef struct Qnode{
+    QElemType data;
+    struct Qnode *next;
+}QNode,*QueuePtr;
+typedef struct{
+    QueuePtr front;  //队头指针
+    QueuePtr rear;  //队尾指针
+}LinkQueue;  //LinkQueue不是指针类型，引用成员用.号
+```
+
+#### 链式队列的初始化
+
+```c++
+Status InitQueue(LinkQueue &Q){
+    Q.front=Q.rear=(QueuePtr)malloc(sizeof(QNode));  //Q.front=Q.rear=new QNode;
+    if(!Q.front)
+        exit(OVERFLOW);
+    Q.front->next=NULL;
+    return OK;
+}
+```
+
+#### 销毁链式队列
+
+```c++
+Status DestroyQueue(LinkQueue &Q){
+    while(Q.front){
+        p=Q.front->next;
+        free(Q.front);  //delete Q.front
+        Q.front=p;
+    }  //Q.rear=Q.front->next; free(Q.front); Q.front=Q.rear;
+    return OK;
+}
+```
+
+#### 链式队列的入队
+
+```c++
+Status EnQueue(LinkQueue &Q,QElemType e){
+    p=(QueuePtr)malloc(sizeof(QNode));  //p=new QNode;
+    if(!p) exit(OVERFLOW);
+    p->data=e;
+    p->next=NULL;
+    Q.rear->next=p;
+    Q.rear=p;
+    return OK;
+}
+```
+
+#### 链式队列的出队
+
+```c++
+Status DeQueue(LinkQueue &Q,QElemType &e){
+    if(Q.front==Q.rear)
+        return ERROR;
+    p=Q.front->next;
+    e=p->data;
+    Q.front->next=p->next;
+    if(Q.rear==p)
+        Q.rear=Q.front;  //如果删除的正好是尾结点(头结点的下一结点就是尾结点时)，那么还需要修改尾指针指向头结点
+    delete p;
+    return OK;
+}
+```
+
+#### 取链式队列的队头元素
+
+```c++
+Status GetHead(LinkQueue Q,QElemType &e){
+    if(Q.front==Q.rear)
+        return ERROR;
+    e=Q.front->next->data;
+    return OK;
+}
+```
 
