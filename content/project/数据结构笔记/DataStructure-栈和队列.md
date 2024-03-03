@@ -272,8 +272,8 @@ ADT Queue{
     数据对象:
     	D={ai|ai∈ElemSet, i=1,2,···,n,n≥0}
     数据关系:
-        R1={<ai-1,ai>|ai-1,ai∈D, i=2,···,n}  //约定其中a1端为队列头，an端为队列尾
-    	约定an端为栈顶，ai端为栈底
+        R1={<ai-1,ai>|ai-1,ai∈D, i=2,···,n}
+    	约定其中a1端为队列头，an端为队列尾
     基本操作:初始化、入队、出队、取队头元素等
 }ADT Queue
 ```
@@ -375,6 +375,7 @@ typedef struct Qnode{
     QElemType data;
     struct Qnode *next;
 }QNode,*QueuePtr;
+
 typedef struct{
     QueuePtr front;  //队头指针
     QueuePtr rear;  //队尾指针
