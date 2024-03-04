@@ -151,9 +151,9 @@ void get_next(SString T,int &next[]){
 
 **next函数的改进**
 
-![next](屏幕截图 2024-03-04 143801-1709534326351-2.png)
+![next](assets/media/images/屏幕截图 2024-03-04 143801.png)
 
-![nextval](屏幕截图 2024-03-04 150333-1709535840006-5.png)
+![nextval](assets/media/images/屏幕截图 2024-03-04 150333.png)
 
 j 位置和其next值对应的下标 i 位置进行字符的比较，字符相同则 j 位置nextval的值=下标 i 位置的next的值，不相同则 j 位置nextval的值=自身的next的值
 
@@ -169,7 +169,7 @@ void get_nextval(SString T,int &nextval[]){
                 nextval[i]=nextval[j];
         }
         else
-            j=
+            j=nextval[j];
     }
 }
 ```
