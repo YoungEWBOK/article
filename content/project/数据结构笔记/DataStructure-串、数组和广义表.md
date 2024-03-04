@@ -110,7 +110,69 @@ int Index_BF(SString S,SString T){  //如果对开始查找的位置有要求，
 
 总次数为：(n-m)×m+m=(n-m+1)×m，若m<<n，则算法复杂度为O(n*m)（最坏情况和平均情况）
 
+##### KMP算法
 
+利用已经**部分匹配**的结果而加快模式串的滑动速度，且主串S的指针 i 不必回溯，可提速到O(n+m)
+
+为此，定义next[j]函数，表明当模式中第 j 个字符与主串中相应字符"失配"时，在模式中需重新和主串中该字符进行比较的字符的位置
+
+**next[j]=**
+
+- max{k|1<k<j，且"p(1)···p(k-1)"="p(j-k+1)···p(j-1)"} **(从头开始的 k-1 个元素 = j 前面的 k-1 个元素，前缀=后缀)** 当此集合非空时
+  - 前缀是向右移动，后缀是向左移动，因此即使当前不匹配仍然需要加长元素个数再次判断，属于此情况的值至少为2(因为k-1=1)
+- 0    当 j=1 时
+- 1    其他情况
+
+```c++
+int Index_KMP(SString S,SString T,int pos){
+    i=pos,j=1;
+    while(i<S.length&&j<T.length){
+        if(j==0||S.ch[i]==T.ch[j]){i++;j++;}
+        else
+            j=next[j];  //i不变，j后退
+    }
+    if(j>T.length) return i-T.length;  //匹配成功
+    else return 0;  //返回不匹配标志
+}
+
+void get_next(SString T,int &next[]){
+    i=1;next[1]=0;j=0;
+    while(i<T.length){
+        if(j==0||T.ch[i]==T.ch[j]){
+            ++i;++j;
+            next[i]=j;
+        }
+        else
+            j=next[j];
+    }
+}
+/* 关于 j=next[j];这句：如果j被赋值为0(表明i在当前位置时，模式串先前的所有位置都无法与之匹配(即使从头开始也不匹配)，需要从下一个位置开始)，则会进入第15行的if语句内，让i++、j++，即j保持1不动，i向后移位一个元素，接下来模式串从头开始、主串从下一位置开始，再进行比较 */
+```
+
+**next函数的改进**
+
+![next](屏幕截图 2024-03-04 143801-1709534326351-2.png)
+
+![nextval](屏幕截图 2024-03-04 150333-1709535840006-5.png)
+
+j 位置和其next值对应的下标 i 位置进行字符的比较，字符相同则 j 位置nextval的值=下标 i 位置的next的值，不相同则 j 位置nextval的值=自身的next的值
+
+```c++
+void get_nextval(SString T,int &nextval[]){
+    i=1;nextval[1]=0;j=0;
+    while(i<T.length){
+        if(j==0||T.ch[i]==T.ch[j]){
+            ++i;++j;
+            if(T.ch[i]!=T.ch[j])
+                nextval[i]=j;
+            else
+                nextval[i]=nextval[j];
+        }
+        else
+            j=
+    }
+}
+```
 
 
 
