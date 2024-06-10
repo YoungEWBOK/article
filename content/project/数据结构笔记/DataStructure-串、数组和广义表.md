@@ -151,9 +151,9 @@ void get_next(SString T,int &next[]){
 
 **next函数的改进**
 
-![next](https://github.com/YoungEWBOK/article/blob/main/assets/media/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-03-04%20143801.png?raw=true)
+![screen reader text](next.jpg)
 
-![nextval](https://github.com/YoungEWBOK/article/blob/main/assets/media/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-03-04%20150333.png?raw=true)
+!![screen reader text](nextval.jpg)
 
 **大概理解(待确认):** j 位置和其next值对应的下标 i 位置进行字符的比较，字符相同则 j 位置nextval的值=下标 i 位置的next的值，不相同则 j 位置nextval的值=自身的next的值
 
