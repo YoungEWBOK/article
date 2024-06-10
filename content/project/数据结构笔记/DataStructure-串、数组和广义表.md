@@ -151,9 +151,9 @@ void get_next(SString T,int &next[]){
 
 **next函数的改进**
 
-![screen reader text](next.jpg)
+![](next.png)
 
-![screen reader text](nextval.jpg)
+![](nextval.png)
 
 **大概理解(待确认):** j 位置和其next值对应的下标 i 位置进行字符的比较，字符相同则 j 位置nextval的值=下标 i 位置的next的值，不相同则 j 位置nextval的值=自身的next的值
 
