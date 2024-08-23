@@ -125,6 +125,60 @@ R2R 数据集推动了 VLN 研究的发展，因为它要求模型具备将语�
 
 ------
 
+> At any time the simulator state can be returned by calling `getState`. The returned state contains a list of objects (one for each agent in the batch), with attributes as in the following example:
+
+```javascript
+[
+  {
+    "scanId" : "2t7WUuJeko7"  // Which building the agent is in
+    "step" : 5,               // Number of frames since the last newEpisode() call
+    "rgb" : <image>,          // 8 bit image (in BGR channel order), access with np.array(rgb, copy=False)
+    "depth" : <image>,        // 16 bit single-channel image containing the pixel's distance in the z-direction from the camera center 
+                              // (not the euclidean distance from the camera center), 0.25 mm per value (divide by 4000 to get meters). 
+                              // A zero value denotes 'no reading'. Access with np.array(depth, copy=False)
+    "location" : {            // The agent's current 3D location
+        "viewpointId" : "1e6b606b44df4a6086c0f97e826d4d15",  // Viewpoint identifier
+        "ix" : 5,                                            // Viewpoint index, used by simulator
+        "x" : 3.59775996208,                                 // 3D position in world coordinates
+        "y" : -0.837355971336,
+        "z" : 1.68884003162,
+        "rel_heading" : 0,                                   // Robot relative coords to this location
+        "rel_elevation" : 0,
+        "rel_distance" : 0
+    }
+    "heading" : 3.141592,     // Agent's current camera heading in radians
+    "elevation" : 0,          // Agent's current camera elevation in radians
+    "viewIndex" : 0,          // Index of the agent's current viewing angle [0-35] (only valid with discretized viewing angles)
+                              // [0-11] is looking down, [12-23] is looking at horizon, is [24-35] looking up
+    "navigableLocations": [   // List of viewpoints you can move to. Index 0 is always the current viewpoint, i.e. don't move.
+        {                     // The remaining valid viewpoints are sorted by their angular distance from the image centre.
+            "viewpointId" : "1e6b606b44df4a6086c0f97e826d4d15",  // Viewpoint identifier
+            "ix" : 5,                                            // Viewpoint index, used by simulator
+            "x" : 3.59775996208,                                 // 3D position in world coordinates
+            "y" : -0.837355971336,
+            "z" : 1.68884003162,
+            "rel_heading" : 0,                                   // Robot relative coords to this location
+            "rel_elevation" : 0,
+            "rel_distance" : 0
+        },
+        {
+            "viewpointId" : "1e3a672fa1d24d668866455162e5b58a",  // Viewpoint identifier
+            "ix" : 14,                                           // Viewpoint index, used by simulator
+            "x" : 4.03619003296,                                 // 3D position in world coordinates
+            "y" : 1.11550998688,
+            "z" : 1.65892004967,
+            "rel_heading" : 0.220844170027,                      // Robot relative coords to this location
+            "rel_elevation" : -0.0149478448723,
+            "rel_distance" : 2.00169944763
+        },
+        {...}
+    ]
+  }
+]
+```
+
+------
+
 ### 视图网格的结构
 
 ```python
