@@ -53,7 +53,7 @@ llamafactory-cli webui
 
 ## 训练
 
-![image-20241010201410184](../AppData/Roaming/Typora/typora-user-images/image-20241010201410184.png)
+![image-20241010201410184](image-20241010201410184.png)
 
 在开始训练模型之前，需要指定的参数有：
 
@@ -71,7 +71,7 @@ llamafactory-cli webui
 
 **若使用CPU训练可能会报Warning，忽略即可**
 
-![image-20241011094129601](../AppData/Roaming/Typora/typora-user-images/image-20241011094129601.png)
+![image-20241011094129601](image-20241011094129601.png)
 
 ## 评估预测与对话
 
@@ -91,31 +91,31 @@ llamafactory-cli webui
 
 **训练过程的Loss曲线如下：**
 
-![training_loss](E:/浏览器下载/training_loss.png)
+![training_loss](training_loss.png)
 
 **导出模型：**
 
-![image-20241013090539536](../AppData/Roaming/Typora/typora-user-images/image-20241013090539536.png)
+![image-20241013090539536](image-20241013090539536.png)
 
 **利用模型进行对话：**
 
-![image-20241013091037404](../AppData/Roaming/Typora/typora-user-images/image-20241013091037404.png)
+![image-20241013091037404](image-20241013091037404.png)
 
 ### 使用自定义的custom_chinese_dataset数据集微调模型
 
 **自定义的数据集需要添加到data文件夹中，并在data_info.json中添加相应的内容：**
 
-![image-20241013091259201](../AppData/Roaming/Typora/typora-user-images/image-20241013091259201.png)
+![image-20241013091259201](image-20241013091259201.png)
 
-![image-20241013091305972](../AppData/Roaming/Typora/typora-user-images/image-20241013091305972.png)
+![image-20241013091305972](image-20241013091305972.png)
 
 **保存之后，就能在数据集选项中看到自定义数据集了。**
 
-![image-20241012234348318](../AppData/Roaming/Typora/typora-user-images/image-20241012234348318.png)
+![image-20241012234348318](image-20241012234348318.png)
 
 **测试微调后的对话效果：**
 
-![image-20241013151000341](../AppData/Roaming/Typora/typora-user-images/image-20241013151000341.png)
+![image-20241013151000341](image-20241013151000341.png)
 
 # Ollama部署模型
 
@@ -125,7 +125,7 @@ llamafactory-cli webui
 
 **首先下载Ollama：**
 
-![image-20241013091941292](file://C:\Users\25705\AppData\Roaming\Typora\typora-user-images\image-20241013091941292.png?lastModify=1728782894)
+![image-20241013091941292](image-20241013091941292.png)
 
 **安装完成后，即可通过命令直接下载使用模型库中的模型，这里以llama3.1为例:**
 
@@ -133,11 +133,11 @@ llamafactory-cli webui
 ollama run llama3.1
 ```
 
-![image-20241013092846274](../AppData/Roaming/Typora/typora-user-images/image-20241013092846274.png)
+![image-20241013092846274](image-20241013092846274.png)
 
 **输入/?可以调出提示：**
 
-![image-20241013093004760](../AppData/Roaming/Typora/typora-user-images/image-20241013093004760.png)
+![image-20241013093004760](image-20241013093004760.png)
 
 ### 部署自定义模型
 
@@ -161,7 +161,7 @@ python convert_hf_to_gguf.py /home/yyx/LLaMA-Factory/saves/Llama-3-8B-Chinese-Ch
 
 **以下图的模型为例，其名称是output-100：**
 
-![image-20241013125435028](../AppData/Roaming/Typora/typora-user-images/image-20241013125435028.png)
+![image-20241013125435028](image-20241013125435028.png)
 
 **运行代码后会把safetensors格式转换为gguf格式，名称是output-100.gguf。**
 
@@ -189,6 +189,6 @@ ollama run model_name
 
 **Tips：如果你发现你的模型在回复时逻辑不那么通顺流利，类似下图这样，说明你的微调似乎不够成功 :)**
 
-![image-20241013161918357](../AppData/Roaming/Typora/typora-user-images/image-20241013161918357.png)
+![image-20241013161918357](image-20241013161918357.png)
 
 **Enjoy it ~**
