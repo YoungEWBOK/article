@@ -173,11 +173,19 @@ FROM /path/to/your_model.gguf
 
 **(先创建Modelfile.txt，在文档中填入内容，保存后把后缀.txt去掉即可，记得把/path/to/your_model.gguf替换为模型的实际路径)**
 
-**在Ollama中创建相应模型：**
+**在Ollama中创建相应的模型：**
 
 ```bash
 ollama create model_name -f /path/to/Modelfile
 ```
+
+**查看Ollama中所有的本地模型：**
+
+```bash
+ollama list
+```
+
+![image-20241013174005062](image-20241013174005062.png)
 
 **在Ollama中运行模型进行对话：**
 
