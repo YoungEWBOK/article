@@ -143,7 +143,7 @@ ollama run llama3.1
 
 由于**通过LlaMA-Factory导出的模型与Ollama所需格式有区别**，需要**借助Llama.cpp的代码进行转换**。
 
-**仓库地址：**https://github.com/ggerganov/llama.cpp
+**仓库地址:** https://github.com/ggerganov/llama.cpp
 
 **git clone仓库之后，下载相关依赖：**
 
@@ -159,11 +159,11 @@ python convert_hf_to_gguf.py /home/yyx/LLaMA-Factory/saves/Llama-3-8B-Chinese-Ch
 --outtype q8_0
 ```
 
-**以下图的模型为例，其名称是output-100：**
+**以下图的模型为例：**
 
 ![image-20241013125435028](image-20241013125435028.png)
 
-**运行代码后会把safetensors格式转换为gguf格式，名称是output-100.gguf。**
+**运行代码后会把safetensors格式转换为gguf格式，导出模型的名称是output-100.gguf。**
 
 **接下来创建Modelfile，用于将模型导入Ollama中：**
 
