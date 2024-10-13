@@ -13,7 +13,7 @@ share: false
 
 ## LLaMA-Factory 安装
 
-**这部分在LLaMA-Factory的文档里已有详细介绍，可直接参考：**https://llamafactory.readthedocs.io/zh-cn/latest/#
+**这部分在LLaMA-Factory的文档里已有详细介绍，可直接参考:** https://llamafactory.readthedocs.io/zh-cn/latest/#
 
 在安装 LLaMA-Factory 之前，确保安装了下列依赖:
 
