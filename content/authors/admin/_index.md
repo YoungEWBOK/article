@@ -60,7 +60,7 @@ social:
 #email: ""
 ---
 
-NUAA本科在读
+NUAA人工智能专业本科在读
 
 Email:092290209@nuaa.edu.cn
 
