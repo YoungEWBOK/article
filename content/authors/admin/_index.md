@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-# bio: NUAA计算机本科在读
+# bio: NUAA 计算机本科 在读
 
 #interests:
 #- Artificial Intelligence
@@ -58,12 +58,15 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
+删除了这个：{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
 ---
 
-NUAA人工智能专业本科在读
+NUAA 人工智能专业 本科在读
 
-Email:092290209@nuaa.edu.cn
+Email: 092290209@nuaa.edu.cn
 
-Tel:19859807640
+Tel: 19859807640 (WeChat)
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
+VLN、VLA 新手上路
+
+欢迎与我联系！
