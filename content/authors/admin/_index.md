@@ -57,8 +57,8 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
-删除了这个：{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
+# email: ""
+# 删除了这个：{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
 ---
 
 NUAA 人工智能专业 本科在读
@@ -69,4 +69,4 @@ Tel: 19859807640 (WeChat)
 
 VLN、VLA 新手上路
 
-欢迎与我联系~
+欢迎与我联系！
