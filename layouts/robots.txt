@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yuxiyang.netlify.app/sitemap.xml
+Sitemap: https://yuxiyang.netlify.app/sitemap-ai-updates.xml

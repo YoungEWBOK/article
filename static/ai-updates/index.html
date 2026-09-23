@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7fafc">
   <meta name="description" content="Yuxi Yang 的 AI 工具更新页：每日整理官方发布记录和新闻检索线索。">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://yuxiyang.netlify.app/ai-updates/">
   <title>AI 更新 · Yuxi Yang</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230d6b84'/%3E%3Cpath d='M11 34h13l7-17 8 30 6-13h8' fill='none' stroke='white' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./style.css">
@@ -15,7 +17,8 @@
     <div class="workspace" id="updates"><section class="board" aria-labelledby="feed-title"><div class="board-head"><div class="board-title"><span class="pulse" aria-hidden="true"></span><span id="feed-title">AI 更新线索</span><span class="count" id="item-count"></span></div><span class="source-note" id="sync-note">正在连接数据源…</span></div><div class="toolbar"><div class="tabs" role="group" aria-label="更新筛选"><button type="button" data-filter="official" aria-pressed="true">官方发布</button><button type="button" data-filter="news" aria-pressed="false">新闻线索</button><button type="button" data-filter="following" aria-pressed="false">我的关注</button><button type="button" data-filter="week" aria-pressed="false">近 7 天</button></div><input class="search" id="search" type="search" placeholder="搜索工具、版本或新闻…" aria-label="搜索更新"></div><div class="feed" id="feed" aria-live="polite"><div class="status">正在读取每日更新…</div></div></section>
     <aside class="aside"><section class="sidebox"><h3>关注的来源</h3><p>选择常用项目和检索线索，下次打开仍会保留你的选择。</p><div class="watch-list" id="watch-list"></div></section><section class="sidebox digest"><h3>整理给自己或团队</h3><p>把当前筛选结果复制成带原文链接的 Markdown 摘要。</p><button class="primary" id="copy-digest" type="button">复制更新摘要</button><p class="sidefoot">新闻属于待核实线索，引用前请查看原文。</p></section></aside></div>
     <section class="model-card" id="how-it-works"><h3>数据从哪里来</h3><p>每日采集六个项目的官方 GitHub Releases 与两组 Google News 检索结果。新闻是待核实线索，并非官方更新或完整的全网覆盖。页面展示最近一次采集结果；暂时无法获取时会显示本地缓存。详情以原文为准。</p></section>
-  </main><footer class="footer shell"><span>© <span id="year"></span> Yuxi Yang</span><span>发布记录归各开源项目所有 · <a href="https://docs.github.com/en/rest/releases/releases" target="_blank" rel="noopener noreferrer">GitHub Releases API</a></span></footer><div id="toast" class="toast hidden" role="status"></div>
+  </main><footer class="footer shell"><span>© <span id="year"></span> Yuxi Yang</span><span class="footer-counter">累计浏览 <strong id="busuanzi_site_pv">--</strong> 次 · 访客 <strong id="busuanzi_site_uv">--</strong> 人 <a href="https://www.busuanzi.cc/" target="_blank" rel="noopener noreferrer">不蒜子统计</a></span><span>发布记录归各开源项目所有 · <a href="https://docs.github.com/en/rest/releases/releases" target="_blank" rel="noopener noreferrer">GitHub Releases API</a></span></footer><div id="toast" class="toast hidden" role="status"></div>
+  <script defer src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
   <script>
   (()=>{
     const sources=[

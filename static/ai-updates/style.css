@@ -70,6 +70,9 @@ a{color:inherit;text-decoration:none}
 .status{padding:30px;color:#718493;font-size:14px;line-height:1.6}
 .footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #e3eaf0;padding-top:22px;padding-bottom:36px;color:#8b9dab;font-size:13px}
 .footer a:hover{color:#0a7b8b;text-decoration:underline}
+.footer-counter{display:inline-flex;align-items:center;gap:.25rem;flex-wrap:wrap}
+.footer-counter strong{color:#0d7188;font-weight:750}
+.footer-counter a{margin-left:.35rem}
 .hidden{display:none!important}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:10;padding:12px 17px;border:1px solid #acd7d3;border-radius:9px;background:#e7f8f4;color:#155e63;box-shadow:0 10px 30px #173b3d22;font-size:14px}
 @media(max-width:990px){.workspace{grid-template-columns:minmax(0,1fr) 248px}.shell{padding-inline:22px}}

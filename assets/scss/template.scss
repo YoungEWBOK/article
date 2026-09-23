@@ -32,6 +32,23 @@ body,
   letter-spacing: .01em;
 }
 
+.site-visit-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: 0 0 .8rem;
+  color: var(--site-muted);
+  font-size: .84rem;
+}
+
+.site-visit-counter strong,
+.site-visit-counter a {
+  color: var(--site-accent);
+  font-weight: 700;
+}
+
 .home-section {
   padding: 1.5rem 0;
 }
