@@ -12,6 +12,9 @@ appearance:
   font_size: L
 
 # SEO
+marketing:
+  seo:
+    description: 杨语希的项目与技术笔记，包含 AI 工具更新和开发实践。
 
 
 # Site header
