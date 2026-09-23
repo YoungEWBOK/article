@@ -1,0 +1,7 @@
+main:
+  - name: 首页
+    url: /
+    weight: 10
+  - name: AI 更新
+    url: ai-updates/
+    weight: 20
