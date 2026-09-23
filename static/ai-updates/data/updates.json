@@ -1,0 +1,654 @@
+{
+  "generated_at": "2026-09-23T05:46:26.312662Z",
+  "source_count": 8,
+  "items": [
+    {
+      "source": "ollama/ollama",
+      "name": "v0.34.4",
+      "tag_name": "v0.34.4-rc0",
+      "body": "## What's Changed\r\n* server: fix intermittent \"model not found\" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438\r\n* server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479\r\n* app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601\r\n* llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18576\r\n* mlx: select Gemma 4 image resolution dynamically by @dhiltgen in https://github.com/ollama/ollama/pull/18603\r\n* mlx: speed up Qwen 3.8 prompt processing by @dhiltgen in https://github.com/ollama/ollama/pull/18550\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4-rc0",
+      "published_at": "2026-09-23T02:24:43Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.19.0",
+      "tag_name": "v3.19.0",
+      "body": "## [3.19.0](https://github.com/openai/openai-python/compare/v3.18.0...v3.19.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GCP external storage support ([#3943](https://github.com/openai/openai-python/issues/3943)) ([d12d60f](https://github.com/openai/openai-python/commit/d12d60fff9f5624f2dc50ade3d832028f4fecaa7))\n* **api:** add GPT-Rosalind research model ([#3940](https://github.com/openai/openai-python/issues/3940)) ([d041d73](https://github.com/openai/openai-python/commit/d041d736f75f03f6c87aa77f932823011691bac5))\n\n\n### Bug Fixes\n\n* **_utils/_transform:** propagate __api_exclude__ in _async_transform_recursive ([#3324](https://github.com/openai/openai-python/issues/3324)) ([161ae65](https://github.com/openai/openai-python/commit/161ae65ea676a000a156ba0dacfd904532b52473))\n* **api:** handle omission markers in queued WebSocket events ([#3944](https://github.com/openai/openai-python/issues/3944)) ([63e4616](https://github.com/openai/openai-python/commit/63e46169a7c6525ec90c7f2815a05d56e795cbcf))\n* **client:** retry only replayable request content ([#3771](https://github.com/openai/openai-python/issues/3771)) ([6e0c2be](https://github.com/openai/openai-python/commit/6e0c2beeb639e42ff74f14135151d8bcb1e5b245))\n* **client:** tolerate older optional aiohttp installations ([#3941](https://github.com/openai/openai-python/issues/3941)) ([0d91efb](https://github.com/openai/openai-python/commit/0d91efbe5084c2f572688e8e9a05c0a91c8c0319))\n* **helpers:** use asyncio.get_running_loop() inside async methods ([#3289](https://github.com/openai/openai-python/issues/3289)) ([bac3545](https://github.com/openai/openai-python/commit/bac3545eee5a0dfd348a6766bca3e904308792dd))",
+      "published_at": "2026-09-23T00:08:02Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-openai==1.6.4",
+      "tag_name": "langchain-openai==1.6.4",
+      "body": "Changes since langchain-openai==1.6.3\n\nrelease(openai): 1.6.4 (#40775)\nchore(model-profiles): refresh openai model profile data (#40774)",
+      "published_at": "2026-09-22T22:37:09Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-anthropic==1.7.3",
+      "tag_name": "langchain-anthropic==1.7.3",
+      "body": "Changes since langchain-anthropic==1.7.2\n\nrelease(anthropic): 1.7.3 (#40773)\nchore(model-profiles): refresh anthropic model profile data (#40772)\nfix(anthropic): auto-route `with_structured_output` to `method=\"json_schema\"` for fable and opus 5.5 (#40766)\nchore(anthropic): update docs for Opus 5.5 (#40765)\nfeat(anthropic): send mid-conversation `SystemMessage`s in place (#40622)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/anthropic (#40643)",
+      "published_at": "2026-09-22T22:08:13Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T21:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "OpenAI Launches GPT-6 Sol And Luna With 50% Lower API Pricing - Pulse 2.0",
+      "tag_name": "Pulse 2.0",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T19:06:04Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wdTN1MVdkb2tJZGZldm1KNFhaQUt5bUJPbU1zTDkyeTR2U0R2Nzh1ZXpIZ3lhSTBMSVJJSlM5ZFhRY2Z5UTNJSXpnQm42aEl4QlM4a1RNMnZVaTYzX1pwTlNYZknSAWpBVV95cUxNNjhkNkJFaGlrV2RWb1ZfSF9yOTJCWEhzS2F4dFdUZi0xR2N4dTNDRnctdFp6eXk1SHpwYmxMOFM3UV9ERkRXNlJwUUphVFp3Ti1ONzBlTFVVRS1RN3V4aUZIblFKNU42eDh3?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.18.0",
+      "tag_name": "v3.18.0",
+      "body": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
+      "published_at": "2026-09-22T18:25:48Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.18.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.42",
+      "tag_name": "@ai-sdk/workflow@2.0.42",
+      "body": "### Patch Changes\n\n- Updated dependencies [31d24ce]\n- Updated dependencies [a65bfd9]\n  - ai@7.0.111",
+      "published_at": "2026-09-22T18:10:17Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.42",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.111",
+      "tag_name": "ai@7.0.111",
+      "body": "### Patch Changes\n\n- 31d24ce: feat: add telemetry support to `experimental_evaluate`\n- a65bfd9: fix(ai): securely download URL-backed language model file outputs so generated files expose actual base64 and byte content and UI streams contain valid data URLs. Propagate cancellation to batch file downloads.",
+      "published_at": "2026-09-22T18:08:56Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.111",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.41",
+      "tag_name": "@ai-sdk/workflow@2.0.41",
+      "body": "### Patch Changes\n\n- ai@7.0.110",
+      "published_at": "2026-09-22T17:23:22Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.41",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.110",
+      "tag_name": "ai@7.0.110",
+      "body": "### Patch Changes\n\n- Updated dependencies [49295bb]\n  - @ai-sdk/gateway@4.0.89",
+      "published_at": "2026-09-22T17:21:43Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.110",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.263",
+      "tag_name": "ai@5.0.263",
+      "body": "### Patch Changes\n\n- Updated dependencies [79c34cc]\n  - @ai-sdk/gateway@2.0.155",
+      "published_at": "2026-09-22T17:19:43Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.263",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.288",
+      "tag_name": "ai@6.0.288",
+      "body": "### Patch Changes\n\n- Updated dependencies [bd8bf1f]\n  - @ai-sdk/gateway@3.0.198",
+      "published_at": "2026-09-22T17:19:11Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.288",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.8.0",
+      "tag_name": "v1.8.0",
+      "body": "## 1.8.0 (2026-09-22)\n\nFull Changelog: [v1.7.0...v1.8.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.7.0...v1.8.0)\n\n### Features\n\n* **api:** add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ([b5cc700](https://github.com/anthropics/anthropic-sdk-python/commit/b5cc70071a60def1d2e93f3634d1a595919007c8))\n\n\n### Bug Fixes\n\n* **api:** share one evaluated_permission enum across Managed Agents events ([f4f51c8](https://github.com/anthropics/anthropic-sdk-python/commit/f4f51c8d4c8d6d8ec8ed21775034ca3b3736d733))\n* **streaming:** avoid a Python 3.13 crash at exit when a stream is left open ([af029bd](https://github.com/anthropics/anthropic-sdk-python/commit/af029bdfe4433ce209092b017834ff0eb4f44e79))\n* **tools:** add_tools() takes effect straight away ([#874](https://github.com/anthropics/anthropic-sdk-python/issues/874)) ([06d0a6b](https://github.com/anthropics/anthropic-sdk-python/commit/06d0a6b7edf440b8561e6ee60b84aecde27391e0))\n* **tools:** leave reply-only params off the tool runner's compaction request ([#871](https://github.com/anthropics/anthropic-sdk-python/issues/871)) ([4687310](https://github.com/anthropics/anthropic-sdk-python/commit/4687310822f40691a30afcfdf20956747fb38f5e))\n\n\n### Chores\n\n* **docs:** add descriptions to the Dreams API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** add descriptions to the User Profiles API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** add memory store descriptions to the Managed Agents API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** improve descriptions in the Dreams API reference ([1f5e477](https://github.com/anthropics/anthropic-sdk-python/commit/1f5e477a25f5a873480486a939d7e39529c55130))\n* **docs:** simplify the session thread agent type description ([a45b7ec](https://github.com/anthropics/anthropic-sdk-python/commit/a45b7ec22441032c19be720f273af6313dd73f1e))\n* **docs:** update diagnostics field descriptions on beta messages ([367750c](https://github.com/anthropics/anthropic-sdk-python/commit/367750c99c5daae6e28ed10b71db0410ced7c0f9))\n* **internal:** fix tests ([70c8cbd](https://github.com/anthropics/anthropic-sdk-python/commit/70c8cbd86c4095379bc6bca925126a151396efd2))\n* **internal:** remove mypy ([be01ed6](https://github.com/anthropics/anthropic-sdk-python/commit/be01ed6d7cd6798fbf442286ddc4cccc64a7a3ac))\n* **tests:** update fixtures ([77f6df8](https://github.com/anthropics/anthropic-sdk-python/commit/77f6df825350e37018e2439c1178179e98e0bf96))\n\n\n### Documentation\n\n* add path and header parameter descriptions ([f429a30](https://github.com/anthropics/anthropic-sdk-python/commit/f429a301cb750f51002d2d18fb125aa43b7251c3))\n\n\n### Refactors\n\n* **client:** remove the request param transform in favour of the JSON encoder ([539422c](https://github.com/anthropics/anthropic-sdk-python/commit/539422cde127564a60d9bf1e700445f39e0cff33))",
+      "published_at": "2026-09-22T16:25:23Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities | NVIDIA Technical Blog - NVIDIA Developer",
+      "tag_name": "NVIDIA Developer",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T13:14:26Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdjBVNDRmajkzWDRUZnFEYlNvQTZNVWhwOFVUR0k5OC1lejV5OEN2dlh4eVdkT2dpbFhCQk1GZGIyVVNZTFJ5cV9qSTVxWmdZNHJFZ0dOWXZSSHVOZ2tsdTdnb3NwU3BuR1VjbHI2VEZ4Tjk1cG5Fd0ZNcTVBTk1zZVpxUm5Tb2hxVHo5d0MyWFJGNEt2SEpRMjVaS25rYVlFaE1JUng5TWFGX3JtZXNfZHZQTnRyMFZ4cHZDLVEyZGEwc1FVLWZJbm1XdFQ3U1FOTWZPYWNXOTdvNHhUVmx1WDZZUjRidw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing CAIRN: Frontier tracking for AI-integrated malware - Cisco Talos Blog",
+      "tag_name": "Cisco Talos Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T10:03:09Z",
+      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2FLMlBTZ1AxZW1OdklFS1NDb1AwTEk3M2h2V05tckxUODRpVGs5Rmc5bDNPOXg4UUY4S0VsdHB2RlZJZFBpYnMtVTRIblQ3VFJHc0tyaFJpejBSaGhmMXFKN21ndm9aLXI0YlZEQ29LZ0h3cnJRTTdiaTFhSWFDMEkwZEtEY1BHbTR2c1JyREl3M1dWM3FUXzJFRkk4dw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Abacus AI Releases Free, Open-Source Abacus AI Bot for Developers - AiThority",
+      "tag_name": "AiThority",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T07:53:43Z",
+      "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPay1BYmNNUDZzWHlNaG5kNmZxTk5wM2pXN1FuaVMwQmFIczJfa2t4Nk5GWUc4RjNnajRBTHhielRvTWJKYjY4aTZlSlpLZ1d3TDkxZGtDR2RzYlc4VzVEcTVOdWYxUUYzcTAyLVhObEhGdDgwdG1HdDlEbmREUkdZbnVhYUpzQ3VFSVU3WHRfMkRzd1Z5YUVDYXlVRjM5NG41dkZSUHRrVQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-fireworks==1.6.2",
+      "tag_name": "langchain-fireworks==1.6.2",
+      "body": "Changes since langchain-fireworks==1.6.1\n\nfix(fireworks): use current completions model in LLM tests (#40740)\nhotfix(fireworks): use available model in LLM tests (#40737)\nrelease(fireworks): 1.6.2 (#40735)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)\nchore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs/partners/fireworks (#40586)\nchore(deps): bump pygments from 2.20.0 to 2.21.0 in /libs/partners/fireworks (#40585)\nchore(deps): bump idna from 3.19 to 3.20 in /libs/partners/fireworks (#40584)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profile data (#40500)\nchore(model-profiles): refresh model profile data (#40452)\nchore(model-profiles): refresh model profile data (#40416)\nchore(model-profiles): refresh model profile data (#40399)\nchore(model-profiles): refresh model profile data (#40277)\nchore(model-profiles): refresh model profile data (#40217)\nchore(model-profiles): refresh model profile data (#40198)\nchore(model-profiles): refresh model profile data (#40171)\nchore(model-profiles): refresh model profile data (#40009)\nchore(deps): bump orjson from 3.11.6 to 3.12.0 in /libs/partners/fireworks (#40129)\nchore(deps): bump langsmith from 0.10.16 to 0.12.1 in /libs/partners/fireworks (#40130)",
+      "published_at": "2026-09-22T04:44:04Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-deepseek==1.1.1",
+      "tag_name": "langchain-deepseek==1.1.1",
+      "body": "Changes since langchain-deepseek==1.1.0\n\nfix(deepseek,infra): resolve compatible minimum OpenAI dependencies, bump min ver (#40738)\nrelease(deepseek): 1.1.1 (#40734)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/deepseek (#40641)\nchore(model-profiles): refresh model profile data (#40399)\nfix(deepseek): route strict mode to the beta endpoint (#40249)\nchore(model-profiles): refresh model profile data (#39906)\nchore(model-profiles): refresh model profile data (#39844)\nfix(deepseek): map prompt_cache_hit_tokens to cache_read (#39668)\nchore(model-profiles): refresh model profile data (#39625)\nchore(model-profiles): refresh model profile data (#39166)\nchore(deps): refresh lockfiles (#38746)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/deepseek (#38318)\nchore: bump langsmith from 0.8.3 to 0.8.18 in /libs/partners/deepseek (#38320)\ndocs: refresh `README` installation and resources (#38119)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nrelease(core): 1.4.6 (#38061)\nfeat(core,partners): add package version tracking to tracing metadata (#35295)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfeat(standard-tests): validate tool call chunks during streaming (#34707)\nchore(partners): bump locks (#38052)\nhotfix(openai): min core dep (#37990)\ntest(langchain,partners): disable pytest-benchmark under xdist to silence `PytestBenchmarkWarning` (#37901)",
+      "published_at": "2026-09-22T04:30:11Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-openrouter==0.2.9",
+      "tag_name": "langchain-openrouter==0.2.9",
+      "body": "Changes since langchain-openrouter==0.2.8\n\nrelease(openrouter): 0.2.9 (#40736)\nchore(model-profiles): refresh model profile data (#40705)\nchore(model-profiles): refresh model profile data (#40685)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter (#40627)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profile data (#40500)\nchore(model-profiles): refresh model profile data (#40452)\nchore(model-profiles): refresh model profile data (#40436)\nchore(model-profiles): refresh model profile data (#40416)\nchore(model-profiles): refresh model profile data (#40399)\nchore(model-profiles): refresh model profile data (#40358)\nchore(model-profiles): refresh model profile data (#40317)\nchore(model-profiles): refresh model profile data (#40277)\nchore(model-profiles): refresh model profile data (#40258)\nchore(model-profiles): refresh model profile data (#40217)\nchore(model-profiles): refresh model profile data (#40198)\nchore(model-profiles): refresh model profile data (#40171)\nchore(model-profiles): refresh model profile data (#40009)\nchore(model-profiles): refresh model profile data (#39954)\nchore(model-profiles): refresh model profile data (#39928)\nchore(model-profiles): refresh model profile data (#39906)\nchore(model-profiles): refresh model profile data (#39875)\nchore(model-profiles): refresh model profile data (#39844)\nchore(model-profiles): refresh model profile data (#39824)\nchore(model-profiles): refresh model profile data (#39789)\nchore(model-profiles): refresh model profile data (#39751)\nchore(model-profiles): refresh model profile data (#39710)\nchore(model-profiles): refresh model profile data (#39692)\nchore(model-profiles): refresh model profile data (#39670)",
+      "published_at": "2026-09-22T04:16:11Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T03:24:20Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZWU2UEI3WDlMd2NiVUpWTGEyTVFfSXBDaHpKODZsOVp5WWZGVzhFNjB6dURveU5TVnJlcmFscUI1T25iQjd5T0tKTXV6NGFNdTIzOF9CX2Mwdw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.40",
+      "tag_name": "@ai-sdk/workflow@2.0.40",
+      "body": "### Patch Changes\n\n- Updated dependencies [0343bb1]\n- Updated dependencies [2b105fa]\n- Updated dependencies [125f493]\n  - ai@7.0.109",
+      "published_at": "2026-09-22T03:22:35Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.40",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.109",
+      "tag_name": "ai@7.0.109",
+      "body": "### Patch Changes\n\n- 0343bb1: fix(ai): keep replacement completion requests loading and cancellable when an earlier request settles\n- 2b105fa: fix(ai): preserve overlapping text blocks in reasoning extraction streams\n- 125f493: fix(harness): forward validated `toolsContext` to host-executed tools in alignment with `ToolLoopAgent`",
+      "published_at": "2026-09-22T03:20:59Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.109",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.17.0",
+      "tag_name": "v3.17.0",
+      "body": "## [3.17.0](https://github.com/openai/openai-python/compare/v3.16.2...v3.17.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add external storage configuration management ([#3909](https://github.com/openai/openai-python/issues/3909)) ([6332577](https://github.com/openai/openai-python/commit/6332577d3fb5f83f7f381a431460262f7192402d))\n* **api:** add safety case retrieval ([#3911](https://github.com/openai/openai-python/issues/3911)) ([a87b938](https://github.com/openai/openai-python/commit/a87b938545b34c1880b9914b43a5039072f40b09))\n* **api:** add safety warning and deactivation webhook events ([#3908](https://github.com/openai/openai-python/issues/3908)) ([19f1f37](https://github.com/openai/openai-python/commit/19f1f3769f4d2e907b6970c52f647a750de625e6))\n* **api:** add session environment reset events ([#3913](https://github.com/openai/openai-python/issues/3913)) ([69a2c1d](https://github.com/openai/openai-python/commit/69a2c1db6feacf32be6693809e7cab1c3b49cad7))\n* **api:** add SIP media security to incoming call events ([#3907](https://github.com/openai/openai-python/issues/3907)) ([c377eb2](https://github.com/openai/openai-python/commit/c377eb21f03efb223180730d6da61f9e8d500063))\n* **api:** support environment variable vault credentials ([#3905](https://github.com/openai/openai-python/issues/3905)) ([eeebc53](https://github.com/openai/openai-python/commit/eeebc535572dfe034e2c82958df4d0c22f94301e))\n\n\n### Bug Fixes\n\n* **api:** correct model types and network policy docs ([618bb31](https://github.com/openai/openai-python/commit/618bb312e52c2b62f75f56602b7388e6d023aa33))\n* **api:** preserve model choices and defer error response docs ([#3931](https://github.com/openai/openai-python/issues/3931)) ([6e7a90f](https://github.com/openai/openai-python/commit/6e7a90f18b92dcf320e94b1edf98187568ac6fbd))\n* **lib:** treat null message content as empty in parse_response ([#3851](https://github.com/openai/openai-python/issues/3851)) ([fab5283](https://github.com/openai/openai-python/commit/fab5283255ad76d9e79e202e1cf46b6eea783f4b))\n* **lib:** use log.warning instead of the deprecated log.warn ([#3878](https://github.com/openai/openai-python/issues/3878)) ([56b1708](https://github.com/openai/openai-python/commit/56b17081e22d8e168421e91bb400017ec2b0be89))\n\n\n### Chores\n\n* **api:** document API error response contracts ([#3917](https://github.com/openai/openai-python/issues/3917)) ([fededc9](https://github.com/openai/openai-python/commit/fededc9e51f4fef2b251e25542766c83065373b0))\n* **api:** document response management resources ([#3912](https://github.com/openai/openai-python/issues/3912)) ([eaa5b77](https://github.com/openai/openai-python/commit/eaa5b77912a2c3c4feff0a734b6ca087ccf52a01))\n* **deps:** bump actions/github-script from 7.1.0 to 9.0.0 ([#3769](https://github.com/openai/openai-python/issues/3769)) ([32e07e1](https://github.com/openai/openai-python/commit/32e07e19438abada5da5bfb530c49f385ed849d4))\n* **deps:** bump actions/upload-artifact from 5.0.0 to 7.0.1 ([#3767](https://github.com/openai/openai-python/issues/3767)) ([b413abe](https://github.com/openai/openai-python/commit/b413abed3e9d5e998743c0b46f5011eece2dd4ed))\n* **deps:** bump CodeQL init and analyze to 4.37.8 ([#3765](https://github.com/openai/openai-python/issues/3765)) ([f95237f](https://github.com/openai/openai-python/commit/f95237f6d132d04ee65c5af6a8891e9b9f9708e4))\n* **deps:** bump CodeQL init and analyze to 4.37.8 ([#3766](https://github.com/openai/openai-python/issues/3766)) ([690a8b5](https://github.com/openai/openai-python/commit/690a8b5c1cb2ea8f23bcc5d23a78fd22352d6999))\n* **deps:** bump httpx2 from 2.7.0 to 2.12.0 in the python-security group across 1 directory ([#3823](https://github.com/openai/openai-python/issues/3823)) ([9b8e399](https://github.com/openai/openai-python/commit/9b8e3998d99aedb446626906096ee3181a6cf62f))\n* **deps:** bump openai/codex-action from 1.11 to 1.12 ([#3768](https://github.com/openai/openai-python/issues/3768)) ([9c1579b](https://github.com/openai/openai-python/commit/9c1579b43dba640d2586bd2f6936fa7159385821))",
+      "published_at": "2026-09-22T02:36:34Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-openai==1.6.3",
+      "tag_name": "langchain-openai==1.6.3",
+      "body": "Changes since langchain-openai==1.6.2\n\nrelease(openai): 1.6.3 (#40719)\nfix(openai): expose inferred Responses API routing at initialization (#40715)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/openai (#40629)\nfix(openai): support GPT-6 request constraints (#40443)",
+      "published_at": "2026-09-21T18:32:44Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - The AI Economy | Ken Yeung",
+      "tag_name": "The AI Economy | Ken Yeung",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-21T16:02:49Z",
+      "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZVd4S2xtQjVmaG1pb01EOW9zWThOVk1paEsweC1SMGFMYXJ4bmtzQ0RYYmlLNTdZaG90cllPOThIVksxSXdsenZEODNvOGxLeUNFWG9vbU8zcThUVm1fNHNMd01GZEhXYURKNw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-core==1.6.4",
+      "tag_name": "langchain-core==1.6.4",
+      "body": "Changes since langchain-core==1.6.3\n\nrelease(core): 1.6.4 (#40718)\nchore(core): deprecate chat message history (#40711)\nchore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core (#40634)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core (#40574)",
+      "published_at": "2026-09-21T15:51:23Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-typesafe==0.0.1a3",
+      "tag_name": "langchain-typesafe==0.0.1a3",
+      "body": "Initial release\n\nrelease(typesafe): 0.0.1a3 (#40693)\nfeat(typesafe): make classifier questions invocation-scoped (#40659)\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
+      "published_at": "2026-09-20T18:54:54Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "中美AI模型开发周期缩短至1/3，平均44天 - 36kr.com",
+      "tag_name": "36kr.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-20T18:10:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWUFpUmQ3Z2FHRXNaelVOMXQxY0VHc0hreTNkdld2dkZDU2lLdVBlZzNBdjlKdDBIN2RCT0JtQVU4TUZOdHhqSlEySklQUQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.34.3",
+      "tag_name": "v0.34.3",
+      "body": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n\r\nAvailable in the CLI with:\r\n```\r\nollama show gemma4\r\n```\r\n\r\n```\r\n    thinking\r\n        levels     false, true\r\n        default    true\r\n```\r\n\r\nAvailable in the API with:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n\r\nAlso available on ollama.com directly for cloud models.\r\n\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n* Fix for model pulls from HuggingFace\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3",
+      "published_at": "2026-09-19T00:02:57Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Google and Speakeasy Open-Source SDK Generator After Vendor Shutdown - ADTmag",
+      "tag_name": "ADTmag",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-18T23:04:37Z",
+      "html_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0h4Wl9pWlBsM2FpOW1Fd3ZfTzg2MWRSeXplS2ZHaXd2NHZsT1ZOZzgzUWJtWVRhaDN1Vnd3X3NlYmVVajFOZnRpZXhDeFpCVk5CVGNsM1pieThlRmZVVWZRWV8zcmNMb3lJOGVQUGNBVFphd2hlRDQxWVVIUDVVR2ltX3Y1VV8xbFNKd0xlX3FhRmZjVnBGMk5JeDdHLVhzb0J2TnotOEw1M2s1d3V5ZmJn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.16.2",
+      "tag_name": "v3.16.2",
+      "body": "## [3.16.2](https://github.com/openai/openai-python/compare/v3.16.1...v3.16.2) (2026-09-18)\n\n\n### Bug Fixes\n\n* **parsing:** drop TextFormatT parameterization in parse_response to fix memory leak ([#3084](https://github.com/openai/openai-python/issues/3084)) ([#3088](https://github.com/openai/openai-python/issues/3088)) ([009b7f6](https://github.com/openai/openai-python/commit/009b7f6ae6493e1abfa7583449595f144c8beb5a))",
+      "published_at": "2026-09-18T21:26:27Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.16.2",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Higgsfield Expands Developer Access With APIs and GitHub Tools - entARABI",
+      "tag_name": "entARABI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-18T19:08:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0pGMGVUUjUwbzcwajkyWTlBVG5KLTdUenFnSjVkb2trV2tGeldKT0dQUHEybG5iUWRKV2VFVGpRSVBKbzl0b0N5Nm9sSGFGdG5rVkdqTGp5RVR6dUxxdm5RQU1SRHlySEtNQzV4NldUblpaeS1neVYzSnFVSTdyM0d5eUU3YThjM2o1TEtFRHA1YVQ4RV9ILU1fdw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.16.1",
+      "tag_name": "v3.16.1",
+      "body": "## [3.16.1](https://github.com/openai/openai-python/compare/v3.16.0...v3.16.1) (2026-09-18)\n\n\n### Bug Fixes\n\n* **api:** avoid loading unrelated API resources on first use ([#3898](https://github.com/openai/openai-python/issues/3898)) ([68e4317](https://github.com/openai/openai-python/commit/68e4317aa3df4b6e7a5ea3f75833bdd7d76e447d))",
+      "published_at": "2026-09-18T19:00:33Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.16.1",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.7.0",
+      "tag_name": "v1.7.0",
+      "body": "## 1.7.0 (2026-09-18)\n\nFull Changelog: [v1.6.0...v1.7.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.6.0...v1.7.0)\n\n### Features\n\n* **api:** add group with display_name to rate limits, deprecate group_type ([28f0a83](https://github.com/anthropics/anthropic-sdk-python/commit/28f0a831355fa3d539fd3e1db1c63f92a39bb252))\n* **tools:** add compact_before_next_turn() to the tool runner ([#641](https://github.com/anthropics/anthropic-sdk-python/issues/641)) ([8b23fb3](https://github.com/anthropics/anthropic-sdk-python/commit/8b23fb33f326c7ffa52e8d925902af0fd94501ce))\n\n\n### Bug Fixes\n\n* **bedrock:** raise an API error for eventstream exception and error frames ([#769](https://github.com/anthropics/anthropic-sdk-python/issues/769)) ([8ec9cc9](https://github.com/anthropics/anthropic-sdk-python/commit/8ec9cc9bdf7278ce7a1557dc7d6e455c7808946e))\n* **client:** accept `X | Y` union types when parsing responses ([b366fa5](https://github.com/anthropics/anthropic-sdk-python/commit/b366fa5a1d62e4908a35415a1692f18621cf9e2c))\n* **client:** don't raise TypeError for `X | Y` fields with unknown data ([30ebd69](https://github.com/anthropics/anthropic-sdk-python/commit/30ebd6963c4b21044fc8d7f8cf33a19981c74856))\n* **client:** join multiple anthropic-beta values with a comma and no space ([#781](https://github.com/anthropics/anthropic-sdk-python/issues/781)) ([1680324](https://github.com/anthropics/anthropic-sdk-python/commit/168032429a6880ef7063de7680c7abe18e45be35))\n* **tools:** tidy compact_before_next_turn() state and failure handling ([#804](https://github.com/anthropics/anthropic-sdk-python/issues/804)) ([d3a9fc8](https://github.com/anthropics/anthropic-sdk-python/commit/d3a9fc80f9792eda4944e33efb821306e632b7c6))\n\n\n### Chores\n\n* **deps:** require pydantic 1.10 or later ([91931e1](https://github.com/anthropics/anthropic-sdk-python/commit/91931e1d205839e72b2a4c2c851b18874f935943))\n* **docs:** add descriptions for enum values and path parameters ([99184dc](https://github.com/anthropics/anthropic-sdk-python/commit/99184dc76a7a6c404478556483d2118498994a47))\n* **docs:** clarify the compaction tool_changes and tool change descriptions ([eacc0ff](https://github.com/anthropics/anthropic-sdk-python/commit/eacc0ffde324201faac42fdcb60500b2076c25b6))\n* **internal:** add more unnecessary cast comments ([9e6ce27](https://github.com/anthropics/anthropic-sdk-python/commit/9e6ce27b8d89c737bd427fc91b96f9932431f547))\n* **internal:** pass strict= to zip() in the MCP tool helpers ([13cfe64](https://github.com/anthropics/anthropic-sdk-python/commit/13cfe644920119b718e0a73085b7ecd9726fb9e9))\n* **internal:** remove an unused noqa comment from the model tests ([2c18298](https://github.com/anthropics/anthropic-sdk-python/commit/2c18298ff35a1b28b98d25b424e928b3865ef405))\n* **internal:** set ruff's target version to Python 3.10 ([2bdfd41](https://github.com/anthropics/anthropic-sdk-python/commit/2bdfd415fe4842b44f871b31328cc76135b48fbb))",
+      "published_at": "2026-09-18T16:12:53Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.16.0",
+      "tag_name": "v3.16.0",
+      "body": "## [3.16.0](https://github.com/openai/openai-python/compare/v3.15.0...v3.16.0) (2026-09-18)\n\n\n### Features\n\n* **api:** add webhook endpoint management ([#3892](https://github.com/openai/openai-python/issues/3892)) ([9a11f6e](https://github.com/openai/openai-python/commit/9a11f6e874292230633073fb64ea6202ad22a1df))\n\n\n### Chores\n\n* **api:** deprecate MCP connector_id ([#3894](https://github.com/openai/openai-python/issues/3894)) ([1ccaf07](https://github.com/openai/openai-python/commit/1ccaf07fb9a4d1a2be9d97c77604ce75214a9940))",
+      "published_at": "2026-09-18T14:52:49Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.16.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "智谱旗下AI 编程工具ZCode 被扒静默上传完整Git 历史 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-18T10:25:23Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MU3hmZy1QQkZpdGgtU3ItY1JiN3ZERU84aG9maTZYZmNXNHozTXRiNGtYR2FGX202clJZaXpKRXhXMlgxQzRvaFVjOA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.15.0",
+      "tag_name": "v3.15.0",
+      "body": "## [3.15.0](https://github.com/openai/openai-python/compare/v3.14.1...v3.15.0) (2026-09-18)\n\n\n### Features\n\n* **api:** add agent session model settings ([#3882](https://github.com/openai/openai-python/issues/3882)) ([4b15817](https://github.com/openai/openai-python/commit/4b1581771ea97c870187f6ddfc3dbc87ff4fa443))\n* **api:** add audio-mini model choices ([#3886](https://github.com/openai/openai-python/issues/3886)) ([a6eeb3f](https://github.com/openai/openai-python/commit/a6eeb3f5a468ec576d2c911c19ce59c56ac46e43))\n* **api:** add compaction progress events ([#3866](https://github.com/openai/openai-python/issues/3866)) ([98e1d24](https://github.com/openai/openai-python/commit/98e1d24f4902ab58830adf0e2b6a729a5d5429b1))\n* **api:** add managed Responses WebSocket sessions ([#3887](https://github.com/openai/openai-python/issues/3887)) ([3b865af](https://github.com/openai/openai-python/commit/3b865af92e8dc65e14ab6d565304fe778bac1eef))\n* **api:** add prompt-cache prewarming ([#3888](https://github.com/openai/openai-python/issues/3888)) ([8f7cdb8](https://github.com/openai/openai-python/commit/8f7cdb80410434d29daed90895112a39936eb4fe))\n\n\n### Bug Fixes\n\n* preserve chat stream moderation results ([#3864](https://github.com/openai/openai-python/issues/3864)) ([b77076d](https://github.com/openai/openai-python/commit/b77076d23b6f3e34453b0fadd8cd2a001627e365))\n\n\n### Chores\n\n* **api:** clarify incoming SIP call ID usage ([#3885](https://github.com/openai/openai-python/issues/3885)) ([f0457ab](https://github.com/openai/openai-python/commit/f0457aba3403f83e91a369ab55e0e55d5f012372))\n* **api:** update image request examples ([#3889](https://github.com/openai/openai-python/issues/3889)) ([bb79676](https://github.com/openai/openai-python/commit/bb796764118004f8c9b0b0a46e07e5e55cfe34e4))\n\n\n### Documentation\n\n* **realtime:** remove nonexistent type imports ([#3869](https://github.com/openai/openai-python/issues/3869)) ([2971aaf](https://github.com/openai/openai-python/commit/2971aafce5c1966fc56efd00918b16314063284e))",
+      "published_at": "2026-09-18T00:52:15Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.15.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "2026智能网络开发者大会：银河网上平台引领网络工具链革新 - ttplus.cn",
+      "tag_name": "ttplus.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-18T00:40:16Z",
+      "html_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHcjctOUVWbFhPODlpZ0ZFdE41RmhUbkVNUzF6ZlRJeHlIcGd6T1FNSXlEUE1VVzRaR2RTMjJUcmVacDd6LW1TeldINlh3UVhXTUhSdVRVajg1emJsN2xkTDVmdUFkdXE4VExaTEhwNWdBNVBXMTczMmZZQUhIZw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "昨夜今晨：365亚洲手机版官网登录芯片发布 智能终端生态升级 全球AI算力竞赛加剧 - ttplus.cn",
+      "tag_name": "ttplus.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T17:43:53Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZejFEOXo0WXJlTHhRSjlISHVUMXZUZEhDWThBdVZHdkRxVXl1X0tHS2xuX0ZZWF9HdWwwTUhIaTBDbVl5M0RmOVNnaEx5X1RYNXBTa2JnUjAySHdfVm1pMzNxUlV5TG5iN0ltZzU1U0I4MzRi?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "What’s new in Power Platform: September 2026 feature update - Microsoft",
+      "tag_name": "Microsoft",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T15:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjlscTQ1aFFYcTlXcGZJUjFSMHlEVmdiQ0tlTkdEZG16ZzFibVBVeGJMUlQxeERILW5QVXE3RWNjcWRjUkpQcnh4NE9IeHlEcWh2MUhfWGE4ekZYUlVCSGpzS2Q2aEVDRGxnMF9yQzAzZDVZSnpXdXdZcDVIZnVyU0NVVDZNUmxLYTV2ZC12dlcxM0hqa2NMS2pVY0xuZzFlWlJtQmFpazB4czVYR2lPblBIamR3cThCZWFJSDVB?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T13:06:15Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qMDR5b3JXTGlmdVdxWUZnSFAwek5JZkV0ek1uazRsYUlsUVZtazZ3WmdoM2hHSVpUVXBCOHlXT1h3d0F6OGZRd250dkdEU3BCWmR0ckFYT3NwMndJMHc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "ColorOS 17 发布，OPPO 想让 AI 往前一步，主动一些聪明一些 - 爱范儿",
+      "tag_name": "爱范儿",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T08:47:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kYncybm9oMWtuTjF0V0xJTXU1dnNGMXpXc0F3REVGSlhxNS1GSW52T0pqTFNObHYwZzRqb1VNcEktQmM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "AI重写FPGA开发规则，莱迪思落子“后量子”安全赛道 - finance.sina.com.cn",
+      "tag_name": "finance.sina.com.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOWlk1VTBxR3dHMVE5b2t3eWh6ejNGeVFfc0xPaGNDaXZrRWxES2M5RGZRWFlzOHhUWHR4TmJrTXdpbVpabzRJN1NCSVpyVUp2Q0lTS1VmdWtTLVcyWEVWZFY1MWIyZV9JemZ0b1BLa2ZtUE11ZkhCRVpFa1JiTnc1Tk1CWWFqc2szSXdzQjk2bUdnOVphSVp4Q1FQTjlka2FsSFdQLXpoeW84YzFDd3F1M0NRNEhJWVRqMkc4TlBYRnhRbW9lelE5MXdNaFZuX3FscmZjalNBLVJQTWpUb0pveW83VmxYUWpiZFJrSUs1OHlibk9VLVdwN2ZpRlhYVEV4UHphbmNrZ2F5NnFHZW5PRVZEdFZVU04tTjZaam9vcFFoU3htbC1ESWIxZUhSOGpPYTUwM0JQYnc2SlVFRlFTTS1Mc1Y1dXE2NjBBSWtReFMwaTZxSXZLSjc0bXRYdXFF?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Mapbox Announces Location Infrastructure for AI - Geo Week News",
+      "tag_name": "Geo Week News",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHROMjVGcHByQjhiY0Z2aUFEajFsWUk0ZnJfVERIaVJHUklxRWVKdjViVlNFUWtHR2dLNTRselNHc2xyTzZtcHg4SFdROUMzaUVralRrQ3ZjUVF1RjNwV2hfdDB0TTlIeVlDcThaYXlDYWVzRUxnRUpSd0RmNGlqU3FOV3lhQ2trak5yQWtB?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T04:38:35Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZUxYR2dvTVVyY3VhcHRtclJrWE1KbFVUVVNjUkJGR19CTGRCRG1UXzhpOWpWcS1GSEFva1U1RjFFeHlZdU5ZVzl6aE9QTmV5Y2FMY1JQQ0pwZw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "ayx娱乐app下载发布新一代智能体系：从数据底座到业务智能体 - ttplus.cn",
+      "tag_name": "ttplus.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T01:59:20Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13ZW9Jc1l1c0hZUWx6RTdkS0RTb0Z3NXNaWmxRcUQzcEhxN0c5LVVfYmJCblM1Z3hkalV6VGt5aWliQVZvZDdyNFdvVWl4WDVHcnUyY2FsMFRfa0NXYkFxcVJfSlFoZ2NjazJmdDl1VG9iY1ZLbHRrS2FHMk1RUWM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Sentry vs Bugsnag vs Rollbar: $40 AI Agent Gap [2026] - tech-insider.org",
+      "tag_name": "tech-insider.org",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-16T14:42:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MV25LcEFPblBTd0h3Qno1Z0p3Mm9TUGZzNHVfa1JyT1Z0dFZkemVWVGdIa0tza05BUzlyZ0hSa21WTER0VkRsM1oyVmtmb0M5WGdhb2M2RGdReVFIV3VVeXQwbkFWbFlYTXI4?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Oracle 发布 Java 27，强化后量子密码支持 - Oracle",
+      "tag_name": "Oracle",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-16T08:30:20Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcVpSYkZ2Z09USjZWUzl0bW1RdE9DbDM4RldNMHo5VjI5TlJMeGw0MmNGWWQ5RVZrWG50T1JtZFJDXy1LZXpOQ29Iam5iSkxOVTFZVTFjZGRCOVIzSlM3WmR4ZnZ5bEVhU3h3dFAyNWxSRW1rSV9UQkl3aUJvQTlTTk5UWXJJNmVBU0twTzhuZUZKd2Qta3M5c1g0ZExzbXZVQ1Nlam1rNHBoRURINkx0RkJjQzVCSnlXVDE2T1VhN0xVWVl3R19icw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "An open Python API for AI-ready aerospace test automation - Aerospace Testing International",
+      "tag_name": "Aerospace Testing International",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-16T08:20:38Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOXzNsdVdXbEJQZlhuRVNUZkZHZWlLZnlEX2JkSnlXWUhCcnJBSHlZVmJpbjh3aXo2UUJlMVZjeTNYblMxTEZQbU9YZ1BKM3Y4dUdranVBdkNLR214Vjc2MG00RlJ4WGFoRW1rUXROSFJNUzBSemtEQ3YwN0FrVVpmNmFia0lHVmp6UC12enEtZkx5c1Z6U2dhV25Kb0xBa3p1d0pTQnVWMWV1UEh4UXpVTlg2ejB6OGNUdlNpQXFaMThJWlR6OUtHendpaw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Meta、Snap相隔一周开战！无摄像头AI眼镜、空间AR，9月XR春晚前瞻 - VR陀螺",
+      "tag_name": "VR陀螺",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-16T06:27:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9FRjBIWW0weXhYUXNSR3VzQXJ6dWVPeFJ4MzdwSng5RHRoTk5ZNFZPdVB4S1U3T3JQN0Z0dDZvSHFXVlc1T25MWFhzRQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.14.1",
+      "tag_name": "v3.14.1",
+      "body": "## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)\n\n\n### Bug Fixes\n\n* **client:** validate retry limits and preserve application errors ([#3867](https://github.com/openai/openai-python/issues/3867)) ([f86c721](https://github.com/openai/openai-python/commit/f86c7214093038faa512bd4883558b093bdb8c9a))\n* correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message ([#3022](https://github.com/openai/openai-python/issues/3022)) ([7186203](https://github.com/openai/openai-python/commit/718620397c38a546d2cbbc964983c286db7abf97))\n* **examples:** correct Azure endpoint hostname ([#3298](https://github.com/openai/openai-python/issues/3298)) ([543516c](https://github.com/openai/openai-python/commit/543516c4223372a7fb830d560f26d8e6ad081d02))\n* **examples:** refresh chat streaming examples ([#2974](https://github.com/openai/openai-python/issues/2974)) ([54f460e](https://github.com/openai/openai-python/commit/54f460ef8c212a7849d10cef69853dffb48c4491))\n* **examples:** split push-to-talk shebang arguments ([#3210](https://github.com/openai/openai-python/issues/3210)) ([d241ed6](https://github.com/openai/openai-python/commit/d241ed65c122a964679ca9d102924761956aa71f))\n* **examples:** use uv in remaining Python launchers ([#3821](https://github.com/openai/openai-python/issues/3821)) ([8c76c4f](https://github.com/openai/openai-python/commit/8c76c4f5e6ee65c6393e80494d2bbbdc8607e983))\n* log only metadata for Live WebSocket diagnostics ([#3865](https://github.com/openai/openai-python/issues/3865)) ([ccc10f5](https://github.com/openai/openai-python/commit/ccc10f595ff606cf007459aecae6ddc90d02794a))\n* **responses:** skip structured parsing for commentary ([#3861](https://github.com/openai/openai-python/issues/3861)) ([6520df1](https://github.com/openai/openai-python/commit/6520df1220a0030c7b45b00a6fa4bf2e9c7396ac))\n\n\n### Chores\n\n* **examples:** bump module_client.py to gpt-5.6 ([#3211](https://github.com/openai/openai-python/issues/3211)) ([1493321](https://github.com/openai/openai-python/commit/1493321affb1814fba7b669892e376a119d8d36f))\n* remove unused fine-tuning data validators ([#3863](https://github.com/openai/openai-python/issues/3863)) ([9640f29](https://github.com/openai/openai-python/commit/9640f2903d65c43f0e5aee58d60f46880ff0bd15))\n\n\n### Documentation\n\n* clarify async client cleanup ([#2388](https://github.com/openai/openai-python/issues/2388)) ([a3d83b5](https://github.com/openai/openai-python/commit/a3d83b5af23e4057453aae83dcdb4e3cced1cdad))\n* clarify filenames for in-memory file uploads ([#3729](https://github.com/openai/openai-python/issues/3729)) ([cb27380](https://github.com/openai/openai-python/commit/cb27380d95f5e6995ea56dc588914454629cce0f))\n* **client:** correct retry jitter comment ([#2252](https://github.com/openai/openai-python/issues/2252)) ([bdbbc16](https://github.com/openai/openai-python/commit/bdbbc16a3f289601cb7cbcec9e64c94e95753e94))\n* fix Realtime docstring wording ([#3535](https://github.com/openai/openai-python/issues/3535)) ([8cb9ded](https://github.com/openai/openai-python/commit/8cb9dedabd03297816749fcadfa12ef3ebcd3ed8))\n* fix reusing wording in Azure client docstrings ([#3061](https://github.com/openai/openai-python/issues/3061)) ([dc625f9](https://github.com/openai/openai-python/commit/dc625f9533cb43e74aea53529c86d4848eed82ec))\n* fix streaming comment typo ([#3005](https://github.com/openai/openai-python/issues/3005)) ([d421d7a](https://github.com/openai/openai-python/commit/d421d7ab8c0a5e4e00147407ef9941c7f2bc9c09))\n* fix vector store polling helper paths ([#3101](https://github.com/openai/openai-python/issues/3101)) ([2ef2de6](https://github.com/openai/openai-python/commit/2ef2de6bf1603b2df8cb28bcc604c79c6e7f773d))\n* **readme:** correct SSE terminology ([#2837](https://github.com/openai/openai-python/issues/2837)) ([caaa9b4](https://github.com/openai/openai-python/commit/caaa9b45a24c7698244824cda2c2d9ae16359354))\n* update Responses API reference link ([#3279](https://github.com/openai/openai-python/issues/3279)) ([557bd06](https://github.com/openai/openai-python/commit/557bd06bce467e7f748b9c86bdde6427e85d28c7))\n* **utils:** correct query component RFC reference ([#3300](https://github.com/openai/openai-python/issues/3300)) ([929a8a5](https://github.com/openai/openai-python/commit/929a8a500a0e95df090ef53fe38890eba1e97660))",
+      "published_at": "2026-09-15T23:12:54Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.34.2",
+      "tag_name": "v0.34.2",
+      "body": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
+      "published_at": "2026-09-15T21:21:07Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.6.0",
+      "tag_name": "v1.6.0",
+      "body": "## 1.6.0 (2026-09-15)\n\nFull Changelog: [v1.5.0...v1.6.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.5.0...v1.6.0)\n\n### Features\n\n* **api:** add auto mode tool permissions for Managed Agents ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **api:** add compaction parameter and signed compaction blocks (beta) ([8689179](https://github.com/anthropics/anthropic-sdk-python/commit/8689179d2c760f005d0f7736387d352b71f05bee))\n* **api:** add enum types for workspace data-residency geo fields ([3dc6dbf](https://github.com/anthropics/anthropic-sdk-python/commit/3dc6dbfcea444305dd9b0cc418e26e14163bac78))\n* **api:** add thinking_mismatch_allowed entries to input_transformations (beta) ([14d1792](https://github.com/anthropics/anthropic-sdk-python/commit/14d179280ebfe241ef0604fd6afc331fc69528fd))\n* **api:** add url_sources to the web fetch tool ([4ba7115](https://github.com/anthropics/anthropic-sdk-python/commit/4ba7115da810cade002b1893973ac3812466d2f4))\n* **api:** add workspace_id parameter to user profiles methods ([1c359b2](https://github.com/anthropics/anthropic-sdk-python/commit/1c359b22de5a33df1c30aabe367c7381510783e8))\n* **client:** support async credential token providers ([95e93f7](https://github.com/anthropics/anthropic-sdk-python/commit/95e93f763e104110fc0fb855175a8551dcbe5931))\n\n\n### Bug Fixes\n\n* **api:** mark usage iteration model as nullable ([520d000](https://github.com/anthropics/anthropic-sdk-python/commit/520d000440ddbc2262e5814d76c3add2380395db))\n* **api:** use one input transformation type for message and delta event ([ae86d7d](https://github.com/anthropics/anthropic-sdk-python/commit/ae86d7d7b689e9a9635270621af9fe9e7040ed57))\n* **client:** honor Retry-After values above 60 seconds ([2d03ba2](https://github.com/anthropics/anthropic-sdk-python/commit/2d03ba20c747c0ee3b58f696355ce41acc605460))\n* **client:** ignore invalid Retry-After values and validate maxRetries ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **client:** retry connection errors in the async client and stop blocking in the coroutine retry loop ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **client:** use the default backoff when Retry-After is out of range ([3d15f04](https://github.com/anthropics/anthropic-sdk-python/commit/3d15f04c0e83a9a11d4e79ee41b29507f8ad6d2b))\n\n\n### Chores\n\n* **deps:** bump aiohttp, pygments and pytest in the dev lockfile ([005ad11](https://github.com/anthropics/anthropic-sdk-python/commit/005ad1146d4ea008eeb7e183c9ea8f390370607e))\n* **deps:** require anyio 4.1 or later ([79b4175](https://github.com/anthropics/anthropic-sdk-python/commit/79b417514b99a5f094c6f1bac8a7a52c2990e96b))\n* **docs:** clarify that session_thread_id on tool use events is informational ([2ac7b60](https://github.com/anthropics/anthropic-sdk-python/commit/2ac7b60beedb00f404f5e792c7a87b51629b4082))\n* **docs:** correct the compaction beta's parameter descriptions ([5048c9a](https://github.com/anthropics/anthropic-sdk-python/commit/5048c9a8446a2daa24fb918b976ffa4b8587033e))\n* **internal:** sort the imports in beta_message.py ([0a92f91](https://github.com/anthropics/anthropic-sdk-python/commit/0a92f91467c5edad5d54c135a1095e798df62b07))\n* **tests:** define the model tests' type alias at module level ([98c3a7a](https://github.com/anthropics/anthropic-sdk-python/commit/98c3a7ac9e8d49984cfe1dc80e1e5fbb55e106df))\n* **tests:** stop the mock server without failing a passing test run ([d28aea7](https://github.com/anthropics/anthropic-sdk-python/commit/d28aea74dfdb4616112bcae68c56e3bb32793995))\n\n\n### Documentation\n\n* **api:** clarify usage.iterations entry typing under server-side fallback ([bb06629](https://github.com/anthropics/anthropic-sdk-python/commit/bb066293dfeb17413254dc773687c281b74bc264))\n* stop documenting unions with their first variant's description ([7a94250](https://github.com/anthropics/anthropic-sdk-python/commit/7a94250411e45e875f9f58303145c90b9acc769e))\n* use markdown formatting in most docstrings ([25f344f](https://github.com/anthropics/anthropic-sdk-python/commit/25f344fd7fcbe281d2173fe12ecd2caa3dd5d044))",
+      "published_at": "2026-09-15T15:14:42Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.34.1",
+      "tag_name": "v0.34.1",
+      "body": "## What's Changed\r\n* MLX safetensors `ollama create` no longer experimental.  GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization.\r\n* Improved MLX memory handling on Apple Silicon\r\n* Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR)\r\n* `/api/tags` is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.\r\n* Deprecated `typical_p`: it can no longer be set when creating new models, existing GGUF models retain support.\r\n* MLX and llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1",
+      "published_at": "2026-09-14T22:14:03Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.5.0",
+      "tag_name": "v1.5.0",
+      "body": "## 1.5.0 (2026-09-10)\n\nFull Changelog: [v1.4.0...v1.5.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.4.0...v1.5.0)\n\n### Features\n\n* **api:** add auto mode tool permissions for Managed Agents ([62aa21b](https://github.com/anthropics/anthropic-sdk-python/commit/62aa21bb10c5d058d44ac969b06421f169495bee))\n* **api:** add content_too_large web_fetch tool error code ([4b5dec6](https://github.com/anthropics/anthropic-sdk-python/commit/4b5dec6cb427528f3a4f144f11b1010be80a493b))\n* **api:** add the user-profiles-2026-09-04 beta value and external_user_details to user profiles ([5f881a5](https://github.com/anthropics/anthropic-sdk-python/commit/5f881a587a730455a935ca0e85080026f0c5e6d9))\n* **api:** support mounting public GitHub repositories without an authorization_token in Managed Agents sessions ([285937c](https://github.com/anthropics/anthropic-sdk-python/commit/285937cd7f4d0d63ee55735d74dbb2e643643d8c))\n* **client:** add Message.to_param() and BetaMessage.to_param() ([192a2b2](https://github.com/anthropics/anthropic-sdk-python/commit/192a2b251df49f257d8f73e612b12a3c297d9a6c))\n* **credentials:** add CredentialsError and IdentityTokenFileError ([9acd79f](https://github.com/anthropics/anthropic-sdk-python/commit/9acd79f3d6306c6c9d33e4f9f542db9f67f8dd80))\n* **tools:** accept tool objects directly in messages.create, parse, stream and count_tokens ([ebd2fc5](https://github.com/anthropics/anthropic-sdk-python/commit/ebd2fc5cf6572b37dca115e7f82af0cc7b43d25d))\n\n\n### Bug Fixes\n\n* **client:** merge extra_body before client hooks run ([7aaf887](https://github.com/anthropics/anthropic-sdk-python/commit/7aaf887dd1ffd71b2fa5a8368afd16c39a3d3d18))\n* **credentials:** refuse credentials files accessible by group or others ([7af3e2b](https://github.com/anthropics/anthropic-sdk-python/commit/7af3e2b783ff5231b0172e03c2c89d741427b25b))\n* **streaming:** keep partial tool input JSON off content blocks ([4605bca](https://github.com/anthropics/anthropic-sdk-python/commit/4605bcaf758e0a87ec9257928a347b005235761c))\n* **types:** leave parsed_output out of dumped text blocks ([ca0706d](https://github.com/anthropics/anthropic-sdk-python/commit/ca0706dee59642c2ec45354bca05e1b2a1fac7e1))\n\n\n### Chores\n\n* **client:** clean up the unused idempotency request option ([c97830c](https://github.com/anthropics/anthropic-sdk-python/commit/c97830cb3d1779f84d6456e45cc1717328c8c42c))\n* **client:** keep the idempotency_key request option as a deprecated no-op ([#621](https://github.com/anthropics/anthropic-sdk-python/issues/621)) ([c2ab92e](https://github.com/anthropics/anthropic-sdk-python/commit/c2ab92ef19b4e482001c5ada85b29eebd5909054))\n* **docs:** correct the environment scope field description ([b903ee0](https://github.com/anthropics/anthropic-sdk-python/commit/b903ee02cb192d91dab138e12c9ddf7ccde13336))\n* **internal:** remove generated file header comments ([ae671f8](https://github.com/anthropics/anthropic-sdk-python/commit/ae671f8377dde9f5764ea570a3586fe138db9706))\n* **internal:** restore package version ([f3aefc7](https://github.com/anthropics/anthropic-sdk-python/commit/f3aefc718125b1a1b7cc1586d11f23a6f6ed82d8))\n* **internal:** restore package version ([e3c70e8](https://github.com/anthropics/anthropic-sdk-python/commit/e3c70e8d85bcba86cc4eb2bfbdf7f7bdcb71ecae))\n* **internal:** stop stamping the package version into generated files ([e7a6a28](https://github.com/anthropics/anthropic-sdk-python/commit/e7a6a28a85ab26db86bb093037043d1bef4f33b2))\n* **tests:** restore empty test package marker files ([0803af0](https://github.com/anthropics/anthropic-sdk-python/commit/0803af0f3a2c03ddd5e5c113ec1822f1a7380bf2))",
+      "published_at": "2026-09-10T17:45:22Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.34.0",
+      "tag_name": "v0.34.0",
+      "body": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\n<img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"https://github.com/user-attachments/assets/e10e299d-c11f-447d-9234-afa855824efe\" />\r\n\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.3...v0.34.0",
+      "published_at": "2026-09-05T23:49:00Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.4.0",
+      "tag_name": "v1.4.0",
+      "body": "## 1.4.0 (2026-09-04)\n\nFull Changelog: [v1.3.0...v1.4.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.3.0...v1.4.0)\n\n### Features\n\n* **api:** add Claude Tag category and user breakdowns to usage reports ([9fce1e4](https://github.com/anthropics/anthropic-sdk-python/commit/9fce1e4994e113c35f4a7116d0c5eb90367b9c66))\n* **api:** add named types for organization compliance settings state ([1de1957](https://github.com/anthropics/anthropic-sdk-python/commit/1de1957334e7491979ddb21a1d673fa4e56d5459))\n* **api:** add support for sending a workspace ID on more endpoints ([d1d2c01](https://github.com/anthropics/anthropic-sdk-python/commit/d1d2c01d8aa128080dea3d711e12cb3df95a2149))\n\n\n### Bug Fixes\n\n* **client:** raise a clear error when an httpx object is passed instead of an httpx2 one ([9447099](https://github.com/anthropics/anthropic-sdk-python/commit/94470992f0f00ed331f2faa585cfda2cb8412a08))\n* repair custom-code merge in messages resources ([#580](https://github.com/anthropics/anthropic-sdk-python/issues/580)) ([85454ca](https://github.com/anthropics/anthropic-sdk-python/commit/85454cab9a323801b76500707b84c1992c1c0ee4))\n\n\n### Chores\n\n* **examples:** refresh platform model IDs ([#499](https://github.com/anthropics/anthropic-sdk-python/issues/499)) ([182abb5](https://github.com/anthropics/anthropic-sdk-python/commit/182abb51cdb5dda815b0b2498dc4adaab6dde469))\n* **internal:** bundle the mock server spec and update dev tooling ([f9b0cf2](https://github.com/anthropics/anthropic-sdk-python/commit/f9b0cf281932512e6b40cd1a887a44542c883468))\n* **internal:** clean up code comments ([#578](https://github.com/anthropics/anthropic-sdk-python/issues/578)) ([d202327](https://github.com/anthropics/anthropic-sdk-python/commit/d2023274f69dd0609ddabbf8f6af08041f868d8b))\n* **internal:** fix mypy unreachable error in detect-breaking-changes script ([07834f6](https://github.com/anthropics/anthropic-sdk-python/commit/07834f601fb4a81958f15e2129ca091cb9d1c646))\n* **internal:** narrower codeowners scope ([daca8f1](https://github.com/anthropics/anthropic-sdk-python/commit/daca8f13032311676ed30a6e0527ee304e1419c9))\n* **internal:** revert codeowners change ([41aa767](https://github.com/anthropics/anthropic-sdk-python/commit/41aa767464881bb51937f42fe9c426ae3081fd9f))\n* **tests:** remove stale warning filters ([ba9bf35](https://github.com/anthropics/anthropic-sdk-python/commit/ba9bf356ed60fa2eb206e266c86c0202dd005616))\n* **tests:** reword the skip reason on the path-level query param tests ([6b5046a](https://github.com/anthropics/anthropic-sdk-python/commit/6b5046ad29999ec887226aecff67db9feb2d1972))\n\n\n### Documentation\n\n* **api:** update a few doc strings ([26c509d](https://github.com/anthropics/anthropic-sdk-python/commit/26c509d66192f2b40150b481fa89da97e532612c))",
+      "published_at": "2026-09-04T22:20:20Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.33.3",
+      "tag_name": "v0.33.3",
+      "body": "## What's Changed\r\n* gemma4 now supports images and audio on MLX engine\r\n* Report cached prompt tokens\r\n* Honor GGUF model defined default parameters\r\n* MLX, MLX-C, llama.cpp update\r\n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3",
+      "published_at": "2026-09-02T00:11:33Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.3.0",
+      "tag_name": "v1.3.0",
+      "body": "## 1.3.0 (2026-09-01)\n\nFull Changelog: [v1.2.0...v1.3.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.2.0...v1.3.0)\n\n### Features\n\n* **api:** beta user profiles: add external_user_onboarded_at, remove relationship in favor of access_type ([74080c3](https://github.com/anthropics/anthropic-sdk-python/commit/74080c35d6e4f3e5e7fd47454ecce2350cbfdd2b))\n* **api:** manual updates ([1dc3ce0](https://github.com/anthropics/anthropic-sdk-python/commit/1dc3ce0709a9bca146b045dfb0787971e747b1f5))\n* **api:** organization compliance settings, user-profile order_by, memory-store and toolset schema updates ([429e719](https://github.com/anthropics/anthropic-sdk-python/commit/429e719f84bd78db51c9fd0442ccb0ca63e614ba))\n\n\n### Bug Fixes\n\n* **aws:** resolve base_url from aws_region under skip_auth and with_options ([#564](https://github.com/anthropics/anthropic-sdk-python/issues/564)) ([b6d1732](https://github.com/anthropics/anthropic-sdk-python/commit/b6d1732cc89eb743b4d40e33c6cd3f7ecfb3d0ab))\n* **batches:** add results to GA raw/streaming response wrappers ([cbf9715](https://github.com/anthropics/anthropic-sdk-python/commit/cbf9715a461b4c5deec7a669b2b6e211faaf8827))\n* **ci:** don't hard-wrap detect-breaking-changes output ([b5be779](https://github.com/anthropics/anthropic-sdk-python/commit/b5be779c110e68f6c884091b3524083733f3f8a9))\n* **client:** derive multipart filename for file tuples passed without one ([a9f3fb4](https://github.com/anthropics/anthropic-sdk-python/commit/a9f3fb40abdd2f5842054a96e08afeee35fb932a))\n* **types:** remove unused wire aliases from header and path params ([dc0a9ab](https://github.com/anthropics/anthropic-sdk-python/commit/dc0a9ab4360c7fc28f7326c39876f18ad04d2c26))\n\n\n### Chores\n\n* **internal:** drop the unused discriminator argument from PropertyInfo ([3dae6fd](https://github.com/anthropics/anthropic-sdk-python/commit/3dae6fd196cb2fe658029e8eec60551dfa847949))\n* **internal:** drop the unused distro dependency ([a47d85f](https://github.com/anthropics/anthropic-sdk-python/commit/a47d85f6a740e3a38610c5239ac8c2c7b12ead55))\n\n\n### Documentation\n\n* **changelog:** detail the beta files/skills GA-shape change ([#1900](https://github.com/anthropics/anthropic-sdk-python/issues/1900)) ([7c84e13](https://github.com/anthropics/anthropic-sdk-python/commit/7c84e133570991589c90d888790d536ca943568d))\n\n\n### Refactors\n\n* **types:** mark discriminated unions with UnionDiscriminator instead of PropertyInfo ([17df0bf](https://github.com/anthropics/anthropic-sdk-python/commit/17df0bf37c875598b49b2909c58aa48e17a1b25a))\n* **types:** use UnionDiscriminator for more discriminated unions ([b44af2c](https://github.com/anthropics/anthropic-sdk-python/commit/b44af2c625703ba1c0ed2e81871ac14dc572665e))",
+      "published_at": "2026-09-01T17:36:55Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.33.2",
+      "tag_name": "v0.33.2",
+      "body": "## What's Changed\r\n\r\n* Ollama's app now follows the system appearance again, restoring dark mode support\r\n* Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one\r\n* The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2",
+      "published_at": "2026-08-27T20:31:47Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.2.0",
+      "tag_name": "v1.2.0",
+      "body": "## 1.2.0 (2026-08-27)\n\nFull Changelog: [v1.1.0...v1.2.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.1.0...v1.2.0)\n\n### Features\n\n* **api:** beta files/skills namespaces use GA shapes; drop dated beta header pins ([9df4565](https://github.com/anthropics/anthropic-sdk-python/commit/9df4565fdfe4eec941809a0a3d1615ee11e16b68))\n\n\n### Bug Fixes\n\n* **aws,bedrock:** sign raw request bytes so binary file uploads work ([#531](https://github.com/anthropics/anthropic-sdk-python/issues/531)) ([f50e910](https://github.com/anthropics/anthropic-sdk-python/commit/f50e9106c002d71966f5f8027758b3d703999936))\n* **ci:** resolve assignment aliases in detect-breaking-changes ([f2c4925](https://github.com/anthropics/anthropic-sdk-python/commit/f2c49254941b4d700fe97cbe6bb85205b06a6460))\n* **sessions:** make event accumulator forward-compatible with new event types ([#533](https://github.com/anthropics/anthropic-sdk-python/issues/533)) ([cbbaf6e](https://github.com/anthropics/anthropic-sdk-python/commit/cbbaf6e46358d5c844eac01ed3c50a797daf93a7))\n* **tools:** let read return a view_range of a file over the size cap ([#538](https://github.com/anthropics/anthropic-sdk-python/issues/538)) ([b68e876](https://github.com/anthropics/anthropic-sdk-python/commit/b68e876345bde1ecc099ef245e87b1319dc8d080))\n* **tools:** preserve exact file bytes in the agent toolset and memory tool (no newline translation) ([#540](https://github.com/anthropics/anthropic-sdk-python/issues/540)) ([56921a8](https://github.com/anthropics/anthropic-sdk-python/commit/56921a8c04e0ec71192fcd22dd28db2a5e1306f7))\n* **webhooks:** require headers to be passed to `unwrap()` ([0baa902](https://github.com/anthropics/anthropic-sdk-python/commit/0baa90225359f6b4bec50476c19bb52c2ad4250d))\n\n\n### Documentation\n\n* **api:** clarify pagination on the organization rate-limit list endpoints ([1832b27](https://github.com/anthropics/anthropic-sdk-python/commit/1832b27d0751943640cb898bb77c088ea3f24acb))",
+      "published_at": "2026-08-27T20:28:58Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.33.1",
+      "tag_name": "v0.33.1",
+      "body": "## What's Changed\r\n* MLX: Qwen3.8 Flash Next support\r\n* cmake: make external compat patches idempotent\r\n* MLX and llama.cpp update\r\n* mlxrunner: add structured output support\r\n* mlxrunner: avoid Metal GPU timeouts when loading models from slow storage\r\n\r\n## New Contributors\r\n* @pd95 made their first contribution in https://github.com/ollama/ollama/pull/17948\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.0...v0.33.1",
+      "published_at": "2026-08-26T18:09:57Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.1.0",
+      "tag_name": "v1.1.0",
+      "body": "## 1.1.0 (2026-08-26)\n\nFull Changelog: [v1.0.0...v1.1.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.0.0...v1.1.0)\n\n### Features\n\n* **api:** add `updates` thinking display mode (beta) ([eb4a73f](https://github.com/anthropics/anthropic-sdk-python/commit/eb4a73fdddc153e1bb4375f7b9e3d45b4bce5c5b))\n* **api:** add missing anthropic-beta values ([dbebd15](https://github.com/anthropics/anthropic-sdk-python/commit/dbebd1515db48f4200105b3a92136a0ba787751e))\n* **api:** add support for Organization API endpoints ([5a5b8fc](https://github.com/anthropics/anthropic-sdk-python/commit/5a5b8fc1eec3f3a494f6a3b08819e0ea06ecc45d))\n\n\n### Bug Fixes\n\n* **docs:** correct link for long requests error ([#1884](https://github.com/anthropics/anthropic-sdk-python/issues/1884)) ([4474f31](https://github.com/anthropics/anthropic-sdk-python/commit/4474f31efa48588eff590f04419230791e22419f)), closes [#1883](https://github.com/anthropics/anthropic-sdk-python/issues/1883)\n* **tools:** keep the tool runner going on pause_turn ([#343](https://github.com/anthropics/anthropic-sdk-python/issues/343)) ([ab1ec60](https://github.com/anthropics/anthropic-sdk-python/commit/ab1ec609f2cce801644ff4410660deb52680f273))\n\n\n### Chores\n\n* **docs:** clarify skill version `latest` support and memory version retention ([a754f3b](https://github.com/anthropics/anthropic-sdk-python/commit/a754f3b53f2040491d6390850e08982d36f19910))\n* **internal:** cancel superseded CI runs ([c061ab1](https://github.com/anthropics/anthropic-sdk-python/commit/c061ab1cf0cf9a7c6519abe1260a2bc0bac4794c))\n* **internal:** minor workflow reformat ([1569002](https://github.com/anthropics/anthropic-sdk-python/commit/1569002594c39349d8a38eaef51c57caaa981485))\n* **internal:** remove the legacy response API ([a48b1dd](https://github.com/anthropics/anthropic-sdk-python/commit/a48b1dde8b3159085c904b9abe252adccf06b47b))\n* **internal:** use `import httpx2` directly instead of aliasing as httpx ([628d789](https://github.com/anthropics/anthropic-sdk-python/commit/628d7891884748b4eef51506543bfd2ef757ba17))\n\n\n### Documentation\n\n* **api:** clarify session thread agent and usage.iterations compaction descriptions (beta) ([4ace503](https://github.com/anthropics/anthropic-sdk-python/commit/4ace503320c2af170fefe6be605cf2ddd729594a))",
+      "published_at": "2026-08-26T17:14:40Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/fastify@2.0.0",
+      "tag_name": "@modelcontextprotocol/fastify@2.0.0",
+      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
+      "published_at": "2026-07-27T23:55:50Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/fastify%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server-legacy@2.0.0",
+      "tag_name": "@modelcontextprotocol/server-legacy@2.0.0",
+      "body": "### Minor Changes\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2476](https://github.com/modelcontextprotocol/typescript-sdk/pull/2476) [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Build protocol-revision wire schemas lazily on first validation instead of at import. Each revision's schema set is now constructed by a module-level memoized factory, so importing the client or server package no longer pays the construction cost of both frozen wire-schema graphs up front. Method membership in the revision registries stays static, the schemas themselves are unchanged, and registry lookups keep returning reference-identical schema objects.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313)]:\n    - @modelcontextprotocol/core@2.0.0",
+      "published_at": "2026-07-27T23:55:47Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server-legacy%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/express@2.0.0",
+      "tag_name": "@modelcontextprotocol/express@2.0.0",
+      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2420](https://github.com/modelcontextprotocol/typescript-sdk/pull/2420) [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral Bearer authentication to `@modelcontextprotocol/server`:\n  `requireBearerAuth` gates web-standard `fetch(request)` hosts (Cloudflare\n  Workers, Deno, Bun, Hono), built on the exported `verifyBearerToken` and\n  `bearerAuthChallengeResponse` pieces, with `OAuthTokenVerifier` now defined\n  here. The Express middleware adapts the same core and is unchanged in\n  behavior, except that `WWW-Authenticate` challenge values are now RFC 7235\n  quoted-string sanitized (quotes and backslashes escaped, control and\n  non-ASCII characters replaced); `@modelcontextprotocol/express` re-exports\n  `OAuthTokenVerifier` as before.\n\n- [#2422](https://github.com/modelcontextprotocol/typescript-sdk/pull/2422) [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral OAuth discovery serving to `@modelcontextprotocol/server`:\n  `oauthMetadataResponse` serves the RFC 9728 Protected Resource Metadata and\n  RFC 8414 Authorization Server metadata documents from web-standard\n  `fetch(request)` hosts, built on the exported\n  `buildOAuthProtectedResourceMetadata`, with\n  `getOAuthProtectedResourceMetadataUrl` now defined here. The Express metadata\n  router adapts the same core and is unchanged in behavior; the insecure-issuer\n  escape hatch is an explicit `dangerouslyAllowInsecureIssuerUrl` option in the\n  neutral core instead of a module-scope environment read. The web-standard\n  matcher validates lazily so unmatched traffic always falls through, tolerates\n  a trailing slash, supports HEAD, and marks reflected CORS preflights with\n  `Vary`.\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
+      "published_at": "2026-07-27T23:55:44Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/express%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server@2.0.0",
+      "tag_name": "@modelcontextprotocol/server@2.0.0",
+      "body": "### Minor Changes\n\n- [#2501](https://github.com/modelcontextprotocol/typescript-sdk/pull/2501) [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Export the `Protocol` base class and `mergeCapabilities` from the `@modelcontextprotocol/client` and `@modelcontextprotocol/server` package roots, restoring the v1 import for consumers that subclass `Protocol` (e.g. the MCP Apps SDK). The client and server packages each bundle their own compiled copy of the class, so import it from one package consistently within a process.\n\n    The codemod now rewrites `Protocol` and `mergeCapabilities` imports from `shared/protocol.js` to the client or server package root, like the module's other symbols, instead of dropping them with an action-required marker.\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n- [#2513](https://github.com/modelcontextprotocol/typescript-sdk/pull/2513) [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Align the 2026-07-28 wire with the final revision (spec PR #3002): `serverInfo` moves from the `DiscoverResult` body to the result `_meta`, and the per-request envelope's `clientInfo` demotes from required to SHOULD.\n\n    Before this change the SDK shipped the pre-#3002 shape in both directions: the client hard-rejected a conforming server's `DiscoverResult` (missing body `serverInfo` failed parse, so the probe misclassified the server as legacy and attempted an `initialize` handshake against it — a hard connect failure against a modern-only server such as go-sdk v1.7.0-pre.3), and the server rejected conforming clients that omit `clientInfo`.\n\n    Now:\n    - The 2026 wire schemas are the final revision exactly: no body `serverInfo` on `DiscoverResult`, envelope `clientInfo` optional (a present-but-malformed value still fails validation).\n    - Servers stamp `_meta['io.modelcontextprotocol/serverInfo']` on every 2026-era response (spec SHOULD; a handler-authored value wins, the 2025-era wire is untouched). This includes the entry-built `subscriptions/listen` graceful-close results — the spec's `SubscriptionsListenResultMeta` extends `ResultMetaObject`.\n    - Clients keep sending `clientInfo` and read server identity from the discover result's `_meta` only. A server that stamps no identity is anonymous: `getServerVersion()` is `undefined` and the response cache partitions under a per-connection surrogate. A malformed `_meta` serverInfo value is treated as absent on receive (the spec marks the field self-reported, unverified, and display-only).\n    - Breaking type changes: `DiscoverResult` no longer declares `serverInfo`; `RequestMetaEnvelope`'s `clientInfo` is optional. New public constant `SERVER_INFO_META_KEY` (`'io.modelcontextprotocol/serverInfo'`).\n\n- [#2369](https://github.com/modelcontextprotocol/typescript-sdk/pull/2369) [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Allow `inputRequired.elicit()` to accept a Standard Schema such as a Zod object for `requestedSchema`. The builder converts it to MCP's restricted form-elicitation JSON Schema, while the same schema can validate and type the response through `acceptedContent()` on handler re-entry. Zod formats mapping to `email`, `uri`, `date`, and `date-time` are supported. Shapes the restricted schema cannot express reject before anything is sent — nested objects, `.regex()` and customized zod format patterns, exclusive number bounds (`.positive()`/`.gt()`), literal unions (use `z.enum` or `z.literal(['a', 'b'])`), and non-spec root keywords like `z.strictObject()`'s `additionalProperties`.\n\n- [#2541](https://github.com/modelcontextprotocol/typescript-sdk/pull/2541) [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Add configurable SSE keep-alive comment frames to Streamable HTTP transports and apply `createMcpHandler`'s existing `keepAliveMs` option to every HTTP SSE stream it serves.\n\n- [#2420](https://github.com/modelcontextprotocol/typescript-sdk/pull/2420) [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral Bearer authentication to `@modelcontextprotocol/server`:\n  `requireBearerAuth` gates web-standard `fetch(request)` hosts (Cloudflare\n  Workers, Deno, Bun, Hono), built on the exported `verifyBearerToken` and\n  `bearerAuthChallengeResponse` pieces, with `OAuthTokenVerifier` now defined\n  here. The Express middleware adapts the same core and is unchanged in\n  behavior, except that `WWW-Authenticate` challenge values are now RFC 7235\n  quoted-string sanitized (quotes and backslashes escaped, control and\n  non-ASCII characters replaced); `@modelcontextprotocol/express` re-exports\n  `OAuthTokenVerifier` as before.\n\n- [#2422](https://github.com/modelcontextprotocol/typescript-sdk/pull/2422) [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral OAuth discovery serving to `@modelcontextprotocol/server`:\n  `oauthMetadataResponse` serves the RFC 9728 Protected Resource Metadata and\n  RFC 8414 Authorization Server metadata documents from web-standard\n  `fetch(request)` hosts, built on the exported\n  `buildOAuthProtectedResourceMetadata`, with\n  `getOAuthProtectedResourceMetadataUrl` now defined here. The Express metadata\n  router adapts the same core and is unchanged in behavior; the insecure-issuer\n  escape hatch is an explicit `dangerouslyAllowInsecureIssuerUrl` option in the\n  neutral core instead of a module-scope environment read. The web-standard\n  matcher validates lazily so unmatched traffic always falls through, tolerates\n  a trailing slash, supports HEAD, and marks reflected CORS preflights with\n  `Vary`.\n\n- [#2483](https://github.com/modelcontextprotocol/typescript-sdk/pull/2483) [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add `preloadSchemas()`, an explicit opt-in to eager wire-schema construction, and call it automatically in the Cloudflare Workers builds. The wire schemas are built lazily by default, which is the right trade on process-per-invocation runtimes — but on isolate platforms that bill request CPU while module evaluation runs during isolate warm-up, laziness moves construction into the first request each fresh isolate serves. Calling `preloadSchemas()` at module scope (it is synchronous and idempotent) moves that one-time cost back to module evaluation; the packages' workerd export condition now does this automatically, while the Node and browser builds stay lazy. The server package gains a dedicated browser shim for this (its `browser` condition previously reused the workerd shim), so browser bundles keep lazy construction.\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2456](https://github.com/modelcontextprotocol/typescript-sdk/pull/2456) [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Restore the v1 parse tolerance for `CallToolResult.content`: an inbound legacy-era `tools/call` result without `content` defaults to `[]` instead of failing validation. Deployed servers — accepted by SDK v1 for years — return `structuredContent`-only (or otherwise content-less) results, and the strict parse turned every such call into an `INVALID_RESULT` error before application code could run.\n\n    The silent-empty-success hazard the strictness guarded is preserved where it matters: the 2025 era's wire-seam schema refuses to default `content` for a body carrying another result family's vocabulary (`task`, `inputRequests`, `requestState` — the era is frozen, so the list is complete), and the 2026-era wire schemas stay strict — modern-revision servers have no legacy excuse. Task interop through an explicit result schema is untouched (including bodies that also stamp a foreign `resultType`), and the server-side authoring normalization refuses the same foreign-family vocabulary.\n\n    Server-side authoring is era-independent: a handler result without `content` (dynamic/JS callers — the TypeScript surface requires it) is normalized to `content: []` before era validation on every leg, reaching the wire spec-valid.\n\n    Conscious call: the nested sampling `ToolResultContentSchema` stays spec-strict — v1 had defaulted its `content` too, but it is params-side (tool results a caller authors into a sampling message), deliberately not restored.\n\n- [#2431](https://github.com/modelcontextprotocol/typescript-sdk/pull/2431) [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df) Thanks [@morluto](https://github.com/morluto)! - Fix the CommonJS `validators/ajv` subpath so reading the exported `Ajv` class no longer throws `ReferenceError: import_ajv is not defined`. The subpath now re-exports the bundled provider's concrete `Ajv` value in CJS output, matching the existing ESM behavior.\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- [#2384](https://github.com/modelcontextprotocol/typescript-sdk/pull/2384) [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e) Thanks [@felixweinberger](https://github.com/felixweinberger)! - `instanceof` on the SDK error classes (`ProtocolError` and its typed subclasses, `SdkError`/`SdkHttpError`, `OAuthError`, and the client's `SseError`, `UnauthorizedError`, and OAuth-client-flow error family — `OAuthClientFlowError` and its subclasses) now works across separately bundled copies of the SDK. The classes match by a stable brand (via `Symbol.hasInstance` and a registry symbol) instead of prototype identity, so a process that uses both `@modelcontextprotocol/client` and `@modelcontextprotocol/server` - a gateway, host, or in-process test - can check errors constructed by either package against the class re-exported by the other. Ordinary prototype-based `instanceof` is preserved as a fallback; user-defined subclasses keep plain prototype semantics. Notes: cross-bundle matching requires both copies to be at or after this release; brands assert identity, not field shape, across versions - keep reading fields defensively. As a side effect, a foreign-bundle `SdkError` used as an abort reason is now rethrown as-is instead of being wrapped as a `RequestTimeout`. Branded hierarchies additionally expose an explicit static guard, `X.isInstance(value)`, that reads the same brand and narrows in TypeScript — an alternative for codebases that prefer predicate-style checks over `instanceof`. Also: `UnauthorizedError` now sets `error.name` to `'UnauthorizedError'` (previously `'Error'`), and per-package conformance tests enforce that every exported error class participates in branding. Version-negotiation probing now recognizes `UnauthorizedError` (previously a dead name-string check) and propagates it unchanged, so `connect()` on an auth-gated server rejects with the original `UnauthorizedError` (previously wrapped as the `cause` of an `SdkError(EraNegotiationFailed)`) — run `finishAuth()` and reconnect, and the retry probes with the token.\n\n- [#2458](https://github.com/modelcontextprotocol/typescript-sdk/pull/2458) [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Construct the default Ajv validation engine lazily on first validation. Creating a `Client` or `Server` no longer pays the ajv + ajv-formats instantiation cost at startup when no JSON Schema validation ever runs.\n\n- [#2476](https://github.com/modelcontextprotocol/typescript-sdk/pull/2476) [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Build protocol-revision wire schemas lazily on first validation instead of at import. Each revision's schema set is now constructed by a module-level memoized factory, so importing the client or server package no longer pays the construction cost of both frozen wire-schema graphs up front. Method membership in the revision registries stays static, the schemas themselves are unchanged, and registry lookups keep returning reference-identical schema objects.\n\n- [#2451](https://github.com/modelcontextprotocol/typescript-sdk/pull/2451) [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Return JSON-RPC Invalid Params with the original URI and an `invalid_uri` reason when `resources/read` receives a syntactically malformed URI.\n\n- [#2399](https://github.com/modelcontextprotocol/typescript-sdk/pull/2399) [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Return HTTP 400 for a `MissingRequiredClientCapabilityError` (`-32021`) produced after dispatch. The spec mandates `400 Bad Request` for this error with no condition on where it arose, but only the pre-dispatch capability gate honored that; the post-handler emission — the `input_required` gate rejecting an embedded request whose required capability the caller did not declare — surfaced in-band on HTTP 200. The JSON-RPC error body is unchanged, every other error code (including a handler relaying a downstream peer's `-32020`/`-32022`) keeps the origin-keyed in-band behavior, and the mapping only applies while the response is uncommitted: an exchange that already streamed — or one hosted with `responseMode: 'sse'`, which opens its stream at dispatch end — keeps its committed 200 and carries the error in-stream.\n\n- [#2425](https://github.com/modelcontextprotocol/typescript-sdk/pull/2425) [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091) Thanks [@Sehlani042](https://github.com/Sehlani042)! - Stop advertising validator provider classes from the root client/server type declarations. The provider classes remain available from the explicit validator subpaths.\n\n- [#2453](https://github.com/modelcontextprotocol/typescript-sdk/pull/2453) [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Strip RFC 9110 optional whitespace around inbound `MCP-Protocol-Version`, `Mcp-Method`, and `Mcp-Name` values before classifying and validating modern HTTP requests. This keeps valid requests portable across Fetch runtimes that expose raw leading or trailing SP/HTAB through `Headers.get()`.\n\n- [#2534](https://github.com/modelcontextprotocol/typescript-sdk/pull/2534) [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c) Thanks [@felixweinberger](https://github.com/felixweinberger)! - The default validator now honors declared 2019-09 and draft-07/06 dialects instead of rejecting them: a schema stamped `\"$schema\": \"http://json-schema.org/draft-07/schema#\"` (zod-to-json-schema's default output) validates with draft-07 semantics, and a 2019-09 stamp (zod-to-json-schema's `2019-09`/`openAi` targets) with 2019-09 semantics, on both the Ajv and Cloudflare Workers providers (with known engine differences documented in the migration guide). Schemas with no `$schema` still validate as 2020-12, and unknown dialects still produce the typed error (now listing the supported dialects: 2020-12, 2019-09, draft-07, draft-06).\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313)]:\n    - @modelcontextprotocol/core@2.0.0",
+      "published_at": "2026-07-27T23:55:41Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/core@2.0.0",
+      "tag_name": "@modelcontextprotocol/core@2.0.0",
+      "body": "### Minor Changes\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n- [#2513](https://github.com/modelcontextprotocol/typescript-sdk/pull/2513) [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Align the 2026-07-28 wire with the final revision (spec PR #3002): `serverInfo` moves from the `DiscoverResult` body to the result `_meta`, and the per-request envelope's `clientInfo` demotes from required to SHOULD.\n\n    Before this change the SDK shipped the pre-#3002 shape in both directions: the client hard-rejected a conforming server's `DiscoverResult` (missing body `serverInfo` failed parse, so the probe misclassified the server as legacy and attempted an `initialize` handshake against it — a hard connect failure against a modern-only server such as go-sdk v1.7.0-pre.3), and the server rejected conforming clients that omit `clientInfo`.\n\n    Now:\n    - The 2026 wire schemas are the final revision exactly: no body `serverInfo` on `DiscoverResult`, envelope `clientInfo` optional (a present-but-malformed value still fails validation).\n    - Servers stamp `_meta['io.modelcontextprotocol/serverInfo']` on every 2026-era response (spec SHOULD; a handler-authored value wins, the 2025-era wire is untouched). This includes the entry-built `subscriptions/listen` graceful-close results — the spec's `SubscriptionsListenResultMeta` extends `ResultMetaObject`.\n    - Clients keep sending `clientInfo` and read server identity from the discover result's `_meta` only. A server that stamps no identity is anonymous: `getServerVersion()` is `undefined` and the response cache partitions under a per-connection surrogate. A malformed `_meta` serverInfo value is treated as absent on receive (the spec marks the field self-reported, unverified, and display-only).\n    - Breaking type changes: `DiscoverResult` no longer declares `serverInfo`; `RequestMetaEnvelope`'s `clientInfo` is optional. New public constant `SERVER_INFO_META_KEY` (`'io.modelcontextprotocol/serverInfo'`).\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2456](https://github.com/modelcontextprotocol/typescript-sdk/pull/2456) [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Restore the v1 parse tolerance for `CallToolResult.content`: an inbound legacy-era `tools/call` result without `content` defaults to `[]` instead of failing validation. Deployed servers — accepted by SDK v1 for years — return `structuredContent`-only (or otherwise content-less) results, and the strict parse turned every such call into an `INVALID_RESULT` error before application code could run.\n\n    The silent-empty-success hazard the strictness guarded is preserved where it matters: the 2025 era's wire-seam schema refuses to default `content` for a body carrying another result family's vocabulary (`task`, `inputRequests`, `requestState` — the era is frozen, so the list is complete), and the 2026-era wire schemas stay strict — modern-revision servers have no legacy excuse. Task interop through an explicit result schema is untouched (including bodies that also stamp a foreign `resultType`), and the server-side authoring normalization refuses the same foreign-family vocabulary.\n\n    Server-side authoring is era-independent: a handler result without `content` (dynamic/JS callers — the TypeScript surface requires it) is normalized to `content: []` before era validation on every leg, reaching the wire spec-valid.\n\n    Conscious call: the nested sampling `ToolResultContentSchema` stays spec-strict — v1 had defaulted its `content` too, but it is params-side (tool results a caller authors into a sampling message), deliberately not restored.\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.",
+      "published_at": "2026-07-27T23:55:38Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/core%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/node@2.0.0",
+      "tag_name": "@modelcontextprotocol/node@2.0.0",
+      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- [#2445](https://github.com/modelcontextprotocol/typescript-sdk/pull/2445) [`78fabea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/78fabea44557bd49f5a050b92e57ccd22dab14ad) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Document composing the host and origin validation guards in front of `toNodeHandler` for hand-wired `node:http` servers, matching the protected wiring the examples and serving guide now demonstrate.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
+      "published_at": "2026-07-27T23:55:29Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/node%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/hono@2.0.0",
+      "tag_name": "@modelcontextprotocol/hono@2.0.0",
+      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
+      "published_at": "2026-07-27T23:55:26Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/hono%402.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "1.30.0",
+      "tag_name": "1.30.0",
+      "body": "## What's Changed\r\n* fix(server): prioritize zod issues and format them by @mozmo15 in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503\r\n* chore(ci): switch publish to OIDC trusted publishing by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/1839\r\n* Add end-to-end test suite by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2167\r\n* v1 stdio buffer limit by @KKonstantinov in https://github.com/modelcontextprotocol/typescript-sdk/pull/2239\r\n* fix: support Zod 3.25 method literals by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2368\r\n* Validate Content-Type by parsed media type instead of substring match (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2444\r\n* fix: send SSE keep-alive comment frames from Streamable HTTP server transport (v1.x) by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2538\r\n* fix(deps): widen @hono/node-server past GHSA-frvp-7c67-39w9 by @arimu1 in https://github.com/modelcontextprotocol/typescript-sdk/pull/2549\r\n* Fix SSE keep-alive timer lifecycle in Streamable HTTP server transport (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2547\r\n* chore: bump version to 1.30.0 by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2563\r\n\r\n## New Contributors\r\n* @mozmo15 made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503\r\n* @arimu1 made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/2549\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/v1.29.0...1.30.0",
+      "published_at": "2026-07-27T17:54:36Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+      "kind": "release"
+    }
+  ]
+}
