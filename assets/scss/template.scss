@@ -1,117 +1,251 @@
-// Starter Blog Template
-// https://hugoblox.com/hugo-themes/
-
-body {
-  background-color: rgb(247, 250, 252);
+// Light editorial styling for the personal site.
+:root {
+  --site-bg: #f7fafc;
+  --site-panel: #ffffff;
+  --site-ink: #19384d;
+  --site-muted: #63798b;
+  --site-line: #e3ebf0;
+  --site-accent: #0d7188;
 }
 
-.article-container {
-  background-color: #fff;
-  border-radius: 15px;
+.dark {
+  --site-bg: #172331;
+  --site-panel: #223242;
+  --site-ink: #e8f1f4;
+  --site-muted: #b2c3cc;
+  --site-line: #3d5361;
+  --site-accent: #84d8d2;
 }
 
-.dark .article-container {
-  background-color: rgb(31, 39, 51);
-}
-
-// custom footer color
+body,
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: var(--site-bg);
 }
 
-.dark .page-footer {
-  background-color: rgb(26, 32, 44);
-}
-
-// more rounded cards and larger gap between cards
-.card-simple {
-  margin-top: 1.8rem;
-  border-radius: 15px;
-}
-
-.dark .card-simple {
-  background: rgb(31, 39, 51);
-}
-
-// no navbar shadow
 .navbar {
-  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--site-line);
 }
 
-// custom section padding
+.navbar .nav-link {
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
 .home-section {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .home-section.wg-about-avatar {
-  padding: 0;
+  padding: 4.3rem 0 2rem;
+}
+
+.wg-about-avatar .container,
+.wg-portfolio .container {
+  max-width: 1080px;
+}
+
+#profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  grid-template-areas:
+    "title avatar"
+    "copy avatar"
+    "links avatar";
+  align-items: center;
+  column-gap: 5rem;
+  text-align: left;
+  padding: 2.6rem 0 2.4rem;
+  border-bottom: 1px solid var(--site-line);
+}
+
+#profile .avatar-wrapper {
+  grid-area: avatar;
+  margin: 0;
+  width: 160px;
+  height: 160px;
+}
+
+#profile .avatar {
+  width: 160px;
+  height: 160px;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  box-shadow: 0 16px 35px rgba(26, 70, 89, .12);
+}
+
+#profile .portrait-title {
+  grid-area: title;
+  margin: 0;
+}
+
+#profile .portrait-title h2 {
+  color: var(--site-ink);
+  font-size: clamp(2.25rem, 4.2vw, 3.3rem);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: 1.16;
+  margin: 0 0 .55rem;
+}
+
+#profile .article-style {
+  grid-area: copy;
+  color: var(--site-muted);
+  padding: 0 !important;
+  max-width: 670px;
+}
+
+#profile .article-style p {
+  margin: .2rem 0 .65rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+#profile .article-style p:first-child {
+  color: var(--site-ink);
+  font-weight: 550;
+}
+
+#profile .article-style a {
+  color: var(--site-accent);
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 #profile .network-icon {
-  margin-top: 0.5rem;
+  grid-area: links;
+  justify-content: flex-start;
+  margin: .4rem 0 0;
 }
 
-ul.network-icon .big-icon {
-  font-size: 1.5rem;
+#profile .network-icon .big-icon {
+  color: var(--site-accent);
+  font-size: 1.4rem;
 }
 
-.dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: bold;
+.wg-portfolio .section-heading h1 {
+  color: var(--site-ink);
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
 }
 
-.dark .portrait-title h2 {
-  color: #fff;
-  font-weight: bold;
+.wg-portfolio .section-subheading {
+  color: var(--site-muted);
 }
 
-.home-section > .content {
-  width: 45em;
-  max-width: calc(100% - 4em);
-  margin: 0 auto;
+.project-toolbar {
+  margin: 1.5rem 0 2.4rem;
 }
 
-.home-section > .content > :last-child {
-  margin-bottom: 0;
+.project-filters .btn-group {
+  gap: .45rem;
 }
 
-.home-section header {
-  margin-bottom: 1em;
+.project-filters .btn {
+  border: 1px solid var(--site-line) !important;
+  border-radius: 999px !important;
+  background: var(--site-panel) !important;
+  color: var(--site-muted) !important;
+  font-size: .87rem;
+  font-weight: 600;
+  padding: .52rem .9rem;
+  box-shadow: none !important;
 }
 
-// Narrower container for Hello World sections (primarily Blank widget content).
-@media (min-width: 1200px) {
-  .home-section .container {
-    max-width: 880px;
-  }
-}
-@media (min-width: 992px) {
-  .home-section .container {
-    max-width: 880px;
-  }
+.project-filters .btn.active,
+.project-filters .btn:hover {
+  border-color: var(--site-accent) !important;
+  background: var(--site-accent) !important;
+  color: #fff !important;
 }
 
-// Custom avatar size on homepage
-.avatar {
-  width: auto;
-  height: auto;
-  max-width: 225px;
-  max-height: 225px;
+.project-card .card,
+.article-container {
+  background: var(--site-panel);
+  border: 1px solid var(--site-line);
+  border-radius: 15px;
+  box-shadow: 0 9px 27px rgba(28, 69, 89, .055);
 }
 
-// Prevent stretching on About page with narrow container
+.project-card .card {
+  min-height: 200px;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.project-card .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 17px 35px rgba(28, 69, 89, .12);
+}
+
+.project-card .card h4 a {
+  color: var(--site-ink);
+  line-height: 1.45;
+  font-weight: 680;
+}
+
+.project-card .card h4 a:hover {
+  color: var(--site-accent);
+}
+
+.project-card .article-style {
+  color: var(--site-muted);
+  font-size: .93rem;
+  line-height: 1.7;
+}
+
 .wg-about .avatar {
-  width: auto;
-  height: auto;
   max-width: 200px;
   max-height: 200px;
+  object-fit: cover;
 }
 
-// Smaller Name and Role text on About page than in homepage `about.avatar` widget
 .wg-about .portrait-title h2 {
-  font-size: 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .wg-about .portrait-title h3 {
-  font-size: 0.8rem;
+  font-size: .9rem;
+}
+
+@media (max-width: 720px) {
+  .home-section.wg-about-avatar {
+    padding: 2.3rem 0 1rem;
+  }
+
+  #profile {
+    grid-template-columns: 1fr;
+    grid-template-areas: "avatar" "title" "copy" "links";
+    justify-items: center;
+    gap: .7rem;
+    text-align: center;
+    padding: 1.2rem 0 2.1rem;
+  }
+
+  #profile .avatar-wrapper,
+  #profile .avatar {
+    width: 128px;
+    height: 128px;
+  }
+
+  #profile .portrait-title h2 {
+    font-size: 2.1rem;
+  }
+
+  #profile .network-icon {
+    justify-content: center;
+  }
+
+  .project-filters .btn-group {
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card .card {
+    transition: none;
+  }
 }

@@ -1,81 +1,39 @@
-name: Deploy article site and refresh AI updates
-
-env:
-  WC_HUGO_VERSION: '0.119.0'
+name: Refresh AI updates for Netlify
 
 on:
-  push:
-    branches: [main]
   schedule:
     - cron: '17 1 * * *' # 09:17 Asia/Shanghai
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
-  build:
-    if: github.repository_owner != 'HugoBlox'
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Refresh AI update feed and review drafts
+      - name: Collect updates and generate review drafts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_ai_feed.py
-      - name: Save daily data
+      - name: Save drafts as a workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-drafts-${{ github.run_id }}
+          path: drafts/ai-updates/*.md
+          retention-days: 30
+      - name: Update the Netlify data source
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add static/ai-updates/data/updates.json drafts/ai-updates/
+          git add static/ai-updates/data/updates.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh AI tool updates'
             git push
           fi
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: ${{ env.WC_HUGO_VERSION }}
-          extended: true
-      - uses: actions/cache@v3
-        with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-      - name: Set up Pages
-        id: pages
-        uses: actions/configure-pages@v5
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./public
-
-  deploy:
-    if: github.repository_owner != 'HugoBlox'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

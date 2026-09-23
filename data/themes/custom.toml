@@ -1,25 +1,25 @@
-# Essentially Minimal theme but with constant home section bg color.
-name = "Starter Blog"
+# Cool light palette for the personal site.
+name = "Yuxi Yang"
 
 [light]
   # Primary
-  primary = "#2962ff"
+  primary = "#0d7188"
 
   # Menu
-  menu_primary = "rgb(247, 250, 252)"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+  menu_primary = "#f7fafc"
+  menu_text = "#526779"
+  menu_text_active = "#0d7188"
+  menu_title = "#19384d"
 
   # Home sections
-  home_section_odd = "rgb(247, 250, 252)"
-  home_section_even = "rgb(247, 250, 252)"
+  home_section_odd = "#f7fafc"
+  home_section_even = "#f7fafc"
 
 [dark]
-  primary = "#bbdefb"
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  background = "rgb(26, 32, 44)"
-  home_section_odd = "rgb(26, 32, 44)"
-  home_section_even = "rgb(26, 32, 44)"
-  menu_primary = "rgb(26, 32, 44)"
+  primary = "#84d8d2"
+  link = "#84d8d2"
+  link_hover = "#a6ece5"
+  background = "#172331"
+  home_section_odd = "#172331"
+  home_section_even = "#172331"
+  menu_primary = "#172331"

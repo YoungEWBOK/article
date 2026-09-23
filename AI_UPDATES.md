@@ -1,9 +1,9 @@
-# AI 更新雷达
+# AI 更新
 
-页面：`static/ai-updates/index.html`，发布后位于 `/article/ai-updates/`。
+网站地址：`https://yuxiyang.netlify.app/ai-updates/`。站点由 Netlify 从本仓库构建。
 
-现有 GitHub Pages 工作流每天北京时间 09:17 运行 `scripts/update_ai_feed.py`，收集六个项目的官方 GitHub Releases 和两组 Google News 搜索线索。数据写入 `static/ai-updates/data/updates.json`，小红书及微信公众号文案草稿写入 `drafts/ai-updates/`。新闻搜索结果只是线索，不能视为官方公告，也不保证覆盖全网。
+GitHub Actions 每天北京时间 09:17 运行 `scripts/update_ai_feed.py`，收集六个项目的官方 GitHub Releases 和两组 Google News 检索线索。公开数据写入 `static/ai-updates/data/updates.json`；小红书和微信公众号文案只生成在后台，并作为本次 Actions 运行的 artifact 保存 30 天。网站不展示草稿。
 
-页面提供搜索、关注、近七天筛选和复制发布草稿。平台自动发帖尚未启用：小红书开放接口需要相应发布能力，公众号需要账号及发布接口权限。草稿须由账号持有人核对后发布。收费订阅与邮件发送也尚未接入。
+新闻检索结果是待核查线索，不保证覆盖全网。页面供读者搜索、筛选和关注来源。自动发帖与付费订阅均未启用；接入前需要平台账号的官方发布权限与相应账户配置。
 
-可在仓库 Actions 中手动运行 `Deploy article site and refresh AI updates` 验证采集与发布。
+可在仓库 Actions 中手动运行 `Refresh AI updates for Netlify` 检查数据采集。工作流更新 JSON 后推送仓库，由现有 Netlify 连接部署网站。
