@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-23T05:46:26.312662Z",
+  "generated_at": "2026-09-23T05:58:09.639293Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "微语 4.6.0 发布，开源智能客服 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T05:48:41Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBnR0NtTXhzQUhnOU96S05wQWt6N1RNM0h4RlZmRFpVaUVQV0ZBeFN3Yk96NG45RjhCQzNYc3JENk8zTWIwb1VPdno4VQ?oc=5",
+      "kind": "news"
+    },
     {
       "source": "ollama/ollama",
       "name": "v0.34.4",
@@ -49,8 +58,8 @@
     },
     {
       "source": "news:en",
-      "name": "OpenAI Launches GPT-6 Sol And Luna With 50% Lower API Pricing - Pulse 2.0",
-      "tag_name": "Pulse 2.0",
+      "name": "OpenAI Launches GPT-6 Sol And Luna With 50% Lower API Pricing - pulse2.com",
+      "tag_name": "pulse2.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-22T19:06:04Z",
       "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wdTN1MVdkb2tJZGZldm1KNFhaQUt5bUJPbU1zTDkyeTR2U0R2Nzh1ZXpIZ3lhSTBMSVJJSlM5ZFhRY2Z5UTNJSXpnQm42aEl4QlM4a1RNMnZVaTYzX1pwTlNYZknSAWpBVV95cUxNNjhkNkJFaGlrV2RWb1ZfSF9yOTJCWEhzS2F4dFdUZi0xR2N4dTNDRnctdFp6eXk1SHpwYmxMOFM3UV9ERkRXNlJwUUphVFp3Ti1ONzBlTFVVRS1RN3V4aUZIblFKNU42eDh3?oc=5",
@@ -184,8 +193,8 @@
     },
     {
       "source": "news:zh",
-      "name": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
+      "name": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程 - infoq.cn",
+      "tag_name": "infoq.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-22T03:24:20Z",
       "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZWU2UEI3WDlMd2NiVUpWTGEyTVFfSXBDaHpKODZsOVp5WWZGVzhFNjB6dURveU5TVnJlcmFscUI1T25iQjd5T0tKTXV6NGFNdTIzOF9CX2Mwdw?oc=5",
@@ -261,6 +270,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-20T18:10:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWUFpUmQ3Z2FHRXNaelVOMXQxY0VHc0hreTNkdld2dkZDU2lLdVBlZzNBdjlKdDBIN2RCT0JtQVU4TUZOdHhqSlEySklQUQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text - MarkTechPost",
+      "tag_name": "MarkTechPost",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-19T18:41:33Z",
+      "html_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE50UkR5alh0Y0wyODFWbFRHZVZ0dTBpb0dlZnhBRTJ5TzN0aWoyWnZ1Ynl3ZWFQVHo4aUNrRG4xdFVHVXBkb1JmdFk2R0lwbWdPdzlaMy01NDB5VUVGVjV5cm5YV1A5bUZpRTFJR2lRME94R03SAXhBVV95cUxPVFpfbHhidFNRQ1JlYllPbldPd080alJ2aFZJM3BOVVNrSUlvX0hqaG1iVHBRcEJaajN0XzlZN2NkQVBXekRyeVhNcVlfQUpOb1dWTGxIc2M2VjZKTm9DOHhNYTg2amZ5Szl5S1IxdmNyUnNxWTlfdm0?oc=5",
       "kind": "news"
     },
     {
@@ -346,8 +364,8 @@
     },
     {
       "source": "news:zh",
-      "name": "2026智能网络开发者大会：银河网上平台引领网络工具链革新 - ttplus.cn",
-      "tag_name": "ttplus.cn",
+      "name": "2026智能网络开发者大会：银河网上平台引领网络工具链革新 - 体坛加",
+      "tag_name": "体坛加",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-18T00:40:16Z",
       "html_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHcjctOUVWbFhPODlpZ0ZFdE41RmhUbkVNUzF6ZlRJeHlIcGd6T1FNSXlEUE1VVzRaR2RTMjJUcmVacDd6LW1TeldINlh3UVhXTUhSdVRVajg1emJsN2xkTDVmdUFkdXE4VExaTEhwNWdBNVBXMTczMmZZQUhIZw?oc=5",
@@ -355,26 +373,17 @@
     },
     {
       "source": "news:zh",
-      "name": "昨夜今晨：365亚洲手机版官网登录芯片发布 智能终端生态升级 全球AI算力竞赛加剧 - ttplus.cn",
-      "tag_name": "ttplus.cn",
+      "name": "昨夜今晨：365亚洲手机版官网登录芯片发布 智能终端生态升级 全球AI算力竞赛加剧 - 体坛加",
+      "tag_name": "体坛加",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T17:43:53Z",
       "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZejFEOXo0WXJlTHhRSjlISHVUMXZUZEhDWThBdVZHdkRxVXl1X0tHS2xuX0ZZWF9HdWwwTUhIaTBDbVl5M0RmOVNnaEx5X1RYNXBTa2JnUjAySHdfVm1pMzNxUlV5TG5iN0ltZzU1U0I4MzRi?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "What’s new in Power Platform: September 2026 feature update - Microsoft",
-      "tag_name": "Microsoft",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-17T15:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjlscTQ1aFFYcTlXcGZJUjFSMHlEVmdiQ0tlTkdEZG16ZzFibVBVeGJMUlQxeERILW5QVXE3RWNjcWRjUkpQcnh4NE9IeHlEcWh2MUhfWGE4ekZYUlVCSGpzS2Q2aEVDRGxnMF9yQzAzZDVZSnpXdXdZcDVIZnVyU0NVVDZNUmxLYTV2ZC12dlcxM0hqa2NMS2pVY0xuZzFlWlJtQmFpazB4czVYR2lPblBIamR3cThCZWFJSDVB?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
-      "name": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
+      "name": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻 - infoq.cn",
+      "tag_name": "infoq.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T13:06:15Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qMDR5b3JXTGlmdVdxWUZnSFAwek5JZkV0ek1uazRsYUlsUVZtazZ3WmdoM2hHSVpUVXBCOHlXT1h3d0F6OGZRd250dkdEU3BCWmR0ckFYT3NwMndJMHc?oc=5",
@@ -409,8 +418,8 @@
     },
     {
       "source": "news:zh",
-      "name": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
+      "name": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相 - infoq.cn",
+      "tag_name": "infoq.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T04:38:35Z",
       "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZUxYR2dvTVVyY3VhcHRtclJrWE1KbFVUVVNjUkJGR19CTGRCRG1UXzhpOWpWcS1GSEFva1U1RjFFeHlZdU5ZVzl6aE9QTmV5Y2FMY1JQQ0pwZw?oc=5",
@@ -418,8 +427,8 @@
     },
     {
       "source": "news:zh",
-      "name": "ayx娱乐app下载发布新一代智能体系：从数据底座到业务智能体 - ttplus.cn",
-      "tag_name": "ttplus.cn",
+      "name": "ayx娱乐app下载发布新一代智能体系：从数据底座到业务智能体 - 体坛加",
+      "tag_name": "体坛加",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T01:59:20Z",
       "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13ZW9Jc1l1c0hZUWx6RTdkS0RTb0Z3NXNaWmxRcUQzcEhxN0c5LVVfYmJCblM1Z3hkalV6VGt5aWliQVZvZDdyNFdvVWl4WDVHcnUyY2FsMFRfa0NXYkFxcVJfSlFoZ2NjazJmdDl1VG9iY1ZLbHRrS2FHMk1RUWM?oc=5",
@@ -432,15 +441,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-16T14:42:24Z",
       "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MV25LcEFPblBTd0h3Qno1Z0p3Mm9TUGZzNHVfa1JyT1Z0dFZkemVWVGdIa0tza05BUzlyZ0hSa21WTER0VkRsM1oyVmtmb0M5WGdhb2M2RGdReVFIV3VVeXQwbkFWbFlYTXI4?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Oracle 发布 Java 27，强化后量子密码支持 - Oracle",
-      "tag_name": "Oracle",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-16T08:30:20Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcVpSYkZ2Z09USjZWUzl0bW1RdE9DbDM4RldNMHo5VjI5TlJMeGw0MmNGWWQ5RVZrWG50T1JtZFJDXy1LZXpOQ29Iam5iSkxOVTFZVTFjZGRCOVIzSlM3WmR4ZnZ5bEVhU3h3dFAyNWxSRW1rSV9UQkl3aUJvQTlTTk5UWXJJNmVBU0twTzhuZUZKd2Qta3M5c1g0ZExzbXZVQ1Nlam1rNHBoRURINkx0RkJjQzVCSnlXVDE2T1VhN0xVWVl3R19icw?oc=5",
       "kind": "news"
     },
     {
