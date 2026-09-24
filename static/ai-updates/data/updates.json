@@ -1,23 +1,275 @@
 {
-  "generated_at": "2026-09-23T06:30:33.019319Z",
+  "generated_at": "2026-09-24T06:13:21.759497Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:zh",
-      "name": "微语 4.6.0 发布，开源智能客服 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "“别再说AI只是工具了！”那个「宁愿失业也不用AI」的20年程序员再开炮：电钻、Vim都是工具，但AI不是 - blog.csdn.net",
+      "tag_name": "blog.csdn.net",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T05:48:41Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBnR0NtTXhzQUhnOU96S05wQWt6N1RNM0h4RlZmRFpVaUVQV0ZBeFN3Yk96NG45RjhCQzNYc3JENk8zTWIwb1VPdno4VQ?oc=5",
+      "published_at": "2026-09-24T05:57:55Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83dkduTENvMFgwUk0yeTZXWFdWZXR6NllpQ183bHBFeUIyTnA4TzFVa3ZCaTVsR0xaanBaOE9rb1BDWnBrcGVTeHBIaC12QXVFNkNZSkVWYXI0ak56Ym0wOENrQ19IUUU?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.19.2",
+      "tag_name": "v3.19.2",
+      "body": "## [3.19.2](https://github.com/openai/openai-python/compare/v3.19.1...v3.19.2) (2026-09-23)\n\n\n### Bug Fixes\n\n* preserve single files for fallback extraction paths ([#3875](https://github.com/openai/openai-python/issues/3875)) ([bfd3680](https://github.com/openai/openai-python/commit/bfd3680c8d3b715bb3175b82cd0fa1c1fb53162f))\n\n\n### Chores\n\n* **api:** clarify approximate web search location defaults ([#3953](https://github.com/openai/openai-python/issues/3953)) ([a95c95e](https://github.com/openai/openai-python/commit/a95c95ed372476168e9893723ff694ead5db8586))\n* **api:** clarify Realtime modality array definitions ([#3954](https://github.com/openai/openai-python/issues/3954)) ([e79cf53](https://github.com/openai/openai-python/commit/e79cf53878b1d8580fac3a46e375eb98d9ca161d))\n* **api:** correct fine-tuning bounds and Realtime response reference ([#3949](https://github.com/openai/openai-python/issues/3949)) ([325a948](https://github.com/openai/openai-python/commit/325a948a545add0201e082e778ca11b90ddb9426))",
+      "published_at": "2026-09-24T00:05:23Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.2",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Support for Local AI Models in the Antigravity SDK - blog.google",
+      "tag_name": "blog.google",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T23:15:33Z",
+      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM1F3eUcyRXRLZnFTTFhCd1Foa1NKUDJzZjlEd3lZejc0eU5oV0h6NnJOT011bWsxT1N3VFFEX0RMYlFhZVZHT1EyVWk5TjJnVVFZMGpLelQ1Y1hWTXdfOTRiYzhUdkFhZjFOWnJLNXg4M1owdmVfWk9IT0x0MWo2TGpELVQyZ3hDc29ncmVTTDR1RHMtSG5CYng4T1d6dw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.265",
+      "tag_name": "ai@5.0.265",
+      "body": "### Patch Changes\n\n- bf29419: chore: enable dead code lint rules\n- 0519802: fix(ai): preserve parsed metadata and data values when validating UI messages\n- Updated dependencies [0430ee6]\n- Updated dependencies [bf29419]\n- Updated dependencies [14ecfdc]\n  - @ai-sdk/gateway@2.0.157\n  - @ai-sdk/provider-utils@3.0.39",
+      "published_at": "2026-09-23T21:58:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.265",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.290",
+      "tag_name": "ai@6.0.290",
+      "body": "### Patch Changes\n\n- 069a945: Fix Google `embedMany` calls with more than 100 values by keeping per-value multimodal content aligned across automatic batches, including text-only entries. Validate content length before sending requests and validate each batch's provider options after middleware transforms them.\n- 7f42b4d: fix(ai): resume tool approvals from earlier messages\n- d1a36d2: fix(ai): execute manually approved tool inputs produced by schema transforms\n\n  Preserve approved inputs during revalidation and reject histories whose reconstructed schema output differs, including signed approvals with missing original input. Validate transformed UI tool inputs against the reconstructed output before returning them as static tool parts.\n\n- f7f36d2: chore: enable dead code lint rules\n- 7c41f5e: fix(ai): preserve parsed metadata and data values when validating UI messages\n- Updated dependencies [069a945]\n- Updated dependencies [d1a36d2]\n- Updated dependencies [f7f36d2]\n- Updated dependencies [be4ca16]\n- Updated dependencies [ffb9507]\n- Updated dependencies [bbd0115]\n  - @ai-sdk/provider-utils@4.0.54\n  - @ai-sdk/gateway@3.0.200",
+      "published_at": "2026-09-23T21:56:36Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.290",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.17",
+      "tag_name": "@ai-sdk/zai@3.0.17",
+      "body": "### Patch Changes\n\n- Updated dependencies [fe07867]\n- Updated dependencies [a4b0940]\n- Updated dependencies [771e74b]\n  - @ai-sdk/provider-utils@5.0.47\n  - @ai-sdk/openai-compatible@3.0.55",
+      "published_at": "2026-09-23T21:47:34Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.17",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.113",
+      "tag_name": "ai@7.0.113",
+      "body": "### Patch Changes\n\n- dcdb011: fix(ai): route completed streamed tool input callbacks to repaired tools\n- 8f72832: fix(ai): preserve video models from legacy fallback providers\n- fe07867: Fix Google `embedMany` calls with more than 100 values by keeping per-value multimodal content aligned across automatic batches, including text-only entries. Validate content length before sending requests and validate each batch's provider options after middleware transforms them.\n- b74c0cb: fix(ai): resume tool approvals from earlier messages\n- a4b0940: fix(ai): execute manually approved tool inputs produced by schema transforms\n\n  Preserve approved inputs during revalidation and reject histories whose reconstructed schema output differs, including signed approvals with missing original input. Validate transformed UI tool inputs against the reconstructed output before returning them as static tool parts.\n\n- 2693319: Add Gemini 3.8 TTS support with structured speech metadata and per-turn speaker and style controls for prebuilt voices. Preserve native WAV responses without adding a second header, support explicit raw PCM, mu-law, and A-law output, and identify headerless audio formats correctly. Add the Gemini 3.8 speech model IDs to Google and Gateway types.\n\n  Share transcript and custom-voice inspection through the Google provider internal export, and reject empty speech transcripts before sending a request. Default newer and custom model IDs to structured speech while preserving the legacy format for Gemini 2.5 and 3.1.\n\n- c93ee90: fix(ai): preserve message history for direct transport stream callbacks\n- 771e74b: chore: enable dead code lint rules\n- Updated dependencies [fe07867]\n- Updated dependencies [a4b0940]\n- Updated dependencies [2693319]\n- Updated dependencies [b73f2f9]\n- Updated dependencies [771e74b]\n  - @ai-sdk/provider-utils@5.0.47\n  - @ai-sdk/gateway@4.0.91",
+      "published_at": "2026-09-23T21:43:43Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.113",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.19.1",
+      "tag_name": "v3.19.1",
+      "body": "## [3.19.1](https://github.com/openai/openai-python/compare/v3.19.0...v3.19.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* **chat:** preserve single-pass tool iterables ([#3770](https://github.com/openai/openai-python/issues/3770)) ([33ffa1f](https://github.com/openai/openai-python/commit/33ffa1f9fa4f49553ab0287b9359283be818fe40))\n* **client:** merge HTTP headers case-insensitively ([#3486](https://github.com/openai/openai-python/issues/3486)) ([5e39766](https://github.com/openai/openai-python/commit/5e39766dd7ba2802c97f5305721a621098cf0e38))\n\n\n### Chores\n\n* **api:** clarify Chat Completions seed limits ([#3945](https://github.com/openai/openai-python/issues/3945)) ([be9d666](https://github.com/openai/openai-python/commit/be9d66628ad7377bd36fe5a76ae6d735843f0e76))\n\n\n### Documentation\n\n* clarify collaborator-only pull request policy ([#3948](https://github.com/openai/openai-python/issues/3948)) ([ead1fa2](https://github.com/openai/openai-python/commit/ead1fa2473257ba5d7be08484aca4349649e6245))",
+      "published_at": "2026-09-23T19:15:40Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.1",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Flatkey Raises $10 Million Series A After Reaching 10,000 Developers - citybiz",
+      "tag_name": "citybiz",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T19:14:52Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLTFabHhITENaQlQ0RFMyZzR3eWFtVkt6SGMtdU9yY1haMnVzVWl1c01pb25Id29aVlFRWmc3Wm96dmVxd0ZkZy1MaHh0Z0d2VlRKZVZTYjdMZXdBQ1lmaVNGT1RLYi1hRHA3RVp6UGpQeXBqMWZvYzRjcFBpUUNQRlBCRC1MLVpnbjZmSlUydXNmQnQwOG42QXFBa2RJc0R1amQ4aHB6RGs?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-anthropic==1.7.4",
+      "tag_name": "langchain-anthropic==1.7.4",
+      "body": "Changes since langchain-anthropic==1.7.3\n\nchore(anthropic): fix integration test cassette (#40790)\nrelease(anthropic): 1.7.4 (#40786)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on `SystemMessage` (#40758)",
+      "published_at": "2026-09-23T17:56:03Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Flatkey Raises $10M Series A After Surpassing 10,000 Developers in Two Months - PR Newswire",
+      "tag_name": "PR Newswire",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T17:30:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHp2VU42NU5uNk14WlNGeDZIdEFudWx1VEd0d08xWTRaNG5rZzVMLURTT2FWMUtQQXlHQ3RFT1BXM3l6bUdDcUNyOGR6TWVLVDNVZTZkQkhFREdDTW04TDBLTlotek16ZnYySEVWNWhFRHhTSHREYkRCYjRBS2hISExCMVFRQ3dib2NQcld1UHJrSnllTlhPTXRFb3ZfTUU0M25wNG9fQU9HV1lLSS1xMkZ4OFoyY0lmb1ZaY3M4Zl9vX3doSVZ5Z2duTDM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T16:30:34Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "1.30.1",
+      "tag_name": "1.30.1",
+      "body": "## What's Changed\r\n* [v1.x] fix(server): read HTTP request bodies with a size limit and bound JSON-RPC batch length by @maxisbey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2717\r\n* fix(auth): preserve resource URI without trailing slash (#1968) by @MukundaKatta in https://github.com/modelcontextprotocol/typescript-sdk/pull/1972\r\n* chore: bump version to 1.30.1 by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2848\r\n\r\n## New Contributors\r\n* @MukundaKatta made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/1972\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/1.30.0...1.30.1",
+      "published_at": "2026-09-23T15:59:38Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.1",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server-legacy@2.1.0",
+      "tag_name": "@modelcontextprotocol/server-legacy@2.1.0",
+      "body": "### Patch Changes\n\n- Updated dependencies [[`dcc0102`](https://github.com/modelcontextprotocol/typescript-sdk/commit/dcc01028ff6a499a5728c2b6181c1727d52e2fab)]:\n    - @modelcontextprotocol/core@2.1.0",
+      "published_at": "2026-09-23T15:43:20Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server-legacy%402.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/node@2.1.0",
+      "tag_name": "@modelcontextprotocol/node@2.1.0",
+      "body": "### Minor Changes\n\n- [#1624](https://github.com/modelcontextprotocol/typescript-sdk/pull/1624) [`6032170`](https://github.com/modelcontextprotocol/typescript-sdk/commit/60321700871029401a2e3bed8fdf4f02c9ec3331) Thanks [@SamMorrowDrums](https://github.com/SamMorrowDrums)! - Add request-time OAuth scope challenges for tools, resources, resource templates,\n  and prompts. Each primitive's `scopeChallenge` callback receives the parsed\n  request and verified authentication info, then either continues or returns the\n  exact scope set for an `insufficient_scope` response. `requireScopes` provides a\n  small helper for static all-of checks.\n\n    `createMcpHandler` and Streamable HTTP transports return HTTP 403 with an\n    `insufficient_scope` challenge before handler execution or SSE setup. The\n    preflight is active whenever a registered primitive carries a `scopeChallenge`\n    callback — there is no handler- or transport-level configuration. The\n    challenge's `WWW-Authenticate` header is built by the same formatter as the\n    bearer-auth 401/403 answers, and its `resource_metadata` parameter is derived\n    from the verified `AuthInfo`: `requireBearerAuth` / `verifyBearerToken` now\n    stamp their configured `resourceMetadataUrl` onto the `AuthInfo` they return\n    (new optional `AuthInfo.resourceMetadataUrl` field), with a fallback to the\n    well-known location for an HTTP(S) RFC 8707 `resource` identifier; the\n    parameter is omitted when neither is available.\n\n### Patch Changes\n\n- [#2698](https://github.com/modelcontextprotocol/typescript-sdk/pull/2698) [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed) Thanks [@maxisbey](https://github.com/maxisbey)! - Read Streamable HTTP request bodies with a size limit. Every SDK-owned body read —\n  `WebStandardStreamableHTTPServerTransport` (and the Node transport built on it),\n  `createMcpHandler`, `toNodeHandler`, and `createMcpHonoApp`'s JSON pre-parse — now stops at\n  4 MiB by default (the limit the legacy SSE transport already uses; the Express adapter and stdio\n  bound their reads too) and answers `413 Payload Too Large` before anything is parsed.\n  `toWebRequest` (when it reads the Node stream itself) now rejects once the body exceeds the\n  limit with an error whose `name` is `'RequestBodyTooLargeError'` and `status` is `413`, and\n  `toNodeHandler` answers that with `413`; hand-wired callers of `toWebRequest` should handle the\n  rejection or pass a pre-parsed body, and `isLegacyRequest` reports such a request as non-legacy\n  so the modern handler answers it. JSON-RPC batch arrays are limited to 100 messages; a longer\n  batch is answered `400` / `-32600` and none of it is dispatched.\n\n    The limit is configurable with a new `maxRequestBodySize` option (bytes, default\n    `DEFAULT_MAX_REQUEST_BODY_SIZE` = 4 MiB, exported from `@modelcontextprotocol/server`) on\n    `WebStandardStreamableHTTPServerTransportOptions`, `CreateMcpHandlerOptions` (forwarded to its\n    stateless legacy leg; `isLegacyRequest` and `legacyStatelessFallback` take the same option),\n    `CreateMcpHonoAppOptions`, and `ToNodeHandlerOptions` / `ToWebRequestOptions` (the adapter's\n    bound applies before the handler's, so raise both). The bounded reader is exported as\n    `readRequestBody` for adapter authors. Hosts that pre-parse the body and pass it as\n    `parsedBody` skip the SDK's read and its size limit entirely; the batch bound applies either way.\n\n    `createMcpHonoApp` and `createMcpExpressApp` now run their Host/Origin validation before the\n    JSON body parser, so a request from a disallowed Host or Origin with an invalid JSON body is\n    answered `403` rather than `400`, and its body is not read.\n\n- Updated dependencies [[`6fa4227`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6fa42279fecaba423635072f716bbb2f6f7c77f3), [`03842cd`](https://github.com/modelcontextprotocol/typescript-sdk/commit/03842cd9cae9a9b142c77d2fb65e829fc4e03eab), [`3e90449`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3e90449fd52997da43b79a536d2c19c446603cc7), [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed), [`75dc7ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/75dc7ea6e2913e1ac37d4f06eec62cd5cfac9e7a), [`6032170`](https://github.com/modelcontextprotocol/typescript-sdk/commit/60321700871029401a2e3bed8fdf4f02c9ec3331), [`6a05402`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6a054025e8cebaecead76fb51d92ba3974e8d091), [`70de0c8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/70de0c8b569b0d664a56b90be2f141d1d1645880)]:\n    - @modelcontextprotocol/server@2.1.0",
+      "published_at": "2026-09-23T15:43:17Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/node%402.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/codemod@2.1.0",
+      "tag_name": "@modelcontextprotocol/codemod@2.1.0",
+      "body": "### Patch Changes\n\n- [#2765](https://github.com/modelcontextprotocol/typescript-sdk/pull/2765) [`5ecc791`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5ecc791d81a7221ebe15ae3ae3f36a8e978af820) Thanks [@claude](https://github.com/apps/claude)! - Project-type inference no longer counts bare SDK paths that appear only in ordinary string data. The v1→v2 codemod's source scanner matched any quoted `@modelcontextprotocol/sdk/client|server` subpath anywhere in a file, so a server path stored as data (example text, a log message, a config value) misclassified a client-only project as `both` — rewriting shared type imports to `@modelcontextprotocol/server` and adding a server dependency the project never uses. The scanner now requires a module-specifier position: static imports and re-exports (`from '...'`), side-effect imports, dynamic `import('...')` (including webpack magic comments), `require('...')` / `require.resolve('...')`, and the `vi.`/`jest.` mock-method calls the mock-paths transform rewrites. Known limitation: the scan is lexical, so a string whose text embeds a complete import statement still counts.",
+      "published_at": "2026-09-23T15:43:14Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/codemod%402.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server@2.1.0",
+      "tag_name": "@modelcontextprotocol/server@2.1.0",
+      "body": "### Minor Changes\n\n- [#1624](https://github.com/modelcontextprotocol/typescript-sdk/pull/1624) [`6032170`](https://github.com/modelcontextprotocol/typescript-sdk/commit/60321700871029401a2e3bed8fdf4f02c9ec3331) Thanks [@SamMorrowDrums](https://github.com/SamMorrowDrums)! - Add request-time OAuth scope challenges for tools, resources, resource templates,\n  and prompts. Each primitive's `scopeChallenge` callback receives the parsed\n  request and verified authentication info, then either continues or returns the\n  exact scope set for an `insufficient_scope` response. `requireScopes` provides a\n  small helper for static all-of checks.\n\n    `createMcpHandler` and Streamable HTTP transports return HTTP 403 with an\n    `insufficient_scope` challenge before handler execution or SSE setup. The\n    preflight is active whenever a registered primitive carries a `scopeChallenge`\n    callback — there is no handler- or transport-level configuration. The\n    challenge's `WWW-Authenticate` header is built by the same formatter as the\n    bearer-auth 401/403 answers, and its `resource_metadata` parameter is derived\n    from the verified `AuthInfo`: `requireBearerAuth` / `verifyBearerToken` now\n    stamp their configured `resourceMetadataUrl` onto the `AuthInfo` they return\n    (new optional `AuthInfo.resourceMetadataUrl` field), with a fallback to the\n    well-known location for an HTTP(S) RFC 8707 `resource` identifier; the\n    parameter is omitted when neither is available.\n\n### Patch Changes\n\n- [#2726](https://github.com/modelcontextprotocol/typescript-sdk/pull/2726) [`6fa4227`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6fa42279fecaba423635072f716bbb2f6f7c77f3) Thanks [@LuckTerence](https://github.com/LuckTerence)! - `SdkError` and `SdkHttpError` accept standard `ErrorOptions` as an optional fourth constructor argument and forward it to `Error`, so a wrapped error is reachable through the standard `Error.cause` chain. Version-negotiation probe failures (`SdkErrorCode.EraNegotiationFailed`) now use it: the underlying `TypeError: fetch failed` and the DNS or socket error beneath it surface via `error.cause`, so pino, Sentry, and `util.inspect` render `ENOTFOUND` / `ECONNREFUSED` / `ETIMEDOUT` instead of stopping at the `SdkError` (#2657). The previous `error.data.cause` slot is still populated for compatibility but is deprecated and slated for removal; read `error.cause` instead.\n\n- [#2654](https://github.com/modelcontextprotocol/typescript-sdk/pull/2654) [`03842cd`](https://github.com/modelcontextprotocol/typescript-sdk/commit/03842cd9cae9a9b142c77d2fb65e829fc4e03eab) Thanks [@pshah19](https://github.com/pshah19)! - Treat request id `0` as a real id. Two guards tested a `RequestId` for truthiness, so the legal JSON-RPC ids `0` and `''` were read as absent. Id `0` is not a corner case: the outbound request counter is zero-based, so it is the first id every peer assigns, which on the server→client leg is the first `sampling/createMessage`, `elicitation/create`, or `roots/list` a server sends.\n    - `notifications/cancelled` carrying id `0` was ignored, and the in-flight handler ran to completion with its `AbortSignal` never fired.\n    - A notification sent with `relatedRequestId: 0` wrongly passed the debounce gate (for methods opted into `debouncedNotificationMethods`). Because the pending set is keyed by method alone, a second such notification in the same tick was silently dropped rather than sent.\n\n    Absent is now the only value that means \"no id\".\n\n- [#2668](https://github.com/modelcontextprotocol/typescript-sdk/pull/2668) [`3e90449`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3e90449fd52997da43b79a536d2c19c446603cc7) Thanks [@KKonstantinov](https://github.com/KKonstantinov)! - Stop sending `notifications/cancelled` for the `initialize` handshake. The spec is explicit that a client MUST NOT attempt to cancel its `initialize` request, but the outbound cancel path fired for any in-flight request: aborting the `AbortSignal` passed to `connect()`, or letting the handshake hit its timeout, put a forbidden cancellation on the wire naming the initialize request id.\n\n    The local behaviour is unchanged — the caller's promise still rejects with the same abort/timeout error, and `connect()` still tears the connection down. Only the wire notification is suppressed. Every other method keeps the existing cancellation path.\n\n- [#2698](https://github.com/modelcontextprotocol/typescript-sdk/pull/2698) [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed) Thanks [@maxisbey](https://github.com/maxisbey)! - Read Streamable HTTP request bodies with a size limit. Every SDK-owned body read —\n  `WebStandardStreamableHTTPServerTransport` (and the Node transport built on it),\n  `createMcpHandler`, `toNodeHandler`, and `createMcpHonoApp`'s JSON pre-parse — now stops at\n  4 MiB by default (the limit the legacy SSE transport already uses; the Express adapter and stdio\n  bound their reads too) and answers `413 Payload Too Large` before anything is parsed.\n  `toWebRequest` (when it reads the Node stream itself) now rejects once the body exceeds the\n  limit with an error whose `name` is `'RequestBodyTooLargeError'` and `status` is `413`, and\n  `toNodeHandler` answers that with `413`; hand-wired callers of `toWebRequest` should handle the\n  rejection or pass a pre-parsed body, and `isLegacyRequest` reports such a request as non-legacy\n  so the modern handler answers it. JSON-RPC batch arrays are limited to 100 messages; a longer\n  batch is answered `400` / `-32600` and none of it is dispatched.\n\n    The limit is configurable with a new `maxRequestBodySize` option (bytes, default\n    `DEFAULT_MAX_REQUEST_BODY_SIZE` = 4 MiB, exported from `@modelcontextprotocol/server`) on\n    `WebStandardStreamableHTTPServerTransportOptions`, `CreateMcpHandlerOptions` (forwarded to its\n    stateless legacy leg; `isLegacyRequest` and `legacyStatelessFallback` take the same option),\n    `CreateMcpHonoAppOptions`, and `ToNodeHandlerOptions` / `ToWebRequestOptions` (the adapter's\n    bound applies before the handler's, so raise both). The bounded reader is exported as\n    `readRequestBody` for adapter authors. Hosts that pre-parse the body and pass it as\n    `parsedBody` skip the SDK's read and its size limit entirely; the batch bound applies either way.\n\n    `createMcpHonoApp` and `createMcpExpressApp` now run their Host/Origin validation before the\n    JSON body parser, so a request from a disallowed Host or Origin with an invalid JSON body is\n    answered `403` rather than `400`, and its body is not read.\n\n- [#2590](https://github.com/modelcontextprotocol/typescript-sdk/pull/2590) [`75dc7ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/75dc7ea6e2913e1ac37d4f06eec62cd5cfac9e7a) Thanks [@davidpavlovschi](https://github.com/davidpavlovschi)! - Reject a modern (2026-07-28) POST that omits the required `MCP-Protocol-Version` header.\n\n    `createMcpHandler` accepted a request whose body carried a valid per-request `_meta`\n    envelope but whose `MCP-Protocol-Version` header was absent: the request was classified\n    modern, dispatched, and answered `200` — tool handlers ran. Only the _mismatch_ case\n    (header present, disagreeing with the body) was rejected, so of the standard headers\n    SEP-2243 requires on a modern POST, presence was enforced for `Mcp-Method` (and for\n    `Mcp-Name` on the methods that mirror `params.name` / `params.uri`) but not for\n    `MCP-Protocol-Version`.\n\n    Such a request is now refused with `400 Bad Request` and JSON-RPC `-32020`\n    (`HeaderMismatch`), matching the shape the sibling missing-header cells already emit and\n    echoing the request id — per the Streamable HTTP spec, which requires the header on every\n    POST and lists a missing required standard header as a `HeaderMismatch` failure. The\n    spec's allowance to treat a header-less request as `2025-03-26` is available only to a\n    server that also serves pre-2025-06-18 clients, and permits routing it to _legacy_\n    handling — never serving it as 2026-07-28; under `legacy: 'reject'` the requirement is\n    unconditional.\n\n    Era classification is deliberately unchanged and stays body-primary: a proxy that strips\n    the header still must not change the era, so such a request is still _classified_ modern\n    and is refused one rung later, at `standard-header-validation` — the same rung that\n    already answers a missing `Mcp-Method`. Legacy-era traffic is untouched, notifications\n    are unaffected, body-less `GET` / `DELETE` session operations are method-routed before\n    any header validation, and stdio serving (which has no HTTP headers) is not involved.\n\n    Clients built with this SDK always send the header, so no first-party client is affected;\n    hand-rolled clients that omitted it must add it.\n\n- [#2494](https://github.com/modelcontextprotocol/typescript-sdk/pull/2494) [`6a05402`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6a054025e8cebaecead76fb51d92ba3974e8d091) Thanks [@claude](https://github.com/apps/claude)! - `StdioServerTransport` now closes itself and fires `onclose` when its stdin ends or closes. The stdio binding says servers \"SHOULD exit promptly when their standard input is closed\" — stdin EOF is the primary graceful-shutdown signal, and on some platforms (notably Windows, where no signal is delivered when the parent goes away) the only reliable one. Previously the transport listened only for `data` and `error`, so when an MCP client hung up its end of the pipe (window closed, session restarted, host crashed) the server never noticed: `onclose` never fired, nothing tore down, and server processes accumulated as zombies until killed by hand. The transport now attaches `end`/`close` listeners on stdin that close the transport (idempotently — `onclose` still fires exactly once if `close()` is also called), so `Server`/`McpServer` and `serveStdio` tear down through the existing `onclose` chain and a well-behaved server process exits naturally. Requests still in flight when stdin ends are aborted (their handlers observe `signal.aborted`) and their responses are not written: EOF means the client has hung up and is no longer waiting. A client that wants answers keeps stdin open until it has read them.\n\n- [#2613](https://github.com/modelcontextprotocol/typescript-sdk/pull/2613) [`70de0c8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/70de0c8b569b0d664a56b90be2f141d1d1645880) Thanks [@jwcarman](https://github.com/jwcarman)! - Emit and validate the `Mcp-Name` header for tasks requests per SEP-2663's Streamable HTTP binding: the client transport now mirrors `params.taskId` into `Mcp-Name` on `tasks/get` / `tasks/update` / `tasks/cancel` (previously omitted, causing conforming servers to reject every task poll with `-32020 HeaderMismatch`), and the server-side standard-header validation cross-checks it via the same shared `MCP_NAME_HEADER_SOURCE` table.\n\n    On the server, `createMcpHandler` now answers a modern (2026-07-28) `tasks/get` / `tasks/update` / `tasks/cancel` POST that omits `Mcp-Name`, or whose header disagrees with `params.taskId`, with `400` / `-32020` (`HeaderMismatch`) at the `standard-header-validation` rung, the same treatment `tools/call` / `prompts/get` / `resources/read` already get. Legacy-era (2025-11-25) tasks traffic is unaffected. Clients built with this SDK release send the header; hand-rolled clients that omitted it must add it.\n\n- Updated dependencies [[`dcc0102`](https://github.com/modelcontextprotocol/typescript-sdk/commit/dcc01028ff6a499a5728c2b6181c1727d52e2fab)]:\n    - @modelcontextprotocol/core@2.1.0",
+      "published_at": "2026-09-23T15:43:11Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/core@2.1.0",
+      "tag_name": "@modelcontextprotocol/core@2.1.0",
+      "body": "### Minor Changes\n\n- [#2629](https://github.com/modelcontextprotocol/typescript-sdk/pull/2629) [`dcc0102`](https://github.com/modelcontextprotocol/typescript-sdk/commit/dcc01028ff6a499a5728c2b6181c1727d52e2fab) Thanks [@gbshankar](https://github.com/gbshankar)! - Add DPoP (RFC 9449 / SEP-1932) sender-constrained access token support to the client.\n    - Opt in by implementing `OAuthClientProvider.dpop()` returning a `DpopSession` (new, along with `generateDpopKeyPair`, `accessTokenHash`, `isDpopNonceChallenge`). `auth()` / `exchangeAuthorization` / `refreshAuthorization` / `fetchToken` then sign a DPoP proof into token requests (retrying once on an authorization-server `use_dpop_nonce` challenge, with client authentication re-applied per attempt), and `StreamableHTTPClientTransport`, `SSEClientTransport` and `withOAuth` present a `token_type: \"DPoP\"` access token as `Authorization: DPoP <token>` plus a fresh per-request proof, retry a resource-server `use_dpop_nonce` challenge once, and pick up a `DPoP-Nonce` delivered on any response. Tokens the AS issued as `Bearer` are still presented as Bearer.\n    - DPoP is applied at the fetch layer: the transports wrap their resource-server `fetch` (including a caller-supplied `fetch` / `eventSourceInit.fetch`) with the new `withDpopFromProvider(provider)` middleware, so proofs are always bound to the request actually sent. `withDpop(session, getToken)` is exported for callers that manage tokens themselves (e.g. alongside a minimal `AuthProvider`); the `AuthProvider` interface itself is unchanged.\n    - `auth()` now recovers from `invalid_dpop_proof` on refresh (e.g. a refresh token bound to a key that is no longer held) by discarding the tokens and re-authorizing, like `invalid_grant`. `OAuthErrorCode` gains `InvalidDpopProof` and `UseDpopNonce`; `extractWWWAuthenticateParams` recognizes the `DPoP` challenge scheme; `OAuthMetadataSchema` gains `dpop_signing_alg_values_supported`.",
+      "published_at": "2026-09-23T15:43:08Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/core%402.1.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/express@2.0.1",
+      "tag_name": "@modelcontextprotocol/express@2.0.1",
+      "body": "### Patch Changes\n\n- [#2698](https://github.com/modelcontextprotocol/typescript-sdk/pull/2698) [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed) Thanks [@maxisbey](https://github.com/maxisbey)! - Read Streamable HTTP request bodies with a size limit. Every SDK-owned body read —\n  `WebStandardStreamableHTTPServerTransport` (and the Node transport built on it),\n  `createMcpHandler`, `toNodeHandler`, and `createMcpHonoApp`'s JSON pre-parse — now stops at\n  4 MiB by default (the limit the legacy SSE transport already uses; the Express adapter and stdio\n  bound their reads too) and answers `413 Payload Too Large` before anything is parsed.\n  `toWebRequest` (when it reads the Node stream itself) now rejects once the body exceeds the\n  limit with an error whose `name` is `'RequestBodyTooLargeError'` and `status` is `413`, and\n  `toNodeHandler` answers that with `413`; hand-wired callers of `toWebRequest` should handle the\n  rejection or pass a pre-parsed body, and `isLegacyRequest` reports such a request as non-legacy\n  so the modern handler answers it. JSON-RPC batch arrays are limited to 100 messages; a longer\n  batch is answered `400` / `-32600` and none of it is dispatched.\n\n    The limit is configurable with a new `maxRequestBodySize` option (bytes, default\n    `DEFAULT_MAX_REQUEST_BODY_SIZE` = 4 MiB, exported from `@modelcontextprotocol/server`) on\n    `WebStandardStreamableHTTPServerTransportOptions`, `CreateMcpHandlerOptions` (forwarded to its\n    stateless legacy leg; `isLegacyRequest` and `legacyStatelessFallback` take the same option),\n    `CreateMcpHonoAppOptions`, and `ToNodeHandlerOptions` / `ToWebRequestOptions` (the adapter's\n    bound applies before the handler's, so raise both). The bounded reader is exported as\n    `readRequestBody` for adapter authors. Hosts that pre-parse the body and pass it as\n    `parsedBody` skip the SDK's read and its size limit entirely; the batch bound applies either way.\n\n    `createMcpHonoApp` and `createMcpExpressApp` now run their Host/Origin validation before the\n    JSON body parser, so a request from a disallowed Host or Origin with an invalid JSON body is\n    answered `403` rather than `400`, and its body is not read.\n\n- Updated dependencies [[`6fa4227`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6fa42279fecaba423635072f716bbb2f6f7c77f3), [`03842cd`](https://github.com/modelcontextprotocol/typescript-sdk/commit/03842cd9cae9a9b142c77d2fb65e829fc4e03eab), [`3e90449`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3e90449fd52997da43b79a536d2c19c446603cc7), [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed), [`75dc7ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/75dc7ea6e2913e1ac37d4f06eec62cd5cfac9e7a), [`6032170`](https://github.com/modelcontextprotocol/typescript-sdk/commit/60321700871029401a2e3bed8fdf4f02c9ec3331), [`6a05402`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6a054025e8cebaecead76fb51d92ba3974e8d091), [`70de0c8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/70de0c8b569b0d664a56b90be2f141d1d1645880)]:\n    - @modelcontextprotocol/server@2.1.0",
+      "published_at": "2026-09-23T15:43:02Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/express%402.0.1",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/hono@2.0.1",
+      "tag_name": "@modelcontextprotocol/hono@2.0.1",
+      "body": "### Patch Changes\n\n- [#2698](https://github.com/modelcontextprotocol/typescript-sdk/pull/2698) [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed) Thanks [@maxisbey](https://github.com/maxisbey)! - Read Streamable HTTP request bodies with a size limit. Every SDK-owned body read —\n  `WebStandardStreamableHTTPServerTransport` (and the Node transport built on it),\n  `createMcpHandler`, `toNodeHandler`, and `createMcpHonoApp`'s JSON pre-parse — now stops at\n  4 MiB by default (the limit the legacy SSE transport already uses; the Express adapter and stdio\n  bound their reads too) and answers `413 Payload Too Large` before anything is parsed.\n  `toWebRequest` (when it reads the Node stream itself) now rejects once the body exceeds the\n  limit with an error whose `name` is `'RequestBodyTooLargeError'` and `status` is `413`, and\n  `toNodeHandler` answers that with `413`; hand-wired callers of `toWebRequest` should handle the\n  rejection or pass a pre-parsed body, and `isLegacyRequest` reports such a request as non-legacy\n  so the modern handler answers it. JSON-RPC batch arrays are limited to 100 messages; a longer\n  batch is answered `400` / `-32600` and none of it is dispatched.\n\n    The limit is configurable with a new `maxRequestBodySize` option (bytes, default\n    `DEFAULT_MAX_REQUEST_BODY_SIZE` = 4 MiB, exported from `@modelcontextprotocol/server`) on\n    `WebStandardStreamableHTTPServerTransportOptions`, `CreateMcpHandlerOptions` (forwarded to its\n    stateless legacy leg; `isLegacyRequest` and `legacyStatelessFallback` take the same option),\n    `CreateMcpHonoAppOptions`, and `ToNodeHandlerOptions` / `ToWebRequestOptions` (the adapter's\n    bound applies before the handler's, so raise both). The bounded reader is exported as\n    `readRequestBody` for adapter authors. Hosts that pre-parse the body and pass it as\n    `parsedBody` skip the SDK's read and its size limit entirely; the batch bound applies either way.\n\n    `createMcpHonoApp` and `createMcpExpressApp` now run their Host/Origin validation before the\n    JSON body parser, so a request from a disallowed Host or Origin with an invalid JSON body is\n    answered `403` rather than `400`, and its body is not read.\n\n- Updated dependencies [[`6fa4227`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6fa42279fecaba423635072f716bbb2f6f7c77f3), [`03842cd`](https://github.com/modelcontextprotocol/typescript-sdk/commit/03842cd9cae9a9b142c77d2fb65e829fc4e03eab), [`3e90449`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3e90449fd52997da43b79a536d2c19c446603cc7), [`7b781ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7b781ed4e25355a25d15974f3c76de81299694ed), [`75dc7ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/75dc7ea6e2913e1ac37d4f06eec62cd5cfac9e7a), [`6032170`](https://github.com/modelcontextprotocol/typescript-sdk/commit/60321700871029401a2e3bed8fdf4f02c9ec3331), [`6a05402`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6a054025e8cebaecead76fb51d92ba3974e8d091), [`70de0c8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/70de0c8b569b0d664a56b90be2f141d1d1645880)]:\n    - @modelcontextprotocol/server@2.1.0",
+      "published_at": "2026-09-23T15:42:59Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/hono%402.0.1",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-openai==1.6.5",
+      "tag_name": "langchain-openai==1.6.5",
+      "body": "Changes since langchain-openai==1.6.4\n\nrelease(openai): 1.6.5 (#40787)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on `SystemMessage` (#40758)",
+      "published_at": "2026-09-23T15:31:52Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Laravel AI SDK 1.0 Adds Classification and Tool Approvals - Laravel News",
+      "tag_name": "Laravel News",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T14:50:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aeVoxa3loSnJDT19OLTM2N2RycGh3YjdGTnJCTlpQVjVOVGlacHkxY09mSDMxRFlhTzN4RU1IcTJIX1lOLVk2NnJ0QjIyRXd5dEtZUmZn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Q.ANT Launches World First Open-Source SDK for Photonic Computing - GlobeNewswire",
+      "tag_name": "GlobeNewswire",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T12:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORlVxQWNJOFFKczV0S1MyVUZZQU9Qb2UyWG8xUE84bzYtNDFTYUVJaExaOVpNeGdybGdfdV9QUHFrVnotNmhVR2NmVFh2Yzc3Z0RpSGdOM09UekI3RGZMQXJYaUxoWjlMYkVDSDRlREROMWN1STJhTTJpS1NlWU9KTHNUaTBiY1Y0QWRpQ1Q5Yi1wZ1J6bmhkdVhVdXdzb1RzQktKaTUtaGt0VUlBVkpTT2lYVlp3UmxoWld2N1otWnZ1VjVFbVZSM1ItWlVENlVPMGxJ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.289",
+      "tag_name": "ai@6.0.289",
+      "body": "### Patch Changes\n\n- 86f0089: fix(ai): prevent preliminary tool outputs from completing chats\n- da2e17b: fix(provider): preserve opaque file URI strings for provider serialization\n- f211ce5: fix(ai): prevent duplicate content types in chat transport requests\n- 2f1488e: Fix streamed tool input callbacks firing out of order on newer Node.js versions by awaiting start and delta callbacks before invoking `onInputAvailable`.\n- Updated dependencies [da2e17b]\n- Updated dependencies [0b9d00b]\n  - @ai-sdk/provider@3.0.17\n  - @ai-sdk/gateway@3.0.199\n  - @ai-sdk/provider-utils@4.0.53",
+      "published_at": "2026-09-23T11:22:11Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.289",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T09:04:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04Z3otalVNQ3hpd1BObGpQX1pXZjVuS2o5aXE3TkdKQ0pZSVl4dWl2RVFieWVJRWFpeDlVbnA4SUEybkctYmdIamZzYlZMRkhGSVNwU3Bvb2ppT1ZWSXc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.16",
+      "tag_name": "@ai-sdk/zai@3.0.16",
+      "body": "### Patch Changes\n\n- Updated dependencies [ffb0e76]\n  - @ai-sdk/provider@4.0.18\n  - @ai-sdk/openai-compatible@3.0.54\n  - @ai-sdk/provider-utils@5.0.46",
+      "published_at": "2026-09-23T08:41:13Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.16",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.112",
+      "tag_name": "ai@7.0.112",
+      "body": "### Patch Changes\n\n- 9a98fd9: fix(ai): prune reasoning file parts when removing reasoning\n- a0553d6: feat(ai): report consumer cancellation in UI message stream end callbacks\n- ffb0e76: fix(provider): preserve opaque file URI strings for provider serialization\n- fde0d66: fix(ai): preserve parsed metadata and data values when validating UI messages\n- Updated dependencies [ed5a1d7]\n- Updated dependencies [ffb0e76]\n- Updated dependencies [618dc11]\n  - @ai-sdk/gateway@4.0.90\n  - @ai-sdk/provider@4.0.18\n  - @ai-sdk/provider-utils@5.0.46",
+      "published_at": "2026-09-23T08:37:22Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.112",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.264",
+      "tag_name": "ai@5.0.264",
+      "body": "### Patch Changes\n\n- 594787e: fix(provider): preserve opaque file URI strings for provider serialization\n- 7b19d17: fix(ai): prevent duplicate content types in chat transport requests\n- 907e4c9: Fix streamed tool input callbacks firing out of order on newer Node.js versions by awaiting start and delta callbacks before invoking `onInputAvailable`.\n- Updated dependencies [594787e]\n- Updated dependencies [391ad4a]\n  - @ai-sdk/provider@2.0.5\n  - @ai-sdk/gateway@2.0.156\n  - @ai-sdk/provider-utils@3.0.38",
+      "published_at": "2026-09-23T08:33:09Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.264",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "Muse大火之际，Meta Connect重磅来袭：AI+智能穿戴会否带来全新惊喜 - 财联社",
+      "tag_name": "财联社",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T03:38:39Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9rTTBjMEpLZ3o2SDU1eTBIam5CbVBxVGxTSUU2NTBBakZzcF9QRTExMWNUVHUwQmdfc3VqUnA3X2xVUWx5Umc?oc=5",
       "kind": "news"
     },
     {
       "source": "ollama/ollama",
       "name": "v0.34.4",
-      "tag_name": "v0.34.4-rc0",
-      "body": "## What's Changed\r\n* server: fix intermittent \"model not found\" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438\r\n* server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479\r\n* app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601\r\n* llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18576\r\n* mlx: select Gemma 4 image resolution dynamically by @dhiltgen in https://github.com/ollama/ollama/pull/18603\r\n* mlx: speed up Qwen 3.8 prompt processing by @dhiltgen in https://github.com/ollama/ollama/pull/18550\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4-rc0",
+      "tag_name": "v0.34.4",
+      "body": "## What's Changed\r\n\r\n- Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\r\n- Fixed intermittent \"model not found\" errors with a large local library\r\n- Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\r\n- Qwen 3.8 prompt processing is faster on Apple Silicon.\r\n- Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n- Updated llama.cpp, MLX, and XGrammar.\r\n \r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4",
       "published_at": "2026-09-23T02:24:43Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
       "kind": "release"
     },
     {
@@ -28,6 +280,15 @@
       "published_at": "2026-09-23T00:08:02Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "Cursor 最新动态 — 最新更新与发布说明 - Cursor",
+      "tag_name": "Cursor",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T00:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0td3NNU1BMUDUybHM4MEp0RnFEaUlXSXJIOWgxeFBRM2FqNG83d3V0VVQ4U0ZTYUtTVC1KczRfYkpkWm9pUHc?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -49,15 +310,6 @@
     },
     {
       "source": "news:en",
-      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T21:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "OpenAI Launches GPT-6 Sol And Luna With 50% Lower API Pricing - Pulse 2.0",
       "tag_name": "Pulse 2.0",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -72,60 +324,6 @@
       "body": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
       "published_at": "2026-09-22T18:25:48Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.18.0",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.42",
-      "tag_name": "@ai-sdk/workflow@2.0.42",
-      "body": "### Patch Changes\n\n- Updated dependencies [31d24ce]\n- Updated dependencies [a65bfd9]\n  - ai@7.0.111",
-      "published_at": "2026-09-22T18:10:17Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.42",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.111",
-      "tag_name": "ai@7.0.111",
-      "body": "### Patch Changes\n\n- 31d24ce: feat: add telemetry support to `experimental_evaluate`\n- a65bfd9: fix(ai): securely download URL-backed language model file outputs so generated files expose actual base64 and byte content and UI streams contain valid data URLs. Propagate cancellation to batch file downloads.",
-      "published_at": "2026-09-22T18:08:56Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.111",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.41",
-      "tag_name": "@ai-sdk/workflow@2.0.41",
-      "body": "### Patch Changes\n\n- ai@7.0.110",
-      "published_at": "2026-09-22T17:23:22Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.41",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.110",
-      "tag_name": "ai@7.0.110",
-      "body": "### Patch Changes\n\n- Updated dependencies [49295bb]\n  - @ai-sdk/gateway@4.0.89",
-      "published_at": "2026-09-22T17:21:43Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.110",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.263",
-      "tag_name": "ai@5.0.263",
-      "body": "### Patch Changes\n\n- Updated dependencies [79c34cc]\n  - @ai-sdk/gateway@2.0.155",
-      "published_at": "2026-09-22T17:19:43Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.263",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.288",
-      "tag_name": "ai@6.0.288",
-      "body": "### Patch Changes\n\n- Updated dependencies [bd8bf1f]\n  - @ai-sdk/gateway@3.0.198",
-      "published_at": "2026-09-22T17:19:11Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.288",
       "kind": "release"
     },
     {
@@ -144,24 +342,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-22T13:14:26Z",
       "html_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdjBVNDRmajkzWDRUZnFEYlNvQTZNVWhwOFVUR0k5OC1lejV5OEN2dlh4eVdkT2dpbFhCQk1GZGIyVVNZTFJ5cV9qSTVxWmdZNHJFZ0dOWXZSSHVOZ2tsdTdnb3NwU3BuR1VjbHI2VEZ4Tjk1cG5Fd0ZNcTVBTk1zZVpxUm5Tb2hxVHo5d0MyWFJGNEt2SEpRMjVaS25rYVlFaE1JUng5TWFGX3JtZXNfZHZQTnRyMFZ4cHZDLVEyZGEwc1FVLWZJbm1XdFQ3U1FOTWZPYWNXOTdvNHhUVmx1WDZZUjRidw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Introducing CAIRN: Frontier tracking for AI-integrated malware - Cisco Talos Blog",
-      "tag_name": "Cisco Talos Blog",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T10:03:09Z",
-      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2FLMlBTZ1AxZW1OdklFS1NDb1AwTEk3M2h2V05tckxUODRpVGs5Rmc5bDNPOXg4UUY4S0VsdHB2RlZJZFBpYnMtVTRIblQ3VFJHc0tyaFJpejBSaGhmMXFKN21ndm9aLXI0YlZEQ29LZ0h3cnJRTTdiaTFhSWFDMEkwZEtEY1BHbTR2c1JyREl3M1dWM3FUXzJFRkk4dw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Abacus AI Releases Free, Open-Source Abacus AI Bot for Developers - AiThority",
-      "tag_name": "AiThority",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T07:53:43Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPay1BYmNNUDZzWHlNaG5kNmZxTk5wM2pXN1FuaVMwQmFIczJfa2t4Nk5GWUc4RjNnajRBTHhielRvTWJKYjY4aTZlSlpLZ1d3TDkxZGtDR2RzYlc4VzVEcTVOdWYxUUYzcTAyLVhObEhGdDgwdG1HdDlEbmREUkdZbnVhYUpzQ3VFSVU3WHRfMkRzd1Z5YUVDYXlVRjM5NG41dkZSUHRrVQ?oc=5",
       "kind": "news"
     },
     {
@@ -201,24 +381,6 @@
       "kind": "news"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.40",
-      "tag_name": "@ai-sdk/workflow@2.0.40",
-      "body": "### Patch Changes\n\n- Updated dependencies [0343bb1]\n- Updated dependencies [2b105fa]\n- Updated dependencies [125f493]\n  - ai@7.0.109",
-      "published_at": "2026-09-22T03:22:35Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.40",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.109",
-      "tag_name": "ai@7.0.109",
-      "body": "### Patch Changes\n\n- 0343bb1: fix(ai): keep replacement completion requests loading and cancellable when an earlier request settles\n- 2b105fa: fix(ai): preserve overlapping text blocks in reasoning extraction streams\n- 125f493: fix(harness): forward validated `toolsContext` to host-executed tools in alignment with `ToolLoopAgent`",
-      "published_at": "2026-09-22T03:20:59Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.109",
-      "kind": "release"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.17.0",
       "tag_name": "v3.17.0",
@@ -238,47 +400,11 @@
     },
     {
       "source": "news:en",
-      "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - The AI Economy | Ken Yeung",
-      "tag_name": "The AI Economy | Ken Yeung",
+      "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - theaieconomy.substack.com",
+      "tag_name": "theaieconomy.substack.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-21T16:02:49Z",
       "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZVd4S2xtQjVmaG1pb01EOW9zWThOVk1paEsweC1SMGFMYXJ4bmtzQ0RYYmlLNTdZaG90cllPOThIVksxSXdsenZEODNvOGxLeUNFWG9vbU8zcThUVm1fNHNMd01GZEhXYURKNw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-core==1.6.4",
-      "tag_name": "langchain-core==1.6.4",
-      "body": "Changes since langchain-core==1.6.3\n\nrelease(core): 1.6.4 (#40718)\nchore(core): deprecate chat message history (#40711)\nchore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core (#40634)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core (#40574)",
-      "published_at": "2026-09-21T15:51:23Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-typesafe==0.0.1a3",
-      "tag_name": "langchain-typesafe==0.0.1a3",
-      "body": "Initial release\n\nrelease(typesafe): 0.0.1a3 (#40693)\nfeat(typesafe): make classifier questions invocation-scoped (#40659)\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
-      "published_at": "2026-09-20T18:54:54Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
-      "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "中美AI模型开发周期缩短至1/3，平均44天 - 36kr.com",
-      "tag_name": "36kr.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-20T18:10:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWUFpUmQ3Z2FHRXNaelVOMXQxY0VHc0hreTNkdld2dkZDU2lLdVBlZzNBdjlKdDBIN2RCT0JtQVU4TUZOdHhqSlEySklQUQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text - MarkTechPost",
-      "tag_name": "MarkTechPost",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-19T18:41:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE50UkR5alh0Y0wyODFWbFRHZVZ0dTBpb0dlZnhBRTJ5TzN0aWoyWnZ1Ynl3ZWFQVHo4aUNrRG4xdFVHVXBkb1JmdFk2R0lwbWdPdzlaMy01NDB5VUVGVjV5cm5YV1A5bUZpRTFJR2lRME94R03SAXhBVV95cUxPVFpfbHhidFNRQ1JlYllPbldPd080alJ2aFZJM3BOVVNrSUlvX0hqaG1iVHBRcEJaajN0XzlZN2NkQVBXekRyeVhNcVlfQUpOb1dWTGxIc2M2VjZKTm9DOHhNYTg2amZ5Szl5S1IxdmNyUnNxWTlfdm0?oc=5",
       "kind": "news"
     },
     {
@@ -292,8 +418,8 @@
     },
     {
       "source": "news:en",
-      "name": "Google and Speakeasy Open-Source SDK Generator After Vendor Shutdown - adtmag.com",
-      "tag_name": "adtmag.com",
+      "name": "Google and Speakeasy Open-Source SDK Generator After Vendor Shutdown - ADTmag",
+      "tag_name": "ADTmag",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-18T23:04:37Z",
       "html_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0h4Wl9pWlBsM2FpOW1Fd3ZfTzg2MWRSeXplS2ZHaXd2NHZsT1ZOZzgzUWJtWVRhaDN1Vnd3X3NlYmVVajFOZnRpZXhDeFpCVk5CVGNsM1pieThlRmZVVWZRWV8zcmNMb3lJOGVQUGNBVFphd2hlRDQxWVVIUDVVR2ltX3Y1VV8xbFNKd0xlX3FhRmZjVnBGMk5JeDdHLVhzb0J2TnotOEw1M2s1d3V5ZmJn?oc=5",
@@ -310,8 +436,8 @@
     },
     {
       "source": "news:en",
-      "name": "Higgsfield Expands Developer Access With APIs and GitHub Tools - entarabi.com",
-      "tag_name": "entarabi.com",
+      "name": "Higgsfield Expands Developer Access With APIs and GitHub Tools - entARABI",
+      "tag_name": "entARABI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-18T19:08:01Z",
       "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0pGMGVUUjUwbzcwajkyWTlBVG5KLTdUenFnSjVkb2trV2tGeldKT0dQUHEybG5iUWRKV2VFVGpRSVBKbzl0b0N5Nm9sSGFGdG5rVkdqTGp5RVR6dUxxdm5RQU1SRHlySEtNQzV4NldUblpaeS1neVYzSnFVSTdyM0d5eUU3YThjM2o1TEtFRHA1YVQ4RV9ILU1fdw?oc=5",
@@ -346,26 +472,17 @@
     },
     {
       "source": "news:zh",
-      "name": "智谱旗下AI 编程工具ZCode 被扒静默上传完整Git 历史 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "name": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-18T10:25:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MU3hmZy1QQkZpdGgtU3ItY1JiN3ZERU84aG9maTZYZmNXNHozTXRiNGtYR2FGX202clJZaXpKRXhXMlgxQzRvaFVjOA?oc=5",
+      "published_at": "2026-09-18T08:03:46Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPTElQa2ZLOEY1YkI0TFB4ZGxQZFJkd3BySnRFaGRxX21YeXY4bGRRc1lTSUI1WGFEZkozSDNIbnkwNGFoek9rTTNQVQ?oc=5",
       "kind": "news"
     },
     {
-      "source": "openai/openai-python",
-      "name": "v3.15.0",
-      "tag_name": "v3.15.0",
-      "body": "## [3.15.0](https://github.com/openai/openai-python/compare/v3.14.1...v3.15.0) (2026-09-18)\n\n\n### Features\n\n* **api:** add agent session model settings ([#3882](https://github.com/openai/openai-python/issues/3882)) ([4b15817](https://github.com/openai/openai-python/commit/4b1581771ea97c870187f6ddfc3dbc87ff4fa443))\n* **api:** add audio-mini model choices ([#3886](https://github.com/openai/openai-python/issues/3886)) ([a6eeb3f](https://github.com/openai/openai-python/commit/a6eeb3f5a468ec576d2c911c19ce59c56ac46e43))\n* **api:** add compaction progress events ([#3866](https://github.com/openai/openai-python/issues/3866)) ([98e1d24](https://github.com/openai/openai-python/commit/98e1d24f4902ab58830adf0e2b6a729a5d5429b1))\n* **api:** add managed Responses WebSocket sessions ([#3887](https://github.com/openai/openai-python/issues/3887)) ([3b865af](https://github.com/openai/openai-python/commit/3b865af92e8dc65e14ab6d565304fe778bac1eef))\n* **api:** add prompt-cache prewarming ([#3888](https://github.com/openai/openai-python/issues/3888)) ([8f7cdb8](https://github.com/openai/openai-python/commit/8f7cdb80410434d29daed90895112a39936eb4fe))\n\n\n### Bug Fixes\n\n* preserve chat stream moderation results ([#3864](https://github.com/openai/openai-python/issues/3864)) ([b77076d](https://github.com/openai/openai-python/commit/b77076d23b6f3e34453b0fadd8cd2a001627e365))\n\n\n### Chores\n\n* **api:** clarify incoming SIP call ID usage ([#3885](https://github.com/openai/openai-python/issues/3885)) ([f0457ab](https://github.com/openai/openai-python/commit/f0457aba3403f83e91a369ab55e0e55d5f012372))\n* **api:** update image request examples ([#3889](https://github.com/openai/openai-python/issues/3889)) ([bb79676](https://github.com/openai/openai-python/commit/bb796764118004f8c9b0b0a46e07e5e55cfe34e4))\n\n\n### Documentation\n\n* **realtime:** remove nonexistent type imports ([#3869](https://github.com/openai/openai-python/issues/3869)) ([2971aaf](https://github.com/openai/openai-python/commit/2971aafce5c1966fc56efd00918b16314063284e))",
-      "published_at": "2026-09-18T00:52:15Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.15.0",
-      "kind": "release"
-    },
-    {
       "source": "news:zh",
-      "name": "2026智能网络开发者大会：银河网上平台引领网络工具链革新 - 体坛加",
-      "tag_name": "体坛加",
+      "name": "2026智能网络开发者大会：银河网上平台引领网络工具链革新 - 体坛",
+      "tag_name": "体坛",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-18T00:40:16Z",
       "html_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHcjctOUVWbFhPODlpZ0ZFdE41RmhUbkVNUzF6ZlRJeHlIcGd6T1FNSXlEUE1VVzRaR2RTMjJUcmVacDd6LW1TeldINlh3UVhXTUhSdVRVajg1emJsN2xkTDVmdUFkdXE4VExaTEhwNWdBNVBXMTczMmZZQUhIZw?oc=5",
@@ -373,11 +490,29 @@
     },
     {
       "source": "news:zh",
-      "name": "昨夜今晨：365亚洲手机版官网登录芯片发布 智能终端生态升级 全球AI算力竞赛加剧 - 体坛加",
-      "tag_name": "体坛加",
+      "name": "华体汇app官网重磅升级：AI智能注册引擎与多平台同步功能全面上线-体坛网_体坛+ - 体坛",
+      "tag_name": "体坛",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T19:27:37Z",
+      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoQkl2Nm81R1NRSkRTbC1BRDUyMUZGZzhzd05fQ2xHbk5tVTdkRWtoVndYLXNUN3hjbnhsU2FveWREejBxeFBGRl9Kc0sxeGh6T3NwcGZYeXVTUUFSX0JtaE1Bb1ExZnpjWERr?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "昨夜今晨：365亚洲手机版官网登录芯片发布 智能终端生态升级 全球AI算力竞赛加剧 - 体坛",
+      "tag_name": "体坛",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T17:43:53Z",
       "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZejFEOXo0WXJlTHhRSjlISHVUMXZUZEhDWThBdVZHdkRxVXl1X0tHS2xuX0ZZWF9HdWwwTUhIaTBDbVl5M0RmOVNnaEx5X1RYNXBTa2JnUjAySHdfVm1pMzNxUlV5TG5iN0ltZzU1U0I4MzRi?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "2026年5月23日c7电子娱乐官方版下载全面升级：视觉AI与安全性能再攀高峰 - 体坛",
+      "tag_name": "体坛",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-17T16:07:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2M2V4LVFpbGJDYUVnd1ZSd3cxeWtYWmRzSlJkY3VscndhdXNNaGt3R2FFdV8tMG9tSWZhWEc0ODJJdXBEN3pnbEpjZG1Yc2JwdzFzM1I4WlpsUktESDJNLU9ld2d5dGJxWFY1Tjhhc2UtZw?oc=5",
       "kind": "news"
     },
     {
@@ -391,17 +526,8 @@
     },
     {
       "source": "news:zh",
-      "name": "ColorOS 17 发布，OPPO 想让 AI 往前一步，主动一些聪明一些 - 爱范儿",
-      "tag_name": "爱范儿",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-17T08:47:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kYncybm9oMWtuTjF0V0xJTXU1dnNGMXpXc0F3REVGSlhxNS1GSW52T0pqTFNObHYwZzRqb1VNcEktQmM?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "AI重写FPGA开发规则，莱迪思落子“后量子”安全赛道 - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
+      "name": "AI重写FPGA开发规则，莱迪思落子“后量子”安全赛道 - 新浪财经",
+      "tag_name": "新浪财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-17T07:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOWlk1VTBxR3dHMVE5b2t3eWh6ejNGeVFfc0xPaGNDaXZrRWxES2M5RGZRWFlzOHhUWHR4TmJrTXdpbVpabzRJN1NCSVpyVUp2Q0lTS1VmdWtTLVcyWEVWZFY1MWIyZV9JemZ0b1BLa2ZtUE11ZkhCRVpFa1JiTnc1Tk1CWWFqc2szSXdzQjk2bUdnOVphSVp4Q1FQTjlka2FsSFdQLXpoeW84YzFDd3F1M0NRNEhJWVRqMkc4TlBYRnhRbW9lelE5MXdNaFZuX3FscmZjalNBLVJQTWpUb0pveW83VmxYUWpiZFJrSUs1OHlibk9VLVdwN2ZpRlhYVEV4UHphbmNrZ2F5NnFHZW5PRVZEdFZVU04tTjZaam9vcFFoU3htbC1ESWIxZUhSOGpPYTUwM0JQYnc2SlVFRlFTTS1Mc1Y1dXE2NjBBSWtReFMwaTZxSXZLSjc0bXRYdXFF?oc=5",
@@ -415,60 +541,6 @@
       "published_at": "2026-09-17T07:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHROMjVGcHByQjhiY0Z2aUFEajFsWUk0ZnJfVERIaVJHUklxRWVKdjViVlNFUWtHR2dLNTRselNHc2xyTzZtcHg4SFdROUMzaUVralRrQ3ZjUVF1RjNwV2hfdDB0TTlIeVlDcThaYXlDYWVzRUxnRUpSd0RmNGlqU3FOV3lhQ2trak5yQWtB?oc=5",
       "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-17T04:38:35Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZUxYR2dvTVVyY3VhcHRtclJrWE1KbFVUVVNjUkJGR19CTGRCRG1UXzhpOWpWcS1GSEFva1U1RjFFeHlZdU5ZVzl6aE9QTmV5Y2FMY1JQQ0pwZw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "ayx娱乐app下载发布新一代智能体系：从数据底座到业务智能体 - 体坛加",
-      "tag_name": "体坛加",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-17T01:59:20Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13ZW9Jc1l1c0hZUWx6RTdkS0RTb0Z3NXNaWmxRcUQzcEhxN0c5LVVfYmJCblM1Z3hkalV6VGt5aWliQVZvZDdyNFdvVWl4WDVHcnUyY2FsMFRfa0NXYkFxcVJfSlFoZ2NjazJmdDl1VG9iY1ZLbHRrS2FHMk1RUWM?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Sentry vs Bugsnag vs Rollbar: $40 AI Agent Gap [2026] - tech-insider.org",
-      "tag_name": "tech-insider.org",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-16T14:42:24Z",
-      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MV25LcEFPblBTd0h3Qno1Z0p3Mm9TUGZzNHVfa1JyT1Z0dFZkemVWVGdIa0tza05BUzlyZ0hSa21WTER0VkRsM1oyVmtmb0M5WGdhb2M2RGdReVFIV3VVeXQwbkFWbFlYTXI4?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Oracle 发布 Java 27，强化后量子密码支持 - Oracle",
-      "tag_name": "Oracle",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-16T08:30:20Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcVpSYkZ2Z09USjZWUzl0bW1RdE9DbDM4RldNMHo5VjI5TlJMeGw0MmNGWWQ5RVZrWG50T1JtZFJDXy1LZXpOQ29Iam5iSkxOVTFZVTFjZGRCOVIzSlM3WmR4ZnZ5bEVhU3h3dFAyNWxSRW1rSV9UQkl3aUJvQTlTTk5UWXJJNmVBU0twTzhuZUZKd2Qta3M5c1g0ZExzbXZVQ1Nlam1rNHBoRURINkx0RkJjQzVCSnlXVDE2T1VhN0xVWVl3R19icw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "An open Python API for AI-ready aerospace test automation - Aerospace Testing International",
-      "tag_name": "Aerospace Testing International",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-16T08:20:38Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOXzNsdVdXbEJQZlhuRVNUZkZHZWlLZnlEX2JkSnlXWUhCcnJBSHlZVmJpbjh3aXo2UUJlMVZjeTNYblMxTEZQbU9YZ1BKM3Y4dUdranVBdkNLR214Vjc2MG00RlJ4WGFoRW1rUXROSFJNUzBSemtEQ3YwN0FrVVpmNmFia0lHVmp6UC12enEtZkx5c1Z6U2dhV25Kb0xBa3p1d0pTQnVWMWV1UEh4UXpVTlg2ejB6OGNUdlNpQXFaMThJWlR6OUtHendpaw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.14.1",
-      "tag_name": "v3.14.1",
-      "body": "## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)\n\n\n### Bug Fixes\n\n* **client:** validate retry limits and preserve application errors ([#3867](https://github.com/openai/openai-python/issues/3867)) ([f86c721](https://github.com/openai/openai-python/commit/f86c7214093038faa512bd4883558b093bdb8c9a))\n* correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message ([#3022](https://github.com/openai/openai-python/issues/3022)) ([7186203](https://github.com/openai/openai-python/commit/718620397c38a546d2cbbc964983c286db7abf97))\n* **examples:** correct Azure endpoint hostname ([#3298](https://github.com/openai/openai-python/issues/3298)) ([543516c](https://github.com/openai/openai-python/commit/543516c4223372a7fb830d560f26d8e6ad081d02))\n* **examples:** refresh chat streaming examples ([#2974](https://github.com/openai/openai-python/issues/2974)) ([54f460e](https://github.com/openai/openai-python/commit/54f460ef8c212a7849d10cef69853dffb48c4491))\n* **examples:** split push-to-talk shebang arguments ([#3210](https://github.com/openai/openai-python/issues/3210)) ([d241ed6](https://github.com/openai/openai-python/commit/d241ed65c122a964679ca9d102924761956aa71f))\n* **examples:** use uv in remaining Python launchers ([#3821](https://github.com/openai/openai-python/issues/3821)) ([8c76c4f](https://github.com/openai/openai-python/commit/8c76c4f5e6ee65c6393e80494d2bbbdc8607e983))\n* log only metadata for Live WebSocket diagnostics ([#3865](https://github.com/openai/openai-python/issues/3865)) ([ccc10f5](https://github.com/openai/openai-python/commit/ccc10f595ff606cf007459aecae6ddc90d02794a))\n* **responses:** skip structured parsing for commentary ([#3861](https://github.com/openai/openai-python/issues/3861)) ([6520df1](https://github.com/openai/openai-python/commit/6520df1220a0030c7b45b00a6fa4bf2e9c7396ac))\n\n\n### Chores\n\n* **examples:** bump module_client.py to gpt-5.6 ([#3211](https://github.com/openai/openai-python/issues/3211)) ([1493321](https://github.com/openai/openai-python/commit/1493321affb1814fba7b669892e376a119d8d36f))\n* remove unused fine-tuning data validators ([#3863](https://github.com/openai/openai-python/issues/3863)) ([9640f29](https://github.com/openai/openai-python/commit/9640f2903d65c43f0e5aee58d60f46880ff0bd15))\n\n\n### Documentation\n\n* clarify async client cleanup ([#2388](https://github.com/openai/openai-python/issues/2388)) ([a3d83b5](https://github.com/openai/openai-python/commit/a3d83b5af23e4057453aae83dcdb4e3cced1cdad))\n* clarify filenames for in-memory file uploads ([#3729](https://github.com/openai/openai-python/issues/3729)) ([cb27380](https://github.com/openai/openai-python/commit/cb27380d95f5e6995ea56dc588914454629cce0f))\n* **client:** correct retry jitter comment ([#2252](https://github.com/openai/openai-python/issues/2252)) ([bdbbc16](https://github.com/openai/openai-python/commit/bdbbc16a3f289601cb7cbcec9e64c94e95753e94))\n* fix Realtime docstring wording ([#3535](https://github.com/openai/openai-python/issues/3535)) ([8cb9ded](https://github.com/openai/openai-python/commit/8cb9dedabd03297816749fcadfa12ef3ebcd3ed8))\n* fix reusing wording in Azure client docstrings ([#3061](https://github.com/openai/openai-python/issues/3061)) ([dc625f9](https://github.com/openai/openai-python/commit/dc625f9533cb43e74aea53529c86d4848eed82ec))\n* fix streaming comment typo ([#3005](https://github.com/openai/openai-python/issues/3005)) ([d421d7a](https://github.com/openai/openai-python/commit/d421d7ab8c0a5e4e00147407ef9941c7f2bc9c09))\n* fix vector store polling helper paths ([#3101](https://github.com/openai/openai-python/issues/3101)) ([2ef2de6](https://github.com/openai/openai-python/commit/2ef2de6bf1603b2df8cb28bcc604c79c6e7f773d))\n* **readme:** correct SSE terminology ([#2837](https://github.com/openai/openai-python/issues/2837)) ([caaa9b4](https://github.com/openai/openai-python/commit/caaa9b45a24c7698244824cda2c2d9ae16359354))\n* update Responses API reference link ([#3279](https://github.com/openai/openai-python/issues/3279)) ([557bd06](https://github.com/openai/openai-python/commit/557bd06bce467e7f748b9c86bdde6427e85d28c7))\n* **utils:** correct query component RFC reference ([#3300](https://github.com/openai/openai-python/issues/3300)) ([929a8a5](https://github.com/openai/openai-python/commit/929a8a500a0e95df090ef53fe38890eba1e97660))",
-      "published_at": "2026-09-15T23:12:54Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
-      "kind": "release"
     },
     {
       "source": "ollama/ollama",
@@ -576,78 +648,6 @@
       "body": "## 1.1.0 (2026-08-26)\n\nFull Changelog: [v1.0.0...v1.1.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.0.0...v1.1.0)\n\n### Features\n\n* **api:** add `updates` thinking display mode (beta) ([eb4a73f](https://github.com/anthropics/anthropic-sdk-python/commit/eb4a73fdddc153e1bb4375f7b9e3d45b4bce5c5b))\n* **api:** add missing anthropic-beta values ([dbebd15](https://github.com/anthropics/anthropic-sdk-python/commit/dbebd1515db48f4200105b3a92136a0ba787751e))\n* **api:** add support for Organization API endpoints ([5a5b8fc](https://github.com/anthropics/anthropic-sdk-python/commit/5a5b8fc1eec3f3a494f6a3b08819e0ea06ecc45d))\n\n\n### Bug Fixes\n\n* **docs:** correct link for long requests error ([#1884](https://github.com/anthropics/anthropic-sdk-python/issues/1884)) ([4474f31](https://github.com/anthropics/anthropic-sdk-python/commit/4474f31efa48588eff590f04419230791e22419f)), closes [#1883](https://github.com/anthropics/anthropic-sdk-python/issues/1883)\n* **tools:** keep the tool runner going on pause_turn ([#343](https://github.com/anthropics/anthropic-sdk-python/issues/343)) ([ab1ec60](https://github.com/anthropics/anthropic-sdk-python/commit/ab1ec609f2cce801644ff4410660deb52680f273))\n\n\n### Chores\n\n* **docs:** clarify skill version `latest` support and memory version retention ([a754f3b](https://github.com/anthropics/anthropic-sdk-python/commit/a754f3b53f2040491d6390850e08982d36f19910))\n* **internal:** cancel superseded CI runs ([c061ab1](https://github.com/anthropics/anthropic-sdk-python/commit/c061ab1cf0cf9a7c6519abe1260a2bc0bac4794c))\n* **internal:** minor workflow reformat ([1569002](https://github.com/anthropics/anthropic-sdk-python/commit/1569002594c39349d8a38eaef51c57caaa981485))\n* **internal:** remove the legacy response API ([a48b1dd](https://github.com/anthropics/anthropic-sdk-python/commit/a48b1dde8b3159085c904b9abe252adccf06b47b))\n* **internal:** use `import httpx2` directly instead of aliasing as httpx ([628d789](https://github.com/anthropics/anthropic-sdk-python/commit/628d7891884748b4eef51506543bfd2ef757ba17))\n\n\n### Documentation\n\n* **api:** clarify session thread agent and usage.iterations compaction descriptions (beta) ([4ace503](https://github.com/anthropics/anthropic-sdk-python/commit/4ace503320c2af170fefe6be605cf2ddd729594a))",
       "published_at": "2026-08-26T17:14:40Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/fastify@2.0.0",
-      "tag_name": "@modelcontextprotocol/fastify@2.0.0",
-      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
-      "published_at": "2026-07-27T23:55:50Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/fastify%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/server-legacy@2.0.0",
-      "tag_name": "@modelcontextprotocol/server-legacy@2.0.0",
-      "body": "### Minor Changes\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2476](https://github.com/modelcontextprotocol/typescript-sdk/pull/2476) [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Build protocol-revision wire schemas lazily on first validation instead of at import. Each revision's schema set is now constructed by a module-level memoized factory, so importing the client or server package no longer pays the construction cost of both frozen wire-schema graphs up front. Method membership in the revision registries stays static, the schemas themselves are unchanged, and registry lookups keep returning reference-identical schema objects.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313)]:\n    - @modelcontextprotocol/core@2.0.0",
-      "published_at": "2026-07-27T23:55:47Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server-legacy%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/express@2.0.0",
-      "tag_name": "@modelcontextprotocol/express@2.0.0",
-      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2420](https://github.com/modelcontextprotocol/typescript-sdk/pull/2420) [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral Bearer authentication to `@modelcontextprotocol/server`:\n  `requireBearerAuth` gates web-standard `fetch(request)` hosts (Cloudflare\n  Workers, Deno, Bun, Hono), built on the exported `verifyBearerToken` and\n  `bearerAuthChallengeResponse` pieces, with `OAuthTokenVerifier` now defined\n  here. The Express middleware adapts the same core and is unchanged in\n  behavior, except that `WWW-Authenticate` challenge values are now RFC 7235\n  quoted-string sanitized (quotes and backslashes escaped, control and\n  non-ASCII characters replaced); `@modelcontextprotocol/express` re-exports\n  `OAuthTokenVerifier` as before.\n\n- [#2422](https://github.com/modelcontextprotocol/typescript-sdk/pull/2422) [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral OAuth discovery serving to `@modelcontextprotocol/server`:\n  `oauthMetadataResponse` serves the RFC 9728 Protected Resource Metadata and\n  RFC 8414 Authorization Server metadata documents from web-standard\n  `fetch(request)` hosts, built on the exported\n  `buildOAuthProtectedResourceMetadata`, with\n  `getOAuthProtectedResourceMetadataUrl` now defined here. The Express metadata\n  router adapts the same core and is unchanged in behavior; the insecure-issuer\n  escape hatch is an explicit `dangerouslyAllowInsecureIssuerUrl` option in the\n  neutral core instead of a module-scope environment read. The web-standard\n  matcher validates lazily so unmatched traffic always falls through, tolerates\n  a trailing slash, supports HEAD, and marks reflected CORS preflights with\n  `Vary`.\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
-      "published_at": "2026-07-27T23:55:44Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/express%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/server@2.0.0",
-      "tag_name": "@modelcontextprotocol/server@2.0.0",
-      "body": "### Minor Changes\n\n- [#2501](https://github.com/modelcontextprotocol/typescript-sdk/pull/2501) [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Export the `Protocol` base class and `mergeCapabilities` from the `@modelcontextprotocol/client` and `@modelcontextprotocol/server` package roots, restoring the v1 import for consumers that subclass `Protocol` (e.g. the MCP Apps SDK). The client and server packages each bundle their own compiled copy of the class, so import it from one package consistently within a process.\n\n    The codemod now rewrites `Protocol` and `mergeCapabilities` imports from `shared/protocol.js` to the client or server package root, like the module's other symbols, instead of dropping them with an action-required marker.\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n- [#2513](https://github.com/modelcontextprotocol/typescript-sdk/pull/2513) [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Align the 2026-07-28 wire with the final revision (spec PR #3002): `serverInfo` moves from the `DiscoverResult` body to the result `_meta`, and the per-request envelope's `clientInfo` demotes from required to SHOULD.\n\n    Before this change the SDK shipped the pre-#3002 shape in both directions: the client hard-rejected a conforming server's `DiscoverResult` (missing body `serverInfo` failed parse, so the probe misclassified the server as legacy and attempted an `initialize` handshake against it — a hard connect failure against a modern-only server such as go-sdk v1.7.0-pre.3), and the server rejected conforming clients that omit `clientInfo`.\n\n    Now:\n    - The 2026 wire schemas are the final revision exactly: no body `serverInfo` on `DiscoverResult`, envelope `clientInfo` optional (a present-but-malformed value still fails validation).\n    - Servers stamp `_meta['io.modelcontextprotocol/serverInfo']` on every 2026-era response (spec SHOULD; a handler-authored value wins, the 2025-era wire is untouched). This includes the entry-built `subscriptions/listen` graceful-close results — the spec's `SubscriptionsListenResultMeta` extends `ResultMetaObject`.\n    - Clients keep sending `clientInfo` and read server identity from the discover result's `_meta` only. A server that stamps no identity is anonymous: `getServerVersion()` is `undefined` and the response cache partitions under a per-connection surrogate. A malformed `_meta` serverInfo value is treated as absent on receive (the spec marks the field self-reported, unverified, and display-only).\n    - Breaking type changes: `DiscoverResult` no longer declares `serverInfo`; `RequestMetaEnvelope`'s `clientInfo` is optional. New public constant `SERVER_INFO_META_KEY` (`'io.modelcontextprotocol/serverInfo'`).\n\n- [#2369](https://github.com/modelcontextprotocol/typescript-sdk/pull/2369) [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Allow `inputRequired.elicit()` to accept a Standard Schema such as a Zod object for `requestedSchema`. The builder converts it to MCP's restricted form-elicitation JSON Schema, while the same schema can validate and type the response through `acceptedContent()` on handler re-entry. Zod formats mapping to `email`, `uri`, `date`, and `date-time` are supported. Shapes the restricted schema cannot express reject before anything is sent — nested objects, `.regex()` and customized zod format patterns, exclusive number bounds (`.positive()`/`.gt()`), literal unions (use `z.enum` or `z.literal(['a', 'b'])`), and non-spec root keywords like `z.strictObject()`'s `additionalProperties`.\n\n- [#2541](https://github.com/modelcontextprotocol/typescript-sdk/pull/2541) [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Add configurable SSE keep-alive comment frames to Streamable HTTP transports and apply `createMcpHandler`'s existing `keepAliveMs` option to every HTTP SSE stream it serves.\n\n- [#2420](https://github.com/modelcontextprotocol/typescript-sdk/pull/2420) [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral Bearer authentication to `@modelcontextprotocol/server`:\n  `requireBearerAuth` gates web-standard `fetch(request)` hosts (Cloudflare\n  Workers, Deno, Bun, Hono), built on the exported `verifyBearerToken` and\n  `bearerAuthChallengeResponse` pieces, with `OAuthTokenVerifier` now defined\n  here. The Express middleware adapts the same core and is unchanged in\n  behavior, except that `WWW-Authenticate` challenge values are now RFC 7235\n  quoted-string sanitized (quotes and backslashes escaped, control and\n  non-ASCII characters replaced); `@modelcontextprotocol/express` re-exports\n  `OAuthTokenVerifier` as before.\n\n- [#2422](https://github.com/modelcontextprotocol/typescript-sdk/pull/2422) [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral OAuth discovery serving to `@modelcontextprotocol/server`:\n  `oauthMetadataResponse` serves the RFC 9728 Protected Resource Metadata and\n  RFC 8414 Authorization Server metadata documents from web-standard\n  `fetch(request)` hosts, built on the exported\n  `buildOAuthProtectedResourceMetadata`, with\n  `getOAuthProtectedResourceMetadataUrl` now defined here. The Express metadata\n  router adapts the same core and is unchanged in behavior; the insecure-issuer\n  escape hatch is an explicit `dangerouslyAllowInsecureIssuerUrl` option in the\n  neutral core instead of a module-scope environment read. The web-standard\n  matcher validates lazily so unmatched traffic always falls through, tolerates\n  a trailing slash, supports HEAD, and marks reflected CORS preflights with\n  `Vary`.\n\n- [#2483](https://github.com/modelcontextprotocol/typescript-sdk/pull/2483) [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add `preloadSchemas()`, an explicit opt-in to eager wire-schema construction, and call it automatically in the Cloudflare Workers builds. The wire schemas are built lazily by default, which is the right trade on process-per-invocation runtimes — but on isolate platforms that bill request CPU while module evaluation runs during isolate warm-up, laziness moves construction into the first request each fresh isolate serves. Calling `preloadSchemas()` at module scope (it is synchronous and idempotent) moves that one-time cost back to module evaluation; the packages' workerd export condition now does this automatically, while the Node and browser builds stay lazy. The server package gains a dedicated browser shim for this (its `browser` condition previously reused the workerd shim), so browser bundles keep lazy construction.\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2456](https://github.com/modelcontextprotocol/typescript-sdk/pull/2456) [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Restore the v1 parse tolerance for `CallToolResult.content`: an inbound legacy-era `tools/call` result without `content` defaults to `[]` instead of failing validation. Deployed servers — accepted by SDK v1 for years — return `structuredContent`-only (or otherwise content-less) results, and the strict parse turned every such call into an `INVALID_RESULT` error before application code could run.\n\n    The silent-empty-success hazard the strictness guarded is preserved where it matters: the 2025 era's wire-seam schema refuses to default `content` for a body carrying another result family's vocabulary (`task`, `inputRequests`, `requestState` — the era is frozen, so the list is complete), and the 2026-era wire schemas stay strict — modern-revision servers have no legacy excuse. Task interop through an explicit result schema is untouched (including bodies that also stamp a foreign `resultType`), and the server-side authoring normalization refuses the same foreign-family vocabulary.\n\n    Server-side authoring is era-independent: a handler result without `content` (dynamic/JS callers — the TypeScript surface requires it) is normalized to `content: []` before era validation on every leg, reaching the wire spec-valid.\n\n    Conscious call: the nested sampling `ToolResultContentSchema` stays spec-strict — v1 had defaulted its `content` too, but it is params-side (tool results a caller authors into a sampling message), deliberately not restored.\n\n- [#2431](https://github.com/modelcontextprotocol/typescript-sdk/pull/2431) [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df) Thanks [@morluto](https://github.com/morluto)! - Fix the CommonJS `validators/ajv` subpath so reading the exported `Ajv` class no longer throws `ReferenceError: import_ajv is not defined`. The subpath now re-exports the bundled provider's concrete `Ajv` value in CJS output, matching the existing ESM behavior.\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- [#2384](https://github.com/modelcontextprotocol/typescript-sdk/pull/2384) [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e) Thanks [@felixweinberger](https://github.com/felixweinberger)! - `instanceof` on the SDK error classes (`ProtocolError` and its typed subclasses, `SdkError`/`SdkHttpError`, `OAuthError`, and the client's `SseError`, `UnauthorizedError`, and OAuth-client-flow error family — `OAuthClientFlowError` and its subclasses) now works across separately bundled copies of the SDK. The classes match by a stable brand (via `Symbol.hasInstance` and a registry symbol) instead of prototype identity, so a process that uses both `@modelcontextprotocol/client` and `@modelcontextprotocol/server` - a gateway, host, or in-process test - can check errors constructed by either package against the class re-exported by the other. Ordinary prototype-based `instanceof` is preserved as a fallback; user-defined subclasses keep plain prototype semantics. Notes: cross-bundle matching requires both copies to be at or after this release; brands assert identity, not field shape, across versions - keep reading fields defensively. As a side effect, a foreign-bundle `SdkError` used as an abort reason is now rethrown as-is instead of being wrapped as a `RequestTimeout`. Branded hierarchies additionally expose an explicit static guard, `X.isInstance(value)`, that reads the same brand and narrows in TypeScript — an alternative for codebases that prefer predicate-style checks over `instanceof`. Also: `UnauthorizedError` now sets `error.name` to `'UnauthorizedError'` (previously `'Error'`), and per-package conformance tests enforce that every exported error class participates in branding. Version-negotiation probing now recognizes `UnauthorizedError` (previously a dead name-string check) and propagates it unchanged, so `connect()` on an auth-gated server rejects with the original `UnauthorizedError` (previously wrapped as the `cause` of an `SdkError(EraNegotiationFailed)`) — run `finishAuth()` and reconnect, and the retry probes with the token.\n\n- [#2458](https://github.com/modelcontextprotocol/typescript-sdk/pull/2458) [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Construct the default Ajv validation engine lazily on first validation. Creating a `Client` or `Server` no longer pays the ajv + ajv-formats instantiation cost at startup when no JSON Schema validation ever runs.\n\n- [#2476](https://github.com/modelcontextprotocol/typescript-sdk/pull/2476) [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Build protocol-revision wire schemas lazily on first validation instead of at import. Each revision's schema set is now constructed by a module-level memoized factory, so importing the client or server package no longer pays the construction cost of both frozen wire-schema graphs up front. Method membership in the revision registries stays static, the schemas themselves are unchanged, and registry lookups keep returning reference-identical schema objects.\n\n- [#2451](https://github.com/modelcontextprotocol/typescript-sdk/pull/2451) [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Return JSON-RPC Invalid Params with the original URI and an `invalid_uri` reason when `resources/read` receives a syntactically malformed URI.\n\n- [#2399](https://github.com/modelcontextprotocol/typescript-sdk/pull/2399) [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Return HTTP 400 for a `MissingRequiredClientCapabilityError` (`-32021`) produced after dispatch. The spec mandates `400 Bad Request` for this error with no condition on where it arose, but only the pre-dispatch capability gate honored that; the post-handler emission — the `input_required` gate rejecting an embedded request whose required capability the caller did not declare — surfaced in-band on HTTP 200. The JSON-RPC error body is unchanged, every other error code (including a handler relaying a downstream peer's `-32020`/`-32022`) keeps the origin-keyed in-band behavior, and the mapping only applies while the response is uncommitted: an exchange that already streamed — or one hosted with `responseMode: 'sse'`, which opens its stream at dispatch end — keeps its committed 200 and carries the error in-stream.\n\n- [#2425](https://github.com/modelcontextprotocol/typescript-sdk/pull/2425) [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091) Thanks [@Sehlani042](https://github.com/Sehlani042)! - Stop advertising validator provider classes from the root client/server type declarations. The provider classes remain available from the explicit validator subpaths.\n\n- [#2453](https://github.com/modelcontextprotocol/typescript-sdk/pull/2453) [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Strip RFC 9110 optional whitespace around inbound `MCP-Protocol-Version`, `Mcp-Method`, and `Mcp-Name` values before classifying and validating modern HTTP requests. This keeps valid requests portable across Fetch runtimes that expose raw leading or trailing SP/HTAB through `Headers.get()`.\n\n- [#2534](https://github.com/modelcontextprotocol/typescript-sdk/pull/2534) [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c) Thanks [@felixweinberger](https://github.com/felixweinberger)! - The default validator now honors declared 2019-09 and draft-07/06 dialects instead of rejecting them: a schema stamped `\"$schema\": \"http://json-schema.org/draft-07/schema#\"` (zod-to-json-schema's default output) validates with draft-07 semantics, and a 2019-09 stamp (zod-to-json-schema's `2019-09`/`openAi` targets) with 2019-09 semantics, on both the Ajv and Cloudflare Workers providers (with known engine differences documented in the migration guide). Schemas with no `$schema` still validate as 2020-12, and unknown dialects still produce the typed error (now listing the supported dialects: 2020-12, 2019-09, draft-07, draft-06).\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313)]:\n    - @modelcontextprotocol/core@2.0.0",
-      "published_at": "2026-07-27T23:55:41Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/core@2.0.0",
-      "tag_name": "@modelcontextprotocol/core@2.0.0",
-      "body": "### Minor Changes\n\n- [#2477](https://github.com/modelcontextprotocol/typescript-sdk/pull/2477) [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Move the schema source modules (spec schemas, OAuth schemas, protocol constants) into `@modelcontextprotocol/core` and resolve them from there as a regular runtime dependency instead of bundling a private copy into each package. An application importing more than one of the packages now evaluates a single shared schema graph with shared object identity. `@modelcontextprotocol/core` gains a `./internal` subpath (SDK-internal contract; may change in any release) and the four packages now version together.\n\n- [#2513](https://github.com/modelcontextprotocol/typescript-sdk/pull/2513) [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Align the 2026-07-28 wire with the final revision (spec PR #3002): `serverInfo` moves from the `DiscoverResult` body to the result `_meta`, and the per-request envelope's `clientInfo` demotes from required to SHOULD.\n\n    Before this change the SDK shipped the pre-#3002 shape in both directions: the client hard-rejected a conforming server's `DiscoverResult` (missing body `serverInfo` failed parse, so the probe misclassified the server as legacy and attempted an `initialize` handshake against it — a hard connect failure against a modern-only server such as go-sdk v1.7.0-pre.3), and the server rejected conforming clients that omit `clientInfo`.\n\n    Now:\n    - The 2026 wire schemas are the final revision exactly: no body `serverInfo` on `DiscoverResult`, envelope `clientInfo` optional (a present-but-malformed value still fails validation).\n    - Servers stamp `_meta['io.modelcontextprotocol/serverInfo']` on every 2026-era response (spec SHOULD; a handler-authored value wins, the 2025-era wire is untouched). This includes the entry-built `subscriptions/listen` graceful-close results — the spec's `SubscriptionsListenResultMeta` extends `ResultMetaObject`.\n    - Clients keep sending `clientInfo` and read server identity from the discover result's `_meta` only. A server that stamps no identity is anonymous: `getServerVersion()` is `undefined` and the response cache partitions under a per-connection surrogate. A malformed `_meta` serverInfo value is treated as absent on receive (the spec marks the field self-reported, unverified, and display-only).\n    - Breaking type changes: `DiscoverResult` no longer declares `serverInfo`; `RequestMetaEnvelope`'s `clientInfo` is optional. New public constant `SERVER_INFO_META_KEY` (`'io.modelcontextprotocol/serverInfo'`).\n\n### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2456](https://github.com/modelcontextprotocol/typescript-sdk/pull/2456) [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Restore the v1 parse tolerance for `CallToolResult.content`: an inbound legacy-era `tools/call` result without `content` defaults to `[]` instead of failing validation. Deployed servers — accepted by SDK v1 for years — return `structuredContent`-only (or otherwise content-less) results, and the strict parse turned every such call into an `INVALID_RESULT` error before application code could run.\n\n    The silent-empty-success hazard the strictness guarded is preserved where it matters: the 2025 era's wire-seam schema refuses to default `content` for a body carrying another result family's vocabulary (`task`, `inputRequests`, `requestState` — the era is frozen, so the list is complete), and the 2026-era wire schemas stay strict — modern-revision servers have no legacy excuse. Task interop through an explicit result schema is untouched (including bodies that also stamp a foreign `resultType`), and the server-side authoring normalization refuses the same foreign-family vocabulary.\n\n    Server-side authoring is era-independent: a handler result without `content` (dynamic/JS callers — the TypeScript surface requires it) is normalized to `content: []` before era validation on every leg, reaching the wire spec-valid.\n\n    Conscious call: the nested sampling `ToolResultContentSchema` stays spec-strict — v1 had defaulted its `content` too, but it is params-side (tool results a caller authors into a sampling message), deliberately not restored.\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.",
-      "published_at": "2026-07-27T23:55:38Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/core%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/node@2.0.0",
-      "tag_name": "@modelcontextprotocol/node@2.0.0",
-      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- [#2445](https://github.com/modelcontextprotocol/typescript-sdk/pull/2445) [`78fabea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/78fabea44557bd49f5a050b92e57ccd22dab14ad) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Document composing the host and origin validation guards in front of `toNodeHandler` for hand-wired `node:http` servers, matching the protected wiring the examples and serving guide now demonstrate.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
-      "published_at": "2026-07-27T23:55:29Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/node%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/hono@2.0.0",
-      "tag_name": "@modelcontextprotocol/hono@2.0.0",
-      "body": "### Patch Changes\n\n- [#2402](https://github.com/modelcontextprotocol/typescript-sdk/pull/2402) [`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a) Thanks [@felixweinberger](https://github.com/felixweinberger)! - First beta release of SDK v2 with support for the MCP 2026-07-28 specification\n  revision. See the migration guides for upgrading from v1\n  (`docs/migration/upgrade-to-v2.md`) and adopting the 2026-07-28 revision\n  (`docs/migration/support-2026-07-28.md`).\n\n- [#2405](https://github.com/modelcontextprotocol/typescript-sdk/pull/2405) [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Ship CommonJS builds alongside ESM. Each package now emits both `.mjs`/`.d.mts`\n  and `.cjs`/`.d.cts` (via tsdown `format: ['esm', 'cjs']`), and its `exports` map\n  adds a `require` condition so `require('@modelcontextprotocol/…')` works from\n  CommonJS consumers. Output extensions are normalized across all packages\n  (`@modelcontextprotocol/core` moves from `.js`/`.d.ts` to `.mjs`/`.d.mts`); the\n  public import paths are unchanged.\n\n- [#2441](https://github.com/modelcontextprotocol/typescript-sdk/pull/2441) [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - POSTs whose `Content-Type` media type is not `application/json` are now\n  rejected with `415 Unsupported Media Type`; the header is parsed instead of\n  substring-matched. Previously any value merely containing the substring\n  passed the check (for example `text/plain; a=application/json`), case\n  variants were wrongly rejected, and the 2026-07-28 entry did not inspect\n  `Content-Type` at all — requests with a missing or non-JSON header that used\n  to be served on that path now also answer 415. Values with parameters\n  (`application/json; charset=utf-8`, including malformed parameter sections\n  like `application/json;`) continue to work. SDK clients always send the\n  correct header and are unaffected.\n\n    The new `isJsonContentType(header)` helper is exported for transport and\n    framework-adapter authors — custom entries composing the exported building\n    blocks (`classifyInboundRequest`, `PerRequestHTTPServerTransport`) must apply\n    it themselves. The hono adapter's JSON body pre-parse and the client's\n    response dispatch now use the same parsed-media-type comparison.\n\n- Updated dependencies [[`a400259`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4002596b914c675d17ac22471d1287976dbb52a), [`44797d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/44797d77792953d0ce70b68922bb6bb69e697c32), [`1b90c96`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1b90c96d11fd17016d2977cae9dd661de3fb84df), [`f172626`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f172626a8e98b2ae2f0f690e4afb4dc74dbf6011), [`561c6d8`](https://github.com/modelcontextprotocol/typescript-sdk/commit/561c6d83456ef98d6c713bbda9837e64337f22c9), [`ce2f65d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ce2f65db0e019506f4d2526466ec8cc7106de98e), [`1480241`](https://github.com/modelcontextprotocol/typescript-sdk/commit/1480241e2a2a7f0ceee8e7723b2adcf88579bb36), [`7c49b47`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7c49b47fb3a58b51cec8fd0b337f656515f1a2b7), [`e0a0ab7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e0a0ab74d9baed74572c9f435313fb6daef1b989), [`7e69735`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7e697354de95111ca2c70a12ac9f5d3ec96b56c3), [`3c7ddaf`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3c7ddafa05d8f17fb52168bf4638f09251c3d0ff), [`8e1d2e9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/8e1d2e92b1720d2520122b3a5f20ea084edaf3c4), [`e8de519`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e8de519d3129f46b7528d2999b7641f55be1f091), [`f413763`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f4137630c05dc9a4fb14d4d3777f5cb167bd6313), [`0ab5d14`](https://github.com/modelcontextprotocol/typescript-sdk/commit/0ab5d1471d6c7375878316df2930fca77eee1d2a), [`24be404`](https://github.com/modelcontextprotocol/typescript-sdk/commit/24be4040d454a9c5983901229068477c7a9ea796), [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c), [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae), [`61866d7`](https://github.com/modelcontextprotocol/typescript-sdk/commit/61866d7a5ff4475663ceb525c88447c497c1b92a), [`3f07a32`](https://github.com/modelcontextprotocol/typescript-sdk/commit/3f07a325c6741b2374ce2255846dfa0c25f74d03)]:\n    - @modelcontextprotocol/server@2.0.0",
-      "published_at": "2026-07-27T23:55:26Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/hono%402.0.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "1.30.0",
-      "tag_name": "1.30.0",
-      "body": "## What's Changed\r\n* fix(server): prioritize zod issues and format them by @mozmo15 in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503\r\n* chore(ci): switch publish to OIDC trusted publishing by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/1839\r\n* Add end-to-end test suite by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2167\r\n* v1 stdio buffer limit by @KKonstantinov in https://github.com/modelcontextprotocol/typescript-sdk/pull/2239\r\n* fix: support Zod 3.25 method literals by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2368\r\n* Validate Content-Type by parsed media type instead of substring match (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2444\r\n* fix: send SSE keep-alive comment frames from Streamable HTTP server transport (v1.x) by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2538\r\n* fix(deps): widen @hono/node-server past GHSA-frvp-7c67-39w9 by @arimu1 in https://github.com/modelcontextprotocol/typescript-sdk/pull/2549\r\n* Fix SSE keep-alive timer lifecycle in Streamable HTTP server transport (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2547\r\n* chore: bump version to 1.30.0 by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2563\r\n\r\n## New Contributors\r\n* @mozmo15 made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503\r\n* @arimu1 made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/2549\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/v1.29.0...1.30.0",
-      "published_at": "2026-07-27T17:54:36Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
       "kind": "release"
     }
   ]
