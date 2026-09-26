@@ -1,12 +1,120 @@
 {
-  "generated_at": "2026-09-25T06:11:31.951108Z",
+  "generated_at": "2026-09-26T06:11:18.756337Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/perplexity@5.0.0",
+      "tag_name": "@ai-sdk/perplexity@5.0.0",
+      "body": "### Major Changes\n\n- 38fe0e5: BREAKING: Migrate language generation from the Sonar Chat Completions API to the Agent API. Replace Sonar model IDs and provider options with Agent API presets, models, and tools. The new API changes request and response metadata, raw stream events, usage and cost data, and does not support Sonar PDF input or image and video results.\n\n### Patch Changes\n\n- 38fe0e5: Recover missing text from Agent API terminal events and output items, including incomplete responses, without repeating text already received as deltas. Track each message content part separately.\n- 38fe0e5: Accept native Agent API tool traces such as finance results without validating them as web search results. Preserve these traces in raw responses and stream chunks.\n- 38fe0e5: Preserve URL citation annotations as sources in Agent API streams, including completed and incomplete terminal responses.\n- 38fe0e5: Emit each Agent API source URL once while preserving search result IDs for citation correlation when a URL is fetched or annotated before it appears in search results.",
+      "published_at": "2026-09-26T01:59:37Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/perplexity%405.0.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/openai@4.0.78",
+      "tag_name": "@ai-sdk/openai@4.0.78",
+      "body": "### Patch Changes\n\n- 94d5d6d: Support `reasoningEffortUpdate: 'none'` for GPT-6 Sol and Luna in request-level options and positioned system messages. Validate update efforts against the model's supported efforts, warning and omitting unsupported request-level updates and rejecting unsupported historical updates.",
+      "published_at": "2026-09-26T01:59:34Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/openai%404.0.78",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/azure@4.0.82",
+      "tag_name": "@ai-sdk/azure@4.0.82",
+      "body": "### Patch Changes\n\n- Updated dependencies [94d5d6d]\n  - @ai-sdk/openai@4.0.78",
+      "published_at": "2026-09-26T01:59:31Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/azure%404.0.82",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/amazon-bedrock@5.0.97",
+      "tag_name": "@ai-sdk/amazon-bedrock@5.0.97",
+      "body": "### Patch Changes\n\n- Updated dependencies [94d5d6d]\n  - @ai-sdk/openai@4.0.78",
+      "published_at": "2026-09-26T01:59:28Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/amazon-bedrock%405.0.97",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.19",
+      "tag_name": "@ai-sdk/zai@3.0.19",
+      "body": "### Patch Changes\n\n- Updated dependencies [af9597b]\n- Updated dependencies [bc49f78]\n  - @ai-sdk/provider-utils@5.0.49\n  - @ai-sdk/openai-compatible@3.0.57",
+      "published_at": "2026-09-25T20:43:31Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.19",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.116",
+      "tag_name": "ai@7.0.116",
+      "body": "### Patch Changes\n\n- af9597b: Compile packages for ES2022 runtime target\n- bc49f78: Preserve original opaque URI strings in tagged file URLs during prompt conversion. Match explicit supported URL MIME types exactly so unsupported subtypes are not forwarded to providers.\n- Updated dependencies [af9597b]\n- Updated dependencies [bc49f78]\n  - @ai-sdk/provider-utils@5.0.49\n  - @ai-sdk/gateway@4.0.94",
+      "published_at": "2026-09-25T20:39:49Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.116",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.267",
+      "tag_name": "ai@5.0.267",
+      "body": "### Patch Changes\n\n- Updated dependencies [3569298]\n  - @ai-sdk/gateway@2.0.159",
+      "published_at": "2026-09-25T19:43:35Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.267",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.292",
+      "tag_name": "ai@6.0.292",
+      "body": "### Patch Changes\n\n- Updated dependencies [2cf7cb4]\n- Updated dependencies [af4a3e4]\n  - @ai-sdk/gateway@3.0.202",
+      "published_at": "2026-09-25T19:43:06Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.292",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "35岁，我被AI 黑话整破防了 - 虎嗅网",
+      "tag_name": "虎嗅网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-25T14:23:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wZHdkUEJiZm1YUVp0b3lRdTNtQVRUQ3A1RG40OUZMbmdkcXdsS1BTZjBjX0lveFc0d1A1blJDNjNuSEZESjhvU0Rpcm9CYjljcDJFNQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-fireworks==1.6.3",
+      "tag_name": "langchain-fireworks==1.6.3",
+      "body": "Changes since langchain-fireworks==1.6.2\n\nrelease(fireworks): 1.6.3 (#40834)\nfix(fireworks): declare native PDF inputs unsupported (#40814)\nfix(fireworks): preserve malformed tool arguments as diagnostic JSON (#40818)\nchore(model-profiles): refresh model profile data (#40804)",
+      "published_at": "2026-09-25T12:57:38Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Microsoft Copilot Managed Runtime: Enterprise code execution for Microsoft 365 | Microsoft Copilot Blog - Microsoft",
+      "tag_name": "Microsoft",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-25T12:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYS1TTEszcDdKN2lZNVhwZURoeDdXMng3ZDB3bVhPNGh6YmVsb2k4cnB2aWswa0xvMnU5bDl5cUpVTWhpaTZlV3dxeTk4VW15bldOYmNvVDc3eVVoZjI2cnpNLUtKN0dpNUk5QTBLLV9QT0pPYXNpUWQzWTRuMFZ3TjBHbTViUDl6UmtFS3VzZlpuWEhPRjNtVmhpWDR0Yy1oMkFBMXVZOGZ1Q05NVFM1WE1QRDFCUzV1aG83VWlhMmhaRGlFUF9fanBFNGtEQjcwNE5CWmZrOTBuRm1XdjlYbVpEbnB6YVVuMm9MTXZJOXlkWkU?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "AI can't take over your holiday shopping quite yet, a new study suggests. - Business Insider",
+      "tag_name": "Business Insider",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-25T09:37:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTkw0UXA2WWlDMUVGbDFDTXE0VFh5R0dMYzlJRFRwXy1KX0ZWRnF0WHRsU1ZqTEdWY1hhOWRPZ1h5cjlBYkNGa0RBVk5ab2xPMVEzb0R0TWM3LXk5VFh4VVN5M2xtYXk1c3J6cHhKbmdab3Z2OENnbmtUMHJQVUZEbmdFLW1hMi1oSFJ0a0Q0VGxfTm5GOEZIQw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "ollama/ollama",
       "name": "v0.40.0",
       "tag_name": "v0.40.0-rc0",
-      "body": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the RC we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
+      "body": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
       "published_at": "2026-09-25T03:31:52Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
       "kind": "release"
@@ -21,87 +129,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "Meta推出AI游戏开发工具，竞争对手股价应声下跌 - 新浪财经",
-      "tag_name": "新浪财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-24T20:21:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrbUFpSHVyN2V4SUlscmNGak9ZYXJHTnh3bk9EMXpIby1pLU1nd3BSck8wNF9Ja2xYR2QxNTdacFJuZjA3emc2c1dQZVZXUWZSZkZzbHNFdFVCcEJKdFRvN2JfbzhLR0JHQmsxS0dOdjRDNGF3SGNTTDQtOFQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.8",
-      "tag_name": "@ai-sdk/xai@5.0.8",
-      "body": "### Patch Changes\n\n- 5434a34: feat(xai): add missing video provider options\n- 0a5dd0f: feat(xai): add missing Responses API provider options",
-      "published_at": "2026-09-24T18:53:02Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.8",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.124",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.124",
-      "body": "### Patch Changes\n\n- Updated dependencies [40231b6]\n  - @ai-sdk/harness@1.0.124",
-      "published_at": "2026-09-24T18:52:59Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.124",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.45",
-      "tag_name": "@ai-sdk/workflow@2.0.45",
-      "body": "### Patch Changes\n\n- Updated dependencies [b5679a7]\n- Updated dependencies [ca31b89]\n  - ai@7.0.114",
-      "published_at": "2026-09-24T18:52:56Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.45",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.114",
-      "tag_name": "@ai-sdk/vue@4.0.114",
-      "body": "### Patch Changes\n\n- Updated dependencies [b5679a7]\n- Updated dependencies [ca31b89]\n  - ai@7.0.114",
-      "published_at": "2026-09-24T18:52:53Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.114",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.114",
-      "tag_name": "ai@7.0.114",
-      "body": "### Patch Changes\n\n- b5679a7: fix(ai): filter tracing-channel context with telemetry allowlists\n- ca31b89: Clarify in the prompt validation code that `allowSystemInMessages` permits all system messages, including instruction text.\n- Updated dependencies [124b6ef]\n  - @ai-sdk/gateway@4.0.92",
-      "published_at": "2026-09-24T18:51:02Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.114",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@3.0.291",
-      "tag_name": "@ai-sdk/vue@3.0.291",
-      "body": "### Patch Changes\n\n- ai@6.0.291",
-      "published_at": "2026-09-24T18:50:12Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.291",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.291",
-      "tag_name": "ai@6.0.291",
-      "body": "### Patch Changes\n\n- Updated dependencies [1915a6f]\n  - @ai-sdk/gateway@3.0.201",
-      "published_at": "2026-09-24T18:49:41Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.291",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.266",
-      "tag_name": "ai@5.0.266",
-      "body": "### Patch Changes\n\n- Updated dependencies [cd9b333]\n  - @ai-sdk/gateway@2.0.158",
-      "published_at": "2026-09-24T18:48:25Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.266",
-      "kind": "release"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.6.5",
       "tag_name": "langchain-core==1.6.5",
@@ -112,8 +139,8 @@
     },
     {
       "source": "news:en",
-      "name": "Build your way: Use any AI agent of your choice in Android Studio - blog.google",
-      "tag_name": "blog.google",
+      "name": "Build your way: Use any AI agent of your choice in Android Studio - android-developers.googleblog.com",
+      "tag_name": "android-developers.googleblog.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-24T16:05:18Z",
       "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMkhlOExaczNiUW0yQlZTSVotTmQ5SGhiMzVqejFDSmxUSHhvT0VERVU5Y2F6LTV1UHBLMm1ZTmtrV3hOLUQ2ME9VLVFZV19mUW5QdG44NmlBbGh4Zm1fNHFfZVFaVkNldmpmc3ZwTFFBOEFfWE5jby1SQjl1ZG1QcTdLd003OXdQSzRQVERXTk1qbTJsWmVuaGFLUDgyeUFzaml0M0x1TQ?oc=5",
@@ -165,15 +192,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Mapbox introduces location infrastructure for AI - GPS World",
-      "tag_name": "GPS World",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-24T02:23:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVNzZTR2p6ZWx1SHgyWjRvbFFUV0FyYXJELWMyOEFGaUpmOXJjVERTY25mc3ZoOW9OYkNlMVBPMGdzU1VJbzBWWnhzZGx4Tm96N3ZLdTU3UlJPQmxXTGE5MnQtQU9sRG1Yb0VNT1pVVmpUZGtjcG9pMUxPWFA4RU0?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.19.2",
       "tag_name": "v3.19.2",
@@ -181,15 +199,6 @@
       "published_at": "2026-09-24T00:05:23Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.2",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Flatkey Raises $10 Million Series A After Reaching 10,000 Developers - citybiz",
-      "tag_name": "citybiz",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T19:17:46Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTDBkbTZIZjlvWjZXVDJfaGRuTlpoaGFOZ2RDc1U1RF9yNWZVb0ZYN2tyWTdFWTBHM2k4YTdDR0pQZ3ZGNkxwZDhrdEhaREhHTE9sZGN1UDBRNDZZalltOFBQSE9HeVVYM1lOZk1qNUFHWmFzZGJYT3hWTG1xTk9jV01EUTBBdzQwZlBCTE9EejV2a2xEcjdEejREZVpKV0ZlcUp4ODgyZ0g1cjVwd2k3OFFneWprWnVNYUZ4c2pjSWNPSzdZU3JPZTBB?oc=5",
-      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -301,20 +310,29 @@
     },
     {
       "source": "news:en",
-      "name": "Q.ANT Launches Open-Source SDK for Photonic Computing - The Quantum Insider",
-      "tag_name": "The Quantum Insider",
+      "name": "Q.ANT Launches World First Open-Source SDK for Photonic Computing - GlobeNewswire",
+      "tag_name": "GlobeNewswire",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T13:38:05Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEdWMkxjV3lXbmhiR29PTjMyaXBSOFI0cUgxLXBhZnFVSnBNd1k5N3dENnVfSVFsZkFVVHh6UzQ3QV9iQVVqZmpwaXhZTXpRSXJmdlpLZHlCelBmRkx2LXZ5RHFzMUFCR21xZjhmaVpWTlRUQlQzRVJaTEN3OU1QLTNycVI1ajNOT1E?oc=5",
+      "published_at": "2026-09-23T12:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORlVxQWNJOFFKczV0S1MyVUZZQU9Qb2UyWG8xUE84bzYtNDFTYUVJaExaOVpNeGdybGdfdV9QUHFrVnotNmhVR2NmVFh2Yzc3Z0RpSGdOM09UekI3RGZMQXJYaUxoWjlMYkVDSDRlREROMWN1STJhTTJpS1NlWU9KTHNUaTBiY1Y0QWRpQ1Q5Yi1wZ1J6bmhkdVhVdXdzb1RzQktKaTUtaGt0VUlBVkpTT2lYVlp3UmxoWld2N1otWnZ1VjVFbVZSM1ItWlVENlVPMGxJ?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
+      "name": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin - infoq.cn",
+      "tag_name": "infoq.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-23T09:04:01Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04Z3otalVNQ3hpd1BObGpQX1pXZjVuS2o5aXE3TkdKQ0pZSVl4dWl2RVFieWVJRWFpeDlVbnA4SUEybkctYmdIamZzYlZMRkhGSVNwU3Bvb2ppT1ZWSXc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Shut up and calculate: Jev's new AI primitives for coders - The Register",
+      "tag_name": "The Register",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-23T07:27:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNODE0dmtxXzhaa25XZldYd2ZPZHNoXzR3UzBEYmU3YlpWNFRpNWpzWXczemJwZWRpd1RBLXpIdUhxR1NZVFZmcTJCQ1A0MnNNcnpPYlV3MDRKNzNNSFJpTHJ0dS1NdWF3LXNRc2h0dXRpZkVRbS15RXhfVEhwSDkzTThDTk9IdmhhTnBTS2JPc1RYOE5ad3ppVldCcWk5bVp2TGZRVllrNHdhblNaalE?oc=5",
       "kind": "news"
     },
     {
@@ -324,15 +342,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-23T03:38:39Z",
       "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9rTTBjMEpLZ3o2SDU1eTBIam5CbVBxVGxTSUU2NTBBakZzcF9QRTExMWNUVHUwQmdfc3VqUnA3X2xVUWx5Umc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "北大法宝发布智能工作空间“法宝灵境”：法律AI从“工具使用”走向“伴生时空” - 中华网",
-      "tag_name": "中华网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T03:24:43Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11bGUzMFJnUXdxRXlKYnJHclRaY1VVTjVoLWphczJteWRhVjg1S2lNR010VnRMVUVKc29xU1VuX3UzU0xlaDQ4UzkwU0o0eHJha2pGWjBjMGYzd1BHZzBVRTJoT0VzbzZlYlNvOUJ3?oc=5",
       "kind": "news"
     },
     {
@@ -360,6 +369,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-23T00:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0td3NNU1BMUDUybHM4MEp0RnFEaUlXSXJIOWgxeFBRM2FqNG83d3V0VVQ4U0ZTYUtTVC1KczRfYkpkWm9pUHc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Claude Opus 5.5 - Anthropic",
+      "tag_name": "Anthropic",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T23:25:46Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
       "kind": "news"
     },
     {
@@ -408,21 +426,21 @@
       "kind": "news"
     },
     {
+      "source": "news:zh",
+      "name": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源|云栖大会|AI软件|吴泳铭|魔搭社区ModelScope|Qwen_手机新浪网 - 新浪财经",
+      "tag_name": "新浪财经",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVko0TGRhMzQtdXZtSEcyWUZCcFlaNXFxVWlxdnNzSElhSjdjRTNEUG9EQXhtQ0xKN0p4ZzB3S2hzRE9xRlNOZV9XTU9UbjRjRWVmVGJUb1R3OGFESlp4bUtNWlNhRGVwcTljMTNoOGE3dDkwSS1SN1l6NTFSS3dPdGJleWNwVXp3aWtJZHVWeUVPelJGR3lkNUQwWmR2RHIweGFpUUYwcU80aFJpTm9NR0Z2c1JVeXhzQzc5bzNQUlNWdWhyZVhaR24yTVVXZHVDNGo0b1lRcTFxSzd5UHBremttZWRLRk9seXFBTW5uUlhVd2hEZFFxMmFtQ0NicWVZZDdxMzRIdmhpNkJIZ1AwUS1DdWhuMGFCTm51OVItRUhSTVNGdmUxSzdpem4tZw?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "langchain-ai/langchain",
       "name": "langchain-fireworks==1.6.2",
       "tag_name": "langchain-fireworks==1.6.2",
       "body": "Changes since langchain-fireworks==1.6.1\n\nfix(fireworks): use current completions model in LLM tests (#40740)\nhotfix(fireworks): use available model in LLM tests (#40737)\nrelease(fireworks): 1.6.2 (#40735)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)\nchore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs/partners/fireworks (#40586)\nchore(deps): bump pygments from 2.20.0 to 2.21.0 in /libs/partners/fireworks (#40585)\nchore(deps): bump idna from 3.19 to 3.20 in /libs/partners/fireworks (#40584)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profile data (#40500)\nchore(model-profiles): refresh model profile data (#40452)\nchore(model-profiles): refresh model profile data (#40416)\nchore(model-profiles): refresh model profile data (#40399)\nchore(model-profiles): refresh model profile data (#40277)\nchore(model-profiles): refresh model profile data (#40217)\nchore(model-profiles): refresh model profile data (#40198)\nchore(model-profiles): refresh model profile data (#40171)\nchore(model-profiles): refresh model profile data (#40009)\nchore(deps): bump orjson from 3.11.6 to 3.12.0 in /libs/partners/fireworks (#40129)\nchore(deps): bump langsmith from 0.10.16 to 0.12.1 in /libs/partners/fireworks (#40130)",
       "published_at": "2026-09-22T04:44:04Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-deepseek==1.1.1",
-      "tag_name": "langchain-deepseek==1.1.1",
-      "body": "Changes since langchain-deepseek==1.1.0\n\nfix(deepseek,infra): resolve compatible minimum OpenAI dependencies, bump min ver (#40738)\nrelease(deepseek): 1.1.1 (#40734)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/deepseek (#40641)\nchore(model-profiles): refresh model profile data (#40399)\nfix(deepseek): route strict mode to the beta endpoint (#40249)\nchore(model-profiles): refresh model profile data (#39906)\nchore(model-profiles): refresh model profile data (#39844)\nfix(deepseek): map prompt_cache_hit_tokens to cache_read (#39668)\nchore(model-profiles): refresh model profile data (#39625)\nchore(model-profiles): refresh model profile data (#39166)\nchore(deps): refresh lockfiles (#38746)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/deepseek (#38318)\nchore: bump langsmith from 0.8.3 to 0.8.18 in /libs/partners/deepseek (#38320)\ndocs: refresh `README` installation and resources (#38119)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nrelease(core): 1.4.6 (#38061)\nfeat(core,partners): add package version tracking to tracing metadata (#35295)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfeat(standard-tests): validate tool call chunks during streaming (#34707)\nchore(partners): bump locks (#38052)\nhotfix(openai): min core dep (#37990)\ntest(langchain,partners): disable pytest-benchmark under xdist to silence `PytestBenchmarkWarning` (#37901)",
-      "published_at": "2026-09-22T04:30:11Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
       "kind": "release"
     },
     {
@@ -435,6 +453,15 @@
       "kind": "release"
     },
     {
+      "source": "news:zh",
+      "name": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程 - infoq.cn",
+      "tag_name": "infoq.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-22T03:24:20Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZWU2UEI3WDlMd2NiVUpWTGEyTVFfSXBDaHpKODZsOVp5WWZGVzhFNjB6dURveU5TVnJlcmFscUI1T25iQjd5T0tKTXV6NGFNdTIzOF9CX2Mwdw?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "openai/openai-python",
       "name": "v3.17.0",
       "tag_name": "v3.17.0",
@@ -444,18 +471,9 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "AI编程平台Bitrig宣布为苹果iPhone Duo引入支持 - 凤凰网科技",
-      "tag_name": "凤凰网科技",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T00:09:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vMEJlNWFuQ1RQdUdMbEx1ZWlTeF81bWktQ3JjWWZRbGtrdm5WYldma2ZkRVludVBQY09wWjJBT0dQS1dESXUtYWEza0M?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
-      "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - theaieconomy.substack.com",
-      "tag_name": "theaieconomy.substack.com",
+      "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - The AI Economy | Ken Yeung",
+      "tag_name": "The AI Economy | Ken Yeung",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-21T16:02:49Z",
       "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZVd4S2xtQjVmaG1pb01EOW9zWThOVk1paEsweC1SMGFMYXJ4bmtzQ0RYYmlLNTdZaG90cllPOThIVksxSXdsenZEODNvOGxLeUNFWG9vbU8zcThUVm1fNHNMd01GZEhXYURKNw?oc=5",
@@ -463,11 +481,29 @@
     },
     {
       "source": "news:zh",
-      "name": "中美AI模型开发周期缩短至1/3，平均44天 - 36Kr",
-      "tag_name": "36Kr",
+      "name": "芯旺微电子发布全自研KF32全新一代工具链ChipON VSCode IDE - 新浪财经",
+      "tag_name": "新浪财经",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-21T05:59:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQkhJZ3o2aTg5V2diSWFaSmFPX2FyeVJ4endEbzdhWF9xMTgxdXRlWEpCMlVibnlrQTRVYjBMOUVFZ3owQnlkYlVZSU53U255ODVhdDNSa0tqRklwVnJ2bHVYb1JaNUN4Zlp3MEJRU0JrM2x6b3phbmpKeFdKVFQzRFZUWkd5cHpRdjM4?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "中美AI模型开发周期缩短至1/3，平均44天 - 36kr.com",
+      "tag_name": "36kr.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-20T18:10:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWUFpUmQ3Z2FHRXNaelVOMXQxY0VHc0hreTNkdld2dkZDU2lLdVBlZzNBdjlKdDBIN2RCT0JtQVU4TUZOdHhqSlEySklQUQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "狂裁70%工程师指望AI顶上？Android之神算了一笔账：补贴一旦退潮，AI账单直接贵过程序员 - 36kr.com",
+      "tag_name": "36kr.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-19T19:02:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DSGZqdlFuZklaanhObVJmN1UwcmxnOTBEY0xDbGNOcENxU1FTUEhuQ1A1UmF1NnFMN0dxRW5zQ21KQWk3cjlobnBwZjBkQQ?oc=5",
       "kind": "news"
     },
     {
@@ -480,24 +516,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "苹果发布Xcode 27.1首个测试版，为开发者带来iPhone Duo模拟器支持|Apple|macOS|开发工具|芯片|折叠屏_手机新浪网 - 新浪财经",
-      "tag_name": "新浪财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-18T23:22:58Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQS0lHVG84Z2gyWjQ0NVNVX1dkOUU3MXhvbnlicTJpR2Q5T2FGc2hqdkhsMGRlVU9CQlBiUTJ1dG9VMXpVU2V6M29kYm1YVXl4REdhRkxXZF85TmJaOG84aXpIaFM3cTVqRDJCZ0F5Ri14Njdmd3B1aVRFQ0pDWWNBSFNSSUZTQmJkaXZrZkNwdEI5Z1NsNEY3YVJLZmQtOTJMY1ExeEUtRnEydkd4MVlSOUdoX0tRa04teWpTTWs5ay1nX2pISFpJUnI5TTN0MzB2M2FYcl9DQVlMSjlaSnZNcTMyMGRqUFQtV01TZmNMTnJGTFY3QmZ0QzN4M0FpQ2Q1bHlCRGlEMzdsQlFEWWoyMDZIYUZ3ZUVfUWlMMnRlc2VJQ1NzN0luVE14QkhpVFJwY3Z6UDl6RnZ2QQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Google and Speakeasy Open-Source SDK Generator After Vendor Shutdown - ADTmag",
-      "tag_name": "ADTmag",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-18T23:04:37Z",
-      "html_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0h4Wl9pWlBsM2FpOW1Fd3ZfTzg2MWRSeXplS2ZHaXd2NHZsT1ZOZzgzUWJtWVRhaDN1Vnd3X3NlYmVVajFOZnRpZXhDeFpCVk5CVGNsM1pieThlRmZVVWZRWV8zcmNMb3lJOGVQUGNBVFphd2hlRDQxWVVIUDVVR2ltX3Y1VV8xbFNKd0xlX3FhRmZjVnBGMk5JeDdHLVhzb0J2TnotOEw1M2s1d3V5ZmJn?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.16.2",
       "tag_name": "v3.16.2",
@@ -505,15 +523,6 @@
       "published_at": "2026-09-18T21:26:27Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.16.2",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Higgsfield Expands Developer Access With APIs and GitHub Tools - entARABI",
-      "tag_name": "entARABI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-18T19:08:01Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0pGMGVUUjUwbzcwajkyWTlBVG5KLTdUenFnSjVkb2trV2tGeldKT0dQUHEybG5iUWRKV2VFVGpRSVBKbzl0b0N5Nm9sSGFGdG5rVkdqTGp5RVR6dUxxdm5RQU1SRHlySEtNQzV4NldUblpaeS1neVYzSnFVSTdyM0d5eUU3YThjM2o1TEtFRHA1YVQ4RV9ILU1fdw?oc=5",
-      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -541,15 +550,6 @@
       "published_at": "2026-09-18T14:52:49Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.16.0",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "智谱旗下AI 编程工具ZCode 被扒静默上传完整Git 历史 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-18T10:25:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MU3hmZy1QQkZpdGgtU3ItY1JiN3ZERU84aG9maTZYZmNXNHozTXRiNGtYR2FGX202clJZaXpKRXhXMlgxQzRvaFVjOA?oc=5",
-      "kind": "news"
     },
     {
       "source": "ollama/ollama",
