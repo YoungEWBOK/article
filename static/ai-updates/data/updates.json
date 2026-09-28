@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-09-27T06:38:54.329829Z",
+  "generated_at": "2026-09-28T07:01:37.608739Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "又一个大体量RC版！Linux 7.3-rc5发布：AI在4100万行代码里疯狂找Bug - 驱动之家",
+      "tag_name": "驱动之家",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T04:21:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPY1poNVFmUmw4clFQaHFYdllpZUd4eExwT003S1VCMWtWQUM1ZnRiNS1DekNXbndGbmoySHdncVI4ODlzYVZncEdLOUJwWHZEVFFPVXdxYUs?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "联想集团以多层伙伴协作构建AI生态，阿里云与科大讯飞各有路径 - 中华网",
+      "tag_name": "中华网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T03:52:52Z",
+      "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EbF9aOGtNMURBRVNfVGFoR1ZudGJ6d2J1QlllODhtV0Q2UjdsaTNRbndFWk5WQkFjUEtPSHRRc3I0YW56bmFfN3hOclRKdjNzZjRPRU04aXZ5bUFTaU9vdjF0M0d5V0t4bFZBYWpn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "微软推出整合版Copilot 企业AI功能按用量计费- AI - 亿邦动力",
+      "tag_name": "亿邦动力",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T01:34:32Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sOHlDcnF2N2E1T3FDWTZiblAxQm5vLVpNcl91Q1VKeDF3elRxVEQ1eGNyOG05MTFjTnRyTFV2UmxqQUxHbFZKak9DdEtXT3RUc3ltV2RB?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Meta发布多款AI眼镜：Muse智能体上线，推出无摄像头版本 - 至顶网",
+      "tag_name": "至顶网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T00:04:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4SzJKUmtHTzB4YTNMUHQtc1BVWFItbjF6U3FaNlR3cGdiM3I1d0xZbFA4STNVdVlyY3dYcXVISWpxbXNrbVEza0taOXQ3a3NaT1kzdENPRmRNTmhVSkdOblN4Ukk?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Microsoft releases .NET SDK for AG-UI agent-user interaction protocol - InfoWorld",
+      "tag_name": "InfoWorld",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-27T15:54:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGxsOWlQQ2kxOXhjYWRjVlU4SWFHaElfSmlFNW1VOF8yMEVKQjl5YUVGUS13VzhpeW1rVi14Q0t4QW1QdmptRHByazBhVGNEbWdIQnBhSkoxaTUyRW1ickRLeVNFUkFCSGx4cWxxczBXbV9PdGM4UkZwclVjMUtkb2lReU1EVmowaS1uUEo1cFRPMlVBZ1ZvYkdxVlF5U3pLSUdOd1NkM0lFRVloM2V5U1R4Ujk0dw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "OpenAI开发者大会DevDay临近：网络安全、企业智能体与创作者工具会否引发新一轮SaaS冲击？ - TradingKey",
+      "tag_name": "TradingKey",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-27T11:25:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZkZsNy1ETVdnaDdjYktqUWZTTklnMFE4Z2hqRFhhNXBhQ3JYN3ducmV6bjlJZzl1THBHRjA3bFl5UmhNcnc4cE91d2tBZFM3NG1HZTY1UGlnTWhTQWhMVk1FNEJsRW1fUm9LcGpER3NpU1k0eENKSE1GNXhINFZ1dXZqcHJPZy1TNDNwM25DaG5wZlNyQzBMa1FSYkU3TU00bDhPRjhoRXduNk9IUDdSdlVlR2hKam9VWnAzWHJYR3Vvdy1nTmJaYmpxdTFWRFZTQXd3?oc=5",
+      "kind": "news"
+    },
     {
       "source": "vercel/ai",
       "name": "@ai-sdk/workflow-harness@1.0.128",
@@ -75,12 +129,12 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源 - 智源社区",
-      "tag_name": "智源社区",
+      "source": "news:en",
+      "name": "Build a VS Code Extension for AI Agent PRs: 14 Steps [2026] - tech-insider.org",
+      "tag_name": "tech-insider.org",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-26T09:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaNEhoaUFYYVctV1BLb1Ixdkx4WURiYmEtWHFqTGIwY1FsMTNXWUt5Rml0LWw5bVFIX2NMRHd3aF9RbzA4VDJyQQ?oc=5",
+      "published_at": "2026-09-27T01:44:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGNiWFI2VTFKOTk0ZV82emNHLWtxb3k4eE1BUGxEVWh0ZnMxd0NLT0hSYXliSmp1R1JodXNVVVdNUk4tUmRvQnBGOHMtTGhRX2JjME5VVmUwcE1xN0czcEJra0FHN0hqUUpmSXlhSnE0bGlHNFVRMmhaWVdJSjlHRw?oc=5",
       "kind": "news"
     },
     {
@@ -90,6 +144,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-26T08:48:14Z",
       "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GQnRKTjVMRkxEck1kY0NkN3p6V2pSbUVpZzlrTk1zbFhhbjhxTHlqc0VSTktWLXBub01BaU8tNWxtcDRhd1NwNWhzX01aOUpoUmtSQmd2YnNwYXBENV9RdkMxVk5VTTVTR3czbmZ3?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Microsoft overhauls Copilot with new coding, document editing features - siliconangle.com",
+      "tag_name": "siliconangle.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-25T20:17:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNalNJOVp3aDUxVTAtRFZsSDBMTTI1R1M0Z1V4ZnZiQmNtd21fTnFDakVWZ2FqdkM5SVlTd2xkbVRPMS1pM3pvb09aTFFwMWcyNThIaU9ITEQzaXUtWXRfVDZnSEs1QTRhR3Y2QW9xZ3V0WmQxSXlLZUZEMmdBeEVGel9kMjlMR2oxR1ZyOTR5SkhRVEZkb2o5NzEyMGdSOVhTWUJNM0hOZV9pQQ?oc=5",
       "kind": "news"
     },
     {
@@ -120,15 +183,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "AI can't take over your holiday shopping quite yet, a new study suggests. - Business Insider",
-      "tag_name": "Business Insider",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-25T09:37:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTkw0UXA2WWlDMUVGbDFDTXE0VFh5R0dMYzlJRFRwXy1KX0ZWRnF0WHRsU1ZqTEdWY1hhOWRPZ1h5cjlBYkNGa0RBVk5ab2xPMVEzb0R0TWM3LXk5VFh4VVN5M2xtYXk1c3J6cHhKbmdab3Z2OENnbmtUMHJQVUZEbmdFLW1hMi1oSFJ0a0Q0VGxfTm5GOEZIQw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.0",
       "tag_name": "v0.40.0-rc0",
@@ -148,11 +202,20 @@
     },
     {
       "source": "news:en",
-      "name": "Build your way: Use any AI agent of your choice in Android Studio - android-developers.googleblog.com",
-      "tag_name": "android-developers.googleblog.com",
+      "name": "Build your way: Use any AI agent of your choice in Android Studio - blog.google",
+      "tag_name": "blog.google",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-24T16:05:18Z",
       "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMkhlOExaczNiUW0yQlZTSVotTmQ5SGhiMzVqejFDSmxUSHhvT0VERVU5Y2F6LTV1UHBLMm1ZTmtrV3hOLUQ2ME9VLVFZV19mUW5QdG44NmlBbGh4Zm1fNHFfZVFaVkNldmpmc3ZwTFFBOEFfWE5jby1SQjl1ZG1QcTdLd003OXdQSzRQVERXTk1qbTJsWmVuaGFLUDgyeUFzaml0M0x1TQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Muse大火之际，Meta Connect重磅来袭：AI+智能穿戴会否带来全新惊喜 - 财联社",
+      "tag_name": "财联社",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-24T14:46:09Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9rTTBjMEpLZ3o2SDU1eTBIam5CbVBxVGxTSUU2NTBBakZzcF9QRTExMWNUVHUwQmdfc3VqUnA3X2xVUWx5Umc?oc=5",
       "kind": "news"
     },
     {
@@ -165,12 +228,12 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Gemini 3.8 Flash TTS Lets You Design AI Voices From Text - shattered.io",
-      "tag_name": "shattered.io",
+      "source": "news:zh",
+      "name": "从超级小爱到MiMo，小米AI战线再扩张 - 财联社",
+      "tag_name": "财联社",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-24T05:37:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GLUdFNnNRYkZ6NVBpR21xTV9xMmdlQUdGS2FvZVJSS09zUm0xYlp5QXpEYjl1VklCSV9qc2lKVklaRWplWU5yN3pfak9LYjNPSUdiOHhlLVNLMGdpdDVkV1MwMDZmb2FZbzZJUw?oc=5",
+      "published_at": "2026-09-24T11:01:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nSnpLbzVPa3VPdE9ZMGZ5emJmS2g0dkVhRGFfZ1VCV2hxU1BodGR2VHdSaWVrQkZDSmFiQXVtR2hxN3REMlNiRQ?oc=5",
       "kind": "news"
     },
     {
@@ -180,15 +243,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-24T03:45:02Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wM2hnLXFYcmZkVkY2ZnprS29iZHpBUjdEemRZOGF1YmNZSnpvUzJaMVIwRTNuUmJkV2RiRnE1c01MWm5QVm1IVjV3bE1FazZaMFgtdENCemhocUh4d0E?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软更新1.139版VS Code：大规模Agent会话首次加载提速12倍 - 搜狐网",
-      "tag_name": "搜狐网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-24T03:31:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeEF1NmxBTGMtXzBfRGRLRFJwWUNCaWhaTFZSS1o3S0xic2tYMmxtc3RUNVFScjN2bDRWMndBTmxlbHVjN3h6a0RzOHREZldsSEY3OWk3RXRFUmNieFpMNHZzTVRyRzd3alFmZzhIa09Ya0xseXdIeGJzNzdXR2cyTXMwZ3FhQTdi?oc=5",
       "kind": "news"
     },
     {
@@ -319,8 +373,8 @@
     },
     {
       "source": "news:zh",
-      "name": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin - infoq.cn",
-      "tag_name": "infoq.cn",
+      "name": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-23T09:04:01Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04Z3otalVNQ3hpd1BObGpQX1pXZjVuS2o5aXE3TkdKQ0pZSVl4dWl2RVFieWVJRWFpeDlVbnA4SUEybkctYmdIamZzYlZMRkhGSVNwU3Bvb2ppT1ZWSXc?oc=5",
@@ -333,15 +387,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-23T07:27:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNODE0dmtxXzhaa25XZldYd2ZPZHNoXzR3UzBEYmU3YlpWNFRpNWpzWXczemJwZWRpd1RBLXpIdUhxR1NZVFZmcTJCQ1A0MnNNcnpPYlV3MDRKNzNNSFJpTHJ0dS1NdWF3LXNRc2h0dXRpZkVRbS15RXhfVEhwSDkzTThDTk9IdmhhTnBTS2JPc1RYOE5ad3ppVldCcWk5bVp2TGZRVllrNHdhblNaalE?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Muse大火之际，Meta Connect重磅来袭：AI+智能穿戴会否带来全新惊喜 - 财联社",
-      "tag_name": "财联社",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T03:38:39Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9rTTBjMEpLZ3o2SDU1eTBIam5CbVBxVGxTSUU2NTBBakZzcF9QRTExMWNUVHUwQmdfc3VqUnA3X2xVUWx5Umc?oc=5",
       "kind": "news"
     },
     {
@@ -364,15 +409,6 @@
     },
     {
       "source": "news:zh",
-      "name": "Cursor 最新动态 — 最新更新与发布说明 - Cursor",
-      "tag_name": "Cursor",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-23T00:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0td3NNU1BMUDUybHM4MEp0RnFEaUlXSXJIOWgxeFBRM2FqNG83d3V0VVQ4U0ZTYUtTVC1KczRfYkpkWm9pUHc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "Anthropic“杀”进金融圈，联创称2028年底AI能自我进化 - 第一财经",
       "tag_name": "第一财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -391,8 +427,8 @@
     },
     {
       "source": "news:en",
-      "name": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads - Amazon Web Services (AWS)",
-      "tag_name": "Amazon Web Services (AWS)",
+      "name": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads - aws.amazon.com",
+      "tag_name": "aws.amazon.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-22T22:21:13Z",
       "html_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWVhbVg4T1p1R0dHREV5eTVmWEJGRzJzYlFpT2pidWF0V3hQMHJVcHRYN1pmWTlKRmdpWHJiWTJqbFNJcDRheThYMXF6amtyM3dpQXBCRVhuOE9Eb0JHTFFKUl9HNDNhWnFwdVJVeGJWVFVPbzhxbXAwSno5YWhUaEROMzZkUTNWeS1TVFdvR2gwYS1US2JCSF9lSk9WSXZpWmZZNlBRam9YV01fRXJ5Rld0b3RsaHBmVG12UWRyd3NkTXNZaW5aYUxQQ1NEZw?oc=5",
@@ -435,15 +471,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "AI日报：腾讯混元图像3.5来了；Grok4.7上线；月之暗面推出Kimi Code桌面版 - AIBase",
-      "tag_name": "AIBase",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T08:28:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56UFZ4QnZ6MkRGdjAwckFpV1Y3c25BZVo0YlBvMU9OUUZNSlV6MFJObThHN2VVUU11RTVjTm1jbzVQYmdKQ2VsQ0V5X01iam8?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-fireworks==1.6.2",
       "tag_name": "langchain-fireworks==1.6.2",
@@ -472,38 +499,11 @@
     },
     {
       "source": "news:en",
-      "name": "Elon Musk Unveils Grok 4.7: Is the Latest xAI AI Model Overhyped This Time? - eu.36kr.com",
-      "tag_name": "eu.36kr.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-22T00:51:48Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02RkxjTEJSZzFBY29SZXpDZ3lMMlZZVFl3NFpnZm91TWNqbV93MlV4cnlYVXFMRnE3S2dDZ0ViSUc5dmpBemN6UDFNOXVMekpsa1dJ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "AWS Built an AI Agent and Left Out the Brain on Purpose - The AI Economy | Ken Yeung",
       "tag_name": "The AI Economy | Ken Yeung",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-21T16:02:49Z",
       "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZVd4S2xtQjVmaG1pb01EOW9zWThOVk1paEsweC1SMGFMYXJ4bmtzQ0RYYmlLNTdZaG90cllPOThIVksxSXdsenZEODNvOGxLeUNFWG9vbU8zcThUVm1fNHNMd01GZEhXYURKNw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "芯旺微电子发布全自研KF32全新一代工具链ChipON VSCode IDE - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-21T05:59:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQkhJZ3o2aTg5V2diSWFaSmFPX2FyeVJ4endEbzdhWF9xMTgxdXRlWEpCMlVibnlrQTRVYjBMOUVFZ3owQnlkYlVZSU53U255ODVhdDNSa0tqRklwVnJ2bHVYb1JaNUN4Zlp3MEJRU0JrM2x6b3phbmpKeFdKVFQzRFZUWkd5cHpRdjM4?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "中美AI模型开发周期缩短至1/3，平均44天 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-20T18:10:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWUFpUmQ3Z2FHRXNaelVOMXQxY0VHc0hreTNkdld2dkZDU2lLdVBlZzNBdjlKdDBIN2RCT0JtQVU4TUZOdHhqSlEySklQUQ?oc=5",
       "kind": "news"
     },
     {
