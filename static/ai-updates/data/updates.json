@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-10-01T07:13:07.868757Z",
+  "generated_at": "2026-10-02T07:03:36.114115Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "openai/openai-python",
+      "name": "v3.23.0",
+      "tag_name": "v3.23.0",
+      "body": "## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)\n\n\n### Features\n\n* **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007)) ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))\n* **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009)) ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))\n* **api:** Add session traces and Realtime translations ([#4001](https://github.com/openai/openai-python/issues/4001)) ([138e3d1](https://github.com/openai/openai-python/commit/138e3d14c4bff1322e5c96de711e272bebb77cc2))\n* **beta:** expose typed application actions as agent tools ([#4006](https://github.com/openai/openai-python/issues/4006)) ([f219c55](https://github.com/openai/openai-python/commit/f219c5581661408688195659ab0137927ba9a033))\n* collect final output from beta Agents streams ([157ac4c](https://github.com/openai/openai-python/commit/157ac4c49a34891d5b66d2950b5082d1b3268315))\n\n\n### Bug Fixes\n\n* **api:** allow original image detail in Chat Completions ([#4005](https://github.com/openai/openai-python/issues/4005)) ([8a136c2](https://github.com/openai/openai-python/commit/8a136c203062b999349da745226ba5299709c7be))\n* **api:** correct the eval run cancellation endpoint ([#4003](https://github.com/openai/openai-python/issues/4003)) ([28c5c9a](https://github.com/openai/openai-python/commit/28c5c9aa55532bc6524611101a6137f6d3028514))\n* **api:** retain WebSocket endpoint paths and query parameters ([#3999](https://github.com/openai/openai-python/issues/3999)) ([7f203fd](https://github.com/openai/openai-python/commit/7f203fd5cfd96354524cd07498497b2e27184f95))\n* keep Castiron budget results valid when main advances ([#4012](https://github.com/openai/openai-python/issues/4012)) ([73f189b](https://github.com/openai/openai-python/commit/73f189b2918197478cc93e31905a402c0a8389e3))\n* **responses:** avoid replaying uncertain typed sends on reconnect ([#4011](https://github.com/openai/openai-python/issues/4011)) ([1dbbf61](https://github.com/openai/openai-python/commit/1dbbf61eb6198976bb8a54585b7b0dd7d30c456e))\n* **responses:** respect send queue limits during reconnect ([#4000](https://github.com/openai/openai-python/issues/4000)) ([50f95ac](https://github.com/openai/openai-python/commit/50f95ac0f3563a32c9c2e0415e4701e283f17096))\n* use monotonic clock for file processing timeout ([#3748](https://github.com/openai/openai-python/issues/3748)) ([58aca1d](https://github.com/openai/openai-python/commit/58aca1dcfd8d04a3c6352fa2c34b3035ea850f57))\n\n\n### Chores\n\n* **api:** retain WebRTC Live session transport types ([#4002](https://github.com/openai/openai-python/issues/4002)) ([5c9ace9](https://github.com/openai/openai-python/commit/5c9ace9a8173c67300b05c3aeb6de01526ed8214))\n* **deps-dev:** bump pyright from 1.1.413 to 1.1.414 ([#3902](https://github.com/openai/openai-python/issues/3902)) ([a91d779](https://github.com/openai/openai-python/commit/a91d779cb5e725b47909333c6a3d9fe795e93439))\n* **deps:** bump astral-sh/setup-uv from 10.0.1 to 10.1.0 ([#3976](https://github.com/openai/openai-python/issues/3976)) ([f15f43c](https://github.com/openai/openai-python/commit/f15f43cdcc5959aeb17108a614a1b73e512971b5))\n* **deps:** bump CodeQL actions to 4.38.1 ([#3974](https://github.com/openai/openai-python/issues/3974)) ([fb70d66](https://github.com/openai/openai-python/commit/fb70d661621fe42706120f90673cbae358468244))",
+      "published_at": "2026-10-01T23:02:59Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.23.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@3.0.300",
+      "tag_name": "@ai-sdk/vue@3.0.300",
+      "body": "### Patch Changes\n\n- ai@6.0.300",
+      "published_at": "2026-10-01T19:11:11Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.300",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.138",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.138",
+      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.138",
+      "published_at": "2026-10-01T19:11:08Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.138",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.58",
+      "tag_name": "@ai-sdk/workflow@2.0.58",
+      "body": "### Patch Changes\n\n- Updated dependencies [158a718]\n- Updated dependencies [bb8d33e]\n- Updated dependencies [284dc11]\n- Updated dependencies [ba8afe9]\n  - ai@7.0.127",
+      "published_at": "2026-10-01T19:11:05Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.58",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.127",
+      "tag_name": "@ai-sdk/vue@4.0.127",
+      "body": "### Patch Changes\n\n- Updated dependencies [158a718]\n- Updated dependencies [bb8d33e]\n- Updated dependencies [284dc11]\n- Updated dependencies [ba8afe9]\n  - ai@7.0.127",
+      "published_at": "2026-10-01T19:11:02Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.127",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/tui@1.0.128",
+      "tag_name": "@ai-sdk/tui@1.0.128",
+      "body": "### Patch Changes\n\n- Updated dependencies [158a718]\n- Updated dependencies [bb8d33e]\n- Updated dependencies [284dc11]\n- Updated dependencies [ba8afe9]\n  - ai@7.0.127",
+      "published_at": "2026-10-01T19:10:59Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/tui%401.0.128",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/svelte@5.0.127",
+      "tag_name": "@ai-sdk/svelte@5.0.127",
+      "body": "### Patch Changes\n\n- Updated dependencies [158a718]\n- Updated dependencies [bb8d33e]\n- Updated dependencies [284dc11]\n- Updated dependencies [ba8afe9]\n  - ai@7.0.127",
+      "published_at": "2026-10-01T19:10:56Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/svelte%405.0.127",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.300",
+      "tag_name": "ai@6.0.300",
+      "body": "### Patch Changes\n\n- Updated dependencies [295aadf]\n  - @ai-sdk/gateway@3.0.209",
+      "published_at": "2026-10-01T19:10:41Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.300",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.127",
+      "tag_name": "ai@7.0.127",
+      "body": "### Patch Changes\n\n- 158a718: feat(ai): select and rank eligible deferred tools via 'search()' callback in tool search\n- bb8d33e: fix(ai): cancel merged UI message streams when the consumer disconnects\n- 284dc11: fix(ai): accept unchanged tool approval inputs created in another JavaScript realm\n- ba8afe9: feat(ai): add a configurable maxResults for number of tools returned in tool search\n- Updated dependencies [d1bb9e8]\n  - @ai-sdk/gateway@4.0.103",
+      "published_at": "2026-10-01T19:09:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.127",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "AMD Ross发布：智能体AI赋能嵌入式开发全周期 - doit.com.cn",
+      "tag_name": "doit.com.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-01T03:13:06Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pZm1pZ0JvS1pyT3llYWd1RDI1Q3hlWEEwX0liQjZMUFlzYUlEUGlhTE5aOVpBeVVuMmpmOWxkNFdOcFJTSVJIYUU1YjlUWm43dFpEUnJEM0U2Q1E?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:zh",
       "name": "OpenAI发布AI助手“Dot”：可自主干活，全天候待命 - 财联社",
@@ -21,24 +111,6 @@
       "kind": "release"
     },
     {
-      "source": "vercel/ai",
-      "name": "ai@7.0.126",
-      "tag_name": "ai@7.0.126",
-      "body": "### Patch Changes\n\n- 4f3d236: fix: clear tool approvals when `addToolOutput` runs",
-      "published_at": "2026-09-30T22:57:07Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.126",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.299",
-      "tag_name": "ai@6.0.299",
-      "body": "### Patch Changes\n\n- Updated dependencies [a2749a2]\n  - @ai-sdk/gateway@3.0.208",
-      "published_at": "2026-09-30T20:52:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.299",
-      "kind": "release"
-    },
-    {
       "source": "news:en",
       "name": "Google unveils Gemini 4 Argon, retaking benchmark lead over OpenAI and Anthropic — but in limited release - VentureBeat",
       "tag_name": "VentureBeat",
@@ -48,39 +120,21 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents - TechCrunch",
+      "tag_name": "TechCrunch",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-30T19:00:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX2FtdGtxQTNoRnBrUWhFS3J4ZnExeThrRDhVbldnRVpQcTRjMldvb2ZFNkJ5R2tVOHRfT0pteDhvbkFTYmpOYVR4SVNhSUltLXl2anl6TWhFZjZyRGdmUmNPMnk4NnBySFhlN2RrU2dYWThSbFFJc3dRaVc5dDJLWkdsX0NQSmwtNURrdlhfOVFtcFhPZ1NWcXJERFp1bUJ4YmxLRjBzVUU?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.10.0",
       "tag_name": "v1.10.0",
       "body": "## 1.10.0 (2026-09-30)\n\nFull Changelog: [v1.9.0...v1.10.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.9.0...v1.10.0)\n\n### Features\n\n* **api:** add a refusal stop reason and stop_details to Managed Agents session idle events ([cba653f](https://github.com/anthropics/anthropic-sdk-python/commit/cba653fc52ed4a9b57108a0b1ae80d1f51fb46dd))\n* **api:** add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API ([6bb2c0c](https://github.com/anthropics/anthropic-sdk-python/commit/6bb2c0ca493168069298a0c6c1740073b564d192))\n* **api:** add per-user usage and cost reports to the Admin API analytics ([7443920](https://github.com/anthropics/anthropic-sdk-python/commit/7443920c35d323d887bf908911224c7f2e0d8fde))\n* **api:** add Plugins and Plugin Marketplaces to the Admin API ([1baad3b](https://github.com/anthropics/anthropic-sdk-python/commit/1baad3b04df8fc5f1cbcf59bd2eca5e51d88c1e0))\n* **api:** add repository error types to Managed Agents session errors ([c682f7e](https://github.com/anthropics/anthropic-sdk-python/commit/c682f7e359e3367581a41829fdb51250dd51b0c3))\n* **api:** allow removing a plugin's org-wide installation setting ([17f52fc](https://github.com/anthropics/anthropic-sdk-python/commit/17f52fcde9fec28a2f96e763d9a2217326104fd8))\n* **api:** MCP tunnels beta: add read-only `transport` object to Tunnel and return the one-time relay `token` in the create response ([88718ff](https://github.com/anthropics/anthropic-sdk-python/commit/88718ff4bdfab22f256b12ec7fdd20509805978c))\n* **api:** Organization API endpoints are now GA ([f1d195a](https://github.com/anthropics/anthropic-sdk-python/commit/f1d195a6ae90b2b2482b2a6f8f1732d7241b5984))\n\n\n### Bug Fixes\n\n* **api:** make memory store description, metadata, archived_at required ([6cc39d3](https://github.com/anthropics/anthropic-sdk-python/commit/6cc39d34e7f3a1ae1eea82fbc634849761966b20))\n* **api:** type admin plugin preference and marketplace fields as enums ([b4dfd99](https://github.com/anthropics/anthropic-sdk-python/commit/b4dfd998969d8a23ab7128caa152989aa867c7d2))\n* **credentials:** refuse config files that group or others can write ([cd5fc6a](https://github.com/anthropics/anthropic-sdk-python/commit/cd5fc6a1e5a65cbd08f5c77465617526c313f0b8))\n* **pagination:** auto-paging continues past an empty page while next_page is set ([c027a26](https://github.com/anthropics/anthropic-sdk-python/commit/c027a26dd4f33840ea3749db3b3e4059ec749983))\n* **tools:** stop the session tool runner after any idle that ends the turn ([#969](https://github.com/anthropics/anthropic-sdk-python/issues/969)) ([9c60a53](https://github.com/anthropics/anthropic-sdk-python/commit/9c60a531709471050c084034dece6782cc3298e5))\n\n\n### Chores\n\n* **api:** update MCP Tunnels types and descriptions ([aa49ba7](https://github.com/anthropics/anthropic-sdk-python/commit/aa49ba7fbb56425feebb7c3d0dcc75fd1f109ed4))\n* **ci:** run tests on the oldest and newest Python in parallel ([53bb298](https://github.com/anthropics/anthropic-sdk-python/commit/53bb298f0bbed38b60c2b961bd6daf973365b1a1))\n* **docs:** remove placeholder enum descriptions ([f535d67](https://github.com/anthropics/anthropic-sdk-python/commit/f535d6701f65928264cd8fb738e4327fa94fb32c))\n* **internal:** format request options with one argument per line ([4e2463e](https://github.com/anthropics/anthropic-sdk-python/commit/4e2463e13499c5e7ba6b2ef389f65b0e8f234350))\n* **tests:** match mocked binary routes when a request adds query params ([0781470](https://github.com/anthropics/anthropic-sdk-python/commit/078147029a62d22ea5fe85cf897cfbdc1693b656))",
       "published_at": "2026-09-30T18:28:45Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.10.0",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.124",
-      "tag_name": "ai@7.0.124",
-      "body": "### Patch Changes\n\n- 8c65988: feat(ai): add telemetry to speech generation and transcription, including\n  provider usage propagation and experimental streaming lifecycle callbacks\n- Updated dependencies [8c65988]\n- Updated dependencies [e25994e]\n- Updated dependencies [527a163]\n- Updated dependencies [e74afc5]\n  - @ai-sdk/provider@4.0.21\n  - @ai-sdk/provider-utils@5.0.53\n  - @ai-sdk/gateway@4.0.102",
-      "published_at": "2026-09-30T17:48:28Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.124",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.298",
-      "tag_name": "ai@6.0.298",
-      "body": "### Patch Changes\n\n- a9cea74: Keep default Node.js downloads protected by DNS validation and connection pinning when frameworks or instrumentation wrap global fetch before or after the SDK loads.\n- Updated dependencies [a9cea74]\n- Updated dependencies [a9cea74]\n- Updated dependencies [a9cea74]\n  - @ai-sdk/provider-utils@4.0.57\n  - @ai-sdk/gateway@3.0.207",
-      "published_at": "2026-09-30T17:45:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.298",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.271",
-      "tag_name": "ai@5.0.271",
-      "body": "### Patch Changes\n\n- 2b1c2df: Keep default Node.js downloads protected by DNS validation and connection pinning when frameworks or instrumentation wrap global fetch before or after the SDK loads.\n- Updated dependencies [0fa5517]\n- Updated dependencies [2b1c2df]\n- Updated dependencies [2b1c2df]\n- Updated dependencies [2b1c2df]\n  - @ai-sdk/gateway@2.0.162\n  - @ai-sdk/provider-utils@3.0.41",
-      "published_at": "2026-09-30T17:44:53Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.271",
       "kind": "release"
     },
     {
@@ -112,56 +166,20 @@
     },
     {
       "source": "news:zh",
-      "name": "OpenAI的大日子，奥特曼发布了“等待了很多年”的产品 - 文学城",
-      "tag_name": "文学城",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T03:14:09Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMRkpzOEUwMTA0U2pGeEhpSUVPWU9zbHN4cVFrVUc2ZE51VDFMeWd4dDdhYnc1OXkzWEZBTHQwTVlUMDdOU0dFU0J3amVTUHRCRDVMa2VjbGVGQnA3TU9kNVN5bTFnNzVJ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软优化Edge浏览器：网页提示不乱跑、扩展AI智能体技能|Agent|工具|单页|按钮|导航_手机新浪网 - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T02:34:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNWJnaE1WaDVqZmE2TTVwUS1FZkRPa1otZWZwRldld1NCc2FDOGJQN3l3UFdpNGtNdmZHVHFockVpa3lia1pGa2tUWDlweDBPaWdPbFYxa29semNadUV2V3Q5d0Z0ZWVla1c5UkxicDJaSThCX3BDZXVseDRwY3YwOEpfZ29qcjg3RXdyUU02dERzYzAwLWliWERiT3E4Tzl3eW81aTVWOXZ3UnRmVFpFbm5xUU5zU0lreDRxc2FyYnNDYmNiN3pURld5N3I2U01lYW8yMnRYUkRseVFGZl9pZ1hGZ1Btb0daelVXUWllUm9GVzluVXl3VlQxMEZURTlBQm5heks1VVRnVkdvMmc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.123",
-      "tag_name": "ai@7.0.123",
-      "body": "### Patch Changes\n\n- 05cdac6: fix(ai): keep idle UI message streams open with optional SSE heartbeats\n- 4514fc1: fix(ai): prune all tool content when retaining zero trailing messages\n- ede5b89: chore: migrate package builds from tsup to tsdown\n- 2a625cf: fix(ai): preserve partial reasoning tags when streamed text parts end\n- 50a26d5: fix(ai): ignore pending tool approvals superseded by user messages\n- Updated dependencies [040033b]\n- Updated dependencies [ede5b89]\n  - @ai-sdk/gateway@4.0.101\n  - @ai-sdk/provider@4.0.20\n  - @ai-sdk/provider-utils@5.0.52",
-      "published_at": "2026-09-30T02:21:24Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.123",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.270",
-      "tag_name": "ai@5.0.270",
-      "body": "### Patch Changes\n\n- 1849a5f: fix(ai): preserve hydrated partial static tool input across stream resumptions\n- 5381c08: fix(ai): keep idle UI message streams open with optional SSE heartbeats\n- 06e8d1c: Encode chat IDs in default stream reconnection URLs so slashes, query delimiters, and fragments stay within the ID. Reject standalone `.` and `..` IDs before fetching. Custom URLs returned by `prepareReconnectToStreamRequest` remain unchanged.\n- 58d303f: Preserve prototype-named tools, providers, and provider metadata as own properties without changing lookup object prototypes. Prevent inherited names from resolving as registered providers or causing image metadata aggregation to fail.\n- 430ae0a: Prevent automatic chat resumption when completed tool output is followed by terminal text without a completed stream state, while preserving resumption after completed model text.\n- Updated dependencies [07e394b]\n- Updated dependencies [b6cf409]\n  - @ai-sdk/gateway@2.0.161",
-      "published_at": "2026-09-30T01:19:57Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.270",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.297",
-      "tag_name": "ai@6.0.297",
-      "body": "### Patch Changes\n\n- 8349396: fix(ai): preserve hydrated partial static tool input across stream resumptions\n- ab0b94b: fix(ai): keep idle UI message streams open with optional SSE heartbeats\n- ce660b0: Clarify that provider-executed tool execution errors bypass the UI stream's `onError` callback to preserve provider error data. Stream errors and invalid tool calls still use the callback. Runtime behavior is unchanged.\n- 850d4d5: Encode chat IDs in default stream reconnection URLs so slashes, query delimiters, and fragments stay within the ID. Reject standalone `.` and `..` IDs before fetching. Custom URLs returned by `prepareReconnectToStreamRequest` remain unchanged.\n- cdc5b56: Preserve prototype-named tools, providers, and provider metadata as own properties without changing lookup object prototypes. Prevent inherited names from resolving as registered providers or causing image metadata aggregation to fail.\n- d4203d2: Prevent automatic chat resumption when completed tool output is followed by terminal text without a completed stream state, while preserving resumption after completed model text.\n- Updated dependencies [4972874]\n- Updated dependencies [03e5a25]\n  - @ai-sdk/gateway@3.0.206",
-      "published_at": "2026-09-30T01:19:37Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.297",
-      "kind": "release"
-    },
-    {
-      "source": "news:zh",
       "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
       "tag_name": "爱范儿",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T00:34:59Z",
+      "published_at": "2026-09-30T06:07:40Z",
       "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "微软优化Edge浏览器：网页提示不乱跑、扩展AI智能体技能|Agent|工具|单页|按钮|导航_手机新浪网 - 新浪财经",
+      "tag_name": "新浪财经",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-30T02:34:33Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNWJnaE1WaDVqZmE2TTVwUS1FZkRPa1otZWZwRldld1NCc2FDOGJQN3l3UFdpNGtNdmZHVHFockVpa3lia1pGa2tUWDlweDBPaWdPbFYxa29semNadUV2V3Q5d0Z0ZWVla1c5UkxicDJaSThCX3BDZXVseDRwY3YwOEpfZ29qcjg3RXdyUU02dERzYzAwLWliWERiT3E4Tzl3eW81aTVWOXZ3UnRmVFpFbm5xUU5zU0lreDRxc2FyYnNDYmNiN3pURld5N3I2U01lYW8yMnRYUkRseVFGZl9pZ1hGZ1Btb0daelVXUWllUm9GVzluVXl3VlQxMEZURTlBQm5heks1VVRnVkdvMmc?oc=5",
       "kind": "news"
     },
     {
@@ -176,10 +194,10 @@
     {
       "source": "ollama/ollama",
       "name": "v0.35.1",
-      "tag_name": "v0.35.1-rc0",
+      "tag_name": "v0.35.1-rc2",
       "body": "## What's Changed\r\n* feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651\r\n* llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652\r\n* create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0",
       "published_at": "2026-09-29T20:14:22Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
       "kind": "release"
     },
     {
@@ -207,6 +225,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T18:14:23Z",
       "html_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1raGxrQk1IaURRODMya2VUc3BHcGlydnN6NFd0dngwcnF1ai0yZm1qLXRiQ0liZEQ3RWVSck5ta2w0ck1haWhkNmIzRW83Q1RDdURmOEVuWQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "隆重推出 Dot - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T17:59:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
       "kind": "news"
     },
     {
@@ -265,11 +292,11 @@
     },
     {
       "source": "news:en",
-      "name": "Flatkey Raises 10 million Dollars in Series A After Passing 10,000 Developers in Two Months - Send2Press",
-      "tag_name": "Send2Press",
+      "name": "Flatkey Raises 10 million Dollars in Series A After Passing 10,000 Developers in Two Months - Mankato Free Press",
+      "tag_name": "Mankato Free Press",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T11:05:05Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN2kwT3dfVHgtYnJXQW5nV1lQTkxWbTAyZUt3T0tEWTNva1NycmVzQnpid0h1U1FMYUVUS19CUk9vVi1lV1hjUjZXaWh2VXM4TXItUkJKMHF5UExyRTY0Ti1rTmh4R2VvdmJBLVBtVXcwaEtlMUF4T0k2X0hkSFJKdFVtMUh0RkNzZm54cE5YTklOUEw5dnVaSXVtVzBYdDBwNlVHUTNkRVNNU0QwQmtoNWFMdmplbFE0dUNOR2pFZlo?oc=5",
+      "published_at": "2026-09-29T11:18:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOQUgwZUJsUGZBaGltOTRqcy00UHVlT1lUeFpPc0ZIa205TjVhZWRybjNOSE9aOGFWUHBOd1JscnJvQWRvUHI0clRGdW9SVGctRE5wcTQ1Mlk4RlZyMllHcTJFT0MzVElNYTRtMThrYVZiSTdqazNOSEVCMGxIaGVWZzVnb3FWVmdmWFlUeGYyN3hTc05EYmRxNGNENUVlTWp5QXNvX1RoY2diN0hiQXBuQWdaNlh4QWd0TnZlTlNvY2hsVEx1Y3ZWek1EbHpzOExPcWpEbko0OElpRWtnWVliOGtxVWdoTXVmUTNmUWU2QURnX0VjeDg0ZlJ6S2hjaUdZRUt1ZS1ZR3NyWnk0cFVId28yeUZMSlpTREpIZA?oc=5",
       "kind": "news"
     },
     {
@@ -292,26 +319,17 @@
     },
     {
       "source": "news:zh",
-      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - wallstreetcn.com",
-      "tag_name": "wallstreetcn.com",
+      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - 华尔街见闻",
+      "tag_name": "华尔街见闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-28T23:07:02Z",
       "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01eHVKQUU0QmY2V0RtSTM0dkx0MEx0NVFrQlRqbjFtaXNTNHBWZWxYOU1ZNDNaUU5lVVZaUG5kci0xZ2d0ekp0a1drak45MGxXREk4?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "隆重推出 Dot - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T22:23:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
-      "name": "Introducing dots - openai.com",
-      "tag_name": "openai.com",
+      "name": "Introducing dots - OpenAI",
+      "tag_name": "OpenAI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-28T22:23:57Z",
       "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
@@ -498,15 +516,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Build your way: Use any AI agent of your choice in Android Studio - android-developers.googleblog.com",
-      "tag_name": "android-developers.googleblog.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-24T16:05:18Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMkhlOExaczNiUW0yQlZTSVotTmQ5SGhiMzVqejFDSmxUSHhvT0VERVU5Y2F6LTV1UHBLMm1ZTmtrV3hOLUQ2ME9VLVFZV19mUW5QdG44NmlBbGh4Zm1fNHFfZVFaVkNldmpmc3ZwTFFBOEFfWE5jby1SQjl1ZG1QcTdLd003OXdQSzRQVERXTk1qbTJsWmVuaGFLUDgyeUFzaml0M0x1TQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-openai==1.6.6",
       "tag_name": "langchain-openai==1.6.6",
@@ -558,15 +567,6 @@
       "body": "## [3.19.0](https://github.com/openai/openai-python/compare/v3.18.0...v3.19.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GCP external storage support ([#3943](https://github.com/openai/openai-python/issues/3943)) ([d12d60f](https://github.com/openai/openai-python/commit/d12d60fff9f5624f2dc50ade3d832028f4fecaa7))\n* **api:** add GPT-Rosalind research model ([#3940](https://github.com/openai/openai-python/issues/3940)) ([d041d73](https://github.com/openai/openai-python/commit/d041d736f75f03f6c87aa77f932823011691bac5))\n\n\n### Bug Fixes\n\n* **_utils/_transform:** propagate __api_exclude__ in _async_transform_recursive ([#3324](https://github.com/openai/openai-python/issues/3324)) ([161ae65](https://github.com/openai/openai-python/commit/161ae65ea676a000a156ba0dacfd904532b52473))\n* **api:** handle omission markers in queued WebSocket events ([#3944](https://github.com/openai/openai-python/issues/3944)) ([63e4616](https://github.com/openai/openai-python/commit/63e46169a7c6525ec90c7f2815a05d56e795cbcf))\n* **client:** retry only replayable request content ([#3771](https://github.com/openai/openai-python/issues/3771)) ([6e0c2be](https://github.com/openai/openai-python/commit/6e0c2beeb639e42ff74f14135151d8bcb1e5b245))\n* **client:** tolerate older optional aiohttp installations ([#3941](https://github.com/openai/openai-python/issues/3941)) ([0d91efb](https://github.com/openai/openai-python/commit/0d91efbe5084c2f572688e8e9a05c0a91c8c0319))\n* **helpers:** use asyncio.get_running_loop() inside async methods ([#3289](https://github.com/openai/openai-python/issues/3289)) ([bac3545](https://github.com/openai/openai-python/commit/bac3545eee5a0dfd348a6766bca3e904308792dd))",
       "published_at": "2026-09-23T00:08:02Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.18.0",
-      "tag_name": "v3.18.0",
-      "body": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
-      "published_at": "2026-09-22T18:25:48Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.18.0",
       "kind": "release"
     },
     {
