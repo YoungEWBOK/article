@@ -1,7 +1,124 @@
 {
-  "generated_at": "2026-10-02T07:03:36.114115Z",
+  "generated_at": "2026-10-03T06:36:29.606335Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
+      "tag_name": "爱范儿",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-03T03:27:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Meta Open-Sources Muse Gadgets: Empower Global Developers to Independently Build Custom AI Peripherals - 36Kr",
+      "tag_name": "36Kr",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-03T01:42:28Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1scDlPcnhoMHhYdVQ0TGNoeHlvaWxSZUhTMHBncUZ0bDd2clhXbVMyXzBBTUZYTVV2aGozWDRTM0E5czYtNm5VSGF6RjNtVFZRSlFr?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "2.3.0",
+      "tag_name": "v2.3.0",
+      "body": "| Package | Version |\r\n|---|---|\r\n| `@modelcontextprotocol/client` | 2.3.0 |\r\n| `@modelcontextprotocol/server` | 2.3.0 |\r\n| `@modelcontextprotocol/core` | 2.3.0 |\r\n| `@modelcontextprotocol/server-legacy` | 2.3.0 |\r\n| `@modelcontextprotocol/codemod` | 2.3.0 |\r\n| `@modelcontextprotocol/node` | 2.1.1 |\r\n| `@modelcontextprotocol/express`, `hono` | 2.0.2 |\r\n| `@modelcontextprotocol/fastify` | 2.0.1 |\r\n\r\n## Upgrade notes\r\n\r\n- **One server per request.** `Server.connect()` now rejects while the instance is already connected, and a stateless Streamable HTTP transport handles one request. Create the `McpServer` and the transport inside the request handler (or in the `createMcpHandler` factory) instead of sharing one instance across requests. Creating a server is cheap since #2889. (#2918)\r\n- **Redirects stay on the same origin.** The HTTP client transports now follow a redirect only when it stays on the same origin (same scheme, host and port; http to https on the same host is allowed). A deployment whose endpoint redirects to another host or port either configures the final URL or sets `redirectPolicy: 'follow'` on the transport. In browsers, a redirected request fails unless that option is set. (#2901)\r\n- **New options, both off unless you set them.** `maxToolInputElements` on `McpServer` limits the number of array elements and object members in a tool call's arguments. `expectedResource` on `requireBearerAuth` / `verifyBearerToken` accepts only tokens issued for this server (the token's audience); with Express, upgrade `@modelcontextprotocol/express` together with `@modelcontextprotocol/server`. (#2926, #2929)\r\n- **`prompts/get` without `arguments` is validated as `{}`**, as `tools/call` already is. A top-level `.optional()` or `.default(...)` on a prompt's `argsSchema` no longer sees `undefined`. (#2107)\r\n- **The client requires `eventsource-parser` 3.0.8 or later.** It cuts the time and memory needed to receive a large message sent as a single SSE event: in our test a 100 MB tool result went from about a minute and 1.7 GB of peak memory to under a second and about 0.5 GB. (#2846)\r\n## New\r\n\r\n- `validateOriginHeader` and the `allowedOrigins` option of the Express, Fastify and Hono app helpers accept `<scheme>://*` entries such as `moz-extension://*`, so a server can admit MCP clients that run as a browser extension. (#2907)\r\n- `tasks/get` and `tasks/cancel` of the Tasks extension can be served and called on a 2026-07-28 connection. (#2599)\r\n\r\n## Fixes\r\n\r\n- A large message received as a single SSE event over Streamable HTTP is fast again: a 50 MB tool result that took about 13 seconds arrives in under a second. (#2846)\r\n- `prompts/get` without `arguments` no longer fails when every argument of the prompt is optional. (#2107)\r\n- `SSEClientTransport` refreshes once after a 401 on connect instead of retrying without limit. (#2905, #2934)\r\n- `registerTool` no longer converts tool schemas up front, so a server built per request stops converting every tool on every request. (#2889)\r\n- `hono` is a regular dependency of `@modelcontextprotocol/node`, so installs with strict peer-dependency checking no longer fail. (#2897)\r\n- A `server/discover` probe answered with an unusable 2xx reply now says so instead of reading like a network failure. (#2903)\r\n- `McpServer.registerPrompt()` types the callback correctly when no `argsSchema` is given. (#2841)\r\n- The `license` field of the package manifests is `Apache-2.0`. (#2908)",
+      "published_at": "2026-10-02T17:55:03Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.3.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/fastify@2.0.1",
+      "tag_name": "@modelcontextprotocol/fastify@2.0.1",
+      "body": "### Patch Changes\n\n- [#2918](https://github.com/modelcontextprotocol/typescript-sdk/pull/2918) [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d) Thanks [@claude](https://github.com/apps/claude)! - A `Server` or `McpServer` now serves one connection at a time, and a Streamable HTTP server transport without sessions (`sessionIdGenerator: undefined`) serves one request. An app that uses one server object, or one stateless transport, for every HTTP request fails on the second request after this upgrade. Build the server and the transport per request instead.\n\n    What keeps working without a change:\n    - `createMcpHandler(buildServer)` and `serveStdio(buildServer)`, where `buildServer` returns a new server on every call.\n    - A handler that builds a new server and a new stateless transport for each request.\n    - One server and one transport per session (a transport with a `sessionIdGenerator`).\n    - Connecting a server again after `close()`.\n    - `Client`.\n\n    What fails now, how it shows, and what to change:\n    - One server object with a new stateless transport per request (`const server = new McpServer(...)` outside the handler, `await server.connect(transport)` inside it): the second HTTP request the process receives fails, and so does every later one. `connect()` rejects with an `SdkError` of code `ALREADY_CONNECTED`. If the handler closes the transport when the response ends, requests that arrive one after the other still work and a request that overlaps another one fails. Change: move `new McpServer(...)` and its registrations into the handler.\n    - One stateless transport for every request (a transport built once with `sessionIdGenerator: undefined`): the second HTTP request fails. `WebStandardStreamableHTTPServerTransport.handleRequest()` rejects with `Stateless transport cannot be reused across requests. Create a new transport per request.`, and `NodeStreamableHTTPServerTransport.handleRequest()` answers `500`. Change: build the server and the transport inside the handler and connect them there.\n    - `createMcpHandler(() => server)` with a server built once: a request that arrives after the previous response has been read to its end still works. A request that arrives while another one is being served is answered `500` with the JSON-RPC error `-32603` (`Internal server error`); the reason is reported only through the `onerror` option. Change: pass a function that builds the server, as in `createMcpHandler(buildServer)`.\n    - One server object for every session: the `initialize` request of the second session fails with `ALREADY_CONNECTED`. Change: build a server per session.\n\n    What the caller sees when `connect()` or `handleRequest()` rejects depends on the host. Express 5, Fastify and Hono answer `500`. A plain `node:http` listener without its own error handling gets an unhandled rejection, which ends the process.\n\n    The README examples of `@modelcontextprotocol/express`, `@modelcontextprotocol/fastify`, `@modelcontextprotocol/hono` and `@modelcontextprotocol/node`, and the handler examples in the JSDoc of `WebStandardStreamableHTTPServerTransport` and `NodeStreamableHTTPServerTransport`, now build a server and a transport per request.\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- Updated dependencies [[`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a), [`6d8dbc6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37), [`5238fba`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5238fba4424f82ec1ae9f6f458dd655ab322062d), [`2fc49ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c), [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c), [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d), [`e55f9ac`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e55f9ac1b1cae413599b499cbaa45c0378edba78), [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1), [`2237555`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2237555ed036c3e80341c0f3c28684e9c3ff0728)]:\n    - @modelcontextprotocol/server@2.3.0",
+      "published_at": "2026-10-02T17:43:51Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/fastify%402.0.1",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/node@2.1.1",
+      "tag_name": "@modelcontextprotocol/node@2.1.1",
+      "body": "### Patch Changes\n\n- [#2897](https://github.com/modelcontextprotocol/typescript-sdk/pull/2897) [`7f4c12a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7f4c12a6ae6b8f22411f7772c88036e1c8055423) Thanks [@claude](https://github.com/apps/claude)! - `hono` is now a regular dependency of `@modelcontextprotocol/node`, so installs with strict peer-dependency checking no longer fail on the `hono` peer that `@hono/node-server` requires. No runtime change.\n\n- [#2918](https://github.com/modelcontextprotocol/typescript-sdk/pull/2918) [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d) Thanks [@claude](https://github.com/apps/claude)! - A `Server` or `McpServer` now serves one connection at a time, and a Streamable HTTP server transport without sessions (`sessionIdGenerator: undefined`) serves one request. An app that uses one server object, or one stateless transport, for every HTTP request fails on the second request after this upgrade. Build the server and the transport per request instead.\n\n    What keeps working without a change:\n    - `createMcpHandler(buildServer)` and `serveStdio(buildServer)`, where `buildServer` returns a new server on every call.\n    - A handler that builds a new server and a new stateless transport for each request.\n    - One server and one transport per session (a transport with a `sessionIdGenerator`).\n    - Connecting a server again after `close()`.\n    - `Client`.\n\n    What fails now, how it shows, and what to change:\n    - One server object with a new stateless transport per request (`const server = new McpServer(...)` outside the handler, `await server.connect(transport)` inside it): the second HTTP request the process receives fails, and so does every later one. `connect()` rejects with an `SdkError` of code `ALREADY_CONNECTED`. If the handler closes the transport when the response ends, requests that arrive one after the other still work and a request that overlaps another one fails. Change: move `new McpServer(...)` and its registrations into the handler.\n    - One stateless transport for every request (a transport built once with `sessionIdGenerator: undefined`): the second HTTP request fails. `WebStandardStreamableHTTPServerTransport.handleRequest()` rejects with `Stateless transport cannot be reused across requests. Create a new transport per request.`, and `NodeStreamableHTTPServerTransport.handleRequest()` answers `500`. Change: build the server and the transport inside the handler and connect them there.\n    - `createMcpHandler(() => server)` with a server built once: a request that arrives after the previous response has been read to its end still works. A request that arrives while another one is being served is answered `500` with the JSON-RPC error `-32603` (`Internal server error`); the reason is reported only through the `onerror` option. Change: pass a function that builds the server, as in `createMcpHandler(buildServer)`.\n    - One server object for every session: the `initialize` request of the second session fails with `ALREADY_CONNECTED`. Change: build a server per session.\n\n    What the caller sees when `connect()` or `handleRequest()` rejects depends on the host. Express 5, Fastify and Hono answer `500`. A plain `node:http` listener without its own error handling gets an unhandled rejection, which ends the process.\n\n    The README examples of `@modelcontextprotocol/express`, `@modelcontextprotocol/fastify`, `@modelcontextprotocol/hono` and `@modelcontextprotocol/node`, and the handler examples in the JSDoc of `WebStandardStreamableHTTPServerTransport` and `NodeStreamableHTTPServerTransport`, now build a server and a transport per request.\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- Updated dependencies [[`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a), [`6d8dbc6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37), [`5238fba`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5238fba4424f82ec1ae9f6f458dd655ab322062d), [`2fc49ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c), [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c), [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d), [`e55f9ac`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e55f9ac1b1cae413599b499cbaa45c0378edba78), [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1), [`2237555`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2237555ed036c3e80341c0f3c28684e9c3ff0728)]:\n    - @modelcontextprotocol/server@2.3.0",
+      "published_at": "2026-10-02T17:43:48Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/node%402.1.1",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/hono@2.0.2",
+      "tag_name": "@modelcontextprotocol/hono@2.0.2",
+      "body": "### Patch Changes\n\n- [#2918](https://github.com/modelcontextprotocol/typescript-sdk/pull/2918) [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d) Thanks [@claude](https://github.com/apps/claude)! - A `Server` or `McpServer` now serves one connection at a time, and a Streamable HTTP server transport without sessions (`sessionIdGenerator: undefined`) serves one request. An app that uses one server object, or one stateless transport, for every HTTP request fails on the second request after this upgrade. Build the server and the transport per request instead.\n\n    What keeps working without a change:\n    - `createMcpHandler(buildServer)` and `serveStdio(buildServer)`, where `buildServer` returns a new server on every call.\n    - A handler that builds a new server and a new stateless transport for each request.\n    - One server and one transport per session (a transport with a `sessionIdGenerator`).\n    - Connecting a server again after `close()`.\n    - `Client`.\n\n    What fails now, how it shows, and what to change:\n    - One server object with a new stateless transport per request (`const server = new McpServer(...)` outside the handler, `await server.connect(transport)` inside it): the second HTTP request the process receives fails, and so does every later one. `connect()` rejects with an `SdkError` of code `ALREADY_CONNECTED`. If the handler closes the transport when the response ends, requests that arrive one after the other still work and a request that overlaps another one fails. Change: move `new McpServer(...)` and its registrations into the handler.\n    - One stateless transport for every request (a transport built once with `sessionIdGenerator: undefined`): the second HTTP request fails. `WebStandardStreamableHTTPServerTransport.handleRequest()` rejects with `Stateless transport cannot be reused across requests. Create a new transport per request.`, and `NodeStreamableHTTPServerTransport.handleRequest()` answers `500`. Change: build the server and the transport inside the handler and connect them there.\n    - `createMcpHandler(() => server)` with a server built once: a request that arrives after the previous response has been read to its end still works. A request that arrives while another one is being served is answered `500` with the JSON-RPC error `-32603` (`Internal server error`); the reason is reported only through the `onerror` option. Change: pass a function that builds the server, as in `createMcpHandler(buildServer)`.\n    - One server object for every session: the `initialize` request of the second session fails with `ALREADY_CONNECTED`. Change: build a server per session.\n\n    What the caller sees when `connect()` or `handleRequest()` rejects depends on the host. Express 5, Fastify and Hono answer `500`. A plain `node:http` listener without its own error handling gets an unhandled rejection, which ends the process.\n\n    The README examples of `@modelcontextprotocol/express`, `@modelcontextprotocol/fastify`, `@modelcontextprotocol/hono` and `@modelcontextprotocol/node`, and the handler examples in the JSDoc of `WebStandardStreamableHTTPServerTransport` and `NodeStreamableHTTPServerTransport`, now build a server and a transport per request.\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- Updated dependencies [[`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a), [`6d8dbc6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37), [`5238fba`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5238fba4424f82ec1ae9f6f458dd655ab322062d), [`2fc49ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c), [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c), [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d), [`e55f9ac`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e55f9ac1b1cae413599b499cbaa45c0378edba78), [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1), [`2237555`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2237555ed036c3e80341c0f3c28684e9c3ff0728)]:\n    - @modelcontextprotocol/server@2.3.0",
+      "published_at": "2026-10-02T17:43:45Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/hono%402.0.2",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/express@2.0.2",
+      "tag_name": "@modelcontextprotocol/express@2.0.2",
+      "body": "### Patch Changes\n\n- [#2929](https://github.com/modelcontextprotocol/typescript-sdk/pull/2929) [`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a) Thanks [@claude](https://github.com/apps/claude)! - `requireBearerAuth` and `verifyBearerToken` take a new optional `expectedResource`, which makes them accept only tokens issued for this resource (the token's audience). Set it to the value your authorization server puts into tokens meant for this server, usually the server's URL. When it is set, a token is accepted only if the verifier reports that value in `AuthInfo.resource`; the two are compared as strings, ignoring a fragment and one trailing slash. A token reported for another value, or for none, is answered `401 invalid_token` with the usual `WWW-Authenticate` challenge. When it is not set, nothing changes. To use it, pass `expectedResource` and have `verifyAccessToken` fill `AuthInfo.resource`, for example from the `aud` claim. The option is declared on a new exported type, `VerifyBearerTokenOptions`, which extends `BearerAuthOptions`; `BearerAuthOptions` itself is unchanged. The Express `requireBearerAuth` passes the option through. With Express, `@modelcontextprotocol/express` has to be upgraded to this release as well: 2.0.1 does not pass the option on, so nothing is compared. Its options type does not have the option, so TypeScript reports an `expectedResource` written in a call to the 2.0.1 `requireBearerAuth` as an error.\n\n- [#2918](https://github.com/modelcontextprotocol/typescript-sdk/pull/2918) [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d) Thanks [@claude](https://github.com/apps/claude)! - A `Server` or `McpServer` now serves one connection at a time, and a Streamable HTTP server transport without sessions (`sessionIdGenerator: undefined`) serves one request. An app that uses one server object, or one stateless transport, for every HTTP request fails on the second request after this upgrade. Build the server and the transport per request instead.\n\n    What keeps working without a change:\n    - `createMcpHandler(buildServer)` and `serveStdio(buildServer)`, where `buildServer` returns a new server on every call.\n    - A handler that builds a new server and a new stateless transport for each request.\n    - One server and one transport per session (a transport with a `sessionIdGenerator`).\n    - Connecting a server again after `close()`.\n    - `Client`.\n\n    What fails now, how it shows, and what to change:\n    - One server object with a new stateless transport per request (`const server = new McpServer(...)` outside the handler, `await server.connect(transport)` inside it): the second HTTP request the process receives fails, and so does every later one. `connect()` rejects with an `SdkError` of code `ALREADY_CONNECTED`. If the handler closes the transport when the response ends, requests that arrive one after the other still work and a request that overlaps another one fails. Change: move `new McpServer(...)` and its registrations into the handler.\n    - One stateless transport for every request (a transport built once with `sessionIdGenerator: undefined`): the second HTTP request fails. `WebStandardStreamableHTTPServerTransport.handleRequest()` rejects with `Stateless transport cannot be reused across requests. Create a new transport per request.`, and `NodeStreamableHTTPServerTransport.handleRequest()` answers `500`. Change: build the server and the transport inside the handler and connect them there.\n    - `createMcpHandler(() => server)` with a server built once: a request that arrives after the previous response has been read to its end still works. A request that arrives while another one is being served is answered `500` with the JSON-RPC error `-32603` (`Internal server error`); the reason is reported only through the `onerror` option. Change: pass a function that builds the server, as in `createMcpHandler(buildServer)`.\n    - One server object for every session: the `initialize` request of the second session fails with `ALREADY_CONNECTED`. Change: build a server per session.\n\n    What the caller sees when `connect()` or `handleRequest()` rejects depends on the host. Express 5, Fastify and Hono answer `500`. A plain `node:http` listener without its own error handling gets an unhandled rejection, which ends the process.\n\n    The README examples of `@modelcontextprotocol/express`, `@modelcontextprotocol/fastify`, `@modelcontextprotocol/hono` and `@modelcontextprotocol/node`, and the handler examples in the JSDoc of `WebStandardStreamableHTTPServerTransport` and `NodeStreamableHTTPServerTransport`, now build a server and a transport per request.\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- Updated dependencies [[`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a), [`6d8dbc6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37), [`5238fba`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5238fba4424f82ec1ae9f6f458dd655ab322062d), [`2fc49ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c), [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c), [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d), [`e55f9ac`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e55f9ac1b1cae413599b499cbaa45c0378edba78), [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1), [`2237555`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2237555ed036c3e80341c0f3c28684e9c3ff0728)]:\n    - @modelcontextprotocol/server@2.3.0",
+      "published_at": "2026-10-02T17:43:33Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/express%402.0.2",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server-legacy@2.3.0",
+      "tag_name": "@modelcontextprotocol/server-legacy@2.3.0",
+      "body": "### Patch Changes\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- Updated dependencies [[`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1)]:\n    - @modelcontextprotocol/core@2.3.0",
+      "published_at": "2026-10-02T17:43:30Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server-legacy%402.3.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "@modelcontextprotocol/server@2.3.0",
+      "tag_name": "@modelcontextprotocol/server@2.3.0",
+      "body": "### Minor Changes\n\n- [#2929](https://github.com/modelcontextprotocol/typescript-sdk/pull/2929) [`40f8f4e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a) Thanks [@claude](https://github.com/apps/claude)! - `requireBearerAuth` and `verifyBearerToken` take a new optional `expectedResource`, which makes them accept only tokens issued for this resource (the token's audience). Set it to the value your authorization server puts into tokens meant for this server, usually the server's URL. When it is set, a token is accepted only if the verifier reports that value in `AuthInfo.resource`; the two are compared as strings, ignoring a fragment and one trailing slash. A token reported for another value, or for none, is answered `401 invalid_token` with the usual `WWW-Authenticate` challenge. When it is not set, nothing changes. To use it, pass `expectedResource` and have `verifyAccessToken` fill `AuthInfo.resource`, for example from the `aud` claim. The option is declared on a new exported type, `VerifyBearerTokenOptions`, which extends `BearerAuthOptions`; `BearerAuthOptions` itself is unchanged. The Express `requireBearerAuth` passes the option through. With Express, `@modelcontextprotocol/express` has to be upgraded to this release as well: 2.0.1 does not pass the option on, so nothing is compared. Its options type does not have the option, so TypeScript reports an `expectedResource` written in a call to the 2.0.1 `requireBearerAuth` as an error.\n\n- [#2926](https://github.com/modelcontextprotocol/typescript-sdk/pull/2926) [`6d8dbc6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37) Thanks [@claude](https://github.com/apps/claude)! - `McpServer` now accepts a `maxToolInputElements` option that limits the number of elements in tool-call arguments: the largest combined number of array elements and object members a single `tools/call` `arguments` payload may contain. It is off by default, so behavior is unchanged unless you set it. When it is set and a call exceeds it, that call is answered with an `isError: true` tool result that names the limit, before the input schema runs, and the server keeps serving. Set it above the largest arguments your tools legitimately accept; `maxRequestBodySize` remains the primary limit on request size. The value must be a number of at least 1, or `Infinity` for no limit; any other value is rejected at construction. The options type is exported as `McpServerOptions`.\n\n- [#2918](https://github.com/modelcontextprotocol/typescript-sdk/pull/2918) [`84804c2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d) Thanks [@claude](https://github.com/apps/claude)! - A `Server` or `McpServer` now serves one connection at a time, and a Streamable HTTP server transport without sessions (`sessionIdGenerator: undefined`) serves one request. An app that uses one server object, or one stateless transport, for every HTTP request fails on the second request after this upgrade. Build the server and the transport per request instead.\n\n    What keeps working without a change:\n    - `createMcpHandler(buildServer)` and `serveStdio(buildServer)`, where `buildServer` returns a new server on every call.\n    - A handler that builds a new server and a new stateless transport for each request.\n    - One server and one transport per session (a transport with a `sessionIdGenerator`).\n    - Connecting a server again after `close()`.\n    - `Client`.\n\n    What fails now, how it shows, and what to change:\n    - One server object with a new stateless transport per request (`const server = new McpServer(...)` outside the handler, `await server.connect(transport)` inside it): the second HTTP request the process receives fails, and so does every later one. `connect()` rejects with an `SdkError` of code `ALREADY_CONNECTED`. If the handler closes the transport when the response ends, requests that arrive one after the other still work and a request that overlaps another one fails. Change: move `new McpServer(...)` and its registrations into the handler.\n    - One stateless transport for every request (a transport built once with `sessionIdGenerator: undefined`): the second HTTP request fails. `WebStandardStreamableHTTPServerTransport.handleRequest()` rejects with `Stateless transport cannot be reused across requests. Create a new transport per request.`, and `NodeStreamableHTTPServerTransport.handleRequest()` answers `500`. Change: build the server and the transport inside the handler and connect them there.\n    - `createMcpHandler(() => server)` with a server built once: a request that arrives after the previous response has been read to its end still works. A request that arrives while another one is being served is answered `500` with the JSON-RPC error `-32603` (`Internal server error`); the reason is reported only through the `onerror` option. Change: pass a function that builds the server, as in `createMcpHandler(buildServer)`.\n    - One server object for every session: the `initialize` request of the second session fails with `ALREADY_CONNECTED`. Change: build a server per session.\n\n    What the caller sees when `connect()` or `handleRequest()` rejects depends on the host. Express 5, Fastify and Hono answer `500`. A plain `node:http` listener without its own error handling gets an unhandled rejection, which ends the process.\n\n    The README examples of `@modelcontextprotocol/express`, `@modelcontextprotocol/fastify`, `@modelcontextprotocol/hono` and `@modelcontextprotocol/node`, and the handler examples in the JSDoc of `WebStandardStreamableHTTPServerTransport` and `NodeStreamableHTTPServerTransport`, now build a server and a transport per request.\n\n- [#2907](https://github.com/modelcontextprotocol/typescript-sdk/pull/2907) [`e55f9ac`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e55f9ac1b1cae413599b499cbaa45c0378edba78) Thanks [@claude](https://github.com/apps/claude)! - `allowedOrigins` and `validateOriginHeader` accept lowercase entries of the form `<scheme>://*`, such as `moz-extension://*` or `chrome-extension://*`, which admit every origin of that scheme. This lets a server admit MCP clients that run as a browser extension when the extension ID cannot be listed, as on Firefox, where it differs on every install. `http://*` and `https://*` are not honoured, and the defaults are unchanged.\n\n### Patch Changes\n\n- [#2599](https://github.com/modelcontextprotocol/typescript-sdk/pull/2599) [`5238fba`](https://github.com/modelcontextprotocol/typescript-sdk/commit/5238fba4424f82ec1ae9f6f458dd655ab322062d) Thanks [@freya0926](https://github.com/freya0926)! - A server can now serve, and a client can now call, `tasks/get` and `tasks/cancel` of the Tasks extension (SEP-2663) on a 2026-07-28 connection, when the handler is registered and the request is sent with an explicit schema. Every other method that a protocol revision removed is still refused. If one server factory serves both eras and such a handler is meant for 2025-era clients only, register it only when `ctx.era === 'legacy'`.\n\n- [#2107](https://github.com/modelcontextprotocol/typescript-sdk/pull/2107) [`2fc49ea`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c) Thanks [@pragnyanramtha](https://github.com/pragnyanramtha)! - `prompts/get` without `arguments` no longer fails with \"Invalid arguments\" when every argument of the prompt is optional. A missing `arguments` is now validated as `{}`, as it already is for `tools/call`, so a top-level `.optional()` or `.default(...)` on `argsSchema` no longer sees `undefined`.\n\n- [#2889](https://github.com/modelcontextprotocol/typescript-sdk/pull/2889) [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c) Thanks [@claude](https://github.com/apps/claude)! - `registerTool` no longer converts tool schemas up front, so a server built per request stops converting every tool on every request. The warning about an invalid `x-mcp-header` declaration now appears each time tools are listed, not when the tool is registered.\n\n- [#2908](https://github.com/modelcontextprotocol/typescript-sdk/pull/2908) [`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1) Thanks [@claude](https://github.com/apps/claude)! - The `license` field of the package manifests is now `Apache-2.0`; the `LICENSE` file shipped in each package carries the full terms, including the MIT text for earlier contributions. No code change.\n\n- [#2841](https://github.com/modelcontextprotocol/typescript-sdk/pull/2841) [`2237555`](https://github.com/modelcontextprotocol/typescript-sdk/commit/2237555ed036c3e80341c0f3c28684e9c3ff0728) Thanks [@sharziki](https://github.com/sharziki)! - `McpServer.registerPrompt()` now types the callback correctly when no `argsSchema` is given: its one parameter is the server context. Before, reading `ctx.mcpReq` there was a type error although it worked at runtime. Prompts registered with an `argsSchema` are unchanged.\n\n- Updated dependencies [[`633dd3e`](https://github.com/modelcontextprotocol/typescript-sdk/commit/633dd3e12bff6869c932c4a526341622320912b1)]:\n    - @modelcontextprotocol/core@2.3.0",
+      "published_at": "2026-10-02T17:43:27Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.3.0",
+      "kind": "release"
+    },
+    {
+      "source": "modelcontextprotocol/typescript-sdk",
+      "name": "1.32.0",
+      "tag_name": "1.32.0",
+      "body": "## Upgrade notes\r\n- **Redirects:** the HTTP client transports now follow a redirect only when it stays on the same origin (same scheme, host and port; http to https on the same host is allowed). A deployment whose endpoint redirects to another host or port either configures the final URL or sets `redirectPolicy: 'follow'` on `StreamableHTTPClientTransport` or `SSEClientTransport`. In browsers, a redirected request fails unless that option is set.\r\n- **New options, both off unless you set them:** `maxToolInputElements` on `McpServer` limits the number of array elements and object members in a tool call's arguments. `expectedResource` on `requireBearerAuth` accepts only tokens issued for this server (the token's audience).\r\n\r\n## What's Changed\r\n* [v1.x] fix(client): follow redirects only within the endpoint's origin by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2902\r\n* docs: point SECURITY.md at GitHub Security Advisories (v1.x) by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2910\r\n* [v1.x] examples: close idle sessions and cap the session map by @maxisbey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2914\r\n* [v1.x] fix(tasks): keep tasks of the in-memory task store within the session that created them by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2925\r\n* [v1.x] feat(server): add maxToolInputElements option to limit the number of elements in tool-call arguments by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2927\r\n* [v1.x] fix(server): accept tools/call and prompts/get requests that omit arguments by @raashish1601 in https://github.com/modelcontextprotocol/typescript-sdk/pull/2045\r\n* [v1.x] feat(auth): add expectedResource to requireBearerAuth by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2930\r\n* [v1.x] test(e2e): cover tools/call and prompts/get without arguments by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2931\r\n* chore: bump version to 1.32.0 by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2935\r\n\r\n## New Contributors\r\n* @raashish1601 made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/2045\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/1.31.0...1.32.0",
+      "published_at": "2026-10-02T17:28:24Z",
+      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.32.0",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.24.0",
+      "tag_name": "v3.24.0",
+      "body": "## [3.24.0](https://github.com/openai/openai-python/compare/v3.23.0...v3.24.0) (2026-10-02)\n\n\n### Features\n\n* **api:** add custom voice creation and agent session events ([#4013](https://github.com/openai/openai-python/issues/4013)) ([e5de2e5](https://github.com/openai/openai-python/commit/e5de2e5656fb3d4fa70f050195382e6a4d59f806))\n\n\n### Bug Fixes\n\n* **api:** prioritize Python request routing fields ([#4014](https://github.com/openai/openai-python/issues/4014)) ([ffcc4c4](https://github.com/openai/openai-python/commit/ffcc4c47279debd9daff6103da57dcde2efd38bd))\n* **api:** prioritize routing fields in parse helpers ([#4016](https://github.com/openai/openai-python/issues/4016)) ([ba53a10](https://github.com/openai/openai-python/commit/ba53a1021b203750653bbbff938b8cd373f990f2))",
+      "published_at": "2026-10-02T15:54:21Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.24.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-text-splitters==1.1.3",
+      "tag_name": "langchain-text-splitters==1.1.3",
+      "body": "Changes since langchain-text-splitters==1.1.2\n\nrelease(text-splitters): 1.1.3 (#41001)\nchore(deps): bump the minor-and-patch group across 3 directories with 4 updates (#40969)\nchore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters (#40971)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters (#40938)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters (#40940)\nchore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters (#40645)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/text-splitters (#40624)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/text-splitters (#40579)\nchore(deps): bump the minor-and-patch group across 3 directories with 5 updates (#40566)\nchore(deps): bump types-requests from 2.33.0.20260712 to 2.33.0.20260906 in /libs/text-splitters (#40568)\nchore(deps): update lxml requirement from <7.0,>=6.1.2 to >=6.1.3,<7.0 in /libs/text-splitters (#40569)\nchore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/text-splitters (#40148)\nchore(deps): bump the minor-and-patch group across 3 directories with 5 updates (#40085)\nchore(deps): update lxml requirement from <7.0,>=6.1.0 to >=6.1.2,<7.0 in /libs/text-splitters (#40087)\nchore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/text-splitters (#40112)\nchore: bump the minor-and-patch group across 3 directories with 8 updates (#39863)\nchore: bump the major group across 2 directories with 2 updates (#39864)\nchore: bump types-requests from 2.33.0.20260518 to 2.33.0.20260712 in /libs/text-splitters (#39867)\nfix(text-splitters): raise TypeError for non-dict, non-convertible input to RecursiveJsonSplitter (#39238)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nchore(infra): add missing LICENSE files to publishable packages (#39146)\nchore: bump jupyterlab from 4.5.9 to 4.5.10 in /libs/text-splitters (#39028)\nchore: bump setuptools from 80.9.0 to 83.0.0 in /libs/text-splitters (#39029)\nchore: bump torch from 2.12.1 to 2.13.0 in /libs/text-splitters (#38946)\nchore: bump soupsieve from 2.8 to 2.8.4 in /libs/text-splitters (#38748)\nchore: bump nltk from 3.9.4 to 3.10.0 in /libs/text-splitters (#38747)\nchore: bump mistune from 3.2.1 to 3.3.0 in /libs/text-splitters (#38826)\nchore(deps): refresh lockfiles (#38746)\nfix(text-splitters): restore lazy imports for heavy optional dependencies (#35469)\nfeat(text-splitters): replace `mypy` by `ty` for type checking (#38658)\nchore: bump the minor-and-patch group across 3 directories with 11 updates (#38587)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/text-splitters (#38299)\nchore: bump jupyterlab from 4.5.7 to 4.5.9 in /libs/text-splitters (#38296)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/text-splitters (#38301)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/text-splitters (#38175)\nchore: bump bleach from 6.2.0 to 6.4.0 in /libs/text-splitters (#38195)\nchore: bump torch from 2.9.1 to 2.12.1 in /libs/text-splitters (#38231)\nchore: bump pytest from 9.0.3 to 9.1.0 in /libs/text-splitters (#38232)\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/text-splitters (#38250)\ndocs: refresh `README` installation and resources (#38119)\nchore: bump tornado from 6.5.5 to 6.5.6 in /libs/text-splitters (#38112)\nrelease(core): 1.4.7 (#38111)\nrelease(core): 1.4.6 (#38061)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfix(langchain): tighten structured output model fallbacks (#38042)\nhotfix(core): bump lockfile(s) (#38032)\nchore(core): fix some `any` generics (#34545)\nhotfix(openai): min core dep (#37990)\nchore: unify core versions in text-splitters. (#37523)\nchore: bump idna from 3.10 to 3.15 in /libs/text-splitters (#37535)\nchore: bump the minor-and-patch group across 3 directories with 15 updates (#37515)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump langsmith from 0.7.31 to 0.8.0 in /libs/text-splitters (#37380)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/text-splitters (#37326)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/text-splitters (#37235)\nchore: bump jupyter-server from 2.17.0 to 2.18.0 in /libs/text-splitters (#37202)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore: update lxml requirement from <7.0,>=4.9.3 to >=6.1.0,<7.0 in /libs/text-splitters (#37126)\nchore: bump notebook from 7.4.7 to 7.5.6 in /libs/text-splitters (#37105)\nchore(docs): update x handle references (#37081)\nfix(text-splitters): remove invalid and duplicate separators in Kotlin, Rust, and Haskell (#37039)\nfix(text-splitters): remove incorrect C# and Elixir separator keywords (#37037)\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nfix(fireworks): honor `max_retries` (#36973)\nchore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/text-splitters (#36921)",
+      "published_at": "2026-10-02T15:46:49Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Web Search API via AI Gateway - Cloudflare Blog",
+      "tag_name": "Cloudflare Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-02T13:30:12Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VMU8yeFh0MWgwM0FSNGJ2X3VsWmlBWE1XNGlTT1dTWVU5X2RxN2NPTS1ubWxnQzZkaE1ZUXBJWUo2UnBqRnJLUHdnUW52NmhWRG1wOFBxZHAyb2treTkzV0dKWUJhdw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "openai/openai-python",
       "name": "v3.23.0",
@@ -84,21 +201,21 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang - Tom's Hardware",
+      "tag_name": "Tom's Hardware",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-01T14:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQdDJFV0hheDJFSlF1ZzF3X0R6WUlCTlE1bEVweU5iYmoxejNtMTRSVzJpekVZTTRMV2ZxamI3b05IMU55Tm9aMlRWMGRvWEJQS3RqMFpQM09qaVZRbFFyS1hSN0Y0SnpKRmF2VTl2U3R3c1RmWk1yRFJfVU5VcmUzZjhYVlhITUg1X1JOanFaSVlXVnRaQ2l4d3dURDdlekt3OF9MQS1UUXE4dzU5amtMMzQwdTAzdklUNWxnV3lSRmRLQndEYTBBU0lwWmNpdGtXUjdQTHBWTDF2RkljNXd6UjVhVXdhZTB1aWI5MDdjTmVxVFVjSzYwdE15MmNaelpDLUltVG5VSHFwaGl2d1luMjVrRkIzNzB0emJQZDFBZ21FUXpJOC1ieUpxNHp3a2VvNkw5aWROWkZBMTlOMmU0NHRyNkZyMmpBZjRMSmM3c19pQVlHVnJaZGFqTDhnMEZBVWJ5OElLUnIyUS15aGJqemgxa2FIUHlnVkE?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:zh",
       "name": "AMD Ross发布：智能体AI赋能嵌入式开发全周期 - doit.com.cn",
       "tag_name": "doit.com.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-01T03:13:06Z",
       "html_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pZm1pZ0JvS1pyT3llYWd1RDI1Q3hlWEEwX0liQjZMUFlzYUlEUGlhTE5aOVpBeVVuMmpmOWxkNFdOcFJTSVJIYUU1YjlUWm43dFpEUnJEM0U2Q1E?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "OpenAI发布AI助手“Dot”：可自主干活，全天候待命 - 财联社",
-      "tag_name": "财联社",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-01T03:00:05Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnNUhGeDNJMlJVUlRCamdLTlhQb1lBWVRfUmZjeHY4NGZ4UjlKRnNPekUxdkNMcUl5c2hUdWY4cXdQR01Jal8xdA?oc=5",
       "kind": "news"
     },
     {
@@ -148,8 +265,8 @@
     },
     {
       "source": "news:zh",
-      "name": "OpenAI Dots亮相，与Meta角逐AI助手赛道 - 21财经",
-      "tag_name": "21财经",
+      "name": "OpenAI Dots亮相，与Meta角逐AI助手赛道 - 21jingji.com",
+      "tag_name": "21jingji.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-30T11:27:51Z",
       "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlFjMnVFbTlORTlyenY2QlR2Y3FUakNwbHdRQXdGUGJQS1lVYW5SaHhrSmcyNC1ySGVoOXRGZUpSSkt4OVUyTk85V2NnWXhzTTRuWDlQTlFCTlFCUk1ubzFmMTZ6SHJUVGxNaV9FdjBSbnZiNzJBYnZvYnlLdFlYcGtqcFRybjhMUTNCQ2U0UQ?oc=5",
@@ -166,20 +283,29 @@
     },
     {
       "source": "news:zh",
-      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
-      "tag_name": "爱范儿",
+      "name": "OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI - 亿邦动力",
+      "tag_name": "亿邦动力",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T06:07:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
+      "published_at": "2026-09-30T04:27:40Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNThGbTVBWG0yeW00UlBpTFlfT0R6TjJLSUJQOVpJcjA0OFJhN1NGMmZ6OXhOUzhWOUlTNm1GQXh6YjlZYS1GQ3FfbHJYRVp2M2V5Qkh3?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "微软优化Edge浏览器：网页提示不乱跑、扩展AI智能体技能|Agent|工具|单页|按钮|导航_手机新浪网 - 新浪财经",
-      "tag_name": "新浪财经",
+      "name": "微软优化Edge浏览器：网页提示不乱跑、扩展AI智能体技能|Agent|工具|单页|按钮|导航_手机新浪网 - finance.sina.com.cn",
+      "tag_name": "finance.sina.com.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-30T02:34:33Z",
       "html_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNWJnaE1WaDVqZmE2TTVwUS1FZkRPa1otZWZwRldld1NCc2FDOGJQN3l3UFdpNGtNdmZHVHFockVpa3lia1pGa2tUWDlweDBPaWdPbFYxa29semNadUV2V3Q5d0Z0ZWVla1c5UkxicDJaSThCX3BDZXVseDRwY3YwOEpfZ29qcjg3RXdyUU02dERzYzAwLWliWERiT3E4Tzl3eW81aTVWOXZ3UnRmVFpFbm5xUU5zU0lreDRxc2FyYnNDYmNiN3pURld5N3I2U01lYW8yMnRYUkRseVFGZl9pZ1hGZ1Btb0daelVXUWllUm9GVzluVXl3VlQxMEZURTlBQm5heks1VVRnVkdvMmc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing dots - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-30T00:47:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
       "kind": "news"
     },
     {
@@ -192,12 +318,30 @@
       "kind": "release"
     },
     {
+      "source": "news:zh",
+      "name": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了 - 量子位 QbitAI",
+      "tag_name": "量子位 QbitAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T23:01:05Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43OFV3UEs0Q3pqbmE2b040eWdBZVlJc1d6bWlmNTZrblRjeTJqbV9nRWJDd1YtTmdxbjZPaGROYmxSQ3BDX0c3Y0trZG5GUS16b0pRSA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "OpenAI发布AI助手“Dot”：可自主干活，全天候待命 - 财联社",
+      "tag_name": "财联社",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T20:26:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnNUhGeDNJMlJVUlRCamdLTlhQb1lBWVRfUmZjeHY4NGZ4UjlKRnNPekUxdkNMcUl5c2hUdWY4cXdQR01Jal8xdA?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "ollama/ollama",
       "name": "v0.35.1",
-      "tag_name": "v0.35.1-rc2",
-      "body": "## What's Changed\r\n* feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651\r\n* llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652\r\n* create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0",
+      "tag_name": "v0.35.1",
+      "body": "## Clef decision models\r\n\r\nOllama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`.\r\n\r\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone -d '{\r\n  \"model\": \"clef-flash\",\r\n  \"state\": \"The user took this screenshot.\",\r\n  \"images\": [\"<base64-encoded image>\"],\r\n  \"questions\": {\r\n    \"has_ollama\": {\"type\": \"noul\", \"instructions\": \"Does this image contain Ollama?\"}\r\n  }\r\n}'\r\n```\r\n\r\n```\r\n{\r\n  \"model\": \"clef-flash\",\r\n  \"answers\": {\r\n    \"has_ollama\": {\r\n      \"type\": \"noul\",\r\n      \"noul\": 0.958\r\n    }\r\n  },\r\n  \"usage\": {\r\n    \"input_tokens\": 548,\r\n    \"output_tokens\": 0\r\n  }\r\n}\r\n```\r\n## What's Changed\r\n* Models using web search can now perform up to ten searches per response, up from three\r\n* Modelfiles now support `CAPABILITY` declarations, so model creators can explicitly declare what a model can do. Declarations are preserved when creating from GGUF or safetensors, through model inheritance, and on Modelfile export\r\n* `ollama show` and the model list now report only `decision` as the capability for decision models, so clients no longer offer them for general chat, tools, or thinking\r\n* Updated llama.cpp and the MLX engine\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1\r\n",
       "published_at": "2026-09-29T20:14:22Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "kind": "release"
     },
     {
@@ -228,12 +372,12 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "隆重推出 Dot - OpenAI",
-      "tag_name": "OpenAI",
+      "source": "news:en",
+      "name": "Safety Over Speed: OpenAI Scraps GPT-6.1 Astra Release - aimagazine.com",
+      "tag_name": "aimagazine.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T17:59:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
+      "published_at": "2026-09-29T17:42:45Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMUQ0WUNQWjh5eDN6NWdqb21OVXpyWWJaSG1US1hvU19ZblMxbXdUNEd3V0RUQjNSUWZ3aHV4cjFPbGU5bFhvM2hpb1ZNdHZxT1RMVjBmdGdYVnVpSFZzUU9TYTRCc0taeFJRWnBieXNsVlk1S2NNM3lVaWVmYW9JMFd3eXE2aVhZ?oc=5",
       "kind": "news"
     },
     {
@@ -247,8 +391,8 @@
     },
     {
       "source": "news:zh",
-      "name": "DevDay 2026 回顾 - OpenAI",
-      "tag_name": "OpenAI",
+      "name": "DevDay 2026 回顾 - openai.com",
+      "tag_name": "openai.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T17:23:12Z",
       "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fU05iQ1BUX09lRXg2WVFneVhTbDVPNzM0ZjBNUjJJUkFXa3l0N29STVd5V09ZOGh2dHlUZC1EOTUzR3lUY1d6eExXT1BVNU9rYm1ZQnc1STA0UzlmZ0VSV0t2SUM?oc=5",
@@ -309,15 +453,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Gemini Interactions API TypeScript: Thinking Router - SitePoint",
-      "tag_name": "SitePoint",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T03:10:54Z",
-      "html_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZTRvWExnN1FPT2JJblA3OHQwdkM5cGdwMmhhTFEwTHZ2Y2NnNmdqTHhMaDFKYzlySV9NQzdwTEVCbnAxVzVKQXJFYmc4VUktYTMwTGNYNm1LQ0VwOU52blR5YmxCbkpxcmFfU2FBQTZjb1ZfWWpIeDQyRGpGektuQ0traw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
       "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - 华尔街见闻",
       "tag_name": "华尔街见闻",
@@ -327,12 +462,12 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Introducing dots - OpenAI",
-      "tag_name": "OpenAI",
+      "source": "news:zh",
+      "name": "隆重推出 Dot - openai.com",
+      "tag_name": "openai.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-28T22:23:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
+      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
       "kind": "news"
     },
     {
@@ -363,69 +498,6 @@
       "kind": "release"
     },
     {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "2.2.0",
-      "tag_name": "v2.2.0",
-      "body": "| Package | Version |\r\n|---|---|\r\n| `@modelcontextprotocol/client` | 2.2.0 |\r\n| `@modelcontextprotocol/server` | 2.2.0 |\r\n| `@modelcontextprotocol/core` | 2.2.0 |\r\n| `@modelcontextprotocol/server-legacy` | 2.2.0 |\r\n| `@modelcontextprotocol/codemod` | 2.2.0 |\r\n| `@modelcontextprotocol/node`, `express`, `hono`, `fastify` | unchanged |\r\n\r\n## Upgrade notes\r\n\r\n- **Pass `expectedIssuer` to the machine-to-machine OAuth providers.** Constructing `ClientCredentialsProvider`, `PrivateKeyJwtProvider`, `StaticPrivateKeyJwtProvider` or `CrossAppAccessProvider` without it is deprecated and logs a warning. Set it to the `issuer` of the authorization server the credentials were registered with. (#2887)\r\n- **`fetchToken()` checks which authorization server the client information belongs to.** It throws `AuthorizationServerMismatchError` before sending anything when the provider's client information is bound to a different authorization server. (#2887)\r\n- **List calls return the whole list.** `listTools()`, `listPrompts()`, `listResources()` and `listResourceTemplates()` called without a cursor now follow `nextCursor` until the server stops sending one. `listMaxPages` still caps the walk. (#2886)\r\n\r\n## Fixes\r\n\r\n- CommonJS TypeScript projects type-check again: the `jose` types used by the DPoP API are inlined into the declaration files (regression in 2.1.0). (#2883)\r\n- `Client.listen()` no longer lets a rejection escape as a process-level unhandled rejection, and no longer hangs when a send never settles. (#2642)\r\n- `_meta` is preserved on `input_required` results. (#2862)\r\n- Hostnames ending in `.localhost` count as loopback for OAuth token endpoints, so host-based multi-tenant local setups work. (#2597)\r\n- `OAuthTokensSchema` and `OAuthClientInformationSchema` accept the optional `issuer` field, so a provider that reads its storage back through them keeps it. (#2887)\r\n- `createMcpHandler` no longer overflows the stack when the factory returns the same server instance for more than one request. Returning a fresh instance per request is still required. (#2778)\r\n- `createMcpHandler` ends a `subscriptions/listen` stream right after the acknowledgement when it honored none of the requested notification types. (#2651)\r\n- Sending a notification on a closed connection no longer produces a briefly unhandled promise rejection. (#2885)\r\n- The `v1-to-v2` codemod keeps a file's leading comment block and directives above the rewritten imports. (#2582)\r\n- Corrected citations in the JSDoc for OAuth token endpoints and for the `registerClient` deprecation notice. (#2768, #2729)\r\n\r\n## Thanks\r\n\r\n@maxisbey, @web-abin, @SyedTashfin, @arimu1, @axits-lab, @vjymisal0 and @sushantkumar23.\r\n\r\n## Per-package changelogs\r\n\r\n[client](https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.2.0) · [server](https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver%402.2.0) · [core](https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcore%402.2.0) · [server-legacy](https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver-legacy%402.2.0) · [codemod](https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcodemod%402.2.0)",
-      "published_at": "2026-09-28T19:24:07Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/server@2.2.0",
-      "tag_name": "@modelcontextprotocol/server@2.2.0",
-      "body": "### Patch Changes\n\n- [#2885](https://github.com/modelcontextprotocol/typescript-sdk/pull/2885) [`9dd722f`](https://github.com/modelcontextprotocol/typescript-sdk/commit/9dd722fd0b533b3cb44cd2834409f7ea4dd32b00) Thanks [@claude](https://github.com/apps/claude)! - Sending a notification on a closed connection no longer produces a briefly unhandled promise rejection (seen as `unhandledrejection` on Cloudflare Workers) in addition to the returned rejection.\n\n- [#2778](https://github.com/modelcontextprotocol/typescript-sdk/pull/2778) [`e3fb9ed`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e3fb9edcdec70ed7c8463548ea9b90bbcb74c4ab) Thanks [@vjymisal0](https://github.com/vjymisal0)! - Fix a stack overflow in `createMcpHandler` when the factory returns the same server instance for more than one request. Returning a fresh instance per request is still required.\n\n- [#2651](https://github.com/modelcontextprotocol/typescript-sdk/pull/2651) [`c55efa6`](https://github.com/modelcontextprotocol/typescript-sdk/commit/c55efa62fc4218592418ffbd313d1a906286f1d3) Thanks [@sushantkumar23](https://github.com/sushantkumar23)! - `createMcpHandler` now ends a `subscriptions/listen` stream right after the acknowledgement when it honored none of the requested notification types, instead of holding the stream open with nothing to deliver. The client receives the acknowledgement and then the `resultType: \"complete\"` result. Streams that honor at least one type are unchanged.\n\n- Updated dependencies [[`edd12e2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/edd12e282620ebf770d67316f19cf91d4112a1bd)]:\n    - @modelcontextprotocol/core@2.2.0",
-      "published_at": "2026-09-28T19:07:55Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/core@2.2.0",
-      "tag_name": "@modelcontextprotocol/core@2.2.0",
-      "body": "### Minor Changes\n\n- [#2887](https://github.com/modelcontextprotocol/typescript-sdk/pull/2887) [`edd12e2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/edd12e282620ebf770d67316f19cf91d4112a1bd) Thanks [@maxisbey](https://github.com/maxisbey)! - Constructing `ClientCredentialsProvider`, `PrivateKeyJwtProvider`, `StaticPrivateKeyJwtProvider` or `CrossAppAccessProvider` without `expectedIssuer` is deprecated: the constructor logs one `console.warn` and that call signature is marked `@deprecated`. Behaviour is otherwise unchanged. Pass the `issuer` of the authorization server the credentials were registered with.\n\n    `fetchToken()` throws `AuthorizationServerMismatchError`, before sending anything, when the provider's client information is bound to a different authorization server than the one it is called with. The `AuthorizationServerMismatchError` message no longer assumes the authorization-code callback; its fields are unchanged.\n\n    `OAuthTokensSchema` and `OAuthClientInformationSchema` accept the optional `issuer` stamp, so a provider that reads storage back through them keeps it. `auth()` overwrites it on every save.",
-      "published_at": "2026-09-28T19:07:52Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/core%402.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/codemod@2.2.0",
-      "tag_name": "@modelcontextprotocol/codemod@2.2.0",
-      "body": "### Patch Changes\n\n- [#2582](https://github.com/modelcontextprotocol/typescript-sdk/pull/2582) [`f091897`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f091897f4ba6c0519584382e31b68a6ca935f35b) Thanks [@axits-lab](https://github.com/axits-lab)! - The `v1-to-v2` codemod now writes rewritten imports where the first v1 import stood, not at the top of the file, so a license header, `// @ts-nocheck`, `/// <reference>` or a `'use client'` / `'use server'` / `'use strict'` directive above it stays in place. Known gap: when a later step of the codemod replaces or removes the import (for example a file whose only SDK import is `ErrorCode` or `StreamableHTTPError`), the new import can still land above or inside the header, and a `/** */` header can be removed. Files already migrated with codemod 2.1.0 or earlier are not repaired; check the top of those files.",
-      "published_at": "2026-09-28T19:07:49Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/codemod%402.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/client@2.2.0",
-      "tag_name": "@modelcontextprotocol/client@2.2.0",
-      "body": "### Minor Changes\n\n- [#2887](https://github.com/modelcontextprotocol/typescript-sdk/pull/2887) [`edd12e2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/edd12e282620ebf770d67316f19cf91d4112a1bd) Thanks [@maxisbey](https://github.com/maxisbey)! - Constructing `ClientCredentialsProvider`, `PrivateKeyJwtProvider`, `StaticPrivateKeyJwtProvider` or `CrossAppAccessProvider` without `expectedIssuer` is deprecated: the constructor logs one `console.warn` and that call signature is marked `@deprecated`. Behaviour is otherwise unchanged. Pass the `issuer` of the authorization server the credentials were registered with.\n\n    `fetchToken()` throws `AuthorizationServerMismatchError`, before sending anything, when the provider's client information is bound to a different authorization server than the one it is called with. The `AuthorizationServerMismatchError` message no longer assumes the authorization-code callback; its fields are unchanged.\n\n    `OAuthTokensSchema` and `OAuthClientInformationSchema` accept the optional `issuer` stamp, so a provider that reads storage back through them keeps it. `auth()` overwrites it on every save.\n\n### Patch Changes\n\n- [#2885](https://github.com/modelcontextprotocol/typescript-sdk/pull/2885) [`9dd722f`](https://github.com/modelcontextprotocol/typescript-sdk/commit/9dd722fd0b533b3cb44cd2834409f7ea4dd32b00) Thanks [@claude](https://github.com/apps/claude)! - Sending a notification on a closed connection no longer produces a briefly unhandled promise rejection (seen as `unhandledrejection` on Cloudflare Workers) in addition to the returned rejection.\n\n- [#2883](https://github.com/modelcontextprotocol/typescript-sdk/pull/2883) [`c0f7aec`](https://github.com/modelcontextprotocol/typescript-sdk/commit/c0f7aec2925a46b32dc2f2aad5bf636a36f02c78) Thanks [@claude](https://github.com/apps/claude)! - Fix a type-check failure for CommonJS TypeScript projects introduced in 2.1.0: `dist/index.d.cts` imported types from `jose`, which is ESM-only, so `tsc` with `module: node16`/`node18` and `skipLibCheck: false` failed with TS1479. The two `jose` types used by the DPoP API (`CryptoKey`, `JWK`) are now inlined into the declaration files. No runtime change.\n\n- [#2768](https://github.com/modelcontextprotocol/typescript-sdk/pull/2768) [`efebf5b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/efebf5b2ba2f07c6fa27ada824a0999b801fec0a) Thanks [@web-abin](https://github.com/web-abin)! - Correct the JSDoc for insecure OAuth token endpoints. The TLS requirement comes from the MCP authorization specification's OAuth 2.1 communication-security rules, not SEP-2207, which covers OIDC-flavored refresh-token guidance. Documentation only; no runtime behavior change.\n\n- [#2729](https://github.com/modelcontextprotocol/typescript-sdk/pull/2729) [`a4ae2f9`](https://github.com/modelcontextprotocol/typescript-sdk/commit/a4ae2f98da3814a9290f2791cfcca8148dcec978) Thanks [@claude](https://github.com/apps/claude)! - Correct the `registerClient` `@deprecated` notice: Dynamic Client Registration was deprecated by spec PR modelcontextprotocol#2858 (Client ID Metadata Documents), not SEP-2577 (which deprecates roots, sampling, and logging). The notice now also names the earliest possible removal date under the feature lifecycle policy (2027-07-28) and clarifies that the `client_id_metadata_document_supported` gating lives in the built-in `auth()` flow — `registerClient` called directly always sends the registration request. Documentation only; no runtime behavior change.\n\n- [#2862](https://github.com/modelcontextprotocol/typescript-sdk/pull/2862) [`e780e13`](https://github.com/modelcontextprotocol/typescript-sdk/commit/e780e13869ad419a864b669bd5fa9702cfb36b14) Thanks [@SyedTashfin](https://github.com/SyedTashfin)! - Preserve `_meta` on `input_required` results. The 2026-07-28 decode seam rebuilt the payload from `inputRequests` and `requestState` only, so result-level metadata a server sent on an `input_required` result (including `io.modelcontextprotocol/serverInfo`) was dropped before an `allowInputRequired: true` caller could see it. `Result._meta` is a result-level field, so `input_required` carries it exactly like any other result.\n\n- [#2886](https://github.com/modelcontextprotocol/typescript-sdk/pull/2886) [`ef39308`](https://github.com/modelcontextprotocol/typescript-sdk/commit/ef39308e963496b75e50553f6265d99cacb4fbb9) Thanks [@claude](https://github.com/apps/claude)! - `listTools()`, `listPrompts()`, `listResources()` and `listResourceTemplates()` called without a cursor now follow `nextCursor` until the server stops sending one, instead of stopping silently with a short list when a cursor repeats; a page that has the same items and the same `nextCursor` as the page before it ends the walk and is not added twice, and `listMaxPages` still caps the walk.\n\n- [#2642](https://github.com/modelcontextprotocol/typescript-sdk/pull/2642) [`cfa09db`](https://github.com/modelcontextprotocol/typescript-sdk/commit/cfa09db614308eaf4fd575c89833da8878d4acb7) Thanks [@claude](https://github.com/apps/claude)! - Fix `Client.listen()` rejections escaping as process-level unhandled rejections. The internal `opening` promise could reject (ack timeout, transport close, server cancel, caller abort) while `listen()` was still serially awaiting `transport.send(...)`, so no rejection handler was attached yet — the rejection surfaced as an `unhandledRejection` that caller-side handling cannot prevent, and a send that never settles (e.g. a stdio write parked on `'drain'`) left `listen()` suspended forever even though the ack timer had already fired. `listen()` now suspends on the `opening` state machine directly and routes send failures into it, so every termination path rejects the returned promise and nothing escapes.\n\n- [#2597](https://github.com/modelcontextprotocol/typescript-sdk/pull/2597) [`7f7a94c`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7f7a94c22017e121a960e071bb50ec75e34450bd) Thanks [@arimu1](https://github.com/arimu1)! - Treat hostnames ending in `.localhost` as loopback for the SEP-2207 token-endpoint https guard (RFC 6761 §6.3), so host-based multi-tenant local OAuth works. The SDK does not resolve the name itself: `*.localhost` reaches the local machine only if the system resolver follows RFC 6761.\n\n- Updated dependencies [[`edd12e2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/edd12e282620ebf770d67316f19cf91d4112a1bd)]:\n    - @modelcontextprotocol/core@2.2.0",
-      "published_at": "2026-09-28T19:07:46Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/client%402.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "@modelcontextprotocol/server-legacy@2.2.0",
-      "tag_name": "@modelcontextprotocol/server-legacy@2.2.0",
-      "body": "### Patch Changes\n\n- Updated dependencies [[`edd12e2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/edd12e282620ebf770d67316f19cf91d4112a1bd)]:\n    - @modelcontextprotocol/core@2.2.0",
-      "published_at": "2026-09-28T19:07:43Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server-legacy%402.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "1.31.0",
-      "tag_name": "1.31.0",
-      "body": "## Upgrade notes\r\n- Stored OAuth tokens and client information now include an `issuer` field. Storage that rejects unknown fields needs to allow it.\r\n- Pass `expectedIssuer` when constructing `ClientCredentialsProvider`, `PrivateKeyJwtProvider` or `StaticPrivateKeyJwtProvider`. Constructing them without it is deprecated.\r\n\r\n## What's Changed\r\n* [v1.x] Bind stored OAuth credentials to the authorization server that issued them by @maxisbey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2888\r\n* chore: bump version to 1.31.0 by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2890\r\n\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/1.30.1...1.31.0",
-      "published_at": "2026-09-28T18:52:02Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.31.0",
-      "kind": "release"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.9.0",
       "tag_name": "v1.9.0",
@@ -444,42 +516,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Introducing cf: the agentic CLI for the entire Cloudflare API - Cloudflare Blog",
-      "tag_name": "Cloudflare Blog",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T14:51:22Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0ycmhDRTI3WllVa2dCb2FJVnMzMnBTYURBWS13NHZVZnpGcFpLTU91X2d0YmlVWFRYajZFR1laZnZFMGdKWl9Uck5ZYlpHc0hkU2R5NVVncWMwMzNNb3R2cE52MA?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Swift 6.4 正式发布：内置 Subprocess 1.0、增强跨语言互操作、Wasm 性能大幅提升及更多更新 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T10:27:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQenBGR3lXY2kwOGpzTjQzb21zbTZnblhMandzRmd5emFxSmFmdGhIOFRNeEFCT3ZTQUQyWFlNVnlicUV3VXFPcC1fdG1wSU1zWDI4cVBnc0JlSm4wOWc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软推出整合版Copilot 企业AI功能按用量计费- AI - 亿邦动力",
-      "tag_name": "亿邦动力",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T01:34:32Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sOHlDcnF2N2E1T3FDWTZiblAxQm5vLVpNcl91Q1VKeDF3elRxVEQ1eGNyOG05MTFjTnRyTFV2UmxqQUxHbFZKak9DdEtXT3RUc3ltV2RB?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Microsoft releases .NET SDK for AG-UI agent-user interaction protocol - InfoWorld",
-      "tag_name": "InfoWorld",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-27T15:54:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGxsOWlQQ2kxOXhjYWRjVlU4SWFHaElfSmlFNW1VOF8yMEVKQjl5YUVGUS13VzhpeW1rVi14Q0t4QW1QdmptRHByazBhVGNEbWdIQnBhSkoxaTUyRW1ickRLeVNFUkFCSGx4cWxxczBXbV9PdGM4UkZwclVjMUtkb2lReU1EVmowaS1uUEo1cFRPMlVBZ1ZvYkdxVlF5U3pLSUdOd1NkM0lFRVloM2V5U1R4Ujk0dw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-fireworks==1.6.3",
       "tag_name": "langchain-fireworks==1.6.3",
@@ -487,15 +523,6 @@
       "published_at": "2026-09-25T12:57:38Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Microsoft Copilot Managed Runtime: Enterprise code execution for Microsoft 365 | Microsoft Copilot Blog - Microsoft",
-      "tag_name": "Microsoft",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-25T12:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYS1TTEszcDdKN2lZNVhwZURoeDdXMng3ZDB3bVhPNGh6YmVsb2k4cnB2aWswa0xvMnU5bDl5cUpVTWhpaTZlV3dxeTk4VW15bldOYmNvVDc3eVVoZjI2cnpNLUtKN0dpNUk5QTBLLV9QT0pPYXNpUWQzWTRuMFZ3TjBHbTViUDl6UmtFS3VzZlpuWEhPRjNtVmhpWDR0Yy1oMkFBMXVZOGZ1Q05NVFM1WE1QRDFCUzV1aG83VWlhMmhaRGlFUF9fanBFNGtEQjcwNE5CWmZrOTBuRm1XdjlYbVpEbnB6YVVuMm9MTXZJOXlkWkU?oc=5",
-      "kind": "news"
     },
     {
       "source": "ollama/ollama",
@@ -513,15 +540,6 @@
       "body": "Changes since langchain-core==1.6.4\n\nrelease(core): 1.6.5 (#40816)\nfix(core): abbreviate long tool IDs in XML buffer strings (#40792)",
       "published_at": "2026-09-24T18:11:22Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-openai==1.6.6",
-      "tag_name": "langchain-openai==1.6.6",
-      "body": "Changes since langchain-openai==1.6.5\n\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
-      "published_at": "2026-09-24T11:31:31Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
       "kind": "release"
     },
     {
@@ -543,30 +561,12 @@
       "kind": "release"
     },
     {
-      "source": "modelcontextprotocol/typescript-sdk",
-      "name": "1.30.1",
-      "tag_name": "1.30.1",
-      "body": "## What's Changed\r\n* [v1.x] fix(server): read HTTP request bodies with a size limit and bound JSON-RPC batch length by @maxisbey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2717\r\n* fix(auth): preserve resource URI without trailing slash (#1968) by @MukundaKatta in https://github.com/modelcontextprotocol/typescript-sdk/pull/1972\r\n* chore: bump version to 1.30.1 by @claude[bot] in https://github.com/modelcontextprotocol/typescript-sdk/pull/2848\r\n\r\n## New Contributors\r\n* @MukundaKatta made their first contribution in https://github.com/modelcontextprotocol/typescript-sdk/pull/1972\r\n\r\n**Full Changelog**: https://github.com/modelcontextprotocol/typescript-sdk/compare/1.30.0...1.30.1",
-      "published_at": "2026-09-23T15:59:38Z",
-      "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.1",
-      "kind": "release"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.34.4",
       "tag_name": "v0.34.4",
       "body": "## What's Changed\r\n\r\n- Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\r\n- Fixed intermittent \"model not found\" errors with a large local library\r\n- Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\r\n- Qwen 3.8 prompt processing is faster on Apple Silicon.\r\n- Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n- Updated llama.cpp, MLX, and XGrammar.\r\n \r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4",
       "published_at": "2026-09-23T02:24:43Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.19.0",
-      "tag_name": "v3.19.0",
-      "body": "## [3.19.0](https://github.com/openai/openai-python/compare/v3.18.0...v3.19.0) (2026-09-22)\n\n\n### Features\n\n* **api:** add GCP external storage support ([#3943](https://github.com/openai/openai-python/issues/3943)) ([d12d60f](https://github.com/openai/openai-python/commit/d12d60fff9f5624f2dc50ade3d832028f4fecaa7))\n* **api:** add GPT-Rosalind research model ([#3940](https://github.com/openai/openai-python/issues/3940)) ([d041d73](https://github.com/openai/openai-python/commit/d041d736f75f03f6c87aa77f932823011691bac5))\n\n\n### Bug Fixes\n\n* **_utils/_transform:** propagate __api_exclude__ in _async_transform_recursive ([#3324](https://github.com/openai/openai-python/issues/3324)) ([161ae65](https://github.com/openai/openai-python/commit/161ae65ea676a000a156ba0dacfd904532b52473))\n* **api:** handle omission markers in queued WebSocket events ([#3944](https://github.com/openai/openai-python/issues/3944)) ([63e4616](https://github.com/openai/openai-python/commit/63e46169a7c6525ec90c7f2815a05d56e795cbcf))\n* **client:** retry only replayable request content ([#3771](https://github.com/openai/openai-python/issues/3771)) ([6e0c2be](https://github.com/openai/openai-python/commit/6e0c2beeb639e42ff74f14135151d8bcb1e5b245))\n* **client:** tolerate older optional aiohttp installations ([#3941](https://github.com/openai/openai-python/issues/3941)) ([0d91efb](https://github.com/openai/openai-python/commit/0d91efbe5084c2f572688e8e9a05c0a91c8c0319))\n* **helpers:** use asyncio.get_running_loop() inside async methods ([#3289](https://github.com/openai/openai-python/issues/3289)) ([bac3545](https://github.com/openai/openai-python/commit/bac3545eee5a0dfd348a6766bca3e904308792dd))",
-      "published_at": "2026-09-23T00:08:02Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
       "kind": "release"
     },
     {
