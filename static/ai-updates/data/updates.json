@@ -1,23 +1,14 @@
 {
-  "generated_at": "2026-10-03T06:36:29.606335Z",
+  "generated_at": "2026-10-04T07:00:13.491321Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:zh",
-      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
-      "tag_name": "爱范儿",
+      "name": "破釜沉舟奔向 1.0：Zig 0.17.0 正式发布 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-03T03:27:02Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Meta Open-Sources Muse Gadgets: Empower Global Developers to Independently Build Custom AI Peripherals - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-03T01:42:28Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1scDlPcnhoMHhYdVQ0TGNoeHlvaWxSZUhTMHBncUZ0bDd2clhXbVMyXzBBTUZYTVV2aGozWDRTM0E5czYtNm5VSGF6RjNtVFZRSlFr?oc=5",
+      "published_at": "2026-10-04T03:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfVVk3NF90d2NoT3pzN2Z6ZEhUeDVkcFdmT3BRSW5EUXlrakRfSGc0cjRxRUdraDVVUXBvQml6a1pkTEc2WVkyRjNSRQ?oc=5",
       "kind": "news"
     },
     {
@@ -112,8 +103,17 @@
     },
     {
       "source": "news:en",
-      "name": "Introducing Web Search API via AI Gateway - Cloudflare Blog",
-      "tag_name": "Cloudflare Blog",
+      "name": "NVIDIA DGX Spark 64GB Brings Local AI Power to Developers - The Tech Buzz",
+      "tag_name": "The Tech Buzz",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-02T14:08:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUHVlYVM0ckI3dDJuSDdIN3hEWng3VkhsOTFNRmxJU3BZQ2FubDR2VXNiRXRjTEs1UG5XT3pMdHpzalZkT19WM0ttUXc5NmxWdG8wOHQteUdMeXl3by1udnlyNDh3QVF1Z0o2cXdUT1pkTEFpNkp1ZTBJbjNSTnVWejFQLURHNTNneFNXNkp0NXlrQlVo?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Web Search API via AI Gateway - blog.cloudflare.com",
+      "tag_name": "blog.cloudflare.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-02T13:30:12Z",
       "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VMU8yeFh0MWgwM0FSNGJ2X3VsWmlBWE1XNGlTT1dTWVU5X2RxN2NPTS1ubWxnQzZkaE1ZUXBJWUo2UnBqRnJLUHdnUW52NmhWRG1wOFBxZHAyb2treTkzV0dKWUJhdw?oc=5",
@@ -201,15 +201,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang - Tom's Hardware",
-      "tag_name": "Tom's Hardware",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-01T14:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQdDJFV0hheDJFSlF1ZzF3X0R6WUlCTlE1bEVweU5iYmoxejNtMTRSVzJpekVZTTRMV2ZxamI3b05IMU55Tm9aMlRWMGRvWEJQS3RqMFpQM09qaVZRbFFyS1hSN0Y0SnpKRmF2VTl2U3R3c1RmWk1yRFJfVU5VcmUzZjhYVlhITUg1X1JOanFaSVlXVnRaQ2l4d3dURDdlekt3OF9MQS1UUXE4dzU5amtMMzQwdTAzdklUNWxnV3lSRmRLQndEYTBBU0lwWmNpdGtXUjdQTHBWTDF2RkljNXd6UjVhVXdhZTB1aWI5MDdjTmVxVFVjSzYwdE15MmNaelpDLUltVG5VSHFwaGl2d1luMjVrRkIzNzB0emJQZDFBZ21FUXpJOC1ieUpxNHp3a2VvNkw5aWROWkZBMTlOMmU0NHRyNkZyMmpBZjRMSmM3c19pQVlHVnJaZGFqTDhnMEZBVWJ5OElLUnIyUS15aGJqemgxa2FIUHlnVkE?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
       "name": "AMD Ross发布：智能体AI赋能嵌入式开发全周期 - doit.com.cn",
       "tag_name": "doit.com.cn",
@@ -265,20 +256,11 @@
     },
     {
       "source": "news:zh",
-      "name": "OpenAI Dots亮相，与Meta角逐AI助手赛道 - 21jingji.com",
-      "tag_name": "21jingji.com",
+      "name": "OpenAI Dots亮相，与Meta角逐AI助手赛道 - 21财经",
+      "tag_name": "21财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-30T11:27:51Z",
       "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlFjMnVFbTlORTlyenY2QlR2Y3FUakNwbHdRQXdGUGJQS1lVYW5SaHhrSmcyNC1ySGVoOXRGZUpSSkt4OVUyTk85V2NnWXhzTTRuWDlQTlFCTlFCUk1ubzFmMTZ6SHJUVGxNaV9FdjBSbnZiNzJBYnZvYnlLdFlYcGtqcFRybjhMUTNCQ2U0UQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "GoDaddy Launches API-First Node.js Hosting for AI Coding Agents and Developers - FF News",
-      "tag_name": "FF News",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T08:00:30Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLTREQ2dsVUNsRVNoNEc4QkthZmNmRUZMaEhMTXZxZTQzZDRTcWswaUprZWxCOXA1aHUwN0RYVVBUVjgzZzdsU25uYk10YlJMSWp5bkx1T21sdGdaM1dMRlo3N0NMS3o4WTcyTkZyLXl5S2VYU2JuX3lmWXZUdzUtRnAxdnhuWXI0RVBRM2tKV19iNGpvWnVHZkw5SjduaW0zWE1ydA?oc=5",
       "kind": "news"
     },
     {
@@ -288,15 +270,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-30T04:27:40Z",
       "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNThGbTVBWG0yeW00UlBpTFlfT0R6TjJLSUJQOVpJcjA0OFJhN1NGMmZ6OXhOUzhWOUlTNm1GQXh6YjlZYS1GQ3FfbHJYRVp2M2V5Qkh3?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软优化Edge浏览器：网页提示不乱跑、扩展AI智能体技能|Agent|工具|单页|按钮|导航_手机新浪网 - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T02:34:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNWJnaE1WaDVqZmE2TTVwUS1FZkRPa1otZWZwRldld1NCc2FDOGJQN3l3UFdpNGtNdmZHVHFockVpa3lia1pGa2tUWDlweDBPaWdPbFYxa29semNadUV2V3Q5d0Z0ZWVla1c5UkxicDJaSThCX3BDZXVseDRwY3YwOEpfZ29qcjg3RXdyUU02dERzYzAwLWliWERiT3E4Tzl3eW81aTVWOXZ3UnRmVFpFbm5xUU5zU0lreDRxc2FyYnNDYmNiN3pURld5N3I2U01lYW8yMnRYUkRseVFGZl9pZ1hGZ1Btb0daelVXUWllUm9GVzluVXl3VlQxMEZURTlBQm5heks1VVRnVkdvMmc?oc=5",
       "kind": "news"
     },
     {
@@ -316,6 +289,15 @@
       "published_at": "2026-09-30T00:25:09Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
+      "tag_name": "爱范儿",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-30T00:20:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -345,6 +327,15 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "OpenAI Unveils GPT-6.1 Sol at DevDay With New Codex and ChatGPT Tools - unite.ai",
+      "tag_name": "unite.ai",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T20:11:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWVJXa2h2VFJ6cGFtQkZORWx6Tl9Ta2xFaDQ0Si1QR2NYQ2s1ZXNYekczbGR3dFVobDdEdzBRdFN5dGJxcTdoeDYyVFE5U1JfLWstX1oxd21iOEQ5LXB1NFBQZ3RnMWNGakdXbVJaU0VzNGhSdnduT1NwaXh5LXliZDZtWE1KUnZlUUNxZ3picGhoSEJCZnc?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "openai/openai-python",
       "name": "v3.22.0",
       "tag_name": "v3.22.0",
@@ -354,27 +345,9 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "JetBrains推出Air系统管理AI软件开发-AI应用 - 至顶网",
-      "tag_name": "至顶网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T18:49:58Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlMy1vWWJsM3RPcmdpdWl0X1ZoSGd3ZnpuTlA2Tl9YNkdUX0JkMEtsNElwcFZIbWlVSTZQWFF0NXlWR2hmOGJLenJIWUNJNDd2UVpBNGEyNzdURjdhUENWem5MX015THhqS0Z2RXR3?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
-      "name": "OpenAI makes 'Sign in with ChatGPT' a way to use your subscription in third-party developer tools - The New Stack",
-      "tag_name": "The New Stack",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T18:14:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1raGxrQk1IaURRODMya2VUc3BHcGlydnN6NFd0dngwcnF1ai0yZm1qLXRiQ0liZEQ3RWVSck5ta2w0ck1haWhkNmIzRW83Q1RDdURmOEVuWQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Safety Over Speed: OpenAI Scraps GPT-6.1 Astra Release - aimagazine.com",
-      "tag_name": "aimagazine.com",
+      "name": "Safety Over Speed: OpenAI Scraps GPT-6.1 Astra Release - AI Magazine",
+      "tag_name": "AI Magazine",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T17:42:45Z",
       "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMUQ0WUNQWjh5eDN6NWdqb21OVXpyWWJaSG1US1hvU19ZblMxbXdUNEd3V0RUQjNSUWZ3aHV4cjFPbGU5bFhvM2hpb1ZNdHZxT1RMVjBmdGdYVnVpSFZzUU9TYTRCc0taeFJRWnBieXNsVlk1S2NNM3lVaWVmYW9JMFd3eXE2aVhZ?oc=5",
@@ -390,12 +363,30 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "WSL containers is now generally available - Windows Blog",
+      "tag_name": "Windows Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T17:35:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTFlMc1VYR1M4dk5vUGdFQzFHSk1OU09sOEVYa3YyTDJnYU9sZEVDRUstQVZ2QWI4bnpSY0t3SWllQ3FXR0h6Q2hpVTJfZXZ4dFQ2alBfQ3NKaFBXVFhSQjBDWU1mNFFxSFVOaDl3RllJdHdrTVNiSWlHVWctRS1OQWhNS0NyMUxQTlR1aVZoRWMtMlQ4YVpEMQ?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:zh",
-      "name": "DevDay 2026 回顾 - openai.com",
-      "tag_name": "openai.com",
+      "name": "DevDay 2026 回顾 - OpenAI",
+      "tag_name": "OpenAI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T17:23:12Z",
       "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fU05iQ1BUX09lRXg2WVFneVhTbDVPNzM0ZjBNUjJJUkFXa3l0N29STVd5V09ZOGh2dHlUZC1EOTUzR3lUY1d6eExXT1BVNU9rYm1ZQnc1STA0UzlmZ0VSV0t2SUM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "DevDay 2026 Recap - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T17:10:11Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
       "kind": "news"
     },
     {
@@ -445,8 +436,8 @@
     },
     {
       "source": "news:zh",
-      "name": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶 - 极客公园",
-      "tag_name": "极客公园",
+      "name": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶 - geekpark.net",
+      "tag_name": "geekpark.net",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T05:32:16Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FWjdKdEtKZ1NZWUZWTWZ3bzNZVHpabENLQUdleURnZWVoVzY0S3hKN1IzRkxkbzhqbzhJdFExTFNoWTJlbXZRRjR4aDk?oc=5",
@@ -454,8 +445,8 @@
     },
     {
       "source": "news:zh",
-      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - 华尔街见闻",
-      "tag_name": "华尔街见闻",
+      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - wallstreetcn.com",
+      "tag_name": "wallstreetcn.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-28T23:07:02Z",
       "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01eHVKQUU0QmY2V0RtSTM0dkx0MEx0NVFrQlRqbjFtaXNTNHBWZWxYOU1ZNDNaUU5lVVZaUG5kci0xZ2d0ekp0a1drak45MGxXREk4?oc=5",
@@ -463,8 +454,8 @@
     },
     {
       "source": "news:zh",
-      "name": "隆重推出 Dot - openai.com",
-      "tag_name": "openai.com",
+      "name": "隆重推出 Dot - OpenAI",
+      "tag_name": "OpenAI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-28T22:23:57Z",
       "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
@@ -514,6 +505,15 @@
       "published_at": "2026-09-28T16:04:13Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.20.0",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "Swift 6.4 正式发布：内置 Subprocess 1.0、增强跨语言互操作、Wasm 性能大幅提升及更多更新 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T10:27:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQenBGR3lXY2kwOGpzTjQzb21zbTZnblhMandzRmd5emFxSmFmdGhIOFRNeEFCT3ZTQUQyWFlNVnlicUV3VXFPcC1fdG1wSU1zWDI4cVBnc0JlSm4wOWc?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
