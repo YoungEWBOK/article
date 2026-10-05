@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-10-04T07:00:13.491321Z",
+  "generated_at": "2026-10-05T07:09:30.706560Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:zh",
-      "name": "破釜沉舟奔向 1.0：Zig 0.17.0 正式发布 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
+      "tag_name": "爱范儿",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-04T03:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfVVk3NF90d2NoT3pzN2Z6ZEhUeDVkcFdmT3BRSW5EUXlrakRfSGc0cjRxRUdraDVVUXBvQml6a1pkTEc2WVkyRjNSRQ?oc=5",
+      "published_at": "2026-10-05T00:54:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Bitdefender Launches Free AI Guardian Beta for macOS, a SaaS‑Style Agent Security Tool - SaasRise",
+      "tag_name": "SaasRise",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-04T16:00:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSG5JZkFiYjNZaTA2dmlkYUdRd1UyWjVGclQxaVB0UHN2cXAzRENNVGRVSlBGVFVfTEMxTEhaN0lqbEpqZVR1VXQyOTNCRENzODVFREhGS1hjRTc5d2NZamFReTNyT2xSa3BadnhoM1RQNEsyQlVzSm9QcGVhbnc3aGZ1LWpuQmVQaGxZV0todjFKXzhZWnNrTEh1TFU1VHowTldrM2w3OFpQQ0RPRG1PWVI2N0haWlFFelNKWjZqRXFrOXk1T0ZPaGNkREdXMGNkQVdJeG5sMUFOQTRjdC1TQzdQN19CUQ?oc=5",
       "kind": "news"
     },
     {
@@ -103,17 +112,8 @@
     },
     {
       "source": "news:en",
-      "name": "NVIDIA DGX Spark 64GB Brings Local AI Power to Developers - The Tech Buzz",
-      "tag_name": "The Tech Buzz",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-02T14:08:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUHVlYVM0ckI3dDJuSDdIN3hEWng3VkhsOTFNRmxJU3BZQ2FubDR2VXNiRXRjTEs1UG5XT3pMdHpzalZkT19WM0ttUXc5NmxWdG8wOHQteUdMeXl3by1udnlyNDh3QVF1Z0o2cXdUT1pkTEFpNkp1ZTBJbjNSTnVWejFQLURHNTNneFNXNkp0NXlrQlVo?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Introducing Web Search API via AI Gateway - blog.cloudflare.com",
-      "tag_name": "blog.cloudflare.com",
+      "name": "Introducing Web Search API via AI Gateway - Cloudflare Blog",
+      "tag_name": "Cloudflare Blog",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-02T13:30:12Z",
       "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VMU8yeFh0MWgwM0FSNGJ2X3VsWmlBWE1XNGlTT1dTWVU5X2RxN2NPTS1ubWxnQzZkaE1ZUXBJWUo2UnBqRnJLUHdnUW52NmhWRG1wOFBxZHAyb2treTkzV0dKWUJhdw?oc=5",
@@ -229,11 +229,20 @@
     },
     {
       "source": "news:en",
-      "name": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents - TechCrunch",
-      "tag_name": "TechCrunch",
+      "name": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK | NVIDIA Technical Blog - NVIDIA Developer",
+      "tag_name": "NVIDIA Developer",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T19:00:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX2FtdGtxQTNoRnBrUWhFS3J4ZnExeThrRDhVbldnRVpQcTRjMldvb2ZFNkJ5R2tVOHRfT0pteDhvbkFTYmpOYVR4SVNhSUltLXl2anl6TWhFZjZyRGdmUmNPMnk4NnBySFhlN2RrU2dYWThSbFFJc3dRaVc5dDJLWkdsX0NQSmwtNURrdlhfOVFtcFhPZ1NWcXJERFp1bUJ4YmxLRjBzVUU?oc=5",
+      "published_at": "2026-09-30T19:21:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMjRuWHBlX29NVm1qVW5sYVFYbFEtY1hqRjZfbloxdHZtb1ZMaTZfU2xpN2VGSnhHTmlNQjFBMTJiM1NXVUdKTGo5QWNWUFpKazhjUmFrak5qT1hWdGJkNkxQNUJKUVA1SW9vV1JTdmR2Rzg4ZU1RWWVMeWFwZnNnazV4dTZjREdTUmY1N0pZT01KNk4ycXJZdWRhV2NlSk9oa1NmbFNXNEhBSTFIUXNPbzNud0lPQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Kong Unveils Roadmap Aimed at Solving Enterprise AI Governance Challenges - Santa Maria Times",
+      "tag_name": "Santa Maria Times",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-30T19:02:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPM29ySlpKQnJITmhQYWl2emlSLXhvQlRhak5iRk82VlJIVkNySUJpR0E4QWktcjh4NWV3S3hwYVVHdVZXMGNWVnc0c3RqLU43LVgzT0pyN2JCSTN1NzJoTTBGSXF0S2c3MWV3eTNNclZJUFE4WTI2eUc3NlBDeHRqS2Rwdkd2UjlTNDJySEhqUzFGa2s0cmQxa2xwaGh6eFpUWEJ6VVZOU2FEY0tfUnZHSDR6R1czZ2tUWUZOYU1NNGVGa29OQUdNRlc3WWM3SktXQkRMdDNnNHZzNTFoWktOQUVhY3ZZS3pnbkR0dlY4SEsxaXZuZ1ZKSVBDaUpnSWNCV2JtRWJqNVk3c0pYY0pGYks2bm8?oc=5",
       "kind": "news"
     },
     {
@@ -259,17 +268,8 @@
       "name": "OpenAI Dots亮相，与Meta角逐AI助手赛道 - 21财经",
       "tag_name": "21财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T11:27:51Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlFjMnVFbTlORTlyenY2QlR2Y3FUakNwbHdRQXdGUGJQS1lVYW5SaHhrSmcyNC1ySGVoOXRGZUpSSkt4OVUyTk85V2NnWXhzTTRuWDlQTlFCTlFCUk1ubzFmMTZ6SHJUVGxNaV9FdjBSbnZiNzJBYnZvYnlLdFlYcGtqcFRybjhMUTNCQ2U0UQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI - 亿邦动力",
-      "tag_name": "亿邦动力",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T04:27:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNThGbTVBWG0yeW00UlBpTFlfT0R6TjJLSUJQOVpJcjA0OFJhN1NGMmZ6OXhOUzhWOUlTNm1GQXh6YjlZYS1GQ3FfbHJYRVp2M2V5Qkh3?oc=5",
+      "published_at": "2026-09-30T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONy1UZHVvMlVfMGJTQmFUbzBTcjVJMVFuQm1aOE1mLXV1cGZabW5wX3lsbXFEOGQwOGtUU3NieDJCLTA4SFBaZUtEMnFIdlc3dkloVnV5a1lsdTUyTEY2U2dLclhVS2NreHlNWWFkSTVOdlpWRnFSM3RkOHhaQ1hSaDNsM2dKeW9yeFVVMzJsNEFNbkc5?oc=5",
       "kind": "news"
     },
     {
@@ -289,15 +289,6 @@
       "published_at": "2026-09-30T00:25:09Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉完了 - 爱范儿",
-      "tag_name": "爱范儿",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-30T00:20:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVNnphZlk2WnZLMnQzdi1WQXdzS1ZJd2xEMUxlY2I0SURsODRmN1NoLTlvbHJUNUNpUV9IR3RsTVVHTWs?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -325,15 +316,6 @@
       "published_at": "2026-09-29T20:14:22Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "OpenAI Unveils GPT-6.1 Sol at DevDay With New Codex and ChatGPT Tools - unite.ai",
-      "tag_name": "unite.ai",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-29T20:11:01Z",
-      "html_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWVJXa2h2VFJ6cGFtQkZORWx6Tl9Ta2xFaDQ0Si1QR2NYQ2s1ZXNYekczbGR3dFVobDdEdzBRdFN5dGJxcTdoeDYyVFE5U1JfLWstX1oxd21iOEQ5LXB1NFBQZ3RnMWNGakdXbVJaU0VzNGhSdnduT1NwaXh5LXliZDZtWE1KUnZlUUNxZ3picGhoSEJCZnc?oc=5",
-      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -436,8 +418,17 @@
     },
     {
       "source": "news:zh",
-      "name": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶 - geekpark.net",
-      "tag_name": "geekpark.net",
+      "name": "OpenAI满世界抓漏洞，结果被中国AI反杀！Codex再曝0day - 智源社区",
+      "tag_name": "智源社区",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-29T09:30:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA5NGdNUDNWcU1tc0tNamw1ZndfdHlkN3A4RGxnTDc3ZFJEd2hYbGdyc2E2VHdOaUFrWnpORndLTEtZVFZvcnQ3UA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶 - 极客公园",
+      "tag_name": "极客公园",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-09-29T05:32:16Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FWjdKdEtKZ1NZWUZWTWZ3bzNZVHpabENLQUdleURnZWVoVzY0S3hKN1IzRkxkbzhqbzhJdFExTFNoWTJlbXZRRjR4aDk?oc=5",
@@ -445,20 +436,20 @@
     },
     {
       "source": "news:zh",
-      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - wallstreetcn.com",
-      "tag_name": "wallstreetcn.com",
+      "name": "微软优化 Edge 浏览器：网页提示不乱跑、扩展 AI 智能体技能 - 新浪财经",
+      "tag_name": "新浪财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T23:07:02Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01eHVKQUU0QmY2V0RtSTM0dkx0MEx0NVFrQlRqbjFtaXNTNHBWZWxYOU1ZNDNaUU5lVVZaUG5kci0xZ2d0ekp0a1drak45MGxXREk4?oc=5",
+      "published_at": "2026-09-29T04:02:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oT0pOaG1NQVhzYk82bnBqX2hwQlE1TjFNTjZRVzZzcFhBOExMLVhCeUJEUFU4WEotN25pOTZ1Y2tuRC1aS2lacHUtSTc2QVJaOUFIaGt2R0c0RXYzSGQ0XzVaWk1NVzU4dkhxNmNuMnVsTkVGNm11M21GanlTYUE?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "隆重推出 Dot - OpenAI",
-      "tag_name": "OpenAI",
+      "name": "开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra - 华尔街见闻",
+      "tag_name": "华尔街见闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-09-28T22:23:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZERxY1N6eUV3bkF3OVJVdEl4bWdsSDhlSFJGMWF3SVRqUk5Dc0Zhd0xzSHIxN1NSdU5YbmZxY2M2MzUxa1pOZk1teFJHUU5GT0xfUS1QblJidC1JdHkxNFRKaw?oc=5",
+      "published_at": "2026-09-28T23:07:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01eHVKQUU0QmY2V0RtSTM0dkx0MEx0NVFrQlRqbjFtaXNTNHBWZWxYOU1ZNDNaUU5lVVZaUG5kci0xZ2d0ekp0a1drak45MGxXREk4?oc=5",
       "kind": "news"
     },
     {
@@ -487,6 +478,15 @@
       "published_at": "2026-09-28T20:17:43Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "“比Codex还早”的肖弘杀回来了，Manus2.0迎击Meta Muse，不到1美元给AI办个手机号？ - 36 Kr",
+      "tag_name": "36 Kr",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-09-28T19:57:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAweVg5YXNXYy1fdXZkTXZIRFBCMnJzRzFPWU5zeW5YZFE1UUtleDU0Y2VRSy1tXzEtS0V3T3FwV0EwcFprZDBuSzI0VTJadw?oc=5",
+      "kind": "news"
     },
     {
       "source": "anthropics/anthropic-sdk-python",
@@ -527,10 +527,10 @@
     {
       "source": "ollama/ollama",
       "name": "v0.40.0",
-      "tag_name": "v0.40.0-rc0",
-      "body": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
+      "tag_name": "v0.40.0-rc3",
+      "body": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nAdditional models include [gemma4](https://ollama.com/library/gemma4), [qwen3.6](https://ollama.com/library/qwen3.6) and [qwen3.5](https://ollama.com/library/qwen3.5)\r\n\r\nDecision models are now available on MLX as well: [Nimble](https://ollama.com/library/nimble) [tev1](https://ollama.com/library/tev1)  [clef](https://ollama.com/library/clef) [clef-flash](https://ollama.com/library/clef-flash) \r\n\r\nWe will continue testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc3",
       "published_at": "2026-09-25T03:31:52Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
       "kind": "release"
     },
     {
