@@ -1,14 +1,140 @@
 {
-  "generated_at": "2026-10-09T07:27:41.744728Z",
+  "generated_at": "2026-10-10T07:14:10.886405Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:zh",
-      "name": "最快今日发布，谷歌Gemini 4 Argon已对部分用户开放-36氪 - www.36kr.com",
-      "tag_name": "www.36kr.com",
+      "name": "“科技春晚”正在消失|苹果发布会|Apple|iPhone Duo|OpenAI|折叠屏 - 新浪财经",
+      "tag_name": "新浪财经",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-09T04:14:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mdUpVeEZrX2UwUEUybHlNUUVMbUdmdWdzd3M3bUJPeXhvRWlrRG1GQWFLOXlHZ0VVeENsSUY2SzRxTEo1TkxzMTFSVEpVcGs?oc=5",
+      "published_at": "2026-10-10T04:08:09Z",
+      "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnp1dng3OEY5NFp1VFZJbzNLdHpDY2pVVXlfMEdfMWdtc21icURDNTJtN0pXX0t5dmEydEhQOUhsTzlJNmctNnBnS3NFQmktOVdRTzFadGZ5RE12LVg5V1NQbkxZc0dIc19PbFo2RW1NYV9aTVhpOHBtY2k4S2JGMGt3TUF4Unh1c0tNalJncmEzYlIwcmVGbE9zR2dpX2hrOE5RSUFOVQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.28.0",
+      "tag_name": "v3.28.0",
+      "body": "## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)\n\n\n### Features\n\n* **api:** add agent environment suspension and expiration ([#4046](https://github.com/openai/openai-python/issues/4046)) ([6aa25a9](https://github.com/openai/openai-python/commit/6aa25a9959f451ef67de948b792779e3d130a9c2))\n\n\n### Chores\n\n* **deps:** bump astral-sh/setup-uv from 10.1.0 to 10.2.0 ([#4026](https://github.com/openai/openai-python/issues/4026)) ([8bfffd4](https://github.com/openai/openai-python/commit/8bfffd40158460d0f5e651590b95cfef5292d93e))\n* **deps:** bump CodeQL init and analyze to 4.38.2 ([#4025](https://github.com/openai/openai-python/issues/4025)) ([4f5e618](https://github.com/openai/openai-python/commit/4f5e6180bc089d50df1deda7726507cd89d86d67))\n* **deps:** update PyJWT security constraint to 2.14.0 ([#3991](https://github.com/openai/openai-python/issues/3991)) ([aaed2a7](https://github.com/openai/openai-python/commit/aaed2a767319b3bc0637e0522bf09a4c7f8f36fc))",
+      "published_at": "2026-10-09T20:49:22Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "中国AI工具Artex因遭滥用将转为闭源 - TRT中文",
+      "tag_name": "TRT中文",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T19:33:49Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xVDVtWDlReEt0RmhOYmdfWVAtVzdCbVlQcS1ieFltRXRMVlNRVWRuM2NTUE5sYVZhbk9VRE4ySmctbUxqRUlRZEZBcDYtVEtWM2ZkOHNxMVlFakhp?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.303",
+      "tag_name": "ai@6.0.303",
+      "body": "### Patch Changes\n\n- c0350be: fix(ai): prevent global type conflicts across SDK versions\n- 88aa201: fix(ai): wait for chat stream cleanup when stopping\n- 8444abe: fix(ai): discard unrelated message state when reading resumed streams\n- Updated dependencies [897cb0c]\n- Updated dependencies [7719e88]\n  - @ai-sdk/gateway@3.0.212",
+      "published_at": "2026-10-09T18:52:01Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.303",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v1.13.0",
+      "tag_name": "v1.13.0",
+      "body": "### Features\n\n* **api:** add types for the Chat and Cowork unified analytics metrics\n* **api:** add workflows, multiagent configuration and thread status filtering to Managed Agents\n\n\n### Chores\n\n* **internal:** name the default API version header value",
+      "published_at": "2026-10-09T15:28:52Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.148",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.148",
+      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.148",
+      "published_at": "2026-10-09T14:54:54Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.148",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.69",
+      "tag_name": "@ai-sdk/workflow@2.0.69",
+      "body": "### Patch Changes\n\n- Updated dependencies [e27cc64]\n  - ai@7.0.137",
+      "published_at": "2026-10-09T14:54:51Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.69",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.137",
+      "tag_name": "@ai-sdk/vue@4.0.137",
+      "body": "### Patch Changes\n\n- Updated dependencies [e27cc64]\n  - ai@7.0.137",
+      "published_at": "2026-10-09T14:54:48Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.137",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.137",
+      "tag_name": "ai@7.0.137",
+      "body": "### Patch Changes\n\n- e27cc64: fix(ai): discard unrelated message state when reading resumed streams",
+      "published_at": "2026-10-09T14:53:27Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.137",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.27.0",
+      "tag_name": "v3.27.0",
+      "body": "## [3.27.0](https://github.com/openai/openai-python/compare/v3.26.1...v3.27.0) (2026-10-09)\n\n\n### Features\n\n* **api:** add prewarmed hosted environments ([#4043](https://github.com/openai/openai-python/issues/4043)) ([c511a77](https://github.com/openai/openai-python/commit/c511a77159bc870f31c34388311b7cc62ef15f08))",
+      "published_at": "2026-10-09T13:46:41Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "世嘉称不把游戏创意交给AI：提效之外，谁来决定作品的模样？ - 新浪网",
+      "tag_name": "新浪网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T12:28:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wS1VoMUF2MHlqZWp4aDFVN3oxemZRWFFUbDNEU0RVNWs2WGlBVTBSRHd5MWdNWXhEa25SNmotVFJ2TXdhRVhmMk5wMUJOMnhjWVRVUEd0QjhpME5Hc29FbVBvcXhNM21IVm8xTVJKZFRlSzkxUlhZcDZHaWdoQmc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Silicon Labs Adds IoT Developer Platform Tools - EE Times",
+      "tag_name": "EE Times",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T11:51:58Z",
+      "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0d3laUDFwUUJUYnFUZDFtVjd2dkZDUXBOVVJuZm85REN2Nmt0Y2V3OXZYdmZ6Y1V2ZjJCRXUxLWFSMkd0a3NoMnVMM2Uzbkt4TFJrY0VHNFVlV3RocEdOZkRoVEJGckhMVHFhTHVzRnR0V0ZMTE05aENrQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Fake AI SDK packages on npm deliver Windows remote-access trojan - IOT Insider",
+      "tag_name": "IOT Insider",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T10:05:39Z",
+      "html_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc180d1ltakRjemZ4dk1aTjhlOTZORXdWNjBQQ1FIVW5PZFdyWExRajdOWmU1Qk5zX3V4b21qTlpUcGRyQk1qeHJVUDVueGt6Wjk2eUVCQlFXMURxckR2eTNhYnJNSU5GeTBGdGVDdDByNUpBc2o3U2ZLcGR1N3Fta1QxRERJZ2V6dWdsbHVSZWdQdVh2UWN5REJqSjl2M0hVeEJ5ZWlnTmtpUHBkMmZVdmp3?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "大模型长假静悄悄 - 投资界",
+      "tag_name": "投资界",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T09:52:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tM214NG56U2JIOW1xY1M4d3RIVEJieUFsZFRQbEtLTHpJRVpzVlgxd0d1UXg2cnROUlBOU3ZXZ2VUdThmMUozYWtuOWFUczFhRlA3S0dn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "微软发布搭载英伟达AI芯片的Surface Laptop Ultra 2599美元起售- 业界 - 亿邦动力",
+      "tag_name": "亿邦动力",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T07:31:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CaUhkemFERlVFRnFEOTVOak0wbDg5RXhCNWJkRFVrMHI1UjlmTGxmSEZXdEFqQ3BXeGpuT2RCdjBDdHY3YmN5RUJtSWNMaVE4bUJrb0JB?oc=5",
       "kind": "news"
     },
     {
@@ -31,66 +157,12 @@
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.136",
-      "tag_name": "@ai-sdk/vue@4.0.136",
-      "body": "### Patch Changes\n\n- Updated dependencies [7b5497c]\n  - ai@7.0.136",
-      "published_at": "2026-10-09T00:40:05Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.136",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/tui@1.0.137",
-      "tag_name": "@ai-sdk/tui@1.0.137",
-      "body": "### Patch Changes\n\n- Updated dependencies [7b5497c]\n  - ai@7.0.136",
-      "published_at": "2026-10-09T00:40:02Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/tui%401.0.137",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/svelte@5.0.136",
-      "tag_name": "@ai-sdk/svelte@5.0.136",
-      "body": "### Patch Changes\n\n- Updated dependencies [7b5497c]\n  - ai@7.0.136",
-      "published_at": "2026-10-09T00:39:59Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/svelte%405.0.136",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/sandbox-vercel@1.0.147",
-      "tag_name": "@ai-sdk/sandbox-vercel@1.0.147",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.147",
-      "published_at": "2026-10-09T00:39:56Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/sandbox-vercel%401.0.147",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/sandbox-just-bash@1.0.147",
-      "tag_name": "@ai-sdk/sandbox-just-bash@1.0.147",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.147",
-      "published_at": "2026-10-09T00:39:53Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/sandbox-just-bash%401.0.147",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
       "name": "ai@7.0.136",
       "tag_name": "ai@7.0.136",
       "body": "### Patch Changes\n\n- 7b5497c: Fix streaming output timeouts: stop `chunkMs` and `firstChunkMs` when the model response ends, so long-running local tools do not trigger model output timeouts. Give each retry fresh output timeout budgets. `stepMs` continues to cover the complete step, including local tools.\n- Updated dependencies [e280aa1]\n  - @ai-sdk/gateway@4.0.110",
       "published_at": "2026-10-09T00:38:41Z",
       "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.136",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "苹果给开发者“立规矩”！2027年4月起所有App须适配折叠屏 - 上观新闻",
-      "tag_name": "上观新闻",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T22:36:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xT1lSRFYzX3hKNDMzdVYzZ3NTaUk3eEg2d3hwNFdSeERnUW1IQUxKNTJqTU02aC1vRHZyaGxSYWExc2pjVnhxTTJjZEFRbFIxUFhnSUlLQ0lGdw?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -148,11 +220,11 @@
     },
     {
       "source": "news:zh",
-      "name": "CoreWeave推出Forge平台抢占企业市场-AI基础设施 - 至顶网",
-      "tag_name": "至顶网",
+      "name": "最快今日发布，谷歌Gemini 4 Argon已对部分用户开放 - 36Kr",
+      "tag_name": "36Kr",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T12:41:06Z",
-      "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uSm02TmNiSE5EcTJOQ2Y3c0FtSVVOdTVjbnp6anNZTjYzU0dpRjFOTFo0OUdfYUw5aEpROHVUV3l0ejdGdXNoZmJVdzBiMEdwSzZtelpJSzRNalFHOVB4bGZUUnMyVFBWME9ITllicWRuZw?oc=5",
+      "published_at": "2026-10-08T13:09:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBENTE1dzBmd2dfQkt1R0RLenBXeWlGR2xEVWlOaHJKTzlyV01JaWlXZHlDYnlYMVlLMG1MOGhJRmw3OHdCZ3laWW1CQjgtQQ?oc=5",
       "kind": "news"
     },
     {
@@ -198,15 +270,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-08T08:15:32Z",
       "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9jMnctOVVsV3JJTnFQdEszVHdpR3hQUDZyTC1lMWg3ZW9GN1BhOWhZOVAwenFqRkxlb0FqTFhzUVNrX1U?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软联手英伟达加码AI PC，争夺智能体入口 - 21财经",
-      "tag_name": "21财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T07:32:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM000R3pzN3hfUFI1eklNQVhrc1N2aDZsSlBhd1NPWjl2aTZMand3LWNGeFZtaElDa3Z3ZnVLZzg3dU0yU01nT2xQeHJ5STdUbHgxX0xSbEMtMFFsOTZDWUN6eFpEaDcwNTVYdWw2VTNzaUFxU0hLanJqRm1vaktGNi1sXzJJajVDQlpFY2NSaw?oc=5",
       "kind": "news"
     },
     {
@@ -310,11 +373,11 @@
     },
     {
       "source": "news:en",
-      "name": "Silicon Labs Adds IoT Developer Platform Tools - EE Times",
-      "tag_name": "EE Times",
+      "name": "Silicon Labs unveils AI development tools to accelerate Edge IoT innovation - New Electronics",
+      "tag_name": "New Electronics",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-07T11:03:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0d3laUDFwUUJUYnFUZDFtVjd2dkZDUXBOVVJuZm85REN2Nmt0Y2V3OXZYdmZ6Y1V2ZjJCRXUxLWFSMkd0a3NoMnVMM2Uzbkt4TFJrY0VHNFVlV3RocEdOZkRoVEJGckhMVHFhTHVzRnR0V0ZMTE05aENrQQ?oc=5",
+      "published_at": "2026-10-07T07:38:06Z",
+      "html_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjhBN2tZOVA4bUxfWjByM0xXeDZiZE9YTjhNZXI1MWtWWDNQTTVWUVJkVzZxaUFrRDBuZ2JYT0xGcWVXZXNfYURaUkRsQjBXN0I4djNRYVFieTI2QlNuN1B4b2dzR09OczZCRGRZXzhTbjhZV3QwdHhTRnozT3g3V2JhR3hIa3BfQVQzS015dl9PdDZBUVlpZ1Jtcm40VzF5T21pMjJjanFrRHFLU0lKbkZkY09hdU9RTENXMGhn?oc=5",
       "kind": "news"
     },
     {
@@ -381,24 +444,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "Linux 7.3-rc6发布：Torvalds称进入“AI新常态”，稳定版预计10月中旬发布|IT之家|语言模型|GPU|内核|补丁 - 新浪财经",
-      "tag_name": "新浪财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-05T23:36:29Z",
-      "html_url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxPMC1uWmZvZGlqOWFQQ3diX2JKU2cta04xYzJJMG1oQmFzNldRaDdUSDdaZ0RCa3NjenBESkZZOEFhY1NQbDZicndXOS1zWlgzN2JvaXR4YWwzVDVobWdYZUhTSW5kak1KVE5TTXpha1NqWUZ4NGFobnV5TUcwZE1yUzhNTVdEX3NhUEpZbjRNTHdnc1ZkbFN5RGNTLVdOZ29sc0F6NklDNTdRRUZhallGTWZJV0NtSzhsNGJ4MjRBb0pxeXdDZS1XMHRZRFlzQm1zSFZpM0tqTnBPS2pXVkJLQmFtMVZfdTJKYkRqTXA1VXlPNHFXM2pzNUkwQnBZTkJZUFVGQkNGbG5qTXlzYmIzQ2k3NkxpRFlSaTVjLTdWLXVYZGVOSF94X19RdUFTekU1Q3p0emh0Q3poeFFiTXVPQTNCYTJjeGdaVDY5Z1AxeHB1Q3ctSDU1SEh6WHJjNVpkN1ZqVk01WnFUWE9BSGtBNXFUTDJ4dEhPYi1WbWFmZVgtckxqLV9PRTdmS3pWWE9uUV91M2lUSWJ4YWVaRVlOVTE5bjZkX00tZlRoS3htbG1veEhUa1VJWC1kXzVwZlZCSnJybnNta2Y0Mkh0ZnlsREZHZnZrLV85ZDlRcnBMTHloVkdFYTRkSVNBRG56STJvekxaT0wyZ211Q0FIcU83bkJYbw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Our approach to EU text provenance rules - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-05T15:12:28Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBndFg3dkRHQWJpbWRzMU1NVXZucE9POUFlMlNZemhnSlNOYTRNSDhEVFhnS3oxSVVEWFN5TDRjd3ZSTVJpdjFvUGQyc092YnVqX2ZxdEhCSQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "modelcontextprotocol/typescript-sdk",
       "name": "2.3.1",
       "tag_name": "v2.3.1",
@@ -460,24 +505,6 @@
       "published_at": "2026-10-05T11:42:59Z",
       "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.32.1",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "Linux 7.3-rc6发布：Torvalds称进入“AI新常态”，稳定版预计10月中旬发布|IT之家|语言模型|GPU|内核|补丁_手机新浪网 - 新浪财经",
-      "tag_name": "新浪财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-05T06:22:53Z",
-      "html_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1NMSnEzd0ZmRzRpa1BHNy1LckdIUjl1MkR3X19LMU82Y0tBbzZwOWVtSnRlZC1rb2ktdDZKaUkxZnFmNS1xMVFYbUZhSlY0VG1oUmZaalRvR2NodWNObmZkZGtxUERGRC1VZ1dZTGVIa2s0TEljVGo2ejhhS192eWNRMDU4bmM?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Introducing Web Search API via AI Gateway - Cloudflare Blog",
-      "tag_name": "Cloudflare Blog",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-02T19:18:44Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VMU8yeFh0MWgwM0FSNGJ2X3VsWmlBWE1XNGlTT1dTWVU5X2RxN2NPTS1ubWxnQzZkaE1ZUXBJWUo2UnBqRnJLUHdnUW52NmhWRG1wOFBxZHAyb2treTkzV0dKWUJhdw?oc=5",
-      "kind": "news"
     },
     {
       "source": "modelcontextprotocol/typescript-sdk",
@@ -552,24 +579,6 @@
       "kind": "release"
     },
     {
-      "source": "openai/openai-python",
-      "name": "v3.22.0",
-      "tag_name": "v3.22.0",
-      "body": "## [3.22.0](https://github.com/openai/openai-python/compare/v3.21.0...v3.22.0) (2026-09-29)\n\n\n### Features\n\n* **api:** add computer use to beta agents ([#3989](https://github.com/openai/openai-python/issues/3989)) ([f5dddb5](https://github.com/openai/openai-python/commit/f5dddb5a199f899d9439ac3187c9c0f2d3e4082e))",
-      "published_at": "2026-09-29T19:06:45Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.22.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.21.0",
-      "tag_name": "v3.21.0",
-      "body": "## [3.21.0](https://github.com/openai/openai-python/compare/v3.20.0...v3.21.0) (2026-09-29)\n\n\n### Features\n\n* **api:** add GPT-6.1 Sol model identifier ([#3986](https://github.com/openai/openai-python/issues/3986)) ([160b2c0](https://github.com/openai/openai-python/commit/160b2c0230b9afac15862dcdf8a764e5bae18eb3))",
-      "published_at": "2026-09-29T17:40:31Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.21.0",
-      "kind": "release"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.35.0",
       "tag_name": "v0.35.0",
@@ -639,15 +648,6 @@
       "body": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
       "published_at": "2026-09-15T21:21:07Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
-      "kind": "release"
-    },
-    {
-      "source": "anthropics/anthropic-sdk-python",
-      "name": "v1.6.0",
-      "tag_name": "v1.6.0",
-      "body": "## 1.6.0 (2026-09-15)\n\nFull Changelog: [v1.5.0...v1.6.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.5.0...v1.6.0)\n\n### Features\n\n* **api:** add auto mode tool permissions for Managed Agents ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **api:** add compaction parameter and signed compaction blocks (beta) ([8689179](https://github.com/anthropics/anthropic-sdk-python/commit/8689179d2c760f005d0f7736387d352b71f05bee))\n* **api:** add enum types for workspace data-residency geo fields ([3dc6dbf](https://github.com/anthropics/anthropic-sdk-python/commit/3dc6dbfcea444305dd9b0cc418e26e14163bac78))\n* **api:** add thinking_mismatch_allowed entries to input_transformations (beta) ([14d1792](https://github.com/anthropics/anthropic-sdk-python/commit/14d179280ebfe241ef0604fd6afc331fc69528fd))\n* **api:** add url_sources to the web fetch tool ([4ba7115](https://github.com/anthropics/anthropic-sdk-python/commit/4ba7115da810cade002b1893973ac3812466d2f4))\n* **api:** add workspace_id parameter to user profiles methods ([1c359b2](https://github.com/anthropics/anthropic-sdk-python/commit/1c359b22de5a33df1c30aabe367c7381510783e8))\n* **client:** support async credential token providers ([95e93f7](https://github.com/anthropics/anthropic-sdk-python/commit/95e93f763e104110fc0fb855175a8551dcbe5931))\n\n\n### Bug Fixes\n\n* **api:** mark usage iteration model as nullable ([520d000](https://github.com/anthropics/anthropic-sdk-python/commit/520d000440ddbc2262e5814d76c3add2380395db))\n* **api:** use one input transformation type for message and delta event ([ae86d7d](https://github.com/anthropics/anthropic-sdk-python/commit/ae86d7d7b689e9a9635270621af9fe9e7040ed57))\n* **client:** honor Retry-After values above 60 seconds ([2d03ba2](https://github.com/anthropics/anthropic-sdk-python/commit/2d03ba20c747c0ee3b58f696355ce41acc605460))\n* **client:** ignore invalid Retry-After values and validate maxRetries ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **client:** retry connection errors in the async client and stop blocking in the coroutine retry loop ([909d92f](https://github.com/anthropics/anthropic-sdk-python/commit/909d92ff57dd27270796407547ffbbf521cf941e))\n* **client:** use the default backoff when Retry-After is out of range ([3d15f04](https://github.com/anthropics/anthropic-sdk-python/commit/3d15f04c0e83a9a11d4e79ee41b29507f8ad6d2b))\n\n\n### Chores\n\n* **deps:** bump aiohttp, pygments and pytest in the dev lockfile ([005ad11](https://github.com/anthropics/anthropic-sdk-python/commit/005ad1146d4ea008eeb7e183c9ea8f390370607e))\n* **deps:** require anyio 4.1 or later ([79b4175](https://github.com/anthropics/anthropic-sdk-python/commit/79b417514b99a5f094c6f1bac8a7a52c2990e96b))\n* **docs:** clarify that session_thread_id on tool use events is informational ([2ac7b60](https://github.com/anthropics/anthropic-sdk-python/commit/2ac7b60beedb00f404f5e792c7a87b51629b4082))\n* **docs:** correct the compaction beta's parameter descriptions ([5048c9a](https://github.com/anthropics/anthropic-sdk-python/commit/5048c9a8446a2daa24fb918b976ffa4b8587033e))\n* **internal:** sort the imports in beta_message.py ([0a92f91](https://github.com/anthropics/anthropic-sdk-python/commit/0a92f91467c5edad5d54c135a1095e798df62b07))\n* **tests:** define the model tests' type alias at module level ([98c3a7a](https://github.com/anthropics/anthropic-sdk-python/commit/98c3a7ac9e8d49984cfe1dc80e1e5fbb55e106df))\n* **tests:** stop the mock server without failing a passing test run ([d28aea7](https://github.com/anthropics/anthropic-sdk-python/commit/d28aea74dfdb4616112bcae68c56e3bb32793995))\n\n\n### Documentation\n\n* **api:** clarify usage.iterations entry typing under server-side fallback ([bb06629](https://github.com/anthropics/anthropic-sdk-python/commit/bb066293dfeb17413254dc773687c281b74bc264))\n* stop documenting unions with their first variant's description ([7a94250](https://github.com/anthropics/anthropic-sdk-python/commit/7a94250411e45e875f9f58303145c90b9acc769e))\n* use markdown formatting in most docstrings ([25f344f](https://github.com/anthropics/anthropic-sdk-python/commit/25f344fd7fcbe281d2173fe12ecd2caa3dd5d044))",
-      "published_at": "2026-09-15T15:14:42Z",
-      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
       "kind": "release"
     }
   ]
