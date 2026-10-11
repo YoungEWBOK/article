@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-10T07:14:10.886405Z",
+  "generated_at": "2026-10-11T07:16:51.267507Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "ollama/ollama",
+      "name": "v0.40.3",
+      "tag_name": "v0.40.3",
+      "body": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrade for embedding and other request performance, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.2...v0.40.3",
+      "published_at": "2026-10-11T01:39:04Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "精彩回顾 | 两大平台发布～Agent 从\"能对话\"走向\"能上生产\"！ - 阿里云创新中心",
+      "tag_name": "阿里云创新中心",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-10T08:50:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yY3ZTa2k4d0NMNWhuTVM5VDJlVnN3ZXhhVUZUT0RHcGdIX3NFdWc0TzVsN083c0tIR2dwWmk4NWFEa0JCR0E2U2pJaGU0WndWaXRYNGg1aw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:zh",
       "name": "“科技春晚”正在消失|苹果发布会|Apple|iPhone Duo|OpenAI|折叠屏 - 新浪财经",
@@ -9,6 +27,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-10T04:08:09Z",
       "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnp1dng3OEY5NFp1VFZJbzNLdHpDY2pVVXlfMEdfMWdtc21icURDNTJtN0pXX0t5dmEydEhQOUhsTzlJNmctNnBnS3NFQmktOVdRTzFadGZ5RE12LVg5V1NQbkxZc0dIc19PbFo2RW1NYV9aTVhpOHBtY2k4S2JGMGt3TUF4Unh1c0tNalJncmEzYlIwcmVGbE9zR2dpX2hrOE5RSUFOVQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Meta进军企业AI市场 CIO面临更多考量-人工智能 - 至顶网",
+      "tag_name": "至顶网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-10T03:55:26Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GY0ZOMW41QXlfMmU0Z2xJWDU1c05YLVdtLXJJYUxzaXZqcms1S0tXczFLLTNael9WQ0lkN05VdU5teFhGRy1RbHB4eGNhSzM1UzRjQ3BvdFFoNGRaUUE?oc=5",
       "kind": "news"
     },
     {
@@ -129,15 +156,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "微软发布搭载英伟达AI芯片的Surface Laptop Ultra 2599美元起售- 业界 - 亿邦动力",
-      "tag_name": "亿邦动力",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-09T07:31:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CaUhkemFERlVFRnFEOTVOak0wbDg5RXhCNWJkRFVrMHI1UjlmTGxmSEZXdEFqQ3BXeGpuT2RCdjBDdHY3YmN5RUJtSWNMaVE4bUJrb0JB?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "vercel/ai",
       "name": "@ai-sdk/workflow-harness@1.0.147",
       "tag_name": "@ai-sdk/workflow-harness@1.0.147",
@@ -166,11 +184,11 @@
     },
     {
       "source": "news:zh",
-      "name": "《三角洲行动》国服日活跃用户数突破5800万；世嘉称不会把游戏创意工作交给AI｜游戏早参 - https://www.mrjjxw.com/",
-      "tag_name": "https://www.mrjjxw.com/",
+      "name": "苹果给开发者“立规矩”！2027年4月起所有App须适配折叠屏 - 上观新闻",
+      "tag_name": "上观新闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T22:30:04Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3MDRkUmR6VmRsT2twemR1dlU3emxnQlFadVBFX2QzbE9SclVaeFNQaGx4MlBqRnotUXdLTjhsSkRWS05zU21WcS0xbFNaRnlDbzVYZkFYc1NKMmg1aGFIX2JYbmUxQQ?oc=5",
+      "published_at": "2026-10-08T22:36:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xT1lSRFYzX3hKNDMzdVYzZ3NTaUk3eEg2d3hwNFdSeERnUW1IQUxKNTJqTU02aC1vRHZyaGxSYWExc2pjVnhxTTJjZEFRbFIxUFhnSUlLQ0lGdw?oc=5",
       "kind": "news"
     },
     {
@@ -217,15 +235,6 @@
       "published_at": "2026-10-08T15:41:22Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "最快今日发布，谷歌Gemini 4 Argon已对部分用户开放 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T13:09:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBENTE1dzBmd2dfQkt1R0RLenBXeWlGR2xEVWlOaHJKTzlyV01JaWlXZHlDYnlYMVlLMG1MOGhJRmw3OHdCZ3laWW1CQjgtQQ?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:en",
@@ -282,15 +291,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "OpenAI为Codex推出可跨设备使用的可复用云端环境-AI应用 - 至顶网",
-      "tag_name": "至顶网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T00:01:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZRE4yNzJNSmt4dDNENXVBYjJBanZCVmJETUt4YWZ1UXlTVllvU2Y1VXNWSzducDRzZUViUkotZmhUQVZJaVRsWmd4MmZBUGEyZFBjNU5HMXB6T1dQTk5mcHdtOWJzNTRsYmstNFZWQQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.1",
       "tag_name": "v0.40.1",
@@ -298,6 +298,15 @@
       "published_at": "2026-10-07T23:22:59Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Microsoft Execution Containers: Policy-driven containment for AI agents - Windows Blog",
+      "tag_name": "Windows Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-07T21:49:41Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMHhKel95eVdnemQzSkZ6Y3dSZFRwdzNsVTQyYnNxRlBac3NPXzl6TENvUExvOHpUdlRlMlpJdS0zVGREbkkwWEFzUUhmdjB1YWlBX0RNV2xCbEd4elZqTEd0OGx3R1c4MWhUVnV5TEVoeVg3SEdYUlJyTFBqLUVSZkt2dFptQ3pXV1pwZ0U5bG9Zeko0R2xEaHo5VFhnTFhOWjNacm1tbmhCMHlCY0RhbFVaM2o0U2V6U1F6Tm1nTFJvb1k?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:en",
@@ -333,15 +342,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-07T19:48:37Z",
       "html_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1B4ZUNIcl9vdUhsQzhHTElNY081MmFfTVhxU0VCM3V1OE9DQWxoX2tDbUJPa1dvaWJCbU9lMk95SmExWjQyUGwyN2htVXQ2VC16ZUdEbEg3QUVoZXp3Ri1CMUhJdjhneEJGczhiVU5iZ09CNnpXNjc4MkNuYTlDcXRzTzZiQ3p0d3g5bTZEM1NkVzlCMDRUeGxQWlNrbFgtWTc4dEIyWHcyWDdKaGdocENmWQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "AI coding SDK for wireless MCUs enters beta, adds open-source community and enterprise MLOps link - www.eeworldonline.com",
-      "tag_name": "www.eeworldonline.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-07T19:32:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc1NCWWpZcWxmRUxNczdodzE2UWhaeHRQNF9veDNBSWlWNDZONW5CRFZ2czlqNmZvM0RnWU5pdGFtSmlLT3g0M0JTdE51bXBUcHVWNlRlNzRaS2hFS2Z3V1hpLWVQZ2dJQ0ZZd2cySDhrdDFSeFRIazNYWVVGTnhRSXloSXhESlFSc3V2OTFwSXlibGlFX19ScVlVRk9pSHVYSnhGQjg1M0d3bnFFR083SDd6aUFSQXNWNjVwU1NEMEhYLXV6Qnc?oc=5",
       "kind": "news"
     },
     {
@@ -441,6 +441,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-06T07:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96a2dEV09za25QU1E2S1oydWlCSVJSMnlvZURIMzItZEoxQW5kRlJXVmZieDBRZWpNdWlyVVUzNlplMHpVUXczeC0xT2ozekVNbkIxNXczZF9NOFA4UFVkcW8zSENqTjNQb3V0dTZ3bE1NMXBmQXQ0VXVoSQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "OpenAI「疯狂28天」首日，这都发了些啥啊… - 量子位",
+      "tag_name": "量子位",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-06T06:45:40Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZTU8tcFNTSWJkQ2JjZktid2s3cGxER1BadXJVbkJwVGhNdlpGRDNCM2hLTjVkQUtBZ0pwRmI0RGlKUl9jWEhxVnRDdVdfcDZFV1dGXw?oc=5",
       "kind": "news"
     },
     {
@@ -639,15 +648,6 @@
       "body": "## 1.7.0 (2026-09-18)\n\nFull Changelog: [v1.6.0...v1.7.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.6.0...v1.7.0)\n\n### Features\n\n* **api:** add group with display_name to rate limits, deprecate group_type ([28f0a83](https://github.com/anthropics/anthropic-sdk-python/commit/28f0a831355fa3d539fd3e1db1c63f92a39bb252))\n* **tools:** add compact_before_next_turn() to the tool runner ([#641](https://github.com/anthropics/anthropic-sdk-python/issues/641)) ([8b23fb3](https://github.com/anthropics/anthropic-sdk-python/commit/8b23fb33f326c7ffa52e8d925902af0fd94501ce))\n\n\n### Bug Fixes\n\n* **bedrock:** raise an API error for eventstream exception and error frames ([#769](https://github.com/anthropics/anthropic-sdk-python/issues/769)) ([8ec9cc9](https://github.com/anthropics/anthropic-sdk-python/commit/8ec9cc9bdf7278ce7a1557dc7d6e455c7808946e))\n* **client:** accept `X | Y` union types when parsing responses ([b366fa5](https://github.com/anthropics/anthropic-sdk-python/commit/b366fa5a1d62e4908a35415a1692f18621cf9e2c))\n* **client:** don't raise TypeError for `X | Y` fields with unknown data ([30ebd69](https://github.com/anthropics/anthropic-sdk-python/commit/30ebd6963c4b21044fc8d7f8cf33a19981c74856))\n* **client:** join multiple anthropic-beta values with a comma and no space ([#781](https://github.com/anthropics/anthropic-sdk-python/issues/781)) ([1680324](https://github.com/anthropics/anthropic-sdk-python/commit/168032429a6880ef7063de7680c7abe18e45be35))\n* **tools:** tidy compact_before_next_turn() state and failure handling ([#804](https://github.com/anthropics/anthropic-sdk-python/issues/804)) ([d3a9fc8](https://github.com/anthropics/anthropic-sdk-python/commit/d3a9fc80f9792eda4944e33efb821306e632b7c6))\n\n\n### Chores\n\n* **deps:** require pydantic 1.10 or later ([91931e1](https://github.com/anthropics/anthropic-sdk-python/commit/91931e1d205839e72b2a4c2c851b18874f935943))\n* **docs:** add descriptions for enum values and path parameters ([99184dc](https://github.com/anthropics/anthropic-sdk-python/commit/99184dc76a7a6c404478556483d2118498994a47))\n* **docs:** clarify the compaction tool_changes and tool change descriptions ([eacc0ff](https://github.com/anthropics/anthropic-sdk-python/commit/eacc0ffde324201faac42fdcb60500b2076c25b6))\n* **internal:** add more unnecessary cast comments ([9e6ce27](https://github.com/anthropics/anthropic-sdk-python/commit/9e6ce27b8d89c737bd427fc91b96f9932431f547))\n* **internal:** pass strict= to zip() in the MCP tool helpers ([13cfe64](https://github.com/anthropics/anthropic-sdk-python/commit/13cfe644920119b718e0a73085b7ecd9726fb9e9))\n* **internal:** remove an unused noqa comment from the model tests ([2c18298](https://github.com/anthropics/anthropic-sdk-python/commit/2c18298ff35a1b28b98d25b424e928b3865ef405))\n* **internal:** set ruff's target version to Python 3.10 ([2bdfd41](https://github.com/anthropics/anthropic-sdk-python/commit/2bdfd415fe4842b44f871b31328cc76135b48fbb))",
       "published_at": "2026-09-18T16:12:53Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
-      "kind": "release"
-    },
-    {
-      "source": "ollama/ollama",
-      "name": "v0.34.2",
-      "tag_name": "v0.34.2",
-      "body": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
-      "published_at": "2026-09-15T21:21:07Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
       "kind": "release"
     }
   ]
