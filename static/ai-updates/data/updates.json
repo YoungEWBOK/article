@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-11T07:16:51.267507Z",
+  "generated_at": "2026-10-12T07:26:22.117213Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "openai/openai-python",
+      "name": "v3.29.0",
+      "tag_name": "v3.29.0",
+      "body": "## [3.29.0](https://github.com/openai/openai-python/compare/v3.28.0...v3.29.0) (2026-10-11)\n\n\n### Features\n\n* **api:** add billing_not_active session error code ([#4052](https://github.com/openai/openai-python/issues/4052)) ([c88b320](https://github.com/openai/openai-python/commit/c88b32012ef0c3ebac39c79512994985a553a24c))\n* **api:** add shida to named Live voices ([#4053](https://github.com/openai/openai-python/issues/4053)) ([7352cf5](https://github.com/openai/openai-python/commit/7352cf5c80cf46b0b7c23634fb7df47c28b0604b))\n* **api:** add vault updates and metadata filters ([#4047](https://github.com/openai/openai-python/issues/4047)) ([e72f493](https://github.com/openai/openai-python/commit/e72f4931f16ae74602968348461bd3cf50b2cec5))\n* **api:** align beta pagination limits and non-null parameters ([#4057](https://github.com/openai/openai-python/issues/4057)) ([800899e](https://github.com/openai/openai-python/commit/800899eeaf9e2696703452e73a5e95f1a31e12ce))\n\n\n### Chores\n\n* **api:** clarify decision creation documentation ([#4054](https://github.com/openai/openai-python/issues/4054)) ([16d3d3b](https://github.com/openai/openai-python/commit/16d3d3b3c33b1b4f01114a16e4c3eba2293799ba))\n* **api:** clarify Decisions question and answer descriptions ([#4051](https://github.com/openai/openai-python/issues/4051)) ([895d617](https://github.com/openai/openai-python/commit/895d617f948fef82075bc83a7a2141bd845fc057))\n* **api:** document 128-character safety identifiers ([#4050](https://github.com/openai/openai-python/issues/4050)) ([2c1ae52](https://github.com/openai/openai-python/commit/2c1ae5266a67303d82ea46c57be854deaa6e5676))\n* **api:** document decision choice constraints ([#4055](https://github.com/openai/openai-python/issues/4055)) ([b7a1990](https://github.com/openai/openai-python/commit/b7a1990353baec896ee5e04b40b9f2dc2925a4f5))\n* **api:** document Files API rate-limit responses ([#4049](https://github.com/openai/openai-python/issues/4049)) ([f6a3459](https://github.com/openai/openai-python/commit/f6a34593aa12eb8e6e89803590423b8cd2aa5933))",
+      "published_at": "2026-10-11T17:38:54Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+      "kind": "release"
+    },
     {
       "source": "ollama/ollama",
       "name": "v0.40.3",
@@ -13,11 +22,29 @@
     },
     {
       "source": "news:zh",
-      "name": "精彩回顾 | 两大平台发布～Agent 从\"能对话\"走向\"能上生产\"！ - 阿里云创新中心",
-      "tag_name": "阿里云创新中心",
+      "name": "AI“克隆”的Adobe全家桶一夜爆火，但先别急着卸载正版 - 36Kr",
+      "tag_name": "36Kr",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T08:50:24Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yY3ZTa2k4d0NMNWhuTVM5VDJlVnN3ZXhhVUZUT0RHcGdIX3NFdWc0TzVsN083c0tIR2dwWmk4NWFEa0JCR0E2U2pJaGU0WndWaXRYNGg1aw?oc=5",
+      "published_at": "2026-10-10T12:17:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sN0lxTFZ5b1pWMlZxWG5fcjR4UW9hVWZURGZGV21DQTV2ZU9MaS1CMGN3YW0tT0R6dUdyUERvUXRPWTFaaV94VHVTWDFydw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "C盘爆红救星！开源神器MuRig v1.2.0 发布，支持自定义环境安装路径！ - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-10T11:02:29Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00QW1JMnNTRTRNS3N5MDF1Zmt2SVdselMyUHVwS2Z0Rml6aDJ3M1IyeGFxTW1raVE3akt1RE1UbExqT1BCeE54STdkNA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天” - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-10T11:01:36Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSmpER3UwNUc3SjNaU0ZsNDlCU0NMZERCYzJ4aXZxVllFdWFmNU5uVmctSG1JUXdYNlMyMTdtV0JyQVJSbGdrWGwxVC04NURhYXpMTmdnM3FZN1dDSHc?oc=5",
       "kind": "news"
     },
     {
@@ -31,11 +58,11 @@
     },
     {
       "source": "news:zh",
-      "name": "Meta进军企业AI市场 CIO面临更多考量-人工智能 - 至顶网",
-      "tag_name": "至顶网",
+      "name": "中国开发的AI工具‘阿尔特克斯’因韩国金融黑客事件暂停开发 - 亚洲日报",
+      "tag_name": "亚洲日报",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T03:55:26Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GY0ZOMW41QXlfMmU0Z2xJWDU1c05YLVdtLXJJYUxzaXZqcms1S0tXczFLLTNael9WQ0lkN05VdU5teFhGRy1RbHB4eGNhSzM1UzRjQ3BvdFFoNGRaUUE?oc=5",
+      "published_at": "2026-10-10T02:16:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yOEItcVJoNC1GMFhoMFRzd2xJaFZvQlFhME9mdmJyb1kxc2JsUlZDMi1LT1BhWWRDalFXVEE1aUU2OU9YVVpHU2I0bU9EbmRLYk5pUzN3cFZ3QXc?oc=5",
       "kind": "news"
     },
     {
@@ -183,15 +210,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "苹果给开发者“立规矩”！2027年4月起所有App须适配折叠屏 - 上观新闻",
-      "tag_name": "上观新闻",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T22:36:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xT1lSRFYzX3hKNDMzdVYzZ3NTaUk3eEg2d3hwNFdSeERnUW1IQUxKNTJqTU02aC1vRHZyaGxSYWExc2pjVnhxTTJjZEFRbFIxUFhnSUlLQ0lGdw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain==1.4.4",
       "tag_name": "langchain==1.4.4",
@@ -237,24 +255,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "AudioEye Launches Agentic Audits and SDK MCP, Enhancing the Industry's Strongest Compliance Protection - PR Newswire",
-      "tag_name": "PR Newswire",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T12:30:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdk1TX3BLalNueVB3QWtydGozY1BKRnJRS3ROMjB4ZUZBZlRwSXFIY3ZsdGx2bkU2OW95MmMtbUpKdEZGVWFqRWU5SS1nRVlleGhzN21GT1lLa3BPdDFycGh3Q1FLM2x4c2NUTGRVN09TUXlQaFZtZExYd2hmTVpxM19IOXhubUFBYlhFbU5ZUTZyaWRCYXBLZ1NqS01HdWw5dTdNZm10a0dreEYtZUd1akktaG1IQzAzSHZEaVJ3UjJkSHlMdlRfUm9aY21VcXlpQXQ3bThvblNib2ZHSUtGOXUwZXRSeGxIaHVJUw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "袋鼠数据库工具 v9.9.1 版已上线 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T09:29:06Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWYnpnY1pNLU9LSDVZZGc0RWlNek8wT2hpQTU1VDEwOFBlNXNicWJUeXAwaUY5VlpMLTVIcEtLQS1yTlBfLVcyMWZKbw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.26.1",
       "tag_name": "v3.26.1",
@@ -291,6 +291,15 @@
       "kind": "release"
     },
     {
+      "source": "news:zh",
+      "name": "让每个人都能使用 GPT-6 和智能界面 - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-08T00:25:16Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXWjZFRGdVTmNqS0U4c1I3aFhFd2hFU1NUTUpZMFZaMEMxSWV4eGx2cmhuUGhNc2pzREZXci1WVFdUTWFqOUp6SG5oWUwtNlRYRnZ3WUpGdGZ3V1lnN0ZJeWFMWkRmZw?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "ollama/ollama",
       "name": "v0.40.1",
       "tag_name": "v0.40.1",
@@ -306,15 +315,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-07T21:49:41Z",
       "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMHhKel95eVdnemQzSkZ6Y3dSZFRwdzNsVTQyYnNxRlBac3NPXzl6TENvUExvOHpUdlRlMlpJdS0zVGREbkkwWEFzUUhmdjB1YWlBX0RNV2xCbEd4elZqTEd0OGx3R1c4MWhUVnV5TEVoeVg3SEdYUlJyTFBqLUVSZkt2dFptQ3pXV1pwZ0U5bG9Zeko0R2xEaHo5VFhnTFhOWjNacm1tbmhCMHlCY0RhbFVaM2o0U2V6U1F6Tm1nTFJvb1k?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Silicon Labs Expands AI Tools for Embedded IoT Development - www.embedded.com",
-      "tag_name": "www.embedded.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-07T21:29:37Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTS1FQ3l0SFBVUS15UTczNTYtZ01GX2lGbUotanlEOEIybXE3cThoTGhIcUREQ3kyRUxjbHR3SG1pRG05R1RjZGV5ekpNM3pXd1d2cENiaTFoU09qYlNiMFNmcTlpVnh5M183bElNdjNVcnJ4eUpuZXhNWHdpa21kZzNzS3g0T19GSEtnOA?oc=5",
       "kind": "news"
     },
     {
@@ -355,8 +355,8 @@
     },
     {
       "source": "news:en",
-      "name": "Silicon Labs Brings AI to Embedded Development With Simplicity AI SDK Beta - rfid journal",
-      "tag_name": "rfid journal",
+      "name": "Silicon Labs Brings AI to Embedded Development With Simplicity AI SDK Beta - RFID Journal",
+      "tag_name": "RFID Journal",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-07T16:03:50Z",
       "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeUNMVjVLWU1PMEg1bW1uQmtsUHh3M0VhYjl2VzVGTnl2cnNxdGd3OGNkeWYtdTV2NnI0Yy1wMjctdlhnTm1yekMzVlM5dzdXNkZ1cV9fUUdFLTVRZGFrTEVGU1Z1MWh3REs1ZUc2VFhnS3pSZ1dtSGN5VVF2NkVmMlloYXNzbTR2UGR0QjR2NS1GMEQtMjhxRE41eGN5WWhOZ1cxazdIbW5zUnRMaFU1NVlraUpsZw?oc=5",
@@ -378,6 +378,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-07T07:38:06Z",
       "html_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjhBN2tZOVA4bUxfWjByM0xXeDZiZE9YTjhNZXI1MWtWWDNQTTVWUVJkVzZxaUFrRDBuZ2JYT0xGcWVXZXNfYURaUkRsQjBXN0I4djNRYVFieTI2QlNuN1B4b2dzR09OczZCRGRZXzhTbjhZV3QwdHhTRnozT3g3V2JhR3hIa3BfQVQzS015dl9PdDZBUVlpZ1Jtcm40VzF5T21pMjJjanFrRHFLU0lKbkZkY09hdU9RTENXMGhn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Silicon Labs Expands AI Tools for Embedded IoT Development - www.embedded.com",
+      "tag_name": "www.embedded.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-07T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTS1FQ3l0SFBVUS15UTczNTYtZ01GX2lGbUotanlEOEIybXE3cThoTGhIcUREQ3kyRUxjbHR3SG1pRG05R1RjZGV5ekpNM3pXd1d2cENiaTFoU09qYlNiMFNmcTlpVnh5M183bElNdjNVcnJ4eUpuZXhNWHdpa21kZzNzS3g0T19GSEtnOA?oc=5",
       "kind": "news"
     },
     {
@@ -426,6 +435,15 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration | NVIDIA Technical Blog - NVIDIA Developer",
+      "tag_name": "NVIDIA Developer",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-06T16:15:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1pIWHVsaDFjbTdyNzFtQnZBcVJNTVlGOTZsRmlPY21uV1dILUoxV3hsUHVOVmkwemlmQ05NTEYtNzJFZ0RQU2RuNk9US3V4Wmx1Tzc4NnNkMmhnbnoxejNUQjVmNFdBbFB0YW9pUmktV0FjbVNVUU55VUpiQnBObGhjX3pyU2pRVnRqZ1NQWUlmTy1TYlRzYXF1QzBXdw?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.6.7",
       "tag_name": "langchain-core==1.6.7",
@@ -441,15 +459,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-06T07:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96a2dEV09za25QU1E2S1oydWlCSVJSMnlvZURIMzItZEoxQW5kRlJXVmZieDBRZWpNdWlyVVUzNlplMHpVUXczeC0xT2ozekVNbkIxNXczZF9NOFA4UFVkcW8zSENqTjNQb3V0dTZ3bE1NMXBmQXQ0VXVoSQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "OpenAI「疯狂28天」首日，这都发了些啥啊… - 量子位",
-      "tag_name": "量子位",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T06:45:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZTU8tcFNTSWJkQ2JjZktid2s3cGxER1BadXJVbkJwVGhNdlpGRDNCM2hLTjVkQUtBZ0pwRmI0RGlKUl9jWEhxVnRDdVdfcDZFV1dGXw?oc=5",
       "kind": "news"
     },
     {
@@ -567,15 +576,6 @@
       "body": "## 1.10.0 (2026-09-30)\n\nFull Changelog: [v1.9.0...v1.10.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.9.0...v1.10.0)\n\n### Features\n\n* **api:** add a refusal stop reason and stop_details to Managed Agents session idle events ([cba653f](https://github.com/anthropics/anthropic-sdk-python/commit/cba653fc52ed4a9b57108a0b1ae80d1f51fb46dd))\n* **api:** add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API ([6bb2c0c](https://github.com/anthropics/anthropic-sdk-python/commit/6bb2c0ca493168069298a0c6c1740073b564d192))\n* **api:** add per-user usage and cost reports to the Admin API analytics ([7443920](https://github.com/anthropics/anthropic-sdk-python/commit/7443920c35d323d887bf908911224c7f2e0d8fde))\n* **api:** add Plugins and Plugin Marketplaces to the Admin API ([1baad3b](https://github.com/anthropics/anthropic-sdk-python/commit/1baad3b04df8fc5f1cbcf59bd2eca5e51d88c1e0))\n* **api:** add repository error types to Managed Agents session errors ([c682f7e](https://github.com/anthropics/anthropic-sdk-python/commit/c682f7e359e3367581a41829fdb51250dd51b0c3))\n* **api:** allow removing a plugin's org-wide installation setting ([17f52fc](https://github.com/anthropics/anthropic-sdk-python/commit/17f52fcde9fec28a2f96e763d9a2217326104fd8))\n* **api:** MCP tunnels beta: add read-only `transport` object to Tunnel and return the one-time relay `token` in the create response ([88718ff](https://github.com/anthropics/anthropic-sdk-python/commit/88718ff4bdfab22f256b12ec7fdd20509805978c))\n* **api:** Organization API endpoints are now GA ([f1d195a](https://github.com/anthropics/anthropic-sdk-python/commit/f1d195a6ae90b2b2482b2a6f8f1732d7241b5984))\n\n\n### Bug Fixes\n\n* **api:** make memory store description, metadata, archived_at required ([6cc39d3](https://github.com/anthropics/anthropic-sdk-python/commit/6cc39d34e7f3a1ae1eea82fbc634849761966b20))\n* **api:** type admin plugin preference and marketplace fields as enums ([b4dfd99](https://github.com/anthropics/anthropic-sdk-python/commit/b4dfd998969d8a23ab7128caa152989aa867c7d2))\n* **credentials:** refuse config files that group or others can write ([cd5fc6a](https://github.com/anthropics/anthropic-sdk-python/commit/cd5fc6a1e5a65cbd08f5c77465617526c313f0b8))\n* **pagination:** auto-paging continues past an empty page while next_page is set ([c027a26](https://github.com/anthropics/anthropic-sdk-python/commit/c027a26dd4f33840ea3749db3b3e4059ec749983))\n* **tools:** stop the session tool runner after any idle that ends the turn ([#969](https://github.com/anthropics/anthropic-sdk-python/issues/969)) ([9c60a53](https://github.com/anthropics/anthropic-sdk-python/commit/9c60a531709471050c084034dece6782cc3298e5))\n\n\n### Chores\n\n* **api:** update MCP Tunnels types and descriptions ([aa49ba7](https://github.com/anthropics/anthropic-sdk-python/commit/aa49ba7fbb56425feebb7c3d0dcc75fd1f109ed4))\n* **ci:** run tests on the oldest and newest Python in parallel ([53bb298](https://github.com/anthropics/anthropic-sdk-python/commit/53bb298f0bbed38b60c2b961bd6daf973365b1a1))\n* **docs:** remove placeholder enum descriptions ([f535d67](https://github.com/anthropics/anthropic-sdk-python/commit/f535d6701f65928264cd8fb738e4327fa94fb32c))\n* **internal:** format request options with one argument per line ([4e2463e](https://github.com/anthropics/anthropic-sdk-python/commit/4e2463e13499c5e7ba6b2ef389f65b0e8f234350))\n* **tests:** match mocked binary routes when a request adds query params ([0781470](https://github.com/anthropics/anthropic-sdk-python/commit/078147029a62d22ea5fe85cf897cfbdc1693b656))",
       "published_at": "2026-09-30T18:28:45Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.10.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.22.1",
-      "tag_name": "v3.22.1",
-      "body": "## [3.22.1](https://github.com/openai/openai-python/compare/v3.22.0...v3.22.1) (2026-09-30)\n\n\n### Bug Fixes\n\n* **api:** correct the missing authentication error message ([#3993](https://github.com/openai/openai-python/issues/3993)) ([51692ed](https://github.com/openai/openai-python/commit/51692ed3f9d2b87084801295f824c2202dac3785)), closes [#3962](https://github.com/openai/openai-python/issues/3962)\n* transform NotRequired typed dictionary fields ([#3995](https://github.com/openai/openai-python/issues/3995)) ([5544c18](https://github.com/openai/openai-python/commit/5544c18c19f125718ed9c4f7c42866c27060158e))\n\n\n### Chores\n\n* **tests:** mark sample_file.txt as text with LF line endings ([#3879](https://github.com/openai/openai-python/issues/3879)) ([fd78a48](https://github.com/openai/openai-python/commit/fd78a48d2be489fde978696e1ad32032c20f0fab))\n\n\n### Documentation\n\n* **examples:** fix two stale example comments ([#3877](https://github.com/openai/openai-python/issues/3877)) ([1c4830b](https://github.com/openai/openai-python/commit/1c4830b6e735d2ca3c4bd95f66467fa007f8b451))\n* **examples:** print event.delta in the streaming helpers doc ([#3876](https://github.com/openai/openai-python/issues/3876)) ([063375b](https://github.com/openai/openai-python/commit/063375b7a12f3f3a0de10aec829c0416651be8cc))",
-      "published_at": "2026-09-30T00:25:09Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
       "kind": "release"
     },
     {
