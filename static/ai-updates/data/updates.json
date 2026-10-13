@@ -1,7 +1,169 @@
 {
-  "generated_at": "2026-10-12T07:26:22.117213Z",
+  "generated_at": "2026-10-13T07:47:34.292967Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "2026 生日周发布内容一览 - Cloudflare Blog",
+      "tag_name": "Cloudflare Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T03:52:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uVF90bnE5QW9seTZwOFpxbjNhNWdmX0prdzFIUHdnVFFxeE5xTEdUdlZwdkVkbUxVYzFVcWpHb2JqeVJCR3ZPbmRVZU5aQmg4ZVA0Z2ZzWWFhMkdHTTAzRlFCb0NEZEcxbGZsamxn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了 - 搜狐",
+      "tag_name": "搜狐",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T01:49:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMlFkdHgwS0pIdGFSQ2J1TEZITW5QdGV0MGdZczU5NGY3UURwOVlEVFBYUUV1R1lIVW9wSEIwQ3BpVWhSdDRIVVdKZkJHUFAtdm1oVG9RZ2taY25hOGZtWGJrdDl1WDVvQmNqMW1MZ0swc2ZRVlB3Q0ttRmZNZGQwd2RYUVZBN0dW?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain==1.4.5",
+      "tag_name": "langchain==1.4.5",
+      "body": "Changes since langchain==1.4.4\n\nrelease(langchain): 1.4.5 (#41226)\nfeat(langchain): accept `summarizer` in `SummarizationMiddleware` (#41225)",
+      "published_at": "2026-10-12T19:28:41Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.40.4",
+      "tag_name": "v0.40.4-rc1",
+      "body": "## What's Changed\r\n* llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in https://github.com/ollama/ollama/pull/18917\r\n* server: reuse verified manifests and loaded models in inference routes by @dhiltgen in https://github.com/ollama/ollama/pull/18947\r\n* mlx: compact restored recurrent state after speculative rollback by @dhiltgen in https://github.com/ollama/ollama/pull/18955\r\n* launch: include installed models in Codex /model picker by @ParthSareen in https://github.com/ollama/ollama/pull/18887\r\n* MLX, MLX-C: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18956\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.3...v0.40.4-rc1",
+      "published_at": "2026-10-12T19:00:12Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.30",
+      "tag_name": "@ai-sdk/zai@3.0.30",
+      "body": "### Patch Changes\n\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [2c6996e]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27\n  - @ai-sdk/openai-compatible@3.0.68",
+      "published_at": "2026-10-12T17:51:22Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.30",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@5.0.21",
+      "tag_name": "@ai-sdk/xai@5.0.21",
+      "body": "### Patch Changes\n\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27",
+      "published_at": "2026-10-12T17:51:19Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.21",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.149",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.149",
+      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.149",
+      "published_at": "2026-10-12T17:51:16Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.149",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.70",
+      "tag_name": "@ai-sdk/workflow@2.0.70",
+      "body": "### Patch Changes\n\n- 1506ee1: Fix `WorkflowChatTransport` retrying indefinitely when successful reconnect responses contain no UI message chunks. Empty streams now count toward `maxConsecutiveErrors`, while streams that receive chunks continue to advance the resume cursor and reset the error count.\n- 7400215: fix(workflow): retain streamed terminal assistant responses in conversation messages\n- 9aef724: fix(workflow): report incomplete no-output model streams as errors\n- 507cd9d: fix(workflow): include actionable details in tool input validation errors\n- a155baa: fix(workflow): dispatch WorkflowAgent model call telemetry to globally registered integrations from the model step\n- 7c0410d: fix(workflow): preserve provider-executed tool results and invalid local tool call error results on length completion\n- Updated dependencies [eab278a]\n- Updated dependencies [26d64e9]\n- Updated dependencies [9667bf2]\n- Updated dependencies [75b3ea2]\n- Updated dependencies [69f4b82]\n- Updated dependencies [e57803c]\n- Updated dependencies [4c705d9]\n- Updated dependencies [81663cc]\n- Updated dependencies [5150d50]\n- Updated dependencies [9aef724]\n- Updated dependencies [7d0458b]\n  - ai@7.0.138\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27",
+      "published_at": "2026-10-12T17:51:13Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.70",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.138",
+      "tag_name": "@ai-sdk/vue@4.0.138",
+      "body": "### Patch Changes\n\n- 7ff6a15: fix(vue): cancel useObject submissions stopped before their request starts\n- 1b5fd20: fix(vue): preserve headers supplied as a Headers instance in useObject requests\n- Updated dependencies [eab278a]\n- Updated dependencies [26d64e9]\n- Updated dependencies [9667bf2]\n- Updated dependencies [75b3ea2]\n- Updated dependencies [69f4b82]\n- Updated dependencies [e57803c]\n- Updated dependencies [4c705d9]\n- Updated dependencies [81663cc]\n- Updated dependencies [5150d50]\n- Updated dependencies [9aef724]\n- Updated dependencies [7d0458b]\n  - ai@7.0.138\n  - @ai-sdk/provider-utils@5.0.59",
+      "published_at": "2026-10-12T17:51:10Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.138",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.138",
+      "tag_name": "ai@7.0.138",
+      "body": "### Patch Changes\n\n- eab278a: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- 26d64e9: fix(ai): update tool outputs in the message containing the matching tool call\n- 75b3ea2: fix(ai): prevent duplicate message parts when resuming replayed streams\n- 69f4b82: fix(ai): prevent global type conflicts across SDK versions\n- e57803c: Add an optional shared citation representation to generated text and text-end stream events, separate from retrieved sources. Preserve citations in core result content and UI message text parts, including validation and persistence, without changing content or stream event discriminants.\n- 4c705d9: Fix validation of rounded choice probabilities in `experimental_decide`.\n- 5150d50: fix(ai): update streaming chat messages by stable ID\n- 9aef724: fix(workflow): report incomplete no-output model streams as errors\n- 7d0458b: fix(ai): reject approved tool calls without results before sending later context to providers\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27\n  - @ai-sdk/gateway@4.0.111",
+      "published_at": "2026-10-12T17:47:25Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.138",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.274",
+      "tag_name": "ai@5.0.274",
+      "body": "### Patch Changes\n\n- f47f8e0: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- ab0ecab: fix(ai): update tool outputs in the message containing the matching tool call\n- dc561f0: fix(ai): prevent global type conflicts across SDK versions\n- c060bd2: fix(ai): wait for chat stream cleanup when stopping\n- dbf4338: fix(ai): update streaming chat messages by stable ID\n- 99c9177: fix(ai): discard unrelated message state when reading resumed streams\n- Updated dependencies [313a602]\n- Updated dependencies [ae1ebda]\n  - @ai-sdk/gateway@2.0.165",
+      "published_at": "2026-10-12T17:45:57Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.274",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.304",
+      "tag_name": "ai@6.0.304",
+      "body": "### Patch Changes\n\n- fade070: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- 8e74de0: fix(ai): update tool outputs in the message containing the matching tool call\n- a5c9cca: fix(ai): prevent duplicate message parts when resuming replayed streams\n- 7888841: fix(ai): update streaming chat messages by stable ID\n- e466fb0: fix(ai): reject approved tool calls without results before sending later context to providers",
+      "published_at": "2026-10-12T17:44:11Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.304",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "LineageOS 发布十周年纪念更新：Android 17 提前落地，WebUSB 浏览器直接刷机- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-12T15:42:42Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LcnEzTjNDcW5XVWJoRWVUMEwwSHdjQnBDS201MDRMaVVSYlpwdjBWZnNDTXhybWJVVXhaWTE2d3F6TlJjOXlEb1RDRQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-anthropic==1.7.6",
+      "tag_name": "langchain-anthropic==1.7.6",
+      "body": "Changes since langchain-anthropic==1.7.5\n\nrelease(anthropic): 1.7.6 (#41221)\nchore(model-profiles): refresh model profile data (#41145)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/anthropic (#41101)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/anthropic (#41080)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/anthropic (#40964)",
+      "published_at": "2026-10-12T14:40:14Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.6",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-openai==1.7.1",
+      "tag_name": "langchain-openai==1.7.1",
+      "body": "Changes since langchain-openai==1.7.0\n\nrelease(openai): 1.7.1 (#41222)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)",
+      "published_at": "2026-10-12T14:33:09Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-core==1.6.10",
+      "tag_name": "langchain-core==1.6.10",
+      "body": "Changes since langchain-core==1.6.9\n\nrelease(core): 1.6.10 (#41220)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)",
+      "published_at": "2026-10-12T14:14:03Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "构建可供AI负责任使用的知识发布规范-人工智能 - 至顶网",
+      "tag_name": "至顶网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-12T08:15:27Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wdTVWOHZic3JTeW8tbEJqSnFkYlRfNU40a2tkVHBkOElFZkNraUVYUUo2N2w5Y25zNkFieXJFWjh4MGpjZnNrdHdYbm1XOExDVlctMzNnYzZzSHJ2ZXc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Silicon Labs Adds IoT Developer Platform Tools - EE Times",
+      "tag_name": "EE Times",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-12T01:26:36Z",
+      "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0d3laUDFwUUJUYnFUZDFtVjd2dkZDUXBOVVJuZm85REN2Nmt0Y2V3OXZYdmZ6Y1V2ZjJCRXUxLWFSMkd0a3NoMnVMM2Uzbkt4TFJrY0VHNFVlV3RocEdOZkRoVEJGckhMVHFhTHVzRnR0V0ZMTE05aENrQQ?oc=5",
+      "kind": "news"
+    },
     {
       "source": "openai/openai-python",
       "name": "v3.29.0",
@@ -31,29 +193,11 @@
     },
     {
       "source": "news:zh",
-      "name": "C盘爆红救星！开源神器MuRig v1.2.0 发布，支持自定义环境安装路径！ - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T11:02:29Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00QW1JMnNTRTRNS3N5MDF1Zmt2SVdselMyUHVwS2Z0Rml6aDJ3M1IyeGFxTW1raVE3akt1RE1UbExqT1BCeE54STdkNA?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天” - InfoQ-CN",
       "tag_name": "InfoQ-CN",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-10T11:01:36Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSmpER3UwNUc3SjNaU0ZsNDlCU0NMZERCYzJ4aXZxVllFdWFmNU5uVmctSG1JUXdYNlMyMTdtV0JyQVJSbGdrWGwxVC04NURhYXpMTmdnM3FZN1dDSHc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "“科技春晚”正在消失|苹果发布会|Apple|iPhone Duo|OpenAI|折叠屏 - 新浪财经",
-      "tag_name": "新浪财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T04:08:09Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnp1dng3OEY5NFp1VFZJbzNLdHpDY2pVVXlfMEdfMWdtc21icURDNTJtN0pXX0t5dmEydEhQOUhsTzlJNmctNnBnS3NFQmktOVdRTzFadGZ5RE12LVg5V1NQbkxZc0dIc19PbFo2RW1NYV9aTVhpOHBtY2k4S2JGMGt3TUF4Unh1c0tNalJncmEzYlIwcmVGbE9zR2dpX2hrOE5RSUFOVQ?oc=5",
       "kind": "news"
     },
     {
@@ -84,57 +228,12 @@
       "kind": "news"
     },
     {
-      "source": "vercel/ai",
-      "name": "ai@6.0.303",
-      "tag_name": "ai@6.0.303",
-      "body": "### Patch Changes\n\n- c0350be: fix(ai): prevent global type conflicts across SDK versions\n- 88aa201: fix(ai): wait for chat stream cleanup when stopping\n- 8444abe: fix(ai): discard unrelated message state when reading resumed streams\n- Updated dependencies [897cb0c]\n- Updated dependencies [7719e88]\n  - @ai-sdk/gateway@3.0.212",
-      "published_at": "2026-10-09T18:52:01Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.303",
-      "kind": "release"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.13.0",
       "tag_name": "v1.13.0",
       "body": "### Features\n\n* **api:** add types for the Chat and Cowork unified analytics metrics\n* **api:** add workflows, multiagent configuration and thread status filtering to Managed Agents\n\n\n### Chores\n\n* **internal:** name the default API version header value",
       "published_at": "2026-10-09T15:28:52Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.148",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.148",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.148",
-      "published_at": "2026-10-09T14:54:54Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.148",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.69",
-      "tag_name": "@ai-sdk/workflow@2.0.69",
-      "body": "### Patch Changes\n\n- Updated dependencies [e27cc64]\n  - ai@7.0.137",
-      "published_at": "2026-10-09T14:54:51Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.69",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.137",
-      "tag_name": "@ai-sdk/vue@4.0.137",
-      "body": "### Patch Changes\n\n- Updated dependencies [e27cc64]\n  - ai@7.0.137",
-      "published_at": "2026-10-09T14:54:48Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.137",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.137",
-      "tag_name": "ai@7.0.137",
-      "body": "### Patch Changes\n\n- e27cc64: fix(ai): discard unrelated message state when reading resumed streams",
-      "published_at": "2026-10-09T14:53:27Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.137",
       "kind": "release"
     },
     {
@@ -147,24 +246,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "世嘉称不把游戏创意交给AI：提效之外，谁来决定作品的模样？ - 新浪网",
-      "tag_name": "新浪网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-09T12:28:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wS1VoMUF2MHlqZWp4aDFVN3oxemZRWFFUbDNEU0RVNWs2WGlBVTBSRHd5MWdNWXhEa25SNmotVFJ2TXdhRVhmMk5wMUJOMnhjWVRVUEd0QjhpME5Hc29FbVBvcXhNM21IVm8xTVJKZFRlSzkxUlhZcDZHaWdoQmc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Silicon Labs Adds IoT Developer Platform Tools - EE Times",
-      "tag_name": "EE Times",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-09T11:51:58Z",
-      "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0d3laUDFwUUJUYnFUZDFtVjd2dkZDUXBOVVJuZm85REN2Nmt0Y2V3OXZYdmZ6Y1V2ZjJCRXUxLWFSMkd0a3NoMnVMM2Uzbkt4TFJrY0VHNFVlV3RocEdOZkRoVEJGckhMVHFhTHVzRnR0V0ZMTE05aENrQQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
       "name": "Fake AI SDK packages on npm deliver Windows remote-access trojan - IOT Insider",
       "tag_name": "IOT Insider",
@@ -175,39 +256,12 @@
     },
     {
       "source": "news:zh",
-      "name": "大模型长假静悄悄 - 投资界",
-      "tag_name": "投资界",
+      "name": "苹果给开发者“立规矩”！2027年4月起所有App须适配折叠屏 - 上观新闻",
+      "tag_name": "上观新闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-09T09:52:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tM214NG56U2JIOW1xY1M4d3RIVEJieUFsZFRQbEtLTHpJRVpzVlgxd0d1UXg2cnROUlBOU3ZXZ2VUdThmMUozYWtuOWFUczFhRlA3S0dn?oc=5",
+      "published_at": "2026-10-08T22:36:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xT1lSRFYzX3hKNDMzdVYzZ3NTaUk3eEg2d3hwNFdSeERnUW1IQUxKNTJqTU02aC1vRHZyaGxSYWExc2pjVnhxTTJjZEFRbFIxUFhnSUlLQ0lGdw?oc=5",
       "kind": "news"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.147",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.147",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.147",
-      "published_at": "2026-10-09T00:40:11Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.147",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.68",
-      "tag_name": "@ai-sdk/workflow@2.0.68",
-      "body": "### Patch Changes\n\n- Updated dependencies [7b5497c]\n  - ai@7.0.136",
-      "published_at": "2026-10-09T00:40:08Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.68",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.136",
-      "tag_name": "ai@7.0.136",
-      "body": "### Patch Changes\n\n- 7b5497c: Fix streaming output timeouts: stop `chunkMs` and `firstChunkMs` when the model response ends, so long-running local tools do not trigger model output timeouts. Give each retry fresh output timeout budgets. `stepMs` continues to cover the complete step, including local tools.\n- Updated dependencies [e280aa1]\n  - @ai-sdk/gateway@4.0.110",
-      "published_at": "2026-10-09T00:38:41Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.136",
-      "kind": "release"
     },
     {
       "source": "langchain-ai/langchain",
@@ -226,6 +280,15 @@
       "published_at": "2026-10-08T20:11:32Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "AI Coding Agents Drive Surge in Bitcoin Integration Requests: Breez - Bitcoin Magazine",
+      "tag_name": "Bitcoin Magazine",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-08T19:17:12Z",
+      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSTBHRVl3bXRRU3V5Vk9xVWMwd0RQQlJfNjRBMldFUXpTOTczMENYcWRNUG1KejBIWmFFRzY0azEyX2lWX21pRmV1QlJnRTduZXpMcmNDS3dvWko3Uk1GV1Q0azlrcl9pSkVFRjl3ZjFxS2plTGF3TC1HZFVOY1NEZw?oc=5",
+      "kind": "news"
     },
     {
       "source": "ollama/ollama",
@@ -273,15 +336,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "Windows 迎来 AI 时代最大更新，拉来黄仁勋跟 Mac 宣战 - 爱范儿",
-      "tag_name": "爱范儿",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T08:15:32Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9jMnctOVVsV3JJTnFQdEszVHdpR3hQUDZyTC1lMWg3ZW9GN1BhOWhZOVAwenFqRkxlb0FqTFhzUVNrX1U?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.12.1",
       "tag_name": "v1.12.1",
@@ -316,24 +370,6 @@
       "published_at": "2026-10-07T21:49:41Z",
       "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMHhKel95eVdnemQzSkZ6Y3dSZFRwdzNsVTQyYnNxRlBac3NPXzl6TENvUExvOHpUdlRlMlpJdS0zVGREbkkwWEFzUUhmdjB1YWlBX0RNV2xCbEd4elZqTEd0OGx3R1c4MWhUVnV5TEVoeVg3SEdYUlJyTFBqLUVSZkt2dFptQ3pXV1pwZ0U5bG9Zeko0R2xEaHo5VFhnTFhOWjNacm1tbmhCMHlCY0RhbFVaM2o0U2V6U1F6Tm1nTFJvb1k?oc=5",
       "kind": "news"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-fireworks==1.7.1",
-      "tag_name": "langchain-fireworks==1.7.1",
-      "body": "Changes since langchain-fireworks==1.7.0\n\nrelease(fireworks): 1.7.1 (#41137)\nfix(fireworks): preserve reasoning in streaming and tool loops (#41093)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/fireworks (#41100)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/fireworks (#41078)\nchore(model-profiles): refresh model profile data (#40974)",
-      "published_at": "2026-10-07T20:24:35Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-huggingface==1.2.3",
-      "tag_name": "langchain-huggingface==1.2.3",
-      "body": "Changes since langchain-huggingface==1.2.2\n\nfix(huggingface): use a supported Scaleway model in streaming test (#41095)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/huggingface (#41098)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/huggingface (#41076)\nchore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/partners/huggingface (#41092)\nchore(deps): bump fsspec from 2025.9.0 to 2026.6.0 in /libs/partners/huggingface (#41077)\nchore(huggingface): update lockfile (#41088)\nrelease(huggingface): 1.2.3 (#41058)\nfix(huggingface): hide `huggingfacehub_api_token` from `repr` (#41047)\nchore(deps): bump sentence-transformers from 5.2.3 to 5.6.0 in /libs/partners/huggingface (#40959)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/huggingface (#40957)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/partners/huggingface (#40958)\nchore(model-profiles): refresh model profile data (#40747)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/huggingface (#40637)\nchore(model-profiles): refresh model profile data (#40399)\nfeat(huggingface): use torch.accelerator for device-agnostic device count detection (#39640)\nfix(huggingface): remove retired IPEX backend (#39649)\nchore(model-profiles): refresh model profile data (#40198)\nchore(model-profiles): refresh model profile data (#40171)\nchore(model-profiles): refresh model profile data (#40009)\nchore(huggingface): bump transformers from 5.5.0 to 5.10.1 (#40117)\nchore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/partners/huggingface (#40110)\nchore(deps): bump orjson from 3.11.6 to 3.12.0 in /libs/partners/huggingface (#40115)\nchore(deps): bump requests from 2.33.0 to 2.34.2 in /libs/partners/huggingface (#40116)\nchore(deps): bump filelock from 3.20.3 to 3.32.5 in /libs/partners/huggingface (#40118)\nchore(deps): bump langsmith from 0.10.16 to 0.12.1 in /libs/partners/huggingface (#40119)\nchore(deps): bump idna from 3.15 to 3.19 in /libs/partners/huggingface (#40121)\nchore(model-profiles): refresh model profile data (#39954)\nchore(model-profiles): refresh model profile data (#39928)\nchore(model-profiles): refresh model profile data (#39844)\nchore(model-profiles): refresh model profile data (#39789)\nchore(model-profiles): refresh model profile data (#39710)\nchore(model-profiles): refresh model profile data (#39692)\nchore(model-profiles): refresh model profile data (#39670)\nchore(model-profiles): refresh model profile data (#39646)\nchore(partners): bump langgraph floor in openai and huggingface lockfiles (#39617)\nchore: bump setuptools in Hugging Face lockfile (#39603)\nchore(model-profiles): refresh model profile data (#39299)\nchore: bump langsmith from 0.10.6 to 0.10.16 in /libs/partners/huggingface (#39281)\nchore(model-profiles): refresh model profile data (#39239)\nchore: bump aiohttp from 3.14.1 to 3.14.3 in /libs/partners/huggingface (#39237)\nchore(model-profiles): refresh model profile data (#39166)\nchore(model-profiles): refresh model profile data (#39105)\nchore(model-profiles): refresh model profile data (#39036)\nchore: bump langsmith from 0.10.2 to 0.10.6 in /libs/partners/huggingface (#38912)\nchore: bump torch from 2.12.1 to 2.13.0 in /libs/partners/huggingface (#38911)\nchore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/huggingface (#38829)\nchore: bump transformers from 5.3.0 to 5.5.0 in /libs/partners/huggingface (#38828)\nchore(model-profiles): refresh model profile data (#38821)\nchore(deps): refresh lockfiles (#38746)\nchore(model-profiles): refresh model profile data (#38699)\nchore(model-profiles): refresh model profile data (#38663)\nchore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/huggingface (#38592)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/partners/huggingface (#38591)\nchore: bump transformers from 5.2.0 to 5.3.0 in /libs/partners/huggingface (#38593)\nchore: bump langgraph-checkpoint from 4.1.0 to 4.1.1 in /libs/partners/huggingface (#38478)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/huggingface (#38306)\nchore: bump langsmith from 0.8.16 to 0.8.18 in /libs/partners/huggingface (#38308)\nchore: bump langsmith from 0.8.14 to 0.8.16 in /libs/partners/huggingface (#38242)\nchore: bump torch from 2.9.0 to 2.12.1 in /libs/partners/huggingface (#38240)\nchore: bump pytest from 9.0.3 to 9.1.0 in /libs/partners/huggingface (#38241)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/partners/huggingface (#38177)\nchore: bump aiohttp from 3.14.0 to 3.14.1 in /libs/partners/huggingface (#38178)\ndocs: refresh `README` installation and resources (#38119)\ntest(core,langchain): update tests for explicit deserialization allowlists (#38118)\nchore: bump tornado from 6.5.5 to 6.5.6 in /libs/partners/huggingface (#38113)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nchore: bump langsmith from 0.8.9 to 0.8.14 in /libs/partners/huggingface (#38091)\nrelease(core): 1.4.6 (#38061)\nfeat(core,partners): add package version tracking to tracing metadata (#35295)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfeat(standard-tests): validate tool call chunks during streaming (#34707)\nchore(partners): bump locks (#38052)\nhotfix(openai): min core dep (#37990)\ntest(langchain,partners): disable pytest-benchmark under xdist to silence `PytestBenchmarkWarning` (#37901)\nchore: bump dependencies  (#37892)\nchore: bump aiohttp from 3.13.4 to 3.14.0 in /libs/partners/huggingface (#37885)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump idna from 3.10 to 3.15 in /libs/partners/huggingface (#37528)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/partners/huggingface (#37335)\nchore: bump langchain-core from 1.3.2 to 1.3.3 in /libs/partners/huggingface (#37273)\nchore: bump setuptools from 80.9.0 to 82.0.1 in /libs/partners/huggingface (#37274)\nchore(docs): update x handle references (#37081)\nchore(model-profiles): refresh model profile data (#37051)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nci(infra): add `pytest-xdist` to partner test groups (#36988)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)\nchore: bump python-dotenv from 1.1.1 to 1.2.2 in /libs/partners/huggingface (#36928)\nchore(model-profiles): refresh model profile data (#36911)",
-      "published_at": "2026-10-07T20:10:07Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3",
-      "kind": "release"
     },
     {
       "source": "news:en",
@@ -399,6 +435,15 @@
       "kind": "news"
     },
     {
+      "source": "news:zh",
+      "name": "OpenAI 在公开测试版中发布 Decisions API，基于 GPT-6 Luna - Unite.AI",
+      "tag_name": "Unite.AI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-06T22:37:40Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ3BTWmJpV3J4VVJ4MC1oT2lielNMa0NVLVVmYWhfS0d2SThhT0NXRUZ3RDhHMThMOHY1b0c1S1BmbG9NSEE5NVBYN1dncElfeFBEektFOTFja1dUbVFCUGpFNnRrNlBPNkwyODg5LXB2Qm5uZWM4dzYyOGliMzlGV0ZLMVg0Zm1iYVJHakhFRXRxUkp4ODNFMUxB?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:en",
       "name": "Sharing AI progress in mathematics - OpenAI",
       "tag_name": "OpenAI",
@@ -432,33 +477,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-06T16:22:22Z",
       "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnFld2xRdDVNUloweENSSVlzYXVZQ1ZUM2F3RXFFdl8yOHhudlZiUnkxdEJBcEtaWnJYcFh3UnI5QkFnbWRpVldxa1RjYTQzNVFhUzZHaE1OZllLWUoyVjZvLWhudjlZdTEzdkJWZW5TUTBHZGhkMS1KemlhbjkzaWVtN1BxQ2RHcGJn?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration | NVIDIA Technical Blog - NVIDIA Developer",
-      "tag_name": "NVIDIA Developer",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T16:15:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1pIWHVsaDFjbTdyNzFtQnZBcVJNTVlGOTZsRmlPY21uV1dILUoxV3hsUHVOVmkwemlmQ05NTEYtNzJFZ0RQU2RuNk9US3V4Wmx1Tzc4NnNkMmhnbnoxejNUQjVmNFdBbFB0YW9pUmktV0FjbVNVUU55VUpiQnBObGhjX3pyU2pRVnRqZ1NQWUlmTy1TYlRzYXF1QzBXdw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-core==1.6.7",
-      "tag_name": "langchain-core==1.6.7",
-      "body": "Changes since langchain-core==1.6.6\n\nrelease(core): 1.6.7 (#41087)\nfix(core): include openai redacted_content in v1 output for bedrock converse (#41086)\nfix(core): python 3.14 hardening around `inspect.signature` (#41059)\nchore(deps): bump notebook from 7.5.7 to 7.6.3 in /libs/core (#41057)\nchore(deps): bump notebook from 7.5.6 to 7.5.7 in /libs/core (#40992)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/core (#40972)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/core (#40970)",
-      "published_at": "2026-10-06T15:47:08Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7",
-      "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "分享 AI 在数学领域的进展 - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T07:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96a2dEV09za25QU1E2S1oydWlCSVJSMnlvZURIMzItZEoxQW5kRlJXVmZieDBRZWpNdWlyVVUzNlplMHpVUXczeC0xT2ozekVNbkIxNXczZF9NOFA4UFVkcW8zSENqTjNQb3V0dTZ3bE1NMXBmQXQ0VXVoSQ?oc=5",
       "kind": "news"
     },
     {
@@ -543,15 +561,6 @@
       "kind": "release"
     },
     {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-text-splitters==1.1.3",
-      "tag_name": "langchain-text-splitters==1.1.3",
-      "body": "Changes since langchain-text-splitters==1.1.2\n\nrelease(text-splitters): 1.1.3 (#41001)\nchore(deps): bump the minor-and-patch group across 3 directories with 4 updates (#40969)\nchore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters (#40971)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters (#40938)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters (#40940)\nchore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters (#40645)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/text-splitters (#40624)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/text-splitters (#40579)\nchore(deps): bump the minor-and-patch group across 3 directories with 5 updates (#40566)\nchore(deps): bump types-requests from 2.33.0.20260712 to 2.33.0.20260906 in /libs/text-splitters (#40568)\nchore(deps): update lxml requirement from <7.0,>=6.1.2 to >=6.1.3,<7.0 in /libs/text-splitters (#40569)\nchore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/text-splitters (#40148)\nchore(deps): bump the minor-and-patch group across 3 directories with 5 updates (#40085)\nchore(deps): update lxml requirement from <7.0,>=6.1.0 to >=6.1.2,<7.0 in /libs/text-splitters (#40087)\nchore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/text-splitters (#40112)\nchore: bump the minor-and-patch group across 3 directories with 8 updates (#39863)\nchore: bump the major group across 2 directories with 2 updates (#39864)\nchore: bump types-requests from 2.33.0.20260518 to 2.33.0.20260712 in /libs/text-splitters (#39867)\nfix(text-splitters): raise TypeError for non-dict, non-convertible input to RecursiveJsonSplitter (#39238)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nchore(infra): add missing LICENSE files to publishable packages (#39146)\nchore: bump jupyterlab from 4.5.9 to 4.5.10 in /libs/text-splitters (#39028)\nchore: bump setuptools from 80.9.0 to 83.0.0 in /libs/text-splitters (#39029)\nchore: bump torch from 2.12.1 to 2.13.0 in /libs/text-splitters (#38946)\nchore: bump soupsieve from 2.8 to 2.8.4 in /libs/text-splitters (#38748)\nchore: bump nltk from 3.9.4 to 3.10.0 in /libs/text-splitters (#38747)\nchore: bump mistune from 3.2.1 to 3.3.0 in /libs/text-splitters (#38826)\nchore(deps): refresh lockfiles (#38746)\nfix(text-splitters): restore lazy imports for heavy optional dependencies (#35469)\nfeat(text-splitters): replace `mypy` by `ty` for type checking (#38658)\nchore: bump the minor-and-patch group across 3 directories with 11 updates (#38587)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/text-splitters (#38299)\nchore: bump jupyterlab from 4.5.7 to 4.5.9 in /libs/text-splitters (#38296)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/text-splitters (#38301)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/text-splitters (#38175)\nchore: bump bleach from 6.2.0 to 6.4.0 in /libs/text-splitters (#38195)\nchore: bump torch from 2.9.1 to 2.12.1 in /libs/text-splitters (#38231)\nchore: bump pytest from 9.0.3 to 9.1.0 in /libs/text-splitters (#38232)\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/text-splitters (#38250)\ndocs: refresh `README` installation and resources (#38119)\nchore: bump tornado from 6.5.5 to 6.5.6 in /libs/text-splitters (#38112)\nrelease(core): 1.4.7 (#38111)\nrelease(core): 1.4.6 (#38061)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfix(langchain): tighten structured output model fallbacks (#38042)\nhotfix(core): bump lockfile(s) (#38032)\nchore(core): fix some `any` generics (#34545)\nhotfix(openai): min core dep (#37990)\nchore: unify core versions in text-splitters. (#37523)\nchore: bump idna from 3.10 to 3.15 in /libs/text-splitters (#37535)\nchore: bump the minor-and-patch group across 3 directories with 15 updates (#37515)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump langsmith from 0.7.31 to 0.8.0 in /libs/text-splitters (#37380)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/text-splitters (#37326)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/text-splitters (#37235)\nchore: bump jupyter-server from 2.17.0 to 2.18.0 in /libs/text-splitters (#37202)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore: update lxml requirement from <7.0,>=4.9.3 to >=6.1.0,<7.0 in /libs/text-splitters (#37126)\nchore: bump notebook from 7.4.7 to 7.5.6 in /libs/text-splitters (#37105)\nchore(docs): update x handle references (#37081)\nfix(text-splitters): remove invalid and duplicate separators in Kotlin, Rust, and Haskell (#37039)\nfix(text-splitters): remove incorrect C# and Elixir separator keywords (#37037)\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nfix(fireworks): honor `max_retries` (#36973)\nchore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/text-splitters (#36921)",
-      "published_at": "2026-10-02T15:46:49Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
-      "kind": "release"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.23.0",
       "tag_name": "v3.23.0",
@@ -630,15 +639,6 @@
       "body": "## 1.8.0 (2026-09-22)\n\nFull Changelog: [v1.7.0...v1.8.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.7.0...v1.8.0)\n\n### Features\n\n* **api:** add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ([b5cc700](https://github.com/anthropics/anthropic-sdk-python/commit/b5cc70071a60def1d2e93f3634d1a595919007c8))\n\n\n### Bug Fixes\n\n* **api:** share one evaluated_permission enum across Managed Agents events ([f4f51c8](https://github.com/anthropics/anthropic-sdk-python/commit/f4f51c8d4c8d6d8ec8ed21775034ca3b3736d733))\n* **streaming:** avoid a Python 3.13 crash at exit when a stream is left open ([af029bd](https://github.com/anthropics/anthropic-sdk-python/commit/af029bdfe4433ce209092b017834ff0eb4f44e79))\n* **tools:** add_tools() takes effect straight away ([#874](https://github.com/anthropics/anthropic-sdk-python/issues/874)) ([06d0a6b](https://github.com/anthropics/anthropic-sdk-python/commit/06d0a6b7edf440b8561e6ee60b84aecde27391e0))\n* **tools:** leave reply-only params off the tool runner's compaction request ([#871](https://github.com/anthropics/anthropic-sdk-python/issues/871)) ([4687310](https://github.com/anthropics/anthropic-sdk-python/commit/4687310822f40691a30afcfdf20956747fb38f5e))\n\n\n### Chores\n\n* **docs:** add descriptions to the Dreams API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** add descriptions to the User Profiles API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** add memory store descriptions to the Managed Agents API reference ([5574c63](https://github.com/anthropics/anthropic-sdk-python/commit/5574c63875d9940d62af912b6495f15256535673))\n* **docs:** improve descriptions in the Dreams API reference ([1f5e477](https://github.com/anthropics/anthropic-sdk-python/commit/1f5e477a25f5a873480486a939d7e39529c55130))\n* **docs:** simplify the session thread agent type description ([a45b7ec](https://github.com/anthropics/anthropic-sdk-python/commit/a45b7ec22441032c19be720f273af6313dd73f1e))\n* **docs:** update diagnostics field descriptions on beta messages ([367750c](https://github.com/anthropics/anthropic-sdk-python/commit/367750c99c5daae6e28ed10b71db0410ced7c0f9))\n* **internal:** fix tests ([70c8cbd](https://github.com/anthropics/anthropic-sdk-python/commit/70c8cbd86c4095379bc6bca925126a151396efd2))\n* **internal:** remove mypy ([be01ed6](https://github.com/anthropics/anthropic-sdk-python/commit/be01ed6d7cd6798fbf442286ddc4cccc64a7a3ac))\n* **tests:** update fixtures ([77f6df8](https://github.com/anthropics/anthropic-sdk-python/commit/77f6df825350e37018e2439c1178179e98e0bf96))\n\n\n### Documentation\n\n* add path and header parameter descriptions ([f429a30](https://github.com/anthropics/anthropic-sdk-python/commit/f429a301cb750f51002d2d18fb125aa43b7251c3))\n\n\n### Refactors\n\n* **client:** remove the request param transform in favour of the JSON encoder ([539422c](https://github.com/anthropics/anthropic-sdk-python/commit/539422cde127564a60d9bf1e700445f39e0cff33))",
       "published_at": "2026-09-22T16:25:23Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
-      "kind": "release"
-    },
-    {
-      "source": "ollama/ollama",
-      "name": "v0.34.3",
-      "tag_name": "v0.34.3",
-      "body": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n\r\nAvailable in the CLI with:\r\n```\r\nollama show gemma4\r\n```\r\n\r\n```\r\n    thinking\r\n        levels     false, true\r\n        default    true\r\n```\r\n\r\nAvailable in the API with:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n\r\nAlso available on ollama.com directly for cloud models.\r\n\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n* Fix for model pulls from HuggingFace\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3",
-      "published_at": "2026-09-19T00:02:57Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
       "kind": "release"
     },
     {
