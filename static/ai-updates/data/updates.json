@@ -1,7 +1,133 @@
 {
-  "generated_at": "2026-10-13T07:47:34.292967Z",
+  "generated_at": "2026-10-14T06:12:31.150221Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "openai/openai-python",
+      "name": "v3.31.0",
+      "tag_name": "v3.31.0",
+      "body": "## [3.31.0](https://github.com/openai/openai-python/compare/v3.30.0...v3.31.0) (2026-10-14)\n\n\n### Features\n\n* add browser and computer toolsets (1/4) ([#4073](https://github.com/openai/openai-python/issues/4073)) ([47b9e4e](https://github.com/openai/openai-python/commit/47b9e4e95e44b1e825dc4e0753967c65d0733445))",
+      "published_at": "2026-10-14T05:38:46Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.151",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.151",
+      "body": "### Patch Changes\n\n- Updated dependencies [6c65131]\n- Updated dependencies [1bebfcf]\n  - @ai-sdk/harness@1.0.151",
+      "published_at": "2026-10-14T04:19:38Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.151",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.72",
+      "tag_name": "@ai-sdk/workflow@2.0.72",
+      "body": "### Patch Changes\n\n- 9523eb0: feat(ai): add configurable tool call execution concurrency\n- Updated dependencies [9523eb0]\n  - ai@7.0.140",
+      "published_at": "2026-10-14T04:19:36Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.72",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.140",
+      "tag_name": "@ai-sdk/vue@4.0.140",
+      "body": "### Patch Changes\n\n- Updated dependencies [9523eb0]\n  - ai@7.0.140",
+      "published_at": "2026-10-14T04:19:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.140",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@2.0.276",
+      "tag_name": "@ai-sdk/vue@2.0.276",
+      "body": "### Patch Changes\n\n- ai@5.0.276",
+      "published_at": "2026-10-14T04:18:34Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%402.0.276",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.276",
+      "tag_name": "ai@5.0.276",
+      "body": "### Patch Changes\n\n- Updated dependencies [39cddec]\n  - @ai-sdk/gateway@2.0.167",
+      "published_at": "2026-10-14T04:18:13Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.276",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.140",
+      "tag_name": "ai@7.0.140",
+      "body": "### Patch Changes\n\n- 9523eb0: feat(ai): add configurable tool call execution concurrency\n- Updated dependencies [42a2895]\n  - @ai-sdk/gateway@4.0.113",
+      "published_at": "2026-10-14T04:18:11Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.140",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@3.0.306",
+      "tag_name": "@ai-sdk/vue@3.0.306",
+      "body": "### Patch Changes\n\n- ai@6.0.306",
+      "published_at": "2026-10-14T04:17:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.306",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.306",
+      "tag_name": "ai@6.0.306",
+      "body": "### Patch Changes\n\n- Updated dependencies [d9244d1]\n  - @ai-sdk/gateway@3.0.214",
+      "published_at": "2026-10-14T04:17:08Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.306",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.30.0",
+      "tag_name": "v3.30.0",
+      "body": "## [3.30.0](https://github.com/openai/openai-python/compare/v3.29.0...v3.30.0) (2026-10-14)\n\n\n### Features\n\n* **api:** add beta session spending limits ([#4058](https://github.com/openai/openai-python/issues/4058)) ([b570279](https://github.com/openai/openai-python/commit/b5702792a0adb1e86a8b51709e935c1e0acde727))\n* **api:** add OCI external-storage provider support ([#4060](https://github.com/openai/openai-python/issues/4060)) ([9eb83fe](https://github.com/openai/openai-python/commit/9eb83fe4649af0104d22da460007773a6c07119e))\n* **api:** add organization Decisions usage reporting ([#4062](https://github.com/openai/openai-python/issues/4062)) ([5e7a23e](https://github.com/openai/openai-python/commit/5e7a23ee29bcad27a5f31e3e8c1f246488aacb97))\n* **api:** expose image tool error and moderation details ([#4072](https://github.com/openai/openai-python/issues/4072)) ([c5452af](https://github.com/openai/openai-python/commit/c5452afb7ebb0378fa351d0ccdefa097625c7998))\n* **api:** support image URLs and detailed safety alert explanations ([#4061](https://github.com/openai/openai-python/issues/4061)) ([3c50399](https://github.com/openai/openai-python/commit/3c5039945fa0e1fc3bf41e970beb5274f6bdba96))\n* **api:** support updating project API key expiry ([#4066](https://github.com/openai/openai-python/issues/4066)) ([1f05e33](https://github.com/openai/openai-python/commit/1f05e33eaca67e4a6913888aec279b66ac1db206))\n\n\n### Bug Fixes\n\n* **streaming:** restore async HTTP/1.1 connection reuse ([#4041](https://github.com/openai/openai-python/issues/4041)) ([1f6cfe1](https://github.com/openai/openai-python/commit/1f6cfe1148e6cb3cc37eead5e552dc0fefb1c7a0))\n\n\n### Chores\n\n* **api:** clarify agent tool limits and environment pagination ([#4065](https://github.com/openai/openai-python/issues/4065)) ([0f73f1d](https://github.com/openai/openai-python/commit/0f73f1d519f8719b226e9084d78c8bdb4a60e48f))",
+      "published_at": "2026-10-14T04:00:19Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布 - 爱范儿",
+      "tag_name": "爱范儿",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-14T00:08:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBzQk44a2RUc0E3b3AtQWxJNW80MGF3S0dVZHVfc0FHeHNOMjIzN2NuNExtcUpJM3dIbmdhTFZINEFjdXM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
+      "tag_name": "Reuters",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T16:10:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "STEPX发布首款大模型原生智能体手机STEPX Neo - zqrb.cn",
+      "tag_name": "zqrb.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T13:18:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBndDFBT1FnZ2E0RW5pQVRZcEtZMnJrSDR3Q29Ha0FkVVFUU2Jyby1zQ2RPWEVVNGRzLW9fVmMzSDRib0hIYkFhOFdLVGxJZTBYWWxyZHpQbFZZbXc1YlA5WDdMZk4wS3MzU0ZobnhxQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Explaining client library - PPC Land",
+      "tag_name": "PPC Land",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T10:54:04Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBmNldLYnkwM3ZMdUZLRlJucTNhZm03dFZCaGNlMXBRRnRwWk9HaEozN2wyRURYcGlycGwtN3B4Z3BqSThPZ0cw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:zh",
       "name": "2026 生日周发布内容一览 - Cloudflare Blog",
@@ -13,11 +139,11 @@
     },
     {
       "source": "news:zh",
-      "name": "OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了 - 搜狐",
-      "tag_name": "搜狐",
+      "name": "Cursor 最新动态 — 最新更新与发布说明 - Cursor",
+      "tag_name": "Cursor",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T01:49:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMlFkdHgwS0pIdGFSQ2J1TEZITW5QdGV0MGdZczU5NGY3UURwOVlEVFBYUUV1R1lIVW9wSEIwQ3BpVWhSdDRIVVdKZkJHUFAtdm1oVG9RZ2taY25hOGZtWGJrdDl1WDVvQmNqMW1MZ0swc2ZRVlB3Q0ttRmZNZGQwd2RYUVZBN0dW?oc=5",
+      "published_at": "2026-10-13T00:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0td3NNU1BMUDUybHM4MEp0RnFEaUlXSXJIOWgxeFBRM2FqNG83d3V0VVQ4U0ZTYUtTVC1KczRfYkpkWm9pUHc?oc=5",
       "kind": "news"
     },
     {
@@ -32,82 +158,10 @@
     {
       "source": "ollama/ollama",
       "name": "v0.40.4",
-      "tag_name": "v0.40.4-rc1",
-      "body": "## What's Changed\r\n* llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in https://github.com/ollama/ollama/pull/18917\r\n* server: reuse verified manifests and loaded models in inference routes by @dhiltgen in https://github.com/ollama/ollama/pull/18947\r\n* mlx: compact restored recurrent state after speculative rollback by @dhiltgen in https://github.com/ollama/ollama/pull/18955\r\n* launch: include installed models in Codex /model picker by @ParthSareen in https://github.com/ollama/ollama/pull/18887\r\n* MLX, MLX-C: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18956\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.3...v0.40.4-rc1",
+      "tag_name": "v0.40.4",
+      "body": "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  * Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch` can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex` now includes locally installed Ollama models in its model picker. Use `/model` within the Codex CLI to swap models.\r\n  * Improved inference performance by reusing verified manifests and already loaded models\r\n  * Added support for multimodal embeddings through llama-server\r\n  * Fixed loading multimodal embedding models with small context windows\r\n  * Improved Gemma 4 prefill performance on NVIDIA GPUs with the MLX runner\r\n  * MLX runner now clips long Laya states instead of rejecting them\r\n  * Improved speculative decoding reliability in the MLX runner, including recurrent state handling after rollback\r\n   * Updated llama.cpp with native decision model support\r\n  * Updated README and documentation with clearer privacy and cloud-services wording\r\n\r\n  \r\n  **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.3...v0.40.4",
       "published_at": "2026-10-12T19:00:12Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.30",
-      "tag_name": "@ai-sdk/zai@3.0.30",
-      "body": "### Patch Changes\n\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [2c6996e]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27\n  - @ai-sdk/openai-compatible@3.0.68",
-      "published_at": "2026-10-12T17:51:22Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.30",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.21",
-      "tag_name": "@ai-sdk/xai@5.0.21",
-      "body": "### Patch Changes\n\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27",
-      "published_at": "2026-10-12T17:51:19Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.21",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.149",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.149",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.149",
-      "published_at": "2026-10-12T17:51:16Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.149",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.70",
-      "tag_name": "@ai-sdk/workflow@2.0.70",
-      "body": "### Patch Changes\n\n- 1506ee1: Fix `WorkflowChatTransport` retrying indefinitely when successful reconnect responses contain no UI message chunks. Empty streams now count toward `maxConsecutiveErrors`, while streams that receive chunks continue to advance the resume cursor and reset the error count.\n- 7400215: fix(workflow): retain streamed terminal assistant responses in conversation messages\n- 9aef724: fix(workflow): report incomplete no-output model streams as errors\n- 507cd9d: fix(workflow): include actionable details in tool input validation errors\n- a155baa: fix(workflow): dispatch WorkflowAgent model call telemetry to globally registered integrations from the model step\n- 7c0410d: fix(workflow): preserve provider-executed tool results and invalid local tool call error results on length completion\n- Updated dependencies [eab278a]\n- Updated dependencies [26d64e9]\n- Updated dependencies [9667bf2]\n- Updated dependencies [75b3ea2]\n- Updated dependencies [69f4b82]\n- Updated dependencies [e57803c]\n- Updated dependencies [4c705d9]\n- Updated dependencies [81663cc]\n- Updated dependencies [5150d50]\n- Updated dependencies [9aef724]\n- Updated dependencies [7d0458b]\n  - ai@7.0.138\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27",
-      "published_at": "2026-10-12T17:51:13Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.70",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.138",
-      "tag_name": "@ai-sdk/vue@4.0.138",
-      "body": "### Patch Changes\n\n- 7ff6a15: fix(vue): cancel useObject submissions stopped before their request starts\n- 1b5fd20: fix(vue): preserve headers supplied as a Headers instance in useObject requests\n- Updated dependencies [eab278a]\n- Updated dependencies [26d64e9]\n- Updated dependencies [9667bf2]\n- Updated dependencies [75b3ea2]\n- Updated dependencies [69f4b82]\n- Updated dependencies [e57803c]\n- Updated dependencies [4c705d9]\n- Updated dependencies [81663cc]\n- Updated dependencies [5150d50]\n- Updated dependencies [9aef724]\n- Updated dependencies [7d0458b]\n  - ai@7.0.138\n  - @ai-sdk/provider-utils@5.0.59",
-      "published_at": "2026-10-12T17:51:10Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.138",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.138",
-      "tag_name": "ai@7.0.138",
-      "body": "### Patch Changes\n\n- eab278a: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- 26d64e9: fix(ai): update tool outputs in the message containing the matching tool call\n- 75b3ea2: fix(ai): prevent duplicate message parts when resuming replayed streams\n- 69f4b82: fix(ai): prevent global type conflicts across SDK versions\n- e57803c: Add an optional shared citation representation to generated text and text-end stream events, separate from retrieved sources. Preserve citations in core result content and UI message text parts, including validation and persistence, without changing content or stream event discriminants.\n- 4c705d9: Fix validation of rounded choice probabilities in `experimental_decide`.\n- 5150d50: fix(ai): update streaming chat messages by stable ID\n- 9aef724: fix(workflow): report incomplete no-output model streams as errors\n- 7d0458b: fix(ai): reject approved tool calls without results before sending later context to providers\n- Updated dependencies [9667bf2]\n- Updated dependencies [e57803c]\n- Updated dependencies [81663cc]\n  - @ai-sdk/provider-utils@5.0.59\n  - @ai-sdk/provider@4.0.27\n  - @ai-sdk/gateway@4.0.111",
-      "published_at": "2026-10-12T17:47:25Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.138",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.274",
-      "tag_name": "ai@5.0.274",
-      "body": "### Patch Changes\n\n- f47f8e0: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- ab0ecab: fix(ai): update tool outputs in the message containing the matching tool call\n- dc561f0: fix(ai): prevent global type conflicts across SDK versions\n- c060bd2: fix(ai): wait for chat stream cleanup when stopping\n- dbf4338: fix(ai): update streaming chat messages by stable ID\n- 99c9177: fix(ai): discard unrelated message state when reading resumed streams\n- Updated dependencies [313a602]\n- Updated dependencies [ae1ebda]\n  - @ai-sdk/gateway@2.0.165",
-      "published_at": "2026-10-12T17:45:57Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.274",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.304",
-      "tag_name": "ai@6.0.304",
-      "body": "### Patch Changes\n\n- fade070: fix: resume interrupted chat streams when the page becomes visible again\n\n  `useChat` with `resume: true` no longer starts a second resume request on mount when the chat is already submitted or streaming, e.g. when remounting with a shared `Chat` instance mid-stream.\n\n- 8e74de0: fix(ai): update tool outputs in the message containing the matching tool call\n- a5c9cca: fix(ai): prevent duplicate message parts when resuming replayed streams\n- 7888841: fix(ai): update streaming chat messages by stable ID\n- e466fb0: fix(ai): reject approved tool calls without results before sending later context to providers",
-      "published_at": "2026-10-12T17:44:11Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.304",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
       "kind": "release"
     },
     {
@@ -147,15 +201,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "构建可供AI负责任使用的知识发布规范-人工智能 - 至顶网",
-      "tag_name": "至顶网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-12T08:15:27Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wdTVWOHZic3JTeW8tbEJqSnFkYlRfNU40a2tkVHBkOElFZkNraUVYUUo2N2w5Y25zNkFieXJFWjh4MGpjZnNrdHdYbm1XOExDVlctMzNnYzZzSHJ2ZXc?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
       "name": "Silicon Labs Adds IoT Developer Platform Tools - EE Times",
       "tag_name": "EE Times",
@@ -184,20 +229,11 @@
     },
     {
       "source": "news:zh",
-      "name": "AI“克隆”的Adobe全家桶一夜爆火，但先别急着卸载正版 - 36Kr",
-      "tag_name": "36Kr",
+      "name": "AI“克隆”的Adobe全家桶一夜爆火，但先别急着卸载正版 - 36氪",
+      "tag_name": "36氪",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-10T12:17:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sN0lxTFZ5b1pWMlZxWG5fcjR4UW9hVWZURGZGV21DQTV2ZU9MaS1CMGN3YW0tT0R6dUdyUERvUXRPWTFaaV94VHVTWDFydw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天” - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T11:01:36Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSmpER3UwNUc3SjNaU0ZsNDlCU0NMZERCYzJ4aXZxVllFdWFmNU5uVmctSG1JUXdYNlMyMTdtV0JyQVJSbGdrWGwxVC04NURhYXpMTmdnM3FZN1dDSHc?oc=5",
       "kind": "news"
     },
     {
@@ -256,6 +292,15 @@
     },
     {
       "source": "news:zh",
+      "name": "大模型长假静悄悄 - 投资界",
+      "tag_name": "投资界",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-09T09:52:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tM214NG56U2JIOW1xY1M4d3RIVEJieUFsZFRQbEtLTHpJRVpzVlgxd0d1UXg2cnROUlBOU3ZXZ2VUdThmMUozYWtuOWFUczFhRlA3S0dn?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
       "name": "苹果给开发者“立规矩”！2027年4月起所有App须适配折叠屏 - 上观新闻",
       "tag_name": "上观新闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -280,15 +325,6 @@
       "published_at": "2026-10-08T20:11:32Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "AI Coding Agents Drive Surge in Bitcoin Integration Requests: Breez - Bitcoin Magazine",
-      "tag_name": "Bitcoin Magazine",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-08T19:17:12Z",
-      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSTBHRVl3bXRRU3V5Vk9xVWMwd0RQQlJfNjRBMldFUXpTOTczMENYcWRNUG1KejBIWmFFRzY0azEyX2lWX21pRmV1QlJnRTduZXpMcmNDS3dvWko3Uk1GV1Q0azlrcl9pSkVFRjl3ZjFxS2plTGF3TC1HZFVOY1NEZw?oc=5",
-      "kind": "news"
     },
     {
       "source": "ollama/ollama",
@@ -316,6 +352,15 @@
       "published_at": "2026-10-08T15:41:22Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "AudioEye Launches Agentic Audits and SDK MCP, Enhancing the Industry's Strongest Compliance Protection - PR Newswire",
+      "tag_name": "PR Newswire",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-08T12:30:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdk1TX3BLalNueVB3QWtydGozY1BKRnJRS3ROMjB4ZUZBZlRwSXFIY3ZsdGx2bkU2OW95MmMtbUpKdEZGVWFqRWU5SS1nRVlleGhzN21GT1lLa3BPdDFycGh3Q1FLM2x4c2NUTGRVN09TUXlQaFZtZExYd2hmTVpxM19IOXhubUFBYlhFbU5ZUTZyaWRCYXBLZ1NqS01HdWw5dTdNZm10a0dreEYtZUd1akktaG1IQzAzSHZEaVJ3UjJkSHlMdlRfUm9aY21VcXlpQXQ3bThvblNib2ZHSUtGOXUwZXRSeGxIaHVJUw?oc=5",
+      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -409,6 +454,15 @@
     },
     {
       "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-07T12:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
       "name": "Silicon Labs unveils AI development tools to accelerate Edge IoT innovation - New Electronics",
       "tag_name": "New Electronics",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -423,33 +477,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-07T07:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTS1FQ3l0SFBVUS15UTczNTYtZ01GX2lGbUotanlEOEIybXE3cThoTGhIcUREQ3kyRUxjbHR3SG1pRG05R1RjZGV5ekpNM3pXd1d2cENiaTFoU09qYlNiMFNmcTlpVnh5M183bElNdjNVcnJ4eUpuZXhNWHdpa21kZzNzS3g0T19GSEtnOA?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Silicon Labs Expands AI Developer Platform to Simplify IoT Development and Scale Edge Intelligence - PR Newswire",
-      "tag_name": "PR Newswire",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-07T04:01:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRE5nZEFCQ045c1lpb3FNS3d1WWJJQ05BSlJfby1CZFpsSlZiUVo0ZElFVXNaNTFJalJLdTVvdFRSN0JwOHdCRFNUYjhfLXkzQ1hzQ1NwMW9PbXdBVmdJSGNBdmZuVXBtZ3JBWWlsLUhVRG93X19FSDN0ZTJEdTVrcWhRTUttNkdwc1hGcFB0eUE0dndKVmU0QWdBSjRGNHNDc0xZOEp0ZVpQeWZ5RW4xQXc1aWF5R0U2cFA0SUQ5UFRFTnd1UXhIaVFwYktDcG83dkFPZjBqVi1VX0VOT1Zvd2ZUa0xybEU2YWc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "OpenAI 在公开测试版中发布 Decisions API，基于 GPT-6 Luna - Unite.AI",
-      "tag_name": "Unite.AI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T22:37:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ3BTWmJpV3J4VVJ4MC1oT2lielNMa0NVLVVmYWhfS0d2SThhT0NXRUZ3RDhHMThMOHY1b0c1S1BmbG9NSEE5NVBYN1dncElfeFBEektFOTFja1dUbVFCUGpFNnRrNlBPNkwyODg5LXB2Qm5uZWM4dzYyOGliMzlGV0ZLMVg0Zm1iYVJHakhFRXRxUkp4ODNFMUxB?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Sharing AI progress in mathematics - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T22:21:50Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HRmFiYm1mWTNPVTVGTk9faFRwRVZyTjhmejJwa0U3QjU3djh5SlpXT3ZhUlF2M0lXcV9jNkNka1kzY3RKNkRTTnpJVW16ZG1QdmdPU3owRXdCYzFLSkdTb3pIZWdJV0k1R3o3dw?oc=5",
       "kind": "news"
     },
     {
@@ -469,15 +496,6 @@
       "published_at": "2026-10-06T17:56:54Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "EmbeddingGemma 2: an open, lightweight multimodal embedding model - blog.google",
-      "tag_name": "blog.google",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-06T16:22:22Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnFld2xRdDVNUloweENSSVlzYXVZQ1ZUM2F3RXFFdl8yOHhudlZiUnkxdEJBcEtaWnJYcFh3UnI5QkFnbWRpVldxa1RjYTQzNVFhUzZHaE1OZllLWUoyVjZvLWhudjlZdTEzdkJWZW5TUTBHZGhkMS1KemlhbjkzaWVtN1BxQ2RHcGJn?oc=5",
-      "kind": "news"
     },
     {
       "source": "modelcontextprotocol/typescript-sdk",
@@ -549,24 +567,6 @@
       "body": "| Package | Version |\r\n|---|---|\r\n| `@modelcontextprotocol/client` | 2.3.0 |\r\n| `@modelcontextprotocol/server` | 2.3.0 |\r\n| `@modelcontextprotocol/core` | 2.3.0 |\r\n| `@modelcontextprotocol/server-legacy` | 2.3.0 |\r\n| `@modelcontextprotocol/codemod` | 2.3.0 |\r\n| `@modelcontextprotocol/node` | 2.1.1 |\r\n| `@modelcontextprotocol/express`, `hono` | 2.0.2 |\r\n| `@modelcontextprotocol/fastify` | 2.0.1 |\r\n\r\n## Upgrade notes\r\n\r\n- **One server per request.** `Server.connect()` now rejects while the instance is already connected, and a stateless Streamable HTTP transport handles one request. Create the `McpServer` and the transport inside the request handler (or in the `createMcpHandler` factory) instead of sharing one instance across requests. Creating a server is cheap since #2889. (#2918)\r\n- **Redirects stay on the same origin.** The HTTP client transports now follow a redirect only when it stays on the same origin (same scheme, host and port; http to https on the same host is allowed). A deployment whose endpoint redirects to another host or port either configures the final URL or sets `redirectPolicy: 'follow'` on the transport. In browsers, a redirected request fails unless that option is set. (#2901)\r\n- **New options, both off unless you set them.** `maxToolInputElements` on `McpServer` limits the number of array elements and object members in a tool call's arguments. `expectedResource` on `requireBearerAuth` / `verifyBearerToken` accepts only tokens issued for this server (the token's audience); with Express, upgrade `@modelcontextprotocol/express` together with `@modelcontextprotocol/server`. (#2926, #2929)\r\n- **`prompts/get` without `arguments` is validated as `{}`**, as `tools/call` already is. A top-level `.optional()` or `.default(...)` on a prompt's `argsSchema` no longer sees `undefined`. (#2107)\r\n- **The client requires `eventsource-parser` 3.0.8 or later.** It cuts the time and memory needed to receive a large message sent as a single SSE event: in our test a 100 MB tool result went from about a minute and 1.7 GB of peak memory to under a second and about 0.5 GB. (#2846)\r\n## New\r\n\r\n- `validateOriginHeader` and the `allowedOrigins` option of the Express, Fastify and Hono app helpers accept `<scheme>://*` entries such as `moz-extension://*`, so a server can admit MCP clients that run as a browser extension. (#2907)\r\n- `tasks/get` and `tasks/cancel` of the Tasks extension can be served and called on a 2026-07-28 connection. (#2599)\r\n\r\n## Fixes\r\n\r\n- A large message received as a single SSE event over Streamable HTTP is fast again: a 50 MB tool result that took about 13 seconds arrives in under a second. (#2846)\r\n- `prompts/get` without `arguments` no longer fails when every argument of the prompt is optional. (#2107)\r\n- `SSEClientTransport` refreshes once after a 401 on connect instead of retrying without limit. (#2905, #2934)\r\n- `registerTool` no longer converts tool schemas up front, so a server built per request stops converting every tool on every request. (#2889)\r\n- `hono` is a regular dependency of `@modelcontextprotocol/node`, so installs with strict peer-dependency checking no longer fail. (#2897)\r\n- A `server/discover` probe answered with an unusable 2xx reply now says so instead of reading like a network failure. (#2903)\r\n- `McpServer.registerPrompt()` types the callback correctly when no `argsSchema` is given. (#2841)\r\n- The `license` field of the package manifests is `Apache-2.0`. (#2908)",
       "published_at": "2026-10-02T17:55:03Z",
       "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.3.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.24.0",
-      "tag_name": "v3.24.0",
-      "body": "## [3.24.0](https://github.com/openai/openai-python/compare/v3.23.0...v3.24.0) (2026-10-02)\n\n\n### Features\n\n* **api:** add custom voice creation and agent session events ([#4013](https://github.com/openai/openai-python/issues/4013)) ([e5de2e5](https://github.com/openai/openai-python/commit/e5de2e5656fb3d4fa70f050195382e6a4d59f806))\n\n\n### Bug Fixes\n\n* **api:** prioritize Python request routing fields ([#4014](https://github.com/openai/openai-python/issues/4014)) ([ffcc4c4](https://github.com/openai/openai-python/commit/ffcc4c47279debd9daff6103da57dcde2efd38bd))\n* **api:** prioritize routing fields in parse helpers ([#4016](https://github.com/openai/openai-python/issues/4016)) ([ba53a10](https://github.com/openai/openai-python/commit/ba53a1021b203750653bbbff938b8cd373f990f2))",
-      "published_at": "2026-10-02T15:54:21Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.24.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.23.0",
-      "tag_name": "v3.23.0",
-      "body": "## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)\n\n\n### Features\n\n* **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007)) ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))\n* **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009)) ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))\n* **api:** Add session traces and Realtime translations ([#4001](https://github.com/openai/openai-python/issues/4001)) ([138e3d1](https://github.com/openai/openai-python/commit/138e3d14c4bff1322e5c96de711e272bebb77cc2))\n* **beta:** expose typed application actions as agent tools ([#4006](https://github.com/openai/openai-python/issues/4006)) ([f219c55](https://github.com/openai/openai-python/commit/f219c5581661408688195659ab0137927ba9a033))\n* collect final output from beta Agents streams ([157ac4c](https://github.com/openai/openai-python/commit/157ac4c49a34891d5b66d2950b5082d1b3268315))\n\n\n### Bug Fixes\n\n* **api:** allow original image detail in Chat Completions ([#4005](https://github.com/openai/openai-python/issues/4005)) ([8a136c2](https://github.com/openai/openai-python/commit/8a136c203062b999349da745226ba5299709c7be))\n* **api:** correct the eval run cancellation endpoint ([#4003](https://github.com/openai/openai-python/issues/4003)) ([28c5c9a](https://github.com/openai/openai-python/commit/28c5c9aa55532bc6524611101a6137f6d3028514))\n* **api:** retain WebSocket endpoint paths and query parameters ([#3999](https://github.com/openai/openai-python/issues/3999)) ([7f203fd](https://github.com/openai/openai-python/commit/7f203fd5cfd96354524cd07498497b2e27184f95))\n* keep Castiron budget results valid when main advances ([#4012](https://github.com/openai/openai-python/issues/4012)) ([73f189b](https://github.com/openai/openai-python/commit/73f189b2918197478cc93e31905a402c0a8389e3))\n* **responses:** avoid replaying uncertain typed sends on reconnect ([#4011](https://github.com/openai/openai-python/issues/4011)) ([1dbbf61](https://github.com/openai/openai-python/commit/1dbbf61eb6198976bb8a54585b7b0dd7d30c456e))\n* **responses:** respect send queue limits during reconnect ([#4000](https://github.com/openai/openai-python/issues/4000)) ([50f95ac](https://github.com/openai/openai-python/commit/50f95ac0f3563a32c9c2e0415e4701e283f17096))\n* use monotonic clock for file processing timeout ([#3748](https://github.com/openai/openai-python/issues/3748)) ([58aca1d](https://github.com/openai/openai-python/commit/58aca1dcfd8d04a3c6352fa2c34b3035ea850f57))\n\n\n### Chores\n\n* **api:** retain WebRTC Live session transport types ([#4002](https://github.com/openai/openai-python/issues/4002)) ([5c9ace9](https://github.com/openai/openai-python/commit/5c9ace9a8173c67300b05c3aeb6de01526ed8214))\n* **deps-dev:** bump pyright from 1.1.413 to 1.1.414 ([#3902](https://github.com/openai/openai-python/issues/3902)) ([a91d779](https://github.com/openai/openai-python/commit/a91d779cb5e725b47909333c6a3d9fe795e93439))\n* **deps:** bump astral-sh/setup-uv from 10.0.1 to 10.1.0 ([#3976](https://github.com/openai/openai-python/issues/3976)) ([f15f43c](https://github.com/openai/openai-python/commit/f15f43cdcc5959aeb17108a614a1b73e512971b5))\n* **deps:** bump CodeQL actions to 4.38.1 ([#3974](https://github.com/openai/openai-python/issues/3974)) ([fb70d66](https://github.com/openai/openai-python/commit/fb70d661621fe42706120f90673cbae358468244))",
-      "published_at": "2026-10-01T23:02:59Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.23.0",
       "kind": "release"
     },
     {
