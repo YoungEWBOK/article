@@ -1,14 +1,77 @@
 {
-  "generated_at": "2026-10-17T05:39:01.353333Z",
+  "generated_at": "2026-10-18T06:00:12.844884Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:en",
-      "name": "OpenCode 2.0: CLI Agent Becomes a Background Service [2026] - https://tech-insider.org/",
+      "name": "AI Code Review Race: 4 Editors, 46% Trust Gap [2026] - https://tech-insider.org/",
       "tag_name": "https://tech-insider.org/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-17T04:23:31Z",
-      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96alZTZDdQenRIQUV1RWktNGRQWm1yTlBJUjVUbDJadnlSMENWbkp5dGNtbEUyVjdfR1M1dk9pNEJwTEVYMDdWZXVlQ19JMUFiYmJuMktQcEZBSjZaUlRyVjNXMy05YmxHYmU4cVVmazExdm9IRG9VaA?oc=5",
+      "published_at": "2026-10-18T05:53:55Z",
+      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HWHRLdmNGSF9STHM5aXlYUEZiUnVnQkcwMkF0RUpwZzlCbzFhQTR3cS1EQ3g4Snp6MHhjOFJBcG83RUxwZGFiMVFoWUhGR0JwY0NpZWFTN1RMX01lQmJjZDBLY2p6TkNiRVB3Q2JPaXM?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Termexo v0.10.14 发布：接入Pi Agent，改进 Agent 安装、更新与提醒- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-18T03:46:13Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lWHRVeUdiR1dxaXVYZ0ZkTGgxdDdHeF9LNjBjVDFkRjQySlFfNjRhdXg5dmNTa3JSdGlQVXhzSzZST01LeXBmSkYxQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.35.1",
+      "tag_name": "v3.35.1",
+      "body": "## [3.35.1](https://github.com/openai/openai-python/compare/v3.35.0...v3.35.1) (2026-10-18)\n\n\n### Bug Fixes\n\n* preserve beta Realtime byte reads on websockets 13 ([#4102](https://github.com/openai/openai-python/issues/4102)) ([5766349](https://github.com/openai/openai-python/commit/5766349b2eda3ef63389fe8a30b6a9a1082b33e9))",
+      "published_at": "2026-10-18T01:05:46Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.35.1",
+      "kind": "release"
+    },
+    {
+      "source": "ollama/ollama",
+      "name": "v0.40.7",
+      "tag_name": "v0.40.7-rc0",
+      "body": "## What's Changed\r\n* openai: allow Responses effort on non-thinking models by @hoyyeva in https://github.com/ollama/ollama/pull/19010\r\n* llama-server: let llama-server infer the draft speculative type by @dhiltgen in https://github.com/ollama/ollama/pull/19064\r\n* mlx: add PPLX Decider v1.2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19072\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7-rc0",
+      "published_at": "2026-10-18T00:28:57Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.35.0",
+      "tag_name": "v3.35.0",
+      "body": "## [3.35.0](https://github.com/openai/openai-python/compare/v3.34.0...v3.35.0) (2026-10-17)\n\n\n### Features\n\n* **api:** add typed Live sideband events ([#4099](https://github.com/openai/openai-python/issues/4099)) ([8d5cbf0](https://github.com/openai/openai-python/commit/8d5cbf07916b8f2409d940156135ce3c11ac1552))\n* **api:** add ultrafast service tier for Agents ([#4101](https://github.com/openai/openai-python/issues/4101)) ([100bf8f](https://github.com/openai/openai-python/commit/100bf8f7ab8409594258572fbf64bbde140c1c5f))\n\n\n### Bug Fixes\n\n* **realtime:** preserve byte receives with websockets 13 ([#4098](https://github.com/openai/openai-python/issues/4098)) ([309916e](https://github.com/openai/openai-python/commit/309916eb877132359ca2e37b0340a060580e39ee))",
+      "published_at": "2026-10-17T23:13:52Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.34.0",
+      "tag_name": "v3.34.0",
+      "body": "## [3.34.0](https://github.com/openai/openai-python/compare/v3.33.0...v3.34.0) (2026-10-17)\n\n\n### Features\n\n* **api:** add degraded external storage status ([#4097](https://github.com/openai/openai-python/issues/4097)) ([b216cb2](https://github.com/openai/openai-python/commit/b216cb2fbdefebba6f3997a180510f9e2b6b41af))\n* **api:** add Realtime Translation WebSocket sessions ([#4095](https://github.com/openai/openai-python/issues/4095)) ([bfada50](https://github.com/openai/openai-python/commit/bfada5040b0171cd0ae61aefae8c78fcf83c804a))",
+      "published_at": "2026-10-17T20:34:04Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元 - finance.sina.com.cn",
+      "tag_name": "finance.sina.com.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-17T12:56:23Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirAlBVV95cUxPTVlmM05rRDBfSlJSTWJrSTZiZHI0YVV3bFl1bm9heUFWSVFfbzJDa2VzSGRTS3MzMmxMbm1qand4UTBPNG5qaHd2X052NC1GbGx6RUpVWExEVE11ek5XQnpiT2FlajFKTmdXNEcyUFhQRnVjb0Z4M2lHa1h4ZFptTURCaDRRTTgtaU5IWDA1OUN2RE1GTUlyR1VHcGxKOGYyZ3BPOVV2Q05FWUVQR3R3bzVEeFltVHBuQUl5MzZ4Y29ONTZadHgtRmRCN1BNTUFMWmdzeXZXdkNpUktvVTdoMWx2dEVkZ1pEY1RHV3BNY0RkckhHd0xIRk1Tbzh6eFJlWGgzanZTTVFKMFlMenIyQzBkQjdCb0JDemF5X2xtdnZqLVNOanhUX213aUFBaDF1VkdWTzhaMk1qbHZFOWI5UmYxdE9HWWtXa0k5QXZJUUM0Q3lIcU5LYTV1ZUZ6eENmcUFYS3NDMV9OWlZaMlhYOFYwSDNlc3FFQ3ZQTFc2dTF5SFpQeWQxRVV1dkVoWTJSazlOXzhJb0s4Y2Q0TDlFZkF5Rm1KbUhJLThqdEwtOE1RMjdJWjU1YkdyRnczNkVzR2EyTm01Vzk2b3ZGdVp2NWxNN05BYnRGQWNCNTU2bHM4RF9SbU5HUDNTaU5EMlVjYVduUVJxbXVMVDZMbl96TFZPSjJ4RmxZNVVzbllCYWRnZnhQV0puNVNScXZ6bHRNZThXdWNfaF9xYVNEUlJPZXFyM3ZVVnVQeElRNDdlSHhhZURsRHAwRlhRUmdEOTFsUmc0RGtlemRiRmMwdXNMQzZRT3haZVllTkNvRG5BX3Rid1A1b0M3X2doY2FhOHJFdE1uazhDb1hHZkdOR3BDUXVzMHEybkoyZWdHV2gwLWZfODNvcjhLdzd2cVc2T0I0XzVlcFNBdmY2ay1ZVDdNSEw2QzRtVmRHeGlRYm5ldk00SmoxendhcVdHUEphRlF1aTRreXZoYzlEdHJLQ04wdG9sR0lKMGZFOXJ4bnZOVUVRTkkyMGlPUEdNWXV4bUU1Z3RLa3E3V1BtN2NRU3hqMW1ZOTZJNlJfU2wxck5kY3MzMDFLRXBfeV80QW1vTmlDek0wOHJZTGxNNHIxdmg5UkdEM1hrUlhVaGxwY0R5QTBya2xkNUlheGVtbDhob1B2NFc5QUJpcEh2RkpMaFhfS1F5TndIRlZPdUlBRGdwcVREdnlVczdGRFFoakpmZzdwUEtXWVF6NU5KbE44SmZMbDQyNjZsTXNxaHR6Yml1V1VWNWdQVGF4U1JMNmZ3eVFyUDRLU19vTlpodGlKMjhjdmFUU0hNald0MEdmTENvUUFsNFYxSW8zRkN5Y0hLYkpFMzBGWlBXRzRLTHFIMjZoTmdxSnRrcmNJQnpzMUg2dURsek9HblFEeTloTTQ2Q1N6MzRwanEwRmdKLWhlR1FkNXcwMDEwRE1hb21xX1RhQjNpNGYyWEgtdUNXVlFxRHBCMGJuR2RRM09fc0FrS0x0LVg5bktRaHFWX3QtRUI1eEZyNEdzOEpkd05zWW95ZDZNTGpTT1kxWi1YSWt0RHZuT0JfR0RmYnVOV1pCWQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "AMD Ross发布：智能体AI重塑嵌入式开发全流程 - www.doit.com.cn",
+      "tag_name": "www.doit.com.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-17T09:36:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZX3VWS3VnbzdCNldvaE1GZzluVy1EbnpWc2V6TUNRaXFFVGJqWXJ2b1JjUzN6UmVSOFhyOE0yUHQxQU14S0o5V0xpTmREYlRubHZndms5MTFKSXJqSkEyWi1rQ0g?oc=5",
       "kind": "news"
     },
     {
@@ -25,8 +88,8 @@
       "name": "微软造出“AI学生”：替真人试课，模拟学生优化AI导师|微软研究院|训练|系统|响应性|棋类 - finance.sina.com.cn",
       "tag_name": "finance.sina.com.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-17T03:11:05Z",
-      "html_url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxPS0ZNRlFCdlVIOU5vSzlWUU9oUzcxaDRZVUpHOVFlbEpZQzVrYmZLZEx6Umd5U0RfanRHZm45OHppM3c1dm5YQjFzUWY3cU5Dbms4WlpaNDlvWU9QMHRvV0lBTFA5NWdjMmNFZ2JaZ0JFUnBMWklodngzSGxLMUNGZ2VDSHVfU0hBN0Vsb3d4Zm5tR2NQN3N1dFlmeWF0R2dibmtOYXdKNVZObS12bUlMMkdwblRMRmZ2NlBjR2lvZndpbzlyaVgtNmlpaVJiQkMwQzBmLS1sd3ZDeExTV1BEMm1ucHVmOG1CcTl2cVc2RWpJdnA2dk95ZHB4bFc2SFE1VG5UOGR4RWhJd3RqN1NJbzJpcG1Wa3k1eWJVM3BURF9rLUZrdnRiWDA3VWlBcEdvTnREOGZ3WEZVeTBVaXEtWnBjQ0F5N3FabU5SSnRtZ2JGeEVNMWRoWllfZXFPaEt6M3k5dDNBNzBYT1R5MUpZZTNQUUFaWjY0LV80alNaekRmREFCTlNLMTZmS0piZFZqdTlOUlg0UGo5bDM5RzhWZUdoMlNrVVp6TjZWanFyVXJjOXFCV200enFvUU8wb1dhQjJsTlA3V2Z2SDFMb3l6TTBBZTZzeHQzeVlfM0ZpYnF1MGs3UkpTempabk0wM3RoTGRubm5haVE0SHJPeURxUUJRdm11elk?oc=5",
+      "published_at": "2026-10-17T03:34:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnZjNnBwc0ZZeTh5SEp2V2FnajFRQ29rcDI5MWpDWHZHb0lqbFI2SjZfX0IzT1VRWHhmcjQzeDlJYVJkM0hzSFBKaHUxbnNlQ0RYOUlidjdZSFpfblpTNF90U2M1MTJYMzRnaXdTb0g5MGFUc3VDLThHemNCZ28wNmoxUzhtM0lzTlhEcktUUTBEVndjTF9PajFDVlF0YThubEExQkg0dnFpQ2FmT3dCVzY4RTBZYUEzZEZLeldrWFhSWlU?oc=5",
       "kind": "news"
     },
     {
@@ -147,6 +210,15 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark | NVIDIA Technical Blog - NVIDIA Developer",
+      "tag_name": "NVIDIA Developer",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-16T17:08:35Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnpOOTdkUDRPcEk5Z1NYR3UzbHhnT1ByMHN5M2ZaNFlicC1XTks3VmY3eEo2cE5IaFZIMTU1SU5veWtmaTlxRUJqamxJNTlJaW1fdk9ET2c0UjJKZXh6UUxJTEtyalhtTDdldGJha0xQYUQycE9xY3Y0QnduSmhzdURjMkFDaVozd3dDTFFlYldNTlZxdkVR?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.15.0",
       "tag_name": "v1.15.0",
@@ -154,6 +226,15 @@
       "published_at": "2026-10-15T19:45:15Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-15T19:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -187,17 +268,17 @@
       "name": "AI 编程工具OpenCode 2.0 正式发布，能让模型写脚本调度工具- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T03:20:08Z",
+      "published_at": "2026-10-15T02:45:16Z",
       "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oZ3VDbmtWb3JJZWhaOUlFT1V1aVZTaTBlZ3R5b1hBUjJoaEZSelNzY09fUlVma0ljelQ1WHpfcUI3WWU2cWo5NWxObw?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Friday Opens Its Payroll Platform to AI Coding Tools With a New MCP Server, Partner API, and Integrations for QuickBooks, Business Insurance, Workers’ Comp, and 401(k) - FinancialContent",
-      "tag_name": "FinancialContent",
+      "source": "news:zh",
+      "name": "Claude Code桌面版暴改，一人指挥AI军团飙代码 - 投资界",
+      "tag_name": "投资界",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T22:17:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOS0NXdTdFQWUxNTF2TjV3VEhsakQwazJldGRNUUNFV21Pd0Q1eEFHUkRPak9tTDNEOTdoRnhKYUxySUxab1VwU0xsVWNtNnRYdDg4VTQtQ2U0c2ZzM2xDdkYwdFg2aGNlX3k3VUlmcG1EVTJScEdpM3NKLWlWd2pibW5RSl9PdnRfR29rVHdnSHRPeXZLUWNHemRHM2pMSjhnMmpkcElLMi1jVFE2ckg1ZmkxT3hTaWpUdlZ6RkYyVVdnMGUyd25HMmlZVDd0amJwSEI2OTROX3VFU0ZkcGZIZDBPT2E2b1MyWktQNWMzWVRRQldfSGFHWjF2aEV4eUpVMTRrWkdqUVNoaDhUUVhQanUyanFneEZpV0Z4WWpIN1VCTDFKRE5fb1ZUb2tTcjBkS1k2S0FueG9DdUlzYzhKdEIwN3c?oc=5",
+      "published_at": "2026-10-15T02:03:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81MVBldEJHT2pMNWNxVC1mbVhoYWQ3azV2NEhuV3VfM3A0MW1ncUlrZDVaT0pYVmtDczFkSnRUY3V4UGFoVWNvOF9tNjkyaDlfd2padDBB?oc=5",
       "kind": "news"
     },
     {
@@ -256,15 +337,6 @@
     },
     {
       "source": "news:zh",
-      "name": "Claude Code桌面版暴改，一人指挥AI军团飙代码 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T13:11:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uNExPQWM4ZnFQS2NVMDFGNGJkeEhaOFZRQ29EbzRubzFRSVk3ZXNJSWVUeEJGcWV2cWYxcVA5WDVENUFOSVVRTmFSTTZ1UQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "深度探索Simplicity AI SDK更新功能和实操 - 电子工程专辑",
       "tag_name": "电子工程专辑",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -291,15 +363,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Google Releases Gemini 4 Argon API With 1M Token Output Limit - MarkTechPost",
-      "tag_name": "MarkTechPost",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T05:03:34Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fcl9icHlOYk91NmhDSkNia085dkVlZmVXREQxbEEtU3NnQ1VOemZxSHpucG5zbnNVRzl2S0dOeWl3Z3JUMzJyUUdhd19qeEdtakxEX3NVdDV3REpGNF9YWHBNM0tXbEZWcGxrbTZxZ1lqX1FEYkV5aElZN0FkQVXSAX9BVV95cUxNX3JfYnB5TmJPdTZoQ0pDYmtPOXZFZWZlV0REMWxBLVNzZ0NVTnpmcUh6bnBuc25zVUc5dktHTnlpd2dyVDMyclFHYXdfanhHbWpMRF9zVXQ1d0RKRjRfWFhwTTNLV2xGVnBsa202cWdZal9RRGJFeWhJWTdBZEFV?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.30.0",
       "tag_name": "v3.30.0",
@@ -310,8 +373,8 @@
     },
     {
       "source": "news:zh",
-      "name": "第一款 AI 手机，被半个互联网「拒」了 - 36氪",
-      "tag_name": "36氪",
+      "name": "第一款 AI 手机，被半个互联网「拒」了 - 36Kr",
+      "tag_name": "36Kr",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-13T22:05:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lNmQ5aDhfMnZwNGFfODZvc255ZXZXM2xTTkE0N05NM3pPaEpaTER5STBxYk1xSEJva0JmbVdDbUtYdnRTbWo1TDhkX1ozZw?oc=5",
@@ -337,29 +400,11 @@
     },
     {
       "source": "news:en",
-      "name": "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
-      "tag_name": "Reuters",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T16:10:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform | NVIDIA Technical Blog - NVIDIA Developer",
       "tag_name": "NVIDIA Developer",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-13T14:22:01Z",
       "html_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcUhCMm5LY3dMOVd6U1daRWpINVhKcXhIcWt0bVlyYTRCWnlVRHY5aDhoc3pHdUlsb1RUbHVUZlV3QkhXVzFDRXpUb2JyMWlkeUw0MU9sTld4U3o3Y1hPQXJFMVVuS2FTR1h5eUVzdUdBTlVkdTVXQXhSZUQxbXltY1hXcTlWY2hxZUJjRkstbkhxekpJTDRuMkpJSTBvM282ckVmQjNzX1VDOVV4?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "STEPX发布首款大模型原生智能体手机STEPX Neo - zqrb.cn",
-      "tag_name": "zqrb.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T13:18:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBndDFBT1FnZ2E0RW5pQVRZcEtZMnJrSDR3Q29Ha0FkVVFUU2Jyby1zQ2RPWEVVNGRzLW9fVmMzSDRib0hIYkFhOFdLVGxJZTBYWWxyZHpQbFZZbXc1YlA5WDdMZk4wS3MzU0ZobnhxQQ?oc=5",
       "kind": "news"
     },
     {
@@ -391,20 +436,20 @@
     },
     {
       "source": "news:en",
+      "name": "Explaining AI Studio - PPC Land",
+      "tag_name": "PPC Land",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-12T17:53:52Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAxd1NVVlByN2txUVU3Y09kLTl2RllVNHlMZWNIWlltZlp6WEFYNzdkeENGRzhqMGhlUmkwSDh0SGw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
       "name": "Meta Brings Its Muse AI Agent to ESP32 and Raspberry Pi - Hackster.io",
       "tag_name": "Hackster.io",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-12T17:28:34Z",
       "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnRta3Q1RTRIUDlBUW9GOE1ZeGZ5UTI2UEExdjFNazg0dkJmYkg5UjU2VVJvX1UxSXo1Z3NPR1RQR0NxM3REaS1sTktzQ2M2SVZlNEtTOHJfQlFlaWlHYXh5YzVpaWYwNlNoaGNVbU03ZGEyRnVoWm1yLTE3UkU3VTRhYnZFU3FxNUVmSjBUMU9BWkVoMjRfdmd3OG14dw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "LineageOS 发布十周年纪念更新：Android 17 提前落地，WebUSB 浏览器直接刷机- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-12T15:42:42Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LcnEzTjNDcW5XVWJoRWVUMEwwSHdjQnBDS201MDRMaVVSYlpwdjBWZnNDTXhybWJVVXhaWTE2d3F6TlJjOXlEb1RDRQ?oc=5",
       "kind": "news"
     },
     {
@@ -453,24 +498,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "AI“克隆”的Adobe全家桶一夜爆火，但先别急着卸载正版 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-10T12:17:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sN0lxTFZ5b1pWMlZxWG5fcjR4UW9hVWZURGZGV21DQTV2ZU9MaS1CMGN3YW0tT0R6dUdyUERvUXRPWTFaaV94VHVTWDFydw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.28.0",
-      "tag_name": "v3.28.0",
-      "body": "## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)\n\n\n### Features\n\n* **api:** add agent environment suspension and expiration ([#4046](https://github.com/openai/openai-python/issues/4046)) ([6aa25a9](https://github.com/openai/openai-python/commit/6aa25a9959f451ef67de948b792779e3d130a9c2))\n\n\n### Chores\n\n* **deps:** bump astral-sh/setup-uv from 10.1.0 to 10.2.0 ([#4026](https://github.com/openai/openai-python/issues/4026)) ([8bfffd4](https://github.com/openai/openai-python/commit/8bfffd40158460d0f5e651590b95cfef5292d93e))\n* **deps:** bump CodeQL init and analyze to 4.38.2 ([#4025](https://github.com/openai/openai-python/issues/4025)) ([4f5e618](https://github.com/openai/openai-python/commit/4f5e6180bc089d50df1deda7726507cd89d86d67))\n* **deps:** update PyJWT security constraint to 2.14.0 ([#3991](https://github.com/openai/openai-python/issues/3991)) ([aaed2a7](https://github.com/openai/openai-python/commit/aaed2a767319b3bc0637e0522bf09a4c7f8f36fc))",
-      "published_at": "2026-10-09T20:49:22Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
-      "kind": "release"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.13.0",
       "tag_name": "v1.13.0",
@@ -480,30 +507,12 @@
       "kind": "release"
     },
     {
-      "source": "openai/openai-python",
-      "name": "v3.27.0",
-      "tag_name": "v3.27.0",
-      "body": "## [3.27.0](https://github.com/openai/openai-python/compare/v3.26.1...v3.27.0) (2026-10-09)\n\n\n### Features\n\n* **api:** add prewarmed hosted environments ([#4043](https://github.com/openai/openai-python/issues/4043)) ([c511a77](https://github.com/openai/openai-python/commit/c511a77159bc870f31c34388311b7cc62ef15f08))",
-      "published_at": "2026-10-09T13:46:41Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
-      "kind": "release"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.2",
       "tag_name": "v0.40.2",
       "body": "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp.\r\n\r\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically.\r\n\r\nTo remove backed up models now (requires `jq`):\r\n\r\n```shell\r\ncurl -s localhost:11434/api/tags | jq -r '.models[].name' | while read -r m; do\r\n  curl -s localhost:11434/api/show -d \"{\\\"model\\\":\\\"$m\\\"}\" | jq -r \\\r\n    'select(any(.manifests[]?; .runner == \"llamacpp\")) | .manifests[] | select(.runner == \"ggml\") | .digest'\r\ndone | sort -u | xargs -n1 ollama rm\r\n```\r\n\r\nThis only deletes the backups. If you later downgrade to a version older than 0.40, you'll need to re-pull those models.\r\n\r\n**Other changes**\r\n* `ollama list` no longer shows duplicate entries for upgraded models by @dhiltgen in https://github.com/ollama/ollama/pull/18874\r\n* `ollama launch claude` uses the model's full context length by @jberg5 in https://github.com/ollama/ollama/pull/18855\r\n* README: add oxi to community integrations by @maziluiosif in https://github.com/ollama/ollama/pull/18739\r\n\r\n## New Contributors\r\n* @maziluiosif made their first contribution in https://github.com/ollama/ollama/pull/18739\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0",
       "published_at": "2026-10-08T16:53:47Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.26.1",
-      "tag_name": "v3.26.1",
-      "body": "## [3.26.1](https://github.com/openai/openai-python/compare/v3.26.0...v3.26.1) (2026-10-08)\n\n\n### Bug Fixes\n\n* **api:** correct custom voice creation parameters ([#4038](https://github.com/openai/openai-python/issues/4038)) ([b9bc5c1](https://github.com/openai/openai-python/commit/b9bc5c141d395165939eccfcfe42d1ed8219ec6a))",
-      "published_at": "2026-10-08T08:53:32Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.26.1",
       "kind": "release"
     },
     {
@@ -621,15 +630,6 @@
       "body": "## 1.10.0 (2026-09-30)\n\nFull Changelog: [v1.9.0...v1.10.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.9.0...v1.10.0)\n\n### Features\n\n* **api:** add a refusal stop reason and stop_details to Managed Agents session idle events ([cba653f](https://github.com/anthropics/anthropic-sdk-python/commit/cba653fc52ed4a9b57108a0b1ae80d1f51fb46dd))\n* **api:** add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API ([6bb2c0c](https://github.com/anthropics/anthropic-sdk-python/commit/6bb2c0ca493168069298a0c6c1740073b564d192))\n* **api:** add per-user usage and cost reports to the Admin API analytics ([7443920](https://github.com/anthropics/anthropic-sdk-python/commit/7443920c35d323d887bf908911224c7f2e0d8fde))\n* **api:** add Plugins and Plugin Marketplaces to the Admin API ([1baad3b](https://github.com/anthropics/anthropic-sdk-python/commit/1baad3b04df8fc5f1cbcf59bd2eca5e51d88c1e0))\n* **api:** add repository error types to Managed Agents session errors ([c682f7e](https://github.com/anthropics/anthropic-sdk-python/commit/c682f7e359e3367581a41829fdb51250dd51b0c3))\n* **api:** allow removing a plugin's org-wide installation setting ([17f52fc](https://github.com/anthropics/anthropic-sdk-python/commit/17f52fcde9fec28a2f96e763d9a2217326104fd8))\n* **api:** MCP tunnels beta: add read-only `transport` object to Tunnel and return the one-time relay `token` in the create response ([88718ff](https://github.com/anthropics/anthropic-sdk-python/commit/88718ff4bdfab22f256b12ec7fdd20509805978c))\n* **api:** Organization API endpoints are now GA ([f1d195a](https://github.com/anthropics/anthropic-sdk-python/commit/f1d195a6ae90b2b2482b2a6f8f1732d7241b5984))\n\n\n### Bug Fixes\n\n* **api:** make memory store description, metadata, archived_at required ([6cc39d3](https://github.com/anthropics/anthropic-sdk-python/commit/6cc39d34e7f3a1ae1eea82fbc634849761966b20))\n* **api:** type admin plugin preference and marketplace fields as enums ([b4dfd99](https://github.com/anthropics/anthropic-sdk-python/commit/b4dfd998969d8a23ab7128caa152989aa867c7d2))\n* **credentials:** refuse config files that group or others can write ([cd5fc6a](https://github.com/anthropics/anthropic-sdk-python/commit/cd5fc6a1e5a65cbd08f5c77465617526c313f0b8))\n* **pagination:** auto-paging continues past an empty page while next_page is set ([c027a26](https://github.com/anthropics/anthropic-sdk-python/commit/c027a26dd4f33840ea3749db3b3e4059ec749983))\n* **tools:** stop the session tool runner after any idle that ends the turn ([#969](https://github.com/anthropics/anthropic-sdk-python/issues/969)) ([9c60a53](https://github.com/anthropics/anthropic-sdk-python/commit/9c60a531709471050c084034dece6782cc3298e5))\n\n\n### Chores\n\n* **api:** update MCP Tunnels types and descriptions ([aa49ba7](https://github.com/anthropics/anthropic-sdk-python/commit/aa49ba7fbb56425feebb7c3d0dcc75fd1f109ed4))\n* **ci:** run tests on the oldest and newest Python in parallel ([53bb298](https://github.com/anthropics/anthropic-sdk-python/commit/53bb298f0bbed38b60c2b961bd6daf973365b1a1))\n* **docs:** remove placeholder enum descriptions ([f535d67](https://github.com/anthropics/anthropic-sdk-python/commit/f535d6701f65928264cd8fb738e4327fa94fb32c))\n* **internal:** format request options with one argument per line ([4e2463e](https://github.com/anthropics/anthropic-sdk-python/commit/4e2463e13499c5e7ba6b2ef389f65b0e8f234350))\n* **tests:** match mocked binary routes when a request adds query params ([0781470](https://github.com/anthropics/anthropic-sdk-python/commit/078147029a62d22ea5fe85cf897cfbdc1693b656))",
       "published_at": "2026-09-30T18:28:45Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.10.0",
-      "kind": "release"
-    },
-    {
-      "source": "ollama/ollama",
-      "name": "v0.35.1",
-      "tag_name": "v0.35.1",
-      "body": "## Clef decision models\r\n\r\nOllama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`.\r\n\r\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone -d '{\r\n  \"model\": \"clef-flash\",\r\n  \"state\": \"The user took this screenshot.\",\r\n  \"images\": [\"<base64-encoded image>\"],\r\n  \"questions\": {\r\n    \"has_ollama\": {\"type\": \"noul\", \"instructions\": \"Does this image contain Ollama?\"}\r\n  }\r\n}'\r\n```\r\n\r\n```\r\n{\r\n  \"model\": \"clef-flash\",\r\n  \"answers\": {\r\n    \"has_ollama\": {\r\n      \"type\": \"noul\",\r\n      \"noul\": 0.958\r\n    }\r\n  },\r\n  \"usage\": {\r\n    \"input_tokens\": 548,\r\n    \"output_tokens\": 0\r\n  }\r\n}\r\n```\r\n## What's Changed\r\n* Models using web search can now perform up to ten searches per response, up from three\r\n* Modelfiles now support `CAPABILITY` declarations, so model creators can explicitly declare what a model can do. Declarations are preserved when creating from GGUF or safetensors, through model inheritance, and on Modelfile export\r\n* `ollama show` and the model list now report only `decision` as the capability for decision models, so clients no longer offer them for general chat, tools, or thinking\r\n* Updated llama.cpp and the MLX engine\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1\r\n",
-      "published_at": "2026-09-29T20:14:22Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "kind": "release"
     },
     {
