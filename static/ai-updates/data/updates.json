@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-10-18T06:00:12.844884Z",
+  "generated_at": "2026-10-19T06:17:07.673633Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:en",
-      "name": "AI Code Review Race: 4 Editors, 46% Trust Gap [2026] - https://tech-insider.org/",
+      "name": "Cursor AI Agents Now Merge 56% of All PRs [2026] - https://tech-insider.org/",
       "tag_name": "https://tech-insider.org/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-18T05:53:55Z",
-      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HWHRLdmNGSF9STHM5aXlYUEZiUnVnQkcwMkF0RUpwZzlCbzFhQTR3cS1EQ3g4Snp6MHhjOFJBcG83RUxwZGFiMVFoWUhGR0JwY0NpZWFTN1RMX01lQmJjZDBLY2p6TkNiRVB3Q2JPaXM?oc=5",
+      "published_at": "2026-10-18T17:40:11Z",
+      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90OUI3ZmVaTHE1NUR0d0hPb0J1dksyUTdrWEFIZUFRN1U1ZEdXZXBKNTJnU3k3bTdfY2JDaklXUmZDSFd2NjdGOUFVTlNEVVhpQk1wWHF2RjZENGZVT2MzVkE3c0JDTHFoZktiSjdxd2ZFakdGU1NadA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "How AI API Keys Leak From Mobile Apps, and How to Stop It - shattered.io",
+      "tag_name": "shattered.io",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-18T14:55:21Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MUHUtMDNtWXpzRkRKYjdOclFLVnA0a3NhblluMFgzZFczdWluY1RvUEhJU1RqOW5yUlhkcno1UFFiVkRlekhMazMzZ2IySmlPZ184OUZ3SHJFeE1abGNr?oc=5",
       "kind": "news"
     },
     {
@@ -57,12 +66,12 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元 - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
+      "source": "news:en",
+      "name": "DeepSeek releases AI model update, opens search APIs to all users - Yahoo Finance UK",
+      "tag_name": "Yahoo Finance UK",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-17T12:56:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMirAlBVV95cUxPTVlmM05rRDBfSlJSTWJrSTZiZHI0YVV3bFl1bm9heUFWSVFfbzJDa2VzSGRTS3MzMmxMbm1qand4UTBPNG5qaHd2X052NC1GbGx6RUpVWExEVE11ek5XQnpiT2FlajFKTmdXNEcyUFhQRnVjb0Z4M2lHa1h4ZFptTURCaDRRTTgtaU5IWDA1OUN2RE1GTUlyR1VHcGxKOGYyZ3BPOVV2Q05FWUVQR3R3bzVEeFltVHBuQUl5MzZ4Y29ONTZadHgtRmRCN1BNTUFMWmdzeXZXdkNpUktvVTdoMWx2dEVkZ1pEY1RHV3BNY0RkckhHd0xIRk1Tbzh6eFJlWGgzanZTTVFKMFlMenIyQzBkQjdCb0JDemF5X2xtdnZqLVNOanhUX213aUFBaDF1VkdWTzhaMk1qbHZFOWI5UmYxdE9HWWtXa0k5QXZJUUM0Q3lIcU5LYTV1ZUZ6eENmcUFYS3NDMV9OWlZaMlhYOFYwSDNlc3FFQ3ZQTFc2dTF5SFpQeWQxRVV1dkVoWTJSazlOXzhJb0s4Y2Q0TDlFZkF5Rm1KbUhJLThqdEwtOE1RMjdJWjU1YkdyRnczNkVzR2EyTm01Vzk2b3ZGdVp2NWxNN05BYnRGQWNCNTU2bHM4RF9SbU5HUDNTaU5EMlVjYVduUVJxbXVMVDZMbl96TFZPSjJ4RmxZNVVzbllCYWRnZnhQV0puNVNScXZ6bHRNZThXdWNfaF9xYVNEUlJPZXFyM3ZVVnVQeElRNDdlSHhhZURsRHAwRlhRUmdEOTFsUmc0RGtlemRiRmMwdXNMQzZRT3haZVllTkNvRG5BX3Rid1A1b0M3X2doY2FhOHJFdE1uazhDb1hHZkdOR3BDUXVzMHEybkoyZWdHV2gwLWZfODNvcjhLdzd2cVc2T0I0XzVlcFNBdmY2ay1ZVDdNSEw2QzRtVmRHeGlRYm5ldk00SmoxendhcVdHUEphRlF1aTRreXZoYzlEdHJLQ04wdG9sR0lKMGZFOXJ4bnZOVUVRTkkyMGlPUEdNWXV4bUU1Z3RLa3E3V1BtN2NRU3hqMW1ZOTZJNlJfU2wxck5kY3MzMDFLRXBfeV80QW1vTmlDek0wOHJZTGxNNHIxdmg5UkdEM1hrUlhVaGxwY0R5QTBya2xkNUlheGVtbDhob1B2NFc5QUJpcEh2RkpMaFhfS1F5TndIRlZPdUlBRGdwcVREdnlVczdGRFFoakpmZzdwUEtXWVF6NU5KbE44SmZMbDQyNjZsTXNxaHR6Yml1V1VWNWdQVGF4U1JMNmZ3eVFyUDRLU19vTlpodGlKMjhjdmFUU0hNald0MEdmTENvUUFsNFYxSW8zRkN5Y0hLYkpFMzBGWlBXRzRLTHFIMjZoTmdxSnRrcmNJQnpzMUg2dURsek9HblFEeTloTTQ2Q1N6MzRwanEwRmdKLWhlR1FkNXcwMDEwRE1hb21xX1RhQjNpNGYyWEgtdUNXVlFxRHBCMGJuR2RRM09fc0FrS0x0LVg5bktRaHFWX3QtRUI1eEZyNEdzOEpkd05zWW95ZDZNTGpTT1kxWi1YSWt0RHZuT0JfR0RmYnVOV1pCWQ?oc=5",
+      "published_at": "2026-10-17T15:04:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU3RCeWpFc3hFVmN0eVVCOHZwRE9MandIZzN1UmtibXc3dFlfc3QxSU9DbExhbHEweW83YUFtc3NaMlhNM0p1U3BBYVQyQTkzS3dFMXEyX1o2d3hwY09oT0pPbE10NXJVWUo4MmlGTTRITVFROVJCaVdZX3lTQ3F0Z0JNTkVWNHd2?oc=5",
       "kind": "news"
     },
     {
@@ -76,11 +85,11 @@
     },
     {
       "source": "news:zh",
-      "name": "划词AI 工具拾趣Magpie Release v0.1.14，重磅发布Windows 版 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API 千次调用仅5元 - 东方财富",
+      "tag_name": "东方财富",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-17T03:49:09Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrS3BUSlozRlc1R0RMdy16bFVLM2J4bFBZeHBGU25RcklwYjdlVXZQNjVPOUp3RDJKM1lyVm1xUmdXQzNOc2pab3FiTUZ6eXgta3BraVZEeC1QTkIxVGRCS1k4c3NOZ25wLWVWNjJWMUFCRWQ5elpRT1JR?oc=5",
+      "published_at": "2026-10-17T05:17:23Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TMi1MUjA0VFFCYzBlazBJX1FvVXFrVHlHT203MzJPSnd6cUh6cFZZZUs2anNTWE9fYWg5NGFXaDVjNEVMX1JqeWthUElXMnptVF94bFU3OHdQb0VpY0ZocA?oc=5",
       "kind": "news"
     },
     {
@@ -274,15 +283,6 @@
     },
     {
       "source": "news:zh",
-      "name": "Claude Code桌面版暴改，一人指挥AI军团飙代码 - 投资界",
-      "tag_name": "投资界",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T02:03:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81MVBldEJHT2pMNWNxVC1mbVhoYWQ3azV2NEhuV3VfM3A0MW1ncUlrZDVaT0pYVmtDczFkSnRUY3V4UGFoVWNvOF9tNjkyaDlfd2padDBB?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "苹果中国版AI定档12月上线 - 华尔街见闻",
       "tag_name": "华尔街见闻",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -298,6 +298,15 @@
       "published_at": "2026-10-14T19:45:22Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster - Google for Developers Blog",
+      "tag_name": "Google for Developers Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-14T17:47:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdGh6OTF0MldOUnA1YVQ1T1pBWnZVWGw0NWJjSGVGNjB3Q2xLZi1SejlnUFVQSFUwLUU3ZG93TUNJdV81LVRjc2dQbXRPTmhrX1RwS3pDY3ZjSGNQTWZsSmctSlJwUnhIMXpHWlVPRmY3NjVWcFN5N3RGZGNzUTFyZHhvdVlRTzhHS1pNQlFWZElJNC1ZLVh5a25pX0x2d1JmdHVTZHJYWXVvNTNTVXM5UzhaZGUtazhH?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -318,15 +327,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Union Square Plaza Hotel uses Cloudbeds’ open API to build technology around how the property actually operates - Hospitality Net",
-      "tag_name": "Hospitality Net",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T15:00:08Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOby1xcHo4VGpneG0yTXAyeXR3LXNCXzRKelZ5ZzEzYnhxTlZnVm56d3JYSUktd0F5ZXd3MHF6alFaZmVMNzQzVm81WGVEbTVOUFhvMTN4czRaYXdqaS1mY1ZGdXg1ejRCS05fZE9YanBNQVJBRUNURGVKVjZTOGVQakRZMkl3YjRIMy1VdWVrWlg2bXVDd2NLY3Z4UlZKclF6MG56bm1vVkNySzQ2ZkZWQnVrOE9VbnRlYW1sc0Z0NEpiWG94TU1NWEJpLUY0Ry03VXQ5akstejJNeUl5YjlwNmw1cGU3ZnpPbVNaSTA4UWI?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-openai==1.7.2",
       "tag_name": "langchain-openai==1.7.2",
@@ -334,6 +334,15 @@
       "published_at": "2026-10-14T13:51:15Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "Claude Code桌面版暴改，一人指挥AI军团飙代码 - 36Kr",
+      "tag_name": "36Kr",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-14T13:11:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uNExPQWM4ZnFQS2NVMDFGNGJkeEhaOFZRQ29EbzRubzFRSVk3ZXNJSWVUeEJGcWV2cWYxcVA5WDVENUFOSVVRTmFSTTZ1UQ?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -382,15 +391,6 @@
     },
     {
       "source": "news:en",
-      "name": "WordPress Releases an Official Plugin for AI Tools - ALM Corp",
-      "tag_name": "ALM Corp",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T16:34:53Z",
-      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QeTBaazlFeTAza2t0NjVQUnNock9Ib2c3SVE0ckJTOUtpLW5pQ2lIdUpfdUdBVlBfZENpbUt2WGhhakFrUWozZ05WZmxUWGwzTTQyTWdGbUl2UFkzSTVFcGQzNlBJZi1ObVpYUlk2OVlFYlNUcjdWZw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "Gemini 4 Argon is now available for developers. - blog.google",
       "tag_name": "blog.google",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -399,21 +399,21 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform | NVIDIA Technical Blog - NVIDIA Developer",
-      "tag_name": "NVIDIA Developer",
+      "source": "news:zh",
+      "name": "STEPX发布首款大模型原生智能体手机STEPX Neo - zqrb.cn",
+      "tag_name": "zqrb.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T14:22:01Z",
-      "html_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcUhCMm5LY3dMOVd6U1daRWpINVhKcXhIcWt0bVlyYTRCWnlVRHY5aDhoc3pHdUlsb1RUbHVUZlV3QkhXVzFDRXpUb2JyMWlkeUw0MU9sTld4U3o3Y1hPQXJFMVVuS2FTR1h5eUVzdUdBTlVkdTVXQXhSZUQxbXltY1hXcTlWY2hxZUJjRkstbkhxekpJTDRuMkpJSTBvM282ckVmQjNzX1VDOVV4?oc=5",
+      "published_at": "2026-10-13T13:18:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBndDFBT1FnZ2E0RW5pQVRZcEtZMnJrSDR3Q29Ha0FkVVFUU2Jyby1zQ2RPWEVVNGRzLW9fVmMzSDRib0hIYkFhOFdLVGxJZTBYWWxyZHpQbFZZbXc1YlA5WDdMZk4wS3MzU0ZobnhxQQ?oc=5",
       "kind": "news"
     },
     {
       "source": "news:en",
-      "name": "Meta Launches Muse Wonder Frontier AI Models With Long-Term Memory and Advanced Coding - Konsulteer",
-      "tag_name": "Konsulteer",
+      "name": "Explaining client library - PPC Land",
+      "tag_name": "PPC Land",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T11:14:55Z",
-      "html_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRkk3Q0tUbGdHLXpsZU1jdmFURXZ1dUFncjF3cnlsUGpyc0dsYXByREo2MkdPMVE2S285bElsVDhtOHdjRnZYX3BDcFZPbzJLeFdxYVVWUmxqMnBuRTBIb1JsUVJteFZBa3ljZEMzbzBNQ1lGWkJqWFRSQ3AwTzNpdE1QakRLaXQ0SHVsbXFyOXEzb1RhU1NYYUJIcVdneTZMeGIzZUo2S08tS3VkVDZycTg2bnVUTElBMm1CMkZB?oc=5",
+      "published_at": "2026-10-13T10:54:04Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBmNldLYnkwM3ZMdUZLRlJucTNhZm03dFZCaGNlMXBRRnRwWk9HaEozN2wyRURYcGlycGwtN3B4Z3BqSThPZ0cw?oc=5",
       "kind": "news"
     },
     {
