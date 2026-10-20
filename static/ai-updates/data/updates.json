@@ -1,23 +1,149 @@
 {
-  "generated_at": "2026-10-19T06:17:07.673633Z",
+  "generated_at": "2026-10-20T06:06:14.293709Z",
   "source_count": 8,
   "items": [
     {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.36",
+      "tag_name": "@ai-sdk/zai@3.0.36",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n  - @ai-sdk/provider@4.0.31\n  - @ai-sdk/provider-utils@5.0.64\n  - @ai-sdk/openai-compatible@3.0.74",
+      "published_at": "2026-10-20T04:16:41Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.36",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@5.0.26",
+      "tag_name": "@ai-sdk/xai@5.0.26",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n  - @ai-sdk/provider@4.0.31\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:16:38Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.26",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.157",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.157",
+      "body": "### Patch Changes\n\n- Updated dependencies [ca2a9f7]\n  - @ai-sdk/harness@1.0.157",
+      "published_at": "2026-10-20T04:16:36Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.157",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.78",
+      "tag_name": "@ai-sdk/workflow@2.0.78",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n- Updated dependencies [3785b2e]\n- Updated dependencies [ab8eb61]\n  - ai@7.0.146\n  - @ai-sdk/provider@4.0.31\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:16:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.78",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.146",
+      "tag_name": "@ai-sdk/vue@4.0.146",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n- Updated dependencies [3785b2e]\n- Updated dependencies [ab8eb61]\n  - ai@7.0.146\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:16:30Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.146",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/voyage@2.0.64",
+      "tag_name": "@ai-sdk/voyage@2.0.64",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n  - @ai-sdk/provider@4.0.31\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:16:27Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/voyage%402.0.64",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/valibot@3.0.64",
+      "tag_name": "@ai-sdk/valibot@3.0.64",
+      "body": "### Patch Changes\n\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:16:24Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/valibot%403.0.64",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.146",
+      "tag_name": "ai@7.0.146",
+      "body": "### Patch Changes\n\n- 0c2a9de: Add `maxOutputTokens` and `reasoning` to experimental decision calls and forward them to language-model-backed decisions. Language-model adapters keep reasoning disabled when omitted. Native decision providers warn when either setting is unsupported.\n- 3785b2e: fix(ai): remove orphaned reasoning, including consecutive summary and reasoning-file parts, when pruning tool calls\n- ab8eb61: Fix optional tools adding an incorrect `undefined` member to tool call, result, error, denied output, and execution event types.\n- Updated dependencies [9d13c4d]\n- Updated dependencies [0c2a9de]\n- Updated dependencies [200c47f]\n  - @ai-sdk/gateway@4.0.119\n  - @ai-sdk/provider@4.0.31\n  - @ai-sdk/provider-utils@5.0.64",
+      "published_at": "2026-10-20T04:12:45Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.146",
+      "kind": "release"
+    },
+    {
       "source": "news:en",
-      "name": "Cursor AI Agents Now Merge 56% of All PRs [2026] - https://tech-insider.org/",
-      "tag_name": "https://tech-insider.org/",
+      "name": "Chrome DevTools 154 Adds AI Agent Controls [2026] - shattered.io",
+      "tag_name": "shattered.io",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-18T17:40:11Z",
-      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90OUI3ZmVaTHE1NUR0d0hPb0J1dksyUTdrWEFIZUFRN1U1ZEdXZXBKNTJnU3k3bTdfY2JDaklXUmZDSFd2NjdGOUFVTlNEVVhpQk1wWHF2RjZENGZVT2MzVkE3c0JDTHFoZktiSjdxd2ZFakdGU1NadA?oc=5",
+      "published_at": "2026-10-20T02:41:32Z",
+      "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50S3NmMGpsbEpOUnVRdWdBdGhrQjN5Qko2YkYzaThhMjJsUGVQUXRzazhOWkRJNE9IRE9rNnhKam0tOGlXNlBJTnE0OXRxQnduUGNwa0VYZDZNTkZEZHYxWVYzSElDU0xNNHdBUkkzV2x6QQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "中信建投：建议关注企业级AI应用、算力服务及国产芯片和超节点 - 东方财富",
+      "tag_name": "东方财富",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-20T00:11:15Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TLXZlek1vSndHRkttSDVOdHg3T3lmWk9hS0tkSXRmNTBvR0ZMU0ZBcVlxNkduODdjb2hUSkhEWDNtUHpHVEVULWZHb0tPMWVVdGN6SmZCYUFTWnlBdXk3Uw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "中信建投：国产模型迭代推动需求增长关注企业级AI应用、算力服务等_券商最新研判 - 证券之星",
+      "tag_name": "证券之星",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-20T00:07:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51dk1GMGJCcmtuS2lac3dPdDZncldUd3BoUGFfenZoY2piQTZNT0FZTHgxTzhwaGp4OFNNNG5GRGl2TTJGd1FxZ2N5NmFOVHR5blZPTFpUaVdYVUpvWmlJYkFR?oc=5",
       "kind": "news"
     },
     {
       "source": "news:en",
-      "name": "How AI API Keys Leak From Mobile Apps, and How to Stop It - shattered.io",
-      "tag_name": "shattered.io",
+      "name": "Microsoft Foundry Update Brings Scheduled AI Agents, Smarter Tool Use and GPT-6 Models - Visual Studio Magazine",
+      "tag_name": "Visual Studio Magazine",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-18T14:55:21Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MUHUtMDNtWXpzRkRKYjdOclFLVnA0a3NhblluMFgzZFczdWluY1RvUEhJU1RqOW5yUlhkcno1UFFiVkRlekhMazMzZ2IySmlPZ184OUZ3SHJFeE1abGNr?oc=5",
+      "published_at": "2026-10-19T19:41:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc3FjNDhnZjUwMGJ1eEJnOHVrcmEweFJwUWpvTXZjSThIQkdaXzA2QjZZU2NZT1Y2azhPbHNkRk5INjhJRU93WG5mQU9pbk02Q3IyQXp6X19aeGlLVUVHdHZVbXNWZjZoMElSRmdWRmRDODZyS3lJanpnMWhoX2dFQXdfal9fVFA3eFJHR1BiTnFxcW9sb3VSdG12cEVncWJ1ZkpZWWduNVZJOWNKdHNCODNpRnNDSmtmQjhoTVJMTGxja2t0Z0c5RWJxVjVYOGpYR3hFdlBTSkg5OEk?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts - TechCrunch",
+      "tag_name": "TechCrunch",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-19T19:28:34Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ25zM0g4TlR6X281OWQxV1FzUHliajQweEVkdHFFZlVtYTNqUzdIWHdjanVTS0RUaUd3dVA5UE5ZdHZKRkVnVWxfVzYyRGNtNkpBZXVVR19KOUQ3UFlfUnBNNHBzNmNjdzU0cnlGZk81cU03dUhkTUhacV85QV9zSW41RUtHOUhKQy1HOERnMzM4dk4tZkZ0LWNWcTZILVlZYXpQaGl1T1N0eEpPUm44?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Leaked API Keys in LLMs: How AI Agents Expose Secrets - GitGuardian Blog",
+      "tag_name": "GitGuardian Blog",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-19T15:03:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mSV9FazQ4bG5obmdvWmtLdEpTczRocjYyblVlRXFnT05GaWs5dURZMkFCYVc4eVU3OWZhX0ZuOU0zazR0ZUNFSDRBb29QVV8wWHZXTXVMOFF4SDdHemc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed - About Amazon",
+      "tag_name": "About Amazon",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-19T13:06:25Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTGpCQnlRaUpuSnFURWFWVF9IbHRETVhEZkZXOFVVOG1KTWVxZzBvZHNENmFEX2F6SFlUZkRJdTVWc0ZHZWNDYXV3RDNwU0hmME1LcVBJTGJIVThZTmlmeTFneUdkb1UteVpYeUV3UlBaeEhnWXZyWFJ2TklyTDZjT0plUUR1cmRDTzBtZGozSkZKY0FSS0pMQS1WRQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "XXL-AI v1.2.0 发布 | AI 应用开发平台 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-19T01:35:36Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9wZmhzRHJXRnM4V0RtYmtNbmk5dXhFWFpaWXpzZGhlTlV1ZmFSUWNHMWtwZDlCMWhsYnUteE9zNG96TDZUaEdjNVViYw?oc=5",
       "kind": "news"
     },
     {
@@ -93,15 +219,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "微软造出“AI学生”：替真人试课，模拟学生优化AI导师|微软研究院|训练|系统|响应性|棋类 - finance.sina.com.cn",
-      "tag_name": "finance.sina.com.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-17T03:34:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnZjNnBwc0ZZeTh5SEp2V2FnajFRQ29rcDI5MWpDWHZHb0lqbFI2SjZfX0IzT1VRWHhmcjQzeDlJYVJkM0hzSFBKaHUxbnNlQ0RYOUlidjdZSFpfblpTNF90U2M1MTJYMzRnaXdTb0g5MGFUc3VDLThHemNCZ28wNmoxUzhtM0lzTlhEcktUUTBEVndjTF9PajFDVlF0YThubEExQkg0dnFpQ2FmT3dCVzY4RTBZYUEzZEZLeldrWFhSWlU?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.33.0",
       "tag_name": "v3.33.0",
@@ -138,84 +255,12 @@
       "kind": "release"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.33",
-      "tag_name": "@ai-sdk/zai@3.0.33",
-      "body": "### Patch Changes\n\n- Updated dependencies [0957554]\n  - @ai-sdk/provider@4.0.29\n  - @ai-sdk/provider-utils@5.0.62\n  - @ai-sdk/openai-compatible@3.0.71",
-      "published_at": "2026-10-16T20:14:06Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.33",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.24",
-      "tag_name": "@ai-sdk/xai@5.0.24",
-      "body": "### Patch Changes\n\n- Updated dependencies [0957554]\n  - @ai-sdk/provider@4.0.29\n  - @ai-sdk/provider-utils@5.0.62",
-      "published_at": "2026-10-16T20:14:03Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.24",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.154",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.154",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.154",
-      "published_at": "2026-10-16T20:14:00Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.154",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.75",
-      "tag_name": "@ai-sdk/workflow@2.0.75",
-      "body": "### Patch Changes\n\n- Updated dependencies [8a5233b]\n- Updated dependencies [894e130]\n- Updated dependencies [0957554]\n  - ai@7.0.143\n  - @ai-sdk/provider@4.0.29\n  - @ai-sdk/provider-utils@5.0.62",
-      "published_at": "2026-10-16T20:13:57Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.75",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.143",
-      "tag_name": "ai@7.0.143",
-      "body": "### Patch Changes\n\n- 8a5233b: Generate default chat IDs on first access so `useChat()` can prerender without reading a random value when the ID is not used during rendering.\n- 894e130: fix(ai): add `experimental_lowMemory: true` to `streamText` for single-consumer streaming without a replay buffer or retained final-content results, reducing memory retention.\n- 0957554: Add `box` decision question type with image bounds for TypeSafe AI.\n- Updated dependencies [0957554]\n  - @ai-sdk/provider@4.0.29\n  - @ai-sdk/provider-utils@5.0.62\n  - @ai-sdk/gateway@4.0.116",
-      "published_at": "2026-10-16T20:10:09Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.143",
-      "kind": "release"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.6.12",
       "tag_name": "langchain-core==1.6.12",
       "body": "Changes since langchain-core==1.6.11\n\nrelease(core): 1.6.12 (#41277)\nfix(core): propagate extras on content-block-start events (#41272)",
       "published_at": "2026-10-16T19:28:44Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@2.0.13",
-      "tag_name": "@ai-sdk/zai@2.0.13",
-      "body": "### Patch Changes\n\n- Updated dependencies [5aa3086]\n  - @ai-sdk/openai-compatible@2.0.85\n  - @ai-sdk/provider-utils@4.0.61",
-      "published_at": "2026-10-16T19:07:45Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.13",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@3.0.143",
-      "tag_name": "@ai-sdk/xai@3.0.143",
-      "body": "### Patch Changes\n\n- Updated dependencies [5aa3086]\n  - @ai-sdk/openai-compatible@2.0.85\n  - @ai-sdk/provider-utils@4.0.61",
-      "published_at": "2026-10-16T19:07:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.143",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.309",
-      "tag_name": "ai@6.0.309",
-      "body": "### Patch Changes\n\n- Updated dependencies [5aa3086]\n- Updated dependencies [c42700c]\n  - @ai-sdk/provider-utils@4.0.61\n  - @ai-sdk/gateway@3.0.217",
-      "published_at": "2026-10-16T19:04:57Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.309",
       "kind": "release"
     },
     {
@@ -237,15 +282,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T19:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.6.11",
       "tag_name": "langchain-core==1.6.11",
@@ -265,20 +301,11 @@
     },
     {
       "source": "news:zh",
-      "name": "AMD Ross，让嵌入式开发迎来“智能体AI”时刻 - 电子工程专辑",
-      "tag_name": "电子工程专辑",
+      "name": "重新定义AI 玩具能力边界，跃然创新“光之召唤”系列新品正式发售 - 品玩",
+      "tag_name": "品玩",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T08:53:25Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ob3pGSGZYbzNETkM2NEx2enE2OGZwdU1nN2djdnppSVJKQVBieS11ZTJPLXdpRlhXSDIwY2lHV3lRNF9uOWxLSDBIT0NSN2g0dkJud0g5SnBNaFhB?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "AI 编程工具OpenCode 2.0 正式发布，能让模型写脚本调度工具- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T02:45:16Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oZ3VDbmtWb3JJZWhaOUlFT1V1aVZTaTBlZ3R5b1hBUjJoaEZSelNzY09fUlVma0ljelQ1WHpfcUI3WWU2cWo5NWxObw?oc=5",
+      "published_at": "2026-10-15T04:37:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbU40Wm5DODdZaXExNlpQck40UVZpWWVuLXlJdjFlZUt5V0lELXV5eW1oSFRiRUhEUEpETmE0d2VELXFhcFVoMg?oc=5",
       "kind": "news"
     },
     {
@@ -300,15 +327,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster - Google for Developers Blog",
-      "tag_name": "Google for Developers Blog",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T17:47:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdGh6OTF0MldOUnA1YVQ1T1pBWnZVWGw0NWJjSGVGNjB3Q2xLZi1SejlnUFVQSFUwLUU3ZG93TUNJdV81LVRjc2dQbXRPTmhrX1RwS3pDY3ZjSGNQTWZsSmctSlJwUnhIMXpHWlVPRmY3NjVWcFN5N3RGZGNzUTFyZHhvdVlRTzhHS1pNQlFWZElJNC1ZLVh5a25pX0x2d1JmdHVTZHJYWXVvNTNTVXM5UzhaZGUtazhH?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain==1.4.6",
       "tag_name": "langchain==1.4.6",
@@ -325,6 +343,15 @@
       "published_at": "2026-10-14T17:13:08Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Union Square Plaza Hotel uses Cloudbeds’ open API to build technology around how the property actually operates - Hospitality Net",
+      "tag_name": "Hospitality Net",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-14T15:00:08Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOby1xcHo4VGpneG0yTXAyeXR3LXNCXzRKelZ5ZzEzYnhxTlZnVm56d3JYSUktd0F5ZXd3MHF6alFaZmVMNzQzVm81WGVEbTVOUFhvMTN4czRaYXdqaS1mY1ZGdXg1ejRCS05fZE9YanBNQVJBRUNURGVKVjZTOGVQakRZMkl3YjRIMy1VdWVrWlg2bXVDd2NLY3Z4UlZKclF6MG56bm1vVkNySzQ2ZkZWQnVrOE9VbnRlYW1sc0Z0NEpiWG94TU1NWEJpLUY0Ry03VXQ5akstejJNeUl5YjlwNmw1cGU3ZnpPbVNaSTA4UWI?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -354,15 +381,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Playgama launches tools for AI agents to publish and improve games - Pocket Gamer.biz",
-      "tag_name": "Pocket Gamer.biz",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-14T07:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT1lHUll2aGhrV3JBTkZMZmU2LVN0OUUzWWlKcTN5NkhXVGg2dkpYaVpsYWQzOHdSU29NSGdNNVIzeS0wUWUzZUtRdGttbXU2OVBfbkZ6amZfOUJoUjNXMWNNd0hFYU1lNmd6ZE00WVVKN0ZNem5PWWJHT2U3Nm9IQ3VQUU8tY2l0LTFDUFFKTDkzUVhaRDRHcmFPOA?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.31.0",
       "tag_name": "v3.31.0",
@@ -379,15 +397,6 @@
       "published_at": "2026-10-14T04:00:19Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "第一款 AI 手机，被半个互联网「拒」了 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-13T22:05:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lNmQ5aDhfMnZwNGFfODZvc255ZXZXM2xTTkE0N05NM3pPaEpaTER5STBxYk1xSEJva0JmbVdDbUtYdnRTbWo1TDhkX1ozZw?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:en",
@@ -417,6 +426,15 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "\"No More Handwritten Code\": Epic Games Decides to Actively Utilize AI in Development - WN Hub",
+      "tag_name": "WN Hub",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-13T06:28:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNHJ0eDVZVG9obXZ4empSVXZUZUQzU2cybzdERTY4dkNkdkVxNjJ1Y3Fub0tWSVBzYkJTQUhZZC1lSDhNcGs4Rk1wQnZhVDIzNGc?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "langchain-ai/langchain",
       "name": "langchain==1.4.5",
       "tag_name": "langchain==1.4.5",
@@ -433,24 +451,6 @@
       "published_at": "2026-10-12T19:00:12Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Explaining AI Studio - PPC Land",
-      "tag_name": "PPC Land",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-12T17:53:52Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAxd1NVVlByN2txUVU3Y09kLTl2RllVNHlMZWNIWlltZlp6WEFYNzdkeENGRzhqMGhlUmkwSDh0SGw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Meta Brings Its Muse AI Agent to ESP32 and Raspberry Pi - Hackster.io",
-      "tag_name": "Hackster.io",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-12T17:28:34Z",
-      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnRta3Q1RTRIUDlBUW9GOE1ZeGZ5UTI2UEExdjFNazg0dkJmYkg5UjU2VVJvX1UxSXo1Z3NPR1RQR0NxM3REaS1sTktzQ2M2SVZlNEtTOHJfQlFlaWlHYXh5YzVpaWYwNlNoaGNVbU03ZGEyRnVoWm1yLTE3UkU3VTRhYnZFU3FxNUVmSjBUMU9BWkVoMjRfdmd3OG14dw?oc=5",
-      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
