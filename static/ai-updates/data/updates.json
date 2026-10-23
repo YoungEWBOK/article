@@ -1,7 +1,133 @@
 {
-  "generated_at": "2026-10-22T06:09:24.364848Z",
+  "generated_at": "2026-10-23T06:04:48.711410Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "半年扫出超2.9万疑似漏洞！Claude揪出curl高危隐患，29天修复 - 智源社区",
+      "tag_name": "智源社区",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-23T00:40:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85QzIxSzZodWdmRmcyT0ZEbjVZNTFxUUFtdzV4bk1xb1g0OC1xV1QtbFFGOGV1TnY4Z2tRY3JPU3R5US02T1kwOA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.39",
+      "tag_name": "@ai-sdk/zai@3.0.39",
+      "body": "### Patch Changes\n\n- Updated dependencies [8202f5b]\n- Updated dependencies [85d84a1]\n  - @ai-sdk/provider-utils@5.0.67\n  - @ai-sdk/provider@4.0.33\n  - @ai-sdk/openai-compatible@3.0.77",
+      "published_at": "2026-10-22T21:24:30Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.39",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@5.0.29",
+      "tag_name": "@ai-sdk/xai@5.0.29",
+      "body": "### Patch Changes\n\n- Updated dependencies [8202f5b]\n- Updated dependencies [85d84a1]\n  - @ai-sdk/provider-utils@5.0.67\n  - @ai-sdk/provider@4.0.33",
+      "published_at": "2026-10-22T21:24:27Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.29",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.150",
+      "tag_name": "ai@7.0.150",
+      "body": "### Patch Changes\n\n- 8e18d59: feat(ai): add experimental_streamSpeech\n\n  Streams speech audio from a string, or an array, iterable, or stream of text deltas and/or text parts (each with an optional `voice` and `providerOptions`) using speech models that implement the experimental `Experimental_StreamingSpeechModelV4` extension. Returns a single-consumer `audioStream` / `fullStream` plus `usage`, `warnings`, `responses`, and `providerMetadata` promises. Provider `error` parts are non-fatal and reported through `onError` (default `console.error`). A user abort or a cancel rejects the result promises immediately. Exports the `Experimental_SpeechTextPart`, `Experimental_SpeechStreamPart`, `Experimental_SpeechStreamUsage`, and `Experimental_StreamSpeechResult` types, adds an optional `cause` to `NoSpeechGeneratedError`, and adds `Experimental_MockStreamingSpeechModelV4` to `ai/test`.\n\n- Updated dependencies [8202f5b]\n- Updated dependencies [85d84a1]\n  - @ai-sdk/gateway@4.0.123\n  - @ai-sdk/provider-utils@5.0.67\n  - @ai-sdk/provider@4.0.33",
+      "published_at": "2026-10-22T21:20:30Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.150",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.314",
+      "tag_name": "ai@6.0.314",
+      "body": "### Patch Changes\n\n- 6572f26: Fix `toolChoice: 'none'` by forwarding it to the Hugging Face Responses API and rejecting tool calls before local execution in `generateText` and `streamText`. Streamed tool parts are withheld so client-side tools cannot act on them, and `experimental_repairToolCall` is not invoked for rejected tool calls.",
+      "published_at": "2026-10-22T21:10:45Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.314",
+      "kind": "release"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.37.0",
+      "tag_name": "v3.37.0",
+      "body": "## [3.37.0](https://github.com/openai/openai-python/compare/v3.36.1...v3.37.0) (2026-10-22)\n\n\n### ⚠ BREAKING CHANGES\n\n* **api:** This minor release includes a breaking change to Decisions types. In Live response models, question `instructions` can now be a string or a list of structured text, image, or JSON parts; check `isinstance(question.instructions, str)` before using string operations and handle the structured form. Decisions request input types also include additional message roles and tool-history items, so update exhaustive type checks accordingly. Existing string instructions and `DecisionInputMessageParam` user-message inputs remain supported.\n\n\n### Features\n\n* **api:** expand Decisions input and question types ([#4158](https://github.com/openai/openai-python/issues/4158)) ([1e45ad1](https://github.com/openai/openai-python/commit/1e45ad180ba409e3c31897710aa2a40129d58994))\n\n\n### Chores\n\n* **api:** preserve file and video polling helpers ([#4155](https://github.com/openai/openai-python/issues/4155)) ([7db9d88](https://github.com/openai/openai-python/commit/7db9d884c33b0d5ef252e9a4b6e7ae0bbd217e5b))\n* **api:** preserve upload helpers and Live connection defaults ([#4152](https://github.com/openai/openai-python/issues/4152)) ([a29dc39](https://github.com/openai/openai-python/commit/a29dc3947aeccecc2e85d8fbad4d7c03b8af13e9))\n* **deps:** bump astral-sh/setup-uv from 10.2.0 to 10.3.0 ([#4109](https://github.com/openai/openai-python/issues/4109)) ([fa9a161](https://github.com/openai/openai-python/commit/fa9a1616fd175e68dec9960d33dee2caefc0e8d3))",
+      "published_at": "2026-10-22T20:03:54Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.38",
+      "tag_name": "@ai-sdk/zai@3.0.38",
+      "body": "### Patch Changes\n\n- Updated dependencies [10026d1]\n  - @ai-sdk/provider@4.0.32\n  - @ai-sdk/openai-compatible@3.0.76\n  - @ai-sdk/provider-utils@5.0.66",
+      "published_at": "2026-10-22T18:58:17Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.38",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.149",
+      "tag_name": "ai@7.0.149",
+      "body": "### Patch Changes\n\n- 1727442: fix(ai): process only the first approval response per tool call, so repeated or conflicting responses in the final tool message no longer execute a tool twice or both execute and deny it\n- 0a5d0e7: Fix `toolChoice: 'none'` by forwarding it to the Hugging Face Responses API and rejecting tool calls before local execution in `generateText`, `streamText`, and `WorkflowAgent`. Streamed tool parts are withheld so client-side tools cannot act on them, and `repairToolCall` and `experimental_refineToolInput` are not invoked for rejected tool calls.\n- 10026d1: Add the `interrupted` finish reason for provider streams that end without a completion signal. Preserve partial output without introducing an error solely for interruption, and stop tool execution, agent continuation, and automatic UI follow-ups for interrupted responses, including late tool results and approvals. Provider detection and emission will be added separately.\n\n  **Compatibility notice:** Adding `interrupted` to the public finish-reason types can break type checking after upgrading, even though this is a patch release. Exhaustive switches (for example, using an `assertNever` fallback) and mappings such as `Record<FinishReason, string>` must handle the new value. Update any custom validation or application logic that assumes the existing set of finish reasons is exhaustive.\n\n  When providers begin emitting `interrupted`, a stream ending without a completion signal will preserve partial output and report this finish reason without emitting an error solely for the interruption. Applications that need to detect incomplete responses should check `finishReason === 'interrupted'` as well as their existing error handling.\n\n- Updated dependencies [101ce42]\n- Updated dependencies [e104368]\n- Updated dependencies [eb1f056]\n- Updated dependencies [10026d1]\n- Updated dependencies [5893e99]\n  - @ai-sdk/gateway@4.0.122\n  - @ai-sdk/provider@4.0.32\n  - @ai-sdk/provider-utils@5.0.66",
+      "published_at": "2026-10-22T18:54:17Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.149",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.280",
+      "tag_name": "ai@5.0.280",
+      "body": "### Patch Changes\n\n- 1e4ab85: fix(ai): remove orphaned reasoning, including consecutive summary parts, when pruning tool calls\n- Updated dependencies [bd02a79]\n  - @ai-sdk/gateway@2.0.171",
+      "published_at": "2026-10-22T18:53:10Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.280",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.313",
+      "tag_name": "ai@6.0.313",
+      "body": "### Patch Changes\n\n- 52803fb: fix(ai): process only the first approval response per tool call, so repeated or conflicting responses in the final tool message no longer execute a tool twice or both execute and deny it\n- a0f7494: fix(ai): remove orphaned reasoning, including consecutive reasoning parts, when pruning tool calls\n- a48e8a9: fix(ai): preserve repaired tool names in streamed UI message parts\n- Updated dependencies [fa49238]\n- Updated dependencies [d301a16]\n- Updated dependencies [965effe]\n- Updated dependencies [4f82ab0]\n  - @ai-sdk/gateway@3.0.220",
+      "published_at": "2026-10-22T18:52:50Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.313",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-core==1.7.0",
+      "tag_name": "langchain-core==1.7.0",
+      "body": "Changes since langchain-core==1.6.13\n\nrelease(core): 1.7.0 (#41418)\nfeat(core): emit `tool-call-delta` for streamed tool-call args (#41257)\n\n## Notes\n\n- Tool-call args now stream as `tool-call-delta` slices instead of `block-delta` snapshots of the args so far. If you read raw stream events and their `block-delta` args mid-stream, read `tool-call-delta` instead. `.tool_calls.get()` and `.output` are unchanged. To keep snapshots, pin `langchain-core<1.7`.\n- Since 1.6.13, iterating `ChatModelStream.tool_calls` yields each call's new args slice, not a snapshot of the args so far.",
+      "published_at": "2026-10-22T17:47:38Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Unhedged Connects AI Assistants to Esports, Crypto and Sports Prediction Markets - markets.businessinsider.com",
+      "tag_name": "markets.businessinsider.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-22T14:54:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSzJRbGpkeWhaN1R4anBtU01VMm5pTmxfRHNGNko2NUVCVG1PTUNxMVlGZnNKWjRhRXFiaUtwMjZ2cWJhanFnbTY2bVhJY3RYN0R1NGNFZEpMWTlEanRwODREWHJlc21NazJUWElyOEVSZFhHZDJzTzk3LTZpNTFfV0UxbzJSa3ZMU2dJYkRIOS1ERDFYcWV5eW96NTdMSHlzdS1DcTJZYWFPZUdUMlczVFBwVEw1M1hlMS1VSXh5cFA0SUU4VFRDMGk3OFlDSGU1RnhxOQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials - Help Net Security",
+      "tag_name": "Help Net Security",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-22T13:10:28Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVdnZlpCRnJCZXB4blVHNmlMdERRc241NG9JenJUQnhIRjJBRmtqNW1JSzBid2lNbFk5WHJlc2xjWjdnVERnbE9KRjF5QnM5TnVSRDJBTlM2bVoyZ0tDb0VGRGRuM0dLMHNVWjlQdnVkQWktMXB1SHNiSW8wUEZZNFRLdUpENkZZcFBPRUd2V2VzWTllT00yNjdVNA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "AI 把整个软件生态打成筛子，全栈开发者的至暗时刻 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-22T07:30:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWYzl4RTVicURpeEllcTdTd1VFcS1rUFQxNDVfTzBTbEhOcy1va1Q3RHk4NkVpa0JER1hWUGE2Q2I3WUVaajFPSnNVUDVNTXBHeGJHWDM5OWkyRTU1S1E?oc=5",
+      "kind": "news"
+    },
     {
       "source": "openai/openai-python",
       "name": "v3.36.1",
@@ -23,10 +149,10 @@
     {
       "source": "ollama/ollama",
       "name": "v0.40.9",
-      "tag_name": "v0.40.9-rc1",
-      "body": "## What's Changed\r\n- llama.cpp update\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9-rc0",
+      "tag_name": "v0.40.9",
+      "body": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) with Phonon on Apple Silicon. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\r\n\r\n```sh\r\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\r\n```\r\n\r\n## Flint on Linux and Windows\r\n\r\n[Flint](https://ollama.com/library/flint) now runs on Linux and Windows as well as macOS.\r\n\r\n## Other improvements\r\n\r\n- Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output.\r\n- `ollama launch` now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings.\r\n- Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9",
       "published_at": "2026-10-22T01:33:10Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
       "kind": "release"
     },
     {
@@ -73,15 +199,6 @@
       "published_at": "2026-10-21T20:43:48Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "OpenCode Security Breach: Distillation Attack Hit Console Users With Linked AI Providers. How to Find OpenCode on Developer Machines and Respond - StepSecurity",
-      "tag_name": "StepSecurity",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-21T17:47:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IMDlSVTJTVTQzXzlNNS1zSXFBRm52eFRjcUw1ZWxZcW9NZlhOekM3QUw2WlhYeUttRFlqQWNPeUFPdVBvUENDWmJYT3kySFZnZ2xCZHB3TU5LaWZLeUhSZ1ZDLUJmc3JH?oc=5",
-      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -138,6 +255,15 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "Mistral Launches Voxtral 3 Voice Agent SDK, Enabling Real-Time Interaction in More Than 50 Languages - BigGo Finance",
+      "tag_name": "BigGo Finance",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-21T07:55:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PYUNHdjlwWlc1UkRCTWl6QnpKSmFGQmlaWkFnOWJGdm9lZ0RtOHBkY0NtaThPOEZ3ZV9lR1pKQmZDNEVfSk1DLUFUWENxaWVqQWlGMGJBYWRyZW54Vk1sWnhEZE93dEJqcFF4clF1N3l3NXl6a0E?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:zh",
       "name": "GoDaddy推出新API 助力AI智能体管理企业业务-AI基础设施 - 至顶网",
       "tag_name": "至顶网",
@@ -145,78 +271,6 @@
       "published_at": "2026-10-21T05:32:57Z",
       "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpQkExRXJoREF3c3FUUlFwZno0MkNBLUV1em5xTE9oQkpsSUhtTmNjNU9UNVNNUllxOWh4Y2pzTWNRRUJBVWExV3N1YlVhRVBhWUdMSTI1NmRwQWl5N0tlbjAzNno4ejBxV3F6RzBCdzdidw?oc=5",
       "kind": "news"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@1.0.8",
-      "tag_name": "@ai-sdk/zai@1.0.8",
-      "body": "### Patch Changes\n\n- 73a79d7: Defer validation schema construction until first use to reduce provider import time.\n- Updated dependencies [d7b0ffa]\n- Updated dependencies [9944649]\n- Updated dependencies [4146790]\n  - @ai-sdk/provider-utils@3.0.42\n  - @ai-sdk/openai-compatible@1.0.59",
-      "published_at": "2026-10-21T03:18:48Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%401.0.8",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.279",
-      "tag_name": "ai@5.0.279",
-      "body": "### Patch Changes\n\n- 11b886a: Stop forwarding buffered source stream parts after a transform calls `stopStream()`. This prevents text and errors from appearing after the transform emits its finish events.\n- Updated dependencies [d7b0ffa]\n- Updated dependencies [5a96038]\n- Updated dependencies [fd50c4d]\n- Updated dependencies [4146790]\n  - @ai-sdk/provider-utils@3.0.42\n  - @ai-sdk/gateway@2.0.170",
-      "published_at": "2026-10-21T03:16:27Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.279",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.37",
-      "tag_name": "@ai-sdk/zai@3.0.37",
-      "body": "### Patch Changes\n\n- 1a054af: Defer construction of provider validation schemas until first use to reduce package import time.\n- Updated dependencies [b089ce8]\n- Updated dependencies [39a776b]\n- Updated dependencies [e619655]\n  - @ai-sdk/provider-utils@5.0.65\n  - @ai-sdk/openai-compatible@3.0.75",
-      "published_at": "2026-10-21T02:23:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.37",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.27",
-      "tag_name": "@ai-sdk/xai@5.0.27",
-      "body": "### Patch Changes\n\n- 39a776b: Add a shared encodePathSegment helper and use it to encode provider-returned identifiers in credentialed follow-up request paths.\n- 9b368c2: Defer construction of provider validation schemas until first use to reduce package import time.\n- Updated dependencies [b089ce8]\n- Updated dependencies [39a776b]\n  - @ai-sdk/provider-utils@5.0.65",
-      "published_at": "2026-10-21T02:23:39Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.27",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@2.0.15",
-      "tag_name": "@ai-sdk/zai@2.0.15",
-      "body": "### Patch Changes\n\n- a9f2e0a: Defer validation schema construction until first use to reduce provider import time.\n- Updated dependencies [1183cc4]\n- Updated dependencies [81df039]\n- Updated dependencies [d726591]\n  - @ai-sdk/provider-utils@4.0.62\n  - @ai-sdk/openai-compatible@2.0.87",
-      "published_at": "2026-10-21T02:20:24Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.15",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@3.0.145",
-      "tag_name": "@ai-sdk/xai@3.0.145",
-      "body": "### Patch Changes\n\n- 0a044f8: Defer validation schema construction until first use to reduce provider import time.\n- d726591: Encode provider-returned identifiers in follow-up request paths with a shared encodePathSegment helper.\n- Updated dependencies [1183cc4]\n- Updated dependencies [81df039]\n- Updated dependencies [d726591]\n  - @ai-sdk/provider-utils@4.0.62\n  - @ai-sdk/openai-compatible@2.0.87",
-      "published_at": "2026-10-21T02:20:21Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.145",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.148",
-      "tag_name": "ai@7.0.148",
-      "body": "### Patch Changes\n\n- Updated dependencies [b089ce8]\n- Updated dependencies [39a776b]\n- Updated dependencies [f1b550e]\n  - @ai-sdk/provider-utils@5.0.65\n  - @ai-sdk/gateway@4.0.121",
-      "published_at": "2026-10-21T02:19:45Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.148",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.312",
-      "tag_name": "ai@6.0.312",
-      "body": "### Patch Changes\n\n- Updated dependencies [1183cc4]\n- Updated dependencies [ae8a8d4]\n- Updated dependencies [93e9720]\n- Updated dependencies [d726591]\n  - @ai-sdk/provider-utils@4.0.62\n  - @ai-sdk/gateway@3.0.219",
-      "published_at": "2026-10-21T02:17:36Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.312",
-      "kind": "release"
     },
     {
       "source": "news:zh",
@@ -265,16 +319,7 @@
     },
     {
       "source": "news:en",
-      "name": "More than 10 Million Developers Are Building on Cloudflare - Cloudflare",
-      "tag_name": "Cloudflare",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-20T15:02:02Z",
-      "html_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZHBIX1RGYUY0NU9mYzZoTGpCdmNmMFFQOFMwUFZHT3JOeTVTa25sUW40SGtFTUpUbDl1NXNfWnFaRE9TS3JnSmNyOUU3aS00cDZFYkcwNElqMEhzQk5DdXlPbmFveDJONUVEYy1wSDNxWUMxZVIwbDlFRUZzUy1hTFNodnlaT0taXzRqVUJ4WlRsWFM0aGo5cEVERUhSdGV5VkM0SzB6V1Q1aHJHUEFkM3hR?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Chrome DevTools 154 Adds AI Agent Controls [2026] - shattered.io",
+      "name": "Chrome DevTools 154: AI Agent Controls Explained [2026] - shattered.io",
       "tag_name": "shattered.io",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-20T02:41:32Z",
@@ -301,25 +346,7 @@
     },
     {
       "source": "news:en",
-      "name": "Leaked API Keys in LLMs: How AI Agents Expose Secrets - GitGuardian Blog",
-      "tag_name": "GitGuardian Blog",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-19T15:03:10Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mSV9FazQ4bG5obmdvWmtLdEpTczRocjYyblVlRXFnT05GaWs5dURZMkFCYVc4eVU3OWZhX0ZuOU0zazR0ZUNFSDRBb29QVV8wWHZXTXVMOFF4SDdHemc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed - About Amazon",
-      "tag_name": "About Amazon",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-19T13:06:25Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTGpCQnlRaUpuSnFURWFWVF9IbHRETVhEZkZXOFVVOG1KTWVxZzBvZHNENmFEX2F6SFlUZkRJdTVWc0ZHZWNDYXV3RDNwU0hmME1LcVBJTGJIVThZTmlmeTFneUdkb1UteVpYeUV3UlBaeEhnWXZyWFJ2TklyTDZjT0plUUR1cmRDTzBtZGozSkZKY0FSS0pMQS1WRQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Claude Agent SDK Setup: Sonnet 5.5 in 13 Steps [2026] - https://tech-insider.org/",
+      "name": "Claude Agent SDK Setup With Sonnet 5.5 [2026] - https://tech-insider.org/",
       "tag_name": "https://tech-insider.org/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-19T10:14:53Z",
@@ -327,17 +354,17 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "Claude要会「读心」了？Anthropic神秘新模型曝光 - 36Kr",
-      "tag_name": "36Kr",
+      "source": "news:en",
+      "name": "OpenCode Security Breach: Distillation Attack Hit Console Users With Linked AI Providers. How to Find OpenCode on Developer Machines and Respond - StepSecurity",
+      "tag_name": "StepSecurity",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-19T10:02:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43TTduRzlYUnB3MzJzZnlZNy1QaXhpWm1URlo3bmI3ZDQwYnFSZ0ZmUzBxNkE5YXZTNGc2eVc3VHo5aWhkWm11ZWQ1bnBIdw?oc=5",
+      "published_at": "2026-10-18T19:55:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IMDlSVTJTVTQzXzlNNS1zSXFBRm52eFRjcUw1ZWxZcW9NZlhOekM3QUw2WlhYeUttRFlqQWNPeUFPdVBvUENDWmJYT3kySFZnZ2xCZHB3TU5LaWZLeUhSZ1ZDLUJmc3JH?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "Termexo v0.10.14 发布：接入Pi Agent，改进 Agent 安装、更新与提醒- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "name": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-18T03:46:13Z",
@@ -379,6 +406,15 @@
       "published_at": "2026-10-17T20:34:04Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "DeepSeek releases AI model update, opens search APIs to all users - Yahoo Finance UK",
+      "tag_name": "Yahoo Finance UK",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-17T15:04:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU3RCeWpFc3hFVmN0eVVCOHZwRE9MandIZzN1UmtibXc3dFlfc3QxSU9DbExhbHEweW83YUFtc3NaMlhNM0p1U3BBYVQyQTkzS3dFMXEyX1o2d3hwY09oT0pPbE10NXJVWUo4MmlGTTRITVFROVJCaVdZX3lTQ3F0Z0JNTkVWNHd2?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -462,24 +498,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "GoDaddy Expands Developer Platform, Helping AI Agents and Developers Take Businesses from Built to Online - PR Newswire",
-      "tag_name": "PR Newswire",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T13:12:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOM1pNemZ3V2U3dUNwWmZHUzRCTGZka0FzSkZGRDlnZ2dHU21xSi1HWmN0Zmp3WHBNSjZZeVJHVG8zTnN2Z0NIRzBIS3pWWmZ4em4xcnNoYWoxTnRiUWxjMEhKZ1pybE5uS1BhQlcxZ1cxVl9MTjd6bXgxRUxoZ3owMDJROFZuQktLRjVzYkk0WWZNRXpROHhzNjdEemdOVmhnRDF6WGpVcDB3NkNZLWloemtfOVJBWml0c2hiby1sOHJrVF9IaWZTUFN2UHZwZjVhVWpVbkVtQnU4ZzRzekVqdnpfb3NkMFVKMlJ1dEM3MWRpUQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "AMD Ross，让嵌入式开发迎来“智能体AI”时刻 - 电子工程专辑",
-      "tag_name": "电子工程专辑",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-15T08:53:25Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ob3pGSGZYbzNETkM2NEx2enE2OGZwdU1nN2djdnppSVJKQVBieS11ZTJPLXdpRlhXSDIwY2lHV3lRNF9uOWxLSDBIT0NSN2g0dkJud0g5SnBNaFhB?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.5",
       "tag_name": "v0.40.5",
@@ -513,24 +531,6 @@
       "body": "Changes since langchain-openai==1.7.1\n\nrelease(openai): 1.7.2 (#41245)\nfix(openai): keep Responses stream items on one block when output_index drifts (#41121)",
       "published_at": "2026-10-14T13:51:15Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.31.0",
-      "tag_name": "v3.31.0",
-      "body": "## [3.31.0](https://github.com/openai/openai-python/compare/v3.30.0...v3.31.0) (2026-10-14)\n\n\n### Features\n\n* add browser and computer toolsets (1/4) ([#4073](https://github.com/openai/openai-python/issues/4073)) ([47b9e4e](https://github.com/openai/openai-python/commit/47b9e4e95e44b1e825dc4e0753967c65d0733445))",
-      "published_at": "2026-10-14T05:38:46Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain==1.4.5",
-      "tag_name": "langchain==1.4.5",
-      "body": "Changes since langchain==1.4.4\n\nrelease(langchain): 1.4.5 (#41226)\nfeat(langchain): accept `summarizer` in `SummarizationMiddleware` (#41225)",
-      "published_at": "2026-10-12T19:28:41Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
       "kind": "release"
     },
     {
