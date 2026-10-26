@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:13:46.166289Z",
+  "generated_at": "2026-10-26T06:22:00.758911Z",
   "source_count": 8,
   "items": [
     {
@@ -78,7 +78,7 @@
       "source": "ollama/ollama",
       "name": "v0.40.11",
       "tag_name": "v0.40.11",
-      "body": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\r\n\r\n```sh\r\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\r\n```\r\n\r\n## New Contributors\r\n* @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11-rc0",
+      "body": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\r\n\r\n```sh\r\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\r\n```\r\n\r\n## New Contributors\r\n* @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11",
       "published_at": "2026-10-24T00:30:13Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "kind": "release"
@@ -184,15 +184,6 @@
     },
     {
       "source": "news:zh",
-      "name": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制 - InfoQ-CN",
-      "tag_name": "InfoQ-CN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-23T10:05:37Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NS0ljTzJBZmJlWUd1RE10ZWJLZ0lrZGlQaDdrSFdjNnBlZjZIZDNQbENBX3JoODFIZEdRNVlNRVBCX1pxUXJkTW90dEotbFFubHl1dWdINFF5RGl2Q0E?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "AI WAVE｜智元发布Genie Studio 2.0，打通机器人“上岗”最后一公里 - 雷科技",
       "tag_name": "雷科技",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -216,15 +207,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-23T00:40:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85QzIxSzZodWdmRmcyT0ZEbjVZNTFxUUFtdzV4bk1xb1g0OC1xV1QtbFFGOGV1TnY4Z2tRY3JPU3R5US02T1kwOA?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "VS Code 1.137 Puts AI Agents in Dev Containers [2026] - shattered.io",
-      "tag_name": "shattered.io",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-22T20:41:48Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nUE9HMjVGN01jTEhTVWVlZXBFTDN4SFpjS01fTE5TbEtaUnRRT29pMXd6OTlwcTRKcG5FS1czNTN5X2FIWThNRnN0ajZieDdrcFZFMjBsblprZS1FeTdIclBzOVMzMjFhV0VmMmVsNVBEc2FK?oc=5",
       "kind": "news"
     },
     {
@@ -252,15 +234,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-22T17:10:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcHdyY20tOHJ5VzlFMkFGYjRmOFBuX2RWSnpDU3hTVkVWY1pSLXpwR0t3YkJXUE1mMGZFc3UtNHN5QnozX1lxVDd3S2VCb01qbDI4dmtCWUxkbnVESWIwcGh6TjlQR0pLOWxWR2xlMGhOVmdsZWhjR1ZDOW1BZUF4eEE1cDNkYUZZZkJpbkNzclVTZExDV0V4ZnJNMHlnOTE3Z1BGMmFfUUFrTnNEVWtDLXlqN2lRQjdRN21Vc1ZaRGZJVzZEcld0T3FUc1hGcFFjNWpDQ1RkS2VFQS1lS0NrX195TQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "OpenCode AI Coding Tool Exposes API Keys in Suspected Distillation Attack, Triggering Unauthorized Charges - CPO Magazine",
-      "tag_name": "CPO Magazine",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-22T16:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQTB4OVdDcFFlM25teXZsSTZjTXBpMGZLdkxrUkotX2ZXc3diTnAtdzZTZ05uYmNvNERhQnFIOE5SMTg3aDVVY1NraXRCbEJQM3BCclEtTml3ZVFWSW50RmJGR1hUeElUM21ka3p1UVFzN1JPOE1lTVFrRU5fR1cyUGJrUlhsUjdBMmlrWTFWR2FNY2gzY1hJQUxiU1JlbEFoVmdZVkVMOFdXSnpGZTlxTEdmdnNabXJZdHV2dDFydDc2dmdreVoxU2RQRnlNRnI2cHhGeGdRWEF5aVN2VHA5VTlyMA?oc=5",
       "kind": "news"
     },
     {
@@ -327,6 +300,15 @@
       "kind": "release"
     },
     {
+      "source": "news:zh",
+      "name": "黑客携AI批量攻击！PHP现严重漏洞，多国政府网站紧急下线 - 第一财经",
+      "tag_name": "第一财经",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-22T00:18:30Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmS0RGY0hHWm5yNTVuWVNTTHFPckJUWjdVd3lEQUNkdk1HVlY3ZDBsNkpRU2huOUVwWUNxeXRaTTJtRUtLZTQ2UHlTQ2k1MjU2U1dB?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v2.1.0",
       "tag_name": "v2.1.0",
@@ -381,6 +363,15 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-21T16:56:20Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXI4MDQ5UDdXZDNuUUpwYkVwY3RYM05lZzhqcFhlb0NfeDVacEFfYkNQWkRuNDZPM05pRndYcjZ2QXBxeHA1ZnpaSVZjNEhXRnZvdkhTZTR3aFppbVlxUXJpeHRhSXRvV0R1VFRuUmhNeTdmdkJ5ZVNmSGFmWlNPbjZ3?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "ollama/ollama",
       "name": "v0.40.8",
       "tag_name": "v0.40.8",
@@ -417,21 +408,21 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Mistral Launches Voxtral 3 Voice Agent SDK, Enabling Real-Time Interaction in More Than 50 Languages - BigGo Finance",
-      "tag_name": "BigGo Finance",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-21T07:55:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PYUNHdjlwWlc1UkRCTWl6QnpKSmFGQmlaWkFnOWJGdm9lZ0RtOHBkY0NtaThPOEZ3ZV9lR1pKQmZDNEVfSk1DLUFUWENxaWVqQWlGMGJBYWRyZW54Vk1sWnhEZE93dEJqcFF4clF1N3l3NXl6a0E?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
       "name": "GoDaddy推出新API 助力AI智能体管理企业业务-AI基础设施 - 至顶网",
       "tag_name": "至顶网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-21T05:32:57Z",
       "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpQkExRXJoREF3c3FUUlFwZno0MkNBLUV1em5xTE9oQkpsSUhtTmNjNU9UNVNNUllxOWh4Y2pzTWNRRUJBVWExV3N1YlVhRVBhWUdMSTI1NmRwQWl5N0tlbjAzNno4ejBxV3F6RzBCdzdidw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个 Agent 国模第一 - InfoQ-CN",
+      "tag_name": "InfoQ-CN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-21T00:02:54Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPdU9XcVN5UTkyWV9SaWg0RjBWakhEdG1pdklRT1BNRHl5SVNSbnFLZVVJMTRaSEc5bjJlalpaZDJaaEpENWhfUENZM1dwa1FuNF9URjhDXy00X0xvbkE?oc=5",
       "kind": "news"
     },
     {
@@ -462,6 +453,24 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "Zoom broadens its developer platform with new AI Services, MCP expansion, and a unified platform studio - Zoom",
+      "tag_name": "Zoom",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-20T16:43:03Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ga181Y2JoME56TUtJS2hpT3B1WTMyWGRydTVHeXk1cUJsZTlNRndFZzNhdlE2dm9MWG5UUUlSalNzWTZqV2ZyVVRpQUJhaWJMNUk4OVZTTS0yOWc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "VS Code 1.137 Puts AI Agents in Dev Containers [2026] - shattered.io",
+      "tag_name": "shattered.io",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-20T12:31:32Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nUE9HMjVGN01jTEhTVWVlZXBFTDN4SFpjS01fTE5TbEtaUnRRT29pMXd6OTlwcTRKcG5FS1czNTN5X2FIWThNRnN0ajZieDdrcFZFMjBsblprZS1FeTdIclBzOVMzMjFhV0VmMmVsNVBEc2FK?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:zh",
       "name": "Kairoa v1.1.27 发布：REST API 客户端集合管理、响应面板与查询参数上新- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
@@ -472,20 +481,11 @@
     },
     {
       "source": "news:zh",
-      "name": "中信建投：国产模型迭代推动需求增长 关注企业级AI应用、算力服务等 - 凤凰网",
-      "tag_name": "凤凰网",
+      "name": "Anthropic被曝开发新模型，重点提升模糊指令理解能力；英伟达官宣重大突破：超8000块GPU加持，创纪录量子容错计算模拟所需物理比特降九成｜全球科技早参 - https://www.mrjjxw.com/",
+      "tag_name": "https://www.mrjjxw.com/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-20T00:07:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5WeHdfb1F1Z19KUUZ0el9HcEg5RHNqNDVpVVctWl8tTVptVG0xSk54bG9IZU1COF90eFVkaHRkcXJTTWRia3dCSFRJYTY?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Advancing coding in low‑resource programming languages - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-19T22:14:32Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NRVhFQTROZDktT3lCTEV5S3RndURZTlJISmctaThYa2t3dHJoWDNVODBSS2pFa1VrY1FGXzk4S1RncEt4b3hvU1BKbWRYdFB5U21EZmxaTGtEdGluSlpmcnRlVzUxRVdsWnY4dw?oc=5",
+      "published_at": "2026-10-19T23:39:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IOTNJSl9ON3k0UnJKQUtqNDI3T0hOUVc4VnNrb0dwQko2bk5BNTlUTUJiNDdBbXBOdW45LWlrWW1nbTl6djFPUWszaWNDcnpfWk5JTzhkZllBemh3a3ZjaE5MdWJKUQ?oc=5",
       "kind": "news"
     },
     {
@@ -499,20 +499,20 @@
     },
     {
       "source": "news:en",
+      "name": "Cloudflare’s AI Workspace Platform Partners with Leading Applications and Deployment Teams to Make AI Productive in the Enterprise - Cloudflare",
+      "tag_name": "Cloudflare",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-19T15:05:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQOEczQW9mVlRZcEhLdGg0NHRzdVQwNFNIZzVRdTlzVzlya0Y5Qk93U3p5bkE1c0pLbG9oUVZZR2tNdEFrNEw1aXJ4blpYMklpblpfaXRDT0VQN05GWTNROGZNMURpMllZQmxvS1dfS21CRmJONmNuQWU5dENhUnRCbFQ2UC1DeW5RZTN6MnFaWHgxVEtoRGFxUno1MWRHMnhqZUQ2T3RQd3g2dzdIRi12RUhSODF6My0tdkZ0ZHpDN1o3UGoyU3hVWHBrblRQTGltZkFhdTZnUmx0dmlFTUVSSE9zOGJTZlBBZmpuNjQtVEZNTERXVTAzQ3hCLWxpUHZ6elk5a3NSSjNQbFl6YjBRTw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
       "name": "Claude Agent SDK Setup With Sonnet 5.5 [2026] - https://tech-insider.org/",
       "tag_name": "https://tech-insider.org/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-19T10:14:53Z",
       "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KZWhranROczB2NjVYQkgyTXRpNFp3UXAzMzg3cTZkT051WDN1ME5RYWRpN29mcDJtdWdqaTJUOEpyU0pKSnh2Tm1hbFMyRlV0TmdkcUJISXpmaWRyUDdyQ3VSaGpZYW5HSG1iYkdfZ3BYdw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Claude要会「读心」了？Anthropic神秘新模型曝光 - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-19T10:02:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43TTduRzlYUnB3MzJzZnlZNy1QaXhpWm1URlo3bmI3ZDQwYnFSZ0ZmUzBxNkE5YXZTNGc2eVc3VHo5aWhkWm11ZWQ1bnBIdw?oc=5",
       "kind": "news"
     },
     {
