@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-31T07:03:37.572396Z",
+  "generated_at": "2026-11-01T07:37:26.753270Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "11 小时影响约 5000 开发者：AI 编程工具 Cursor 官方商城出现恶意 Claude Code 插件 - 新浪财经",
+      "tag_name": "新浪财经",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-31T05:36:34Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lSzZhUVA3M3dpZ1JuQUxoM1o3Z3ZqcDlGb1RWUnlPc1ZkeENJQnJUQVJkZjB1WktPZXVwVTFZeE9wRnZiSE52dnI5ZktGSzhodHFyd3RSQi1jSlYwUnJjckd3bXgtbFlhYzFhRDNyZ1BrR25Rb0FpbmU1VmM2R1k?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "牵手阿里千问，苹果智能即将登陆中国市场 迟到两年多，能否借AI撬动换机需求？ - https://www.mrjjxw.com/",
+      "tag_name": "https://www.mrjjxw.com/",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-31T02:59:59Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wVFN4WDJPVnVuM1MtWFl1YVdXUlRtU1NWREZzaGJaZk9yYlRzT3UtaEFNT3BqN0d5QnZQbVRBSXdEUGxURk1yclNjVUxDYkcxN3Z5Q3U2ZW5FRl95Z1hwVDJNWE5LZw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "openai/openai-python",
       "name": "v3.42.0",
@@ -57,6 +75,15 @@
       "kind": "release"
     },
     {
+      "source": "news:zh",
+      "name": "爱游戏登录网页入口2026技术发布全梳理：模型矩阵、Agent平台与AI基础设施全面升级 - 日照新闻网",
+      "tag_name": "日照新闻网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-30T19:01:29Z",
+      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93NG5LMmEwUGZMWk9FVGs4dGdVQ193dnlPYUh5cmYwT2NHOHFLSkJQT2RRQ2s3azFmMXM1eVZsS3RtS2FwZnNfbjktT3hOUkRyb0ZVbTZaVms5R2JCYUNOUjBmbFNRV3VGTmt1TlZvYw?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "vercel/ai",
       "name": "@ai-sdk/zai@3.0.44",
       "tag_name": "@ai-sdk/zai@3.0.44",
@@ -93,6 +120,15 @@
       "kind": "news"
     },
     {
+      "source": "news:zh",
+      "name": "NET 11 第 2 个候选版本发布，带来生产环境部署许可以及针对库、F#、MAUI 和 WinForms 的更新 - InfoQ.cn",
+      "tag_name": "InfoQ.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-30T08:31:53Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aLTRIUFpyVXBrSTBYUmRUcUFTN1JqaUVjMWZlSXRSWmNRanlpSmJvdkNhd1BJZXBPVWMtNVI2U1k0aUpwbm1rNXFaWVJMMjNBMEEwd05pVTlHcGZ4dkE?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.7.3",
       "tag_name": "langchain-core==1.7.3",
@@ -115,7 +151,7 @@
       "name": "模型服务化三条链：资源、运行与调用 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T14:12:17Z",
+      "published_at": "2026-10-29T16:59:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IODByNW90TjNpM1dzS3dtS3NSUHRKRDJ1TFljbjNWOVhBZGx1ZkxaTi1MTmNqbm9NakczUnVwRmpYZ0VVbFNOMC1DOA?oc=5",
       "kind": "news"
     },
@@ -130,20 +166,20 @@
     },
     {
       "source": "news:en",
-      "name": "Akai Backs Vibe-Coded MPC Mods on a 37-Key Sampler [2026] - https://tech-insider.org/",
-      "tag_name": "https://tech-insider.org/",
+      "name": "Lightspeed Expands Lightspeed Connect API With AI-Ready Developer Resources and New Trading Functionality - Yahoo Finance",
+      "tag_name": "Yahoo Finance",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T07:05:15Z",
-      "html_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdWhLbTRUZHRvZ2FlQXVZcUNTaVZpQ3VrMlRRUFBZbkFtN19ORWdaRTF4MThDMkNyb0llX3hxR2htV2lGd2l1SVlWelVWa0lhSW14QklQaEpOb1Nvb2RnQi1vLWp4NVZHQkE1ajA4VFI4TkZGLUJNVTNmMXZwNHhYOXZsRlQ?oc=5",
+      "published_at": "2026-10-29T13:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaTZHM1NRak44V2FRaEhEdDcyRFJmZnRLTlVhU1JtQ0ZNUkxBa1pyZUNNeVNTYTB0aFVnSmU0YnZuQWo3NmJtOHpidGg2M1hWWGhLUkhTQ3pNNUxDYXRjQ3NBZW9CeXN2bHAyM1g4bnFmSUxmRFdKdTlCRkV3RGsxdlFhUDRfX011d1RjOWFGWGFlWGlqOHEtU1NqZS0xMkFFLUJrUVJkamg?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "ONLYOFFICE 10.0发布：文档编辑与协作平台迎来AI工具及多项升级_行业动态 - 投资界",
-      "tag_name": "投资界",
+      "source": "news:en",
+      "name": "Akai MPC Sample Key: 37 Keys, Open Firmware [2026] - shattered.io",
+      "tag_name": "shattered.io",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T03:16:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02cXVqUEJrcEp3QW5LNjB2c3IwVFlhc25jaFA4YjExQnRDV1FrMTUzakhIWHhDc2JvWXR6Vm82SWlaRlpPTjhBbzZKS2Jra0ViSjJOSy1Tdlg?oc=5",
+      "published_at": "2026-10-29T07:15:36Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIZ1ZOemw3azduME54a2tpQ0d1S09ySEluVWVvMEVqUFVsZUFXZXg0WVBwSDVkNlhMN3dFQlR2UU9nMFdWZjM1OW5fR0xWWnRYYkVHYkduZGk4Mzc4YVdZZVdJYVBkYVlJQU96My1GQ3RHN3hxc3FTaEdNaU9LbEk?oc=5",
       "kind": "news"
     },
     {
@@ -152,16 +188,7 @@
       "tag_name": "文学城",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-29T02:48:15Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2THowREdPemZFNjBQZGc5MzhTOG9WajY1dVUwU0hVMncyaDRCajQ4dFV5emZNRldocFZWal9FVEtiRTI0eHN5QV8wbTUtcFVUUVhNd1lOYWU5SnNWejdVdDhfOW9yMU5k?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "谷歌开放Gemini搜索第三方接入 推出AI开发工具与XR眼镜 - 亿邦动力网",
-      "tag_name": "亿邦动力网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T01:29:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05eWJldWoyOWJHd1hWMGRfMFhTak5XZ0szVzZTSU5iMC1YVlNJWk1Fc3h3TGZvcmdQYWtMNURtVzhFSmJURS1ieWFGYXh5TlA4OVZtVFVR?oc=5",
+      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2hMcWNEaWVDY1BlV0xNRGRBSVZ6QXoycXRtNDRHYzBLSWpwS2pCZEF3QkVVaXM4LVFKNGFmTUFNaC1DUjRTVlNlV0I0SmUyOTJyTXVvMGlhWDFZYWtuZ0dlZkpPSVlUZDVKYm5CZ1V3UGFfSFlYTXpZU0w3WlNOMQ?oc=5",
       "kind": "news"
     },
     {
@@ -183,15 +210,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Meta's developer MCP gains six tools that let AI agents create apps - PPC Land",
-      "tag_name": "PPC Land",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T21:34:10Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcjFzZXRjSkdKR3ljSjFhSTFjaHFybE0zeFYzOGhDTWRENmR5SWxoQkpaYWNacE5pLXlleGpCZ0l2dFdQeWloc3lvcFUwLXdUVzBaS2d6TVZDVHhPUTk5MXM2OVJWMDJDcWdFeWU0NTYyaEREb0dsR3N1R2E4MC1LY0l1RVBJd1hQV2R1cA?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.13",
       "tag_name": "v0.40.13",
@@ -199,6 +217,42 @@
       "published_at": "2026-10-28T19:55:04Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "昨夜今晨：必发指数官网app宣布数据服务版本更新，端侧AI与终端新品同步推进 - 中财网",
+      "tag_name": "中财网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-28T19:02:46Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Id3dtLW8tYU1RWU9KNF8xSkREaTJadW5XNTF0S0JKWEh5TXcwTW9vMjNTeVh0LUQ4SUZxZEhPQmllV2pNWmZxdDhhZXJZQkVfTF9z?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "星空体育app昨夜今晨科技汇总：AI终端新品密集发布，算力价格战与监管回应同台上演 - 大武夷新闻网",
+      "tag_name": "大武夷新闻网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-28T19:00:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kRGwyY0tBTkV4NDZWbTlrb09mXzFtcllaaVYxOW9FaHRvVDdwWkxCZG41NEIwZk1WNzFfQVRLOFV0ZTRPN2RxcmpCYUFna01sczBvcUZLNW45TmU3N2lieUducEFObHYyYl9td3ZSSV8?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Solana Ships New Validator and SDK Releases After Alpenglow Upgrade - TradingView",
+      "tag_name": "TradingView",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-28T18:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa2pmYV9KcmV6N2VFRi16blYwandocmIwZGJSeF9aTE55SzRYbXVYSVdvNmtVU3p0d1pFeEI0Y3BVNkp4LWRaQ2tEeHNvcjZ3dHh2MVJDWTYtYUFEQ0I3V0RFOXRtWWcxbmFGMkJCLTVWdnUtdVhXeE9vM1pzbG54TjhEeV96YWpqYi00MTE1MlFCT1U2Yy15aXJjUVFYRWNnd0twOEthanY3LVNBaldqbnNZbE9wZC1LNmpKNUMyQXh4Qkk?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "PICO Put Its XR SDK Behind Ten AI Coding Assistants, and the Whole Install Is One npm Line - https://vr.org/",
+      "tag_name": "https://vr.org/",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-28T17:21:28Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHlQUWYyWEo4WkcySjMySUJhUTFxbWNmZkJTeE1LOG9XajNOSXlaN2FGNzlrSHI0aU83YlNGaFJFZGxRRmZncDRzY3lGTlVBY1J5OVBZWXBycVYzVTZlY0hiSHo1MW1tc1J4T0pPZ2RMRHNYbG9xYVNTU0k1amV5OUVrdEo5dThsa3ZFVEJR?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:en",
@@ -219,15 +273,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Introducing the Slack Code API: Your agents, your team, one code channel - Slack",
-      "tag_name": "Slack",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T16:03:18Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zTWFHa0g5VGxBcjNuYzJjSjVORjlpTmltVmpubDJzZ25ZNzVOMEp6M2Z6YXRhRXE5anlGZ0tYZllBal9nY043bWoyeDgwY0hXSFJWSENhTlR2UXc1?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-core==1.7.1",
       "tag_name": "langchain-core==1.7.1",
@@ -238,11 +283,11 @@
     },
     {
       "source": "news:en",
-      "name": "The 10 Best iPhone Duo Apps That Actually Use the Fold - Fello AI",
-      "tag_name": "Fello AI",
+      "name": "Slack competitor Atlassian Stride releases tools for developers - TechTarget",
+      "tag_name": "TechTarget",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T10:07:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE05bm44cy1QdWY4cHl0V0prZXcxT1pUNlI4M1p3dmMyVWtySkM3SkdpREFzNXRZWGVJR1o5dzJXN2lsQW00cUgwc3QtQ1g?oc=5",
+      "published_at": "2026-10-28T05:45:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenhINE9UVzZIQlhtelhyOVN5LVRpMlltZWJQTjFFWEx2U2NVdWFfSGxyaUoyVWI4aTh3YmR2U2pvd3VhbWZBbC1mQ0lRb2NRQkVLY2loOHRIWkpfMFRkSFFkSXNQWW9jTE1hUVRFYWVtSVd1b01SYy1yY1NaN1JBenl4QWhreXpGX1AydHF1Z0EwdHg3TTRHV0hzdU02RE11SXMteEFn?oc=5",
       "kind": "news"
     },
     {
@@ -253,15 +298,6 @@
       "published_at": "2026-10-27T23:48:24Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "盈球体育app 2026品牌发布会：“让每一场比赛更近一步”，以AI与体验重构体育数字服务 - 秦皇岛新闻",
-      "tag_name": "秦皇岛新闻",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T20:31:37Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Rdi1YRzdDemI4dXoteTdCRm1paU4xelBhOXZ6V1d6d1RGSmVCN1pMaEI2aHVwSDFWMDRlUWY3Z3Jic2RiUW9HQk95UVNTeG9kQ3dOejhhSW04THhTN0UtVTNMMlpaNWs?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:en",
@@ -283,29 +319,29 @@
     },
     {
       "source": "news:zh",
-      "name": "Muse之后，灵光2.0让Personal Agent接手中国式日常 - 雷峰网",
-      "tag_name": "雷峰网",
+      "name": "OpenAI GPT-6.1 Terra发布AI开始真正操作电脑，使用成本也降了- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T09:56:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vdkV6RGNveGVGOE4xbm1wZzJWVkNQSmpWR051OXJhc3hOVUZEcDhwV052ZWNVbnlnMklTdmtvNFRHTGFQaDR0bmlZaWVVQnZ2WHBvMXBKZDBQb3ZZWnpEQ2dmdlUtZHNXMlNZOVg0Wi1nc3RT?oc=5",
+      "published_at": "2026-10-27T10:02:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYUTRTU19sTW5ESzFEYWk4XzdtSmlmQVRSRjlOa0wyVkktVkNzbW8zUjVvekZ5Q05tS3BlNXpDR2pmYmRvZnNRWGdNSQ?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "TechXchange 2026：从业者直面 AI、安全与数据挑战 - IBM",
-      "tag_name": "IBM",
+      "name": "Azure Container Apps Express 在新的通用沙箱层上正式发布 - InfoQ.cn",
+      "tag_name": "InfoQ.cn",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T07:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50aC1NV0I1UUdSNDd5emxWR0NYZWpSTnVNSWVFTlo3MXQ3Z1g4VG5VNksxbUdFRW9GT3MxOVhMaHB1MnZGQTZsV0M5eHRkV2xYMU5Xb2ktby0zVHN0RUI3V0pDVk1JRmNQQXBicHM3eDY?oc=5",
+      "published_at": "2026-10-27T09:20:44Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qS3IweXJZWHY1MWxDSEJ0cm4xX0Q0UlZsNzVCR0gycHBQaTEzbzVtVllsRVNONXp0dHV0cnBiVEN6VlRIYWNJZmpFNUxuZUh5SjlUNWQ0c3hlUkZMQ3c?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Two 18-Year-Olds From India Raise $1.3M From Y Combinator To Pioneer ‘Agent Relations’ and Take On AI SEO Incumbents - Detroit Free Press",
-      "tag_name": "Detroit Free Press",
+      "source": "news:zh",
+      "name": "聚焦AI构建与产业落地 长沙举办1024程序员日活动 - 人民网",
+      "tag_name": "人民网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T07:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOV09UZHJ1eDQ3NnliaTRUS0h2U3h1Y2tMM3FIZy1qaU02Z2Zqc1NzWXJncjdKUHd5a2VsRFVrUjJvZkNRZHU5QzBfXzFYZ0pmWFVDRU5ZWFB5MXdfdVc5cmN2T0xUbTByR3FkdGozU2RXS25hZ2tRV05zM3ZlN2JuR1dsRkpwVFZKaTViLUZ2VlJiYkxMYUdBNzY1RHBRSlBtQlZSdWNhWmxZRE9xREZvbkZjOE9mZE5mWFhWdzl5UVlwNVpGd1VpSTBndHNaeHpPQnYwMUEwdk9lV1p4UVdNcEYxeUJXWDFhREI5TVhKc3ktQU44ekE?oc=5",
+      "published_at": "2026-10-27T08:04:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Tb3YwTjFEUEZEclBLLTJvRkFxOW9vaGJlRlY1Y0QxZ0o4QjFzUzRjUE1GWDV4OUVxQlduZzlTVlZwN3oxUWZ2dkw0eGlQa0EzYmV0alRnaVdoU1ZFUzlVWDBFQllVV3BYeEE?oc=5",
       "kind": "news"
     },
     {
@@ -327,15 +363,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "乐健体育App发布2026大版本：12项AI能力落地，乐健体育app破解版风险被重点提示 - 消费日报网",
-      "tag_name": "消费日报网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T22:12:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kZXY0OUpNWlVGTzN6LVUzbTVtbHZGMUJpVlpycXBZWFVMN3lJbzh5V1ZzVFdhbjR3N0FqRVRrakNLTmFjbnFUQWIwXy1Uc0ZCemo4TXhkZ0EtTVlENDg5MGRQSzlRckE?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.39.0",
       "tag_name": "v3.39.0",
@@ -355,47 +382,20 @@
     },
     {
       "source": "news:en",
-      "name": "Claude Token Limit per Day: Claude Limits Explained (2026) - SitePoint",
-      "tag_name": "SitePoint",
+      "name": "Recursive Flint Puts a Fast Agentic Coding Model on Developers’ Laptops - DevOps.com",
+      "tag_name": "DevOps.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T16:28:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MV0pUb3RGVXRtMHhnUEZILUFON0RoZ01zQk9DZXNBTGRsT1JHcUlOSjM5Qlo2YmctNDdNclRRdjF1TVRCSjlNR085SmRGQUFQWjRtOWNtV3RyMlBGNVpxMU40NGdaMko2QjhoRA?oc=5",
+      "published_at": "2026-10-26T09:24:40Z",
+      "html_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXV3YzdLLUNGRG1VdlQ5Q2JVSEFPc2tENDlzM2J6Y1RvaHhBbmxacGJlZ2UteUFrVWVMWllWRHM0YXQtdlJORWhOb1lvZTFPVVF6QzJVUUJzNnh3TWxxZlFjMnJMdEpmYzB6WEs3U25SLUVqcjgzVVJxZHI3b3ptaWtQdmw1eGVSNDBQdmF3SDVGckU?oc=5",
       "kind": "news"
     },
     {
       "source": "news:en",
-      "name": "Marketstack Addresses Stock Price Attribution Challenges in AI Chatbot Responses - USA Today",
-      "tag_name": "USA Today",
+      "name": "Where's the bug? AI pinpoints and explains flaws in smart contracts - EurekAlert!",
+      "tag_name": "EurekAlert!",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T12:54:49Z",
-      "html_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ2dHSlhSdG9qVDVVclNTSHFRaWFiQ1BQeXZOLWppdnY2SlZJYnpGM2N5V0xNMjc4QkRkajlNYnBnU3VGMG5fa0p0ckZQTHM5Z21BZll3eTVBLUtTUnk3aVBWSzcxc1UzOURQME5LR0N2cE5iQjVQUFdld1o2TG0zcmk5cTkzWV9mX2RGTGlGT1lRWXdySEFiTUdwTFdWM0UxR0c3ems0YUdfcDE4WWZ5VHpmZWJaSGM1VnQ0Q0J1WV9vX0s1ZGpnM2Q0TEg?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "模型好选，搜索难做：一个投研 Agent 的两年开发历程 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T07:01:14Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fbENxaEJoSlgwVHliZjdPbzRtQzJycm5kckZia3FXVFpvN1k1YkVWLXZSejZhM3lNTm5KNXBJeWpkSkpMWEdoS2tDVWZWRnA0VWo2WkdBY3d5RTFHbHc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "kaiyun中国官方：多模态推理引擎发布，为实时AI应用提供新架构选择 - 潮州日报",
-      "tag_name": "潮州日报",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-24T19:40:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjM1J0bDVkRjg5aWNwdTlSQ1VzZmU5VHhhcWRnMUdTeHBmTlF5LS0yekUzNjMwQ2l5d3JfcjlnZFhCeDNHa0JOZHhUcS1wUXZBdEw2bDVjTFFrQnVVdWxJUWh5ZWFsSW5rc2laY0gzcmcxZw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Anthropic“杀”进金融圈，联创称2028年底AI能自我进化 - 第一财经",
-      "tag_name": "第一财经",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-24T13:49:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rampZYm5JTjhpX29lVXI2dG9MeUlnVDlwNzQ3ZVRTYkQ4ZGJoaFRuTkJUMmt6U1ZOOG1ZeVAySnBpcjFxcFlhbmhab1RDZWc3cUdB?oc=5",
+      "published_at": "2026-10-26T06:48:35Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbE0wWFFzUmtodno1WV9la19iN3N0MVJQXzBNTi1BU0tXN3U4eEtyUWRXVVl4eFE1NXZwS0JRYjBQVTZPQUh5SjE5Q1pjbjBjbjNlVWtFZ096ZHhI?oc=5",
       "kind": "news"
     },
     {
