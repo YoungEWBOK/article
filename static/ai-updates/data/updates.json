@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-11-01T07:37:26.753270Z",
+  "generated_at": "2026-11-02T07:44:53.250079Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:en",
+      "name": "Byoky: Open-source wallet for AI API keys - Help Net Security",
+      "tag_name": "Help Net Security",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-02T06:00:33Z",
+      "html_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOHVoRTU3NjZ1TUowTHFSOW9OSzhaRUx2Q29FemZoaXhKRnVTQTRvT3hwS1lCZ3VrVV8weFREaHVyZDBBQWg2d29ibHVXeTdnSkFaRWxLc0ZxSnBDU05YdVg0cVgxNkt4dVlERHU5a3ByQk5xbXZWcXgyWHVBckdfQWNnUDFQQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.42.1",
+      "tag_name": "v3.42.1",
+      "body": "## [3.42.1](https://github.com/openai/openai-python/compare/v3.42.0...v3.42.1) (2026-11-01)\n\n\n### Bug Fixes\n\n* **api:** preserve Responses WebSocket connection behavior ([#4221](https://github.com/openai/openai-python/issues/4221)) ([38075d8](https://github.com/openai/openai-python/commit/38075d8c6d90ba03557e991eb75991e65cfee88b))\n* **realtime:** validate beta WebSocket authentication profiles ([#4218](https://github.com/openai/openai-python/issues/4218)) ([3622a97](https://github.com/openai/openai-python/commit/3622a973d5db2adb26e6ef5c7dd8626b6af075ed))\n\n\n### Refactors\n\n* **websocket:** add SDK-owned Responses policy helpers ([#4219](https://github.com/openai/openai-python/issues/4219)) ([83ed269](https://github.com/openai/openai-python/commit/83ed2699a0b591e544325da40cffc3862f62abe6))",
+      "published_at": "2026-11-01T20:56:19Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "DeepSeek 最新发布 - 虎嗅网",
+      "tag_name": "虎嗅网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-01T07:55:11Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CR0RnLWZvbTE2eV84WENSYnRYSWU1V25lODVSM1Q1bURJbG9YZXk1WVlZdkt4QkJJYnJfb0haTVNDVnlraktFdHd3eHhIZHhn?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:zh",
       "name": "11 小时影响约 5000 开发者：AI 编程工具 Cursor 官方商城出现恶意 Claude Code 插件 - 新浪财经",
@@ -9,15 +36,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-31T05:36:34Z",
       "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lSzZhUVA3M3dpZ1JuQUxoM1o3Z3ZqcDlGb1RWUnlPc1ZkeENJQnJUQVJkZjB1WktPZXVwVTFZeE9wRnZiSE52dnI5ZktGSzhodHFyd3RSQi1jSlYwUnJjckd3bXgtbFlhYzFhRDNyZ1BrR25Rb0FpbmU1VmM2R1k?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "牵手阿里千问，苹果智能即将登陆中国市场 迟到两年多，能否借AI撬动换机需求？ - https://www.mrjjxw.com/",
-      "tag_name": "https://www.mrjjxw.com/",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-31T02:59:59Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wVFN4WDJPVnVuM1MtWFl1YVdXUlRtU1NWREZzaGJaZk9yYlRzT3UtaEFNT3BqN0d5QnZQbVRBSXdEUGxURk1yclNjVUxDYkcxN3Z5Q3U2ZW5FRl95Z1hwVDJNWE5LZw?oc=5",
       "kind": "news"
     },
     {
@@ -75,15 +93,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "爱游戏登录网页入口2026技术发布全梳理：模型矩阵、Agent平台与AI基础设施全面升级 - 日照新闻网",
-      "tag_name": "日照新闻网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-30T19:01:29Z",
-      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93NG5LMmEwUGZMWk9FVGs4dGdVQ193dnlPYUh5cmYwT2NHOHFLSkJQT2RRQ2s3azFmMXM1eVZsS3RtS2FwZnNfbjktT3hOUkRyb0ZVbTZaVms5R2JCYUNOUjBmbFNRV3VGTmt1TlZvYw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "vercel/ai",
       "name": "@ai-sdk/zai@3.0.44",
       "tag_name": "@ai-sdk/zai@3.0.44",
@@ -109,6 +118,15 @@
       "published_at": "2026-10-30T15:39:40Z",
       "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.158",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": ":fire::fire:开源接口平台 v6.3.1 发布，新增超时时间 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-30T15:28:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2cnZWWk4zZ3lxLVNhNDhRSDVsd0JxVjRuaTJrUUI4UXNrLUtvVHRuYXNCUmlkOHFNZ3JuQTJMOURmS1QzZWxPY1Rlaw?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:en",
@@ -148,20 +166,38 @@
     },
     {
       "source": "news:zh",
-      "name": "模型服务化三条链：资源、运行与调用 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "昨夜今晨：云开体育app手机下载端侧AI推理框架开源云开体育app手机下载联合实验室发布低功耗芯片验证数据 - CAIJING.COM.CN",
+      "tag_name": "CAIJING.COM.CN",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T16:59:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IODByNW90TjNpM1dzS3dtS3NSUHRKRDJ1TFljbjNWOVhBZGx1ZkxaTi1MTmNqbm9NakczUnVwRmpYZ0VVbFNOMC1DOA?oc=5",
+      "published_at": "2026-10-29T16:17:50Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QZ1pKV3BWZU5OaTFsd3JmMjhkdlF1S1BRd3M2aFN4WFoydFd5QjVRN2hmWXhvNDF4NjJCck9aVGtVRy1JR1ZSQW9iU2swNXJSdnV4aVFBcHk5UE4wNGMw?oc=5",
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Cresta Opens Its AI Agent Platform With End-to-End Self-Service for Developers - PR Newswire",
-      "tag_name": "PR Newswire",
+      "source": "news:zh",
+      "name": "2026年尊龙官方网站官网入口展示AI TOP产品线 推动本地AI生态系统普及 - 华龙网",
+      "tag_name": "华龙网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T14:01:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYjlkUHhkUy1sZGxxRGJrVUJFOGJTTjdsZWNiZzZNUDVDNEgydzJOVUY2M0gzZldRYnBTZGZ0ZkdESkZhYjdvSGJveWtXQkU2eUdVVnBUcGtwSXRIWWFJVElVZ3BGTjhQQU9ucTkzTmIzY1FWbjlhNHBnLURIak1xdnF5ZHFCOHVjSE9aczV0cFNoYzNUbVN2aGxkODRXRC1VdXlRVU9OSVZrTEt5bXdDZ2o0UU51M2t0OWlmZ1A4bE9mTTdEN2dtZzZXMEh0Q28?oc=5",
+      "published_at": "2026-10-29T16:15:04Z",
+      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ReHcyeDdvMUFfeTdwOGNyUTR4ZnhVWHBXaFZkWUFoU0hELXVob1A4M2ZhYWc0T1Rpdi1wbU5nd1o1UjRzUlJDemlRdTdZczdaanc2Y1FzYXFuR1ZxamhnVGlkUzJOUWZVLTVr?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "昨夜今晨：问鼎麻将胡了下载地址入口完成安全巡检终端厂商推送端侧AI更新云服务商调整模型API计费车联网安全标准征求意见 - 中财网",
+      "tag_name": "中财网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-29T16:14:44Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kQ1NzR3ZtWHp3T01PSngtMTNVUDRTNFhIY0NxejRhQzhualltMW1ReEdRZ0xqVGpEblFOcTFVVGlXYVoyUUV6RVNiQ0REaGRxZ2dZWllicG8?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "昨夜今晨：端侧AI适配提速 开元旗牌app下载聚焦开源模型生态扩容 - www.jn001.com",
+      "tag_name": "www.jn001.com",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-29T16:12:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TeEdBRFZWdDdyVXg1T3phb01nZm1aalEzV3FTTEtvcnlSTHNpclRFZk5tOVdJREZPdnk2S19VaHhBUjdpQl9xTnpZaUFHaUVnOExKZ2dIa2RyZDBSUTRDTW16bDBsdHc?oc=5",
       "kind": "news"
     },
     {
@@ -192,15 +228,6 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "重磅｜亚马逊更新工程师标准，AI领导力也要升级 - 手机新浪网",
-      "tag_name": "手机新浪网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T22:43:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sb0FqNWR1QmJxLW1FVEJ3QzJhY3NvQ2g0S2tEZXU2c18zS1B1Vm4zTGJsWlctbzBXOWJvd1p1V1M1YVFjLTZJdE90S0FzaS10RF9xX1BvaHhOeHU4U1pRTzVxekxSdGk5Q1NRUENMN3JXaHVKZTlMcE9VeHhfU1k?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.41.0",
       "tag_name": "v3.41.0",
@@ -219,21 +246,12 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "昨夜今晨：必发指数官网app宣布数据服务版本更新，端侧AI与终端新品同步推进 - 中财网",
-      "tag_name": "中财网",
+      "source": "news:en",
+      "name": "Anthropic just launched tools to show companies what their AI spending is buying - TechCrunch",
+      "tag_name": "TechCrunch",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T19:02:46Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Id3dtLW8tYU1RWU9KNF8xSkREaTJadW5XNTF0S0JKWEh5TXcwTW9vMjNTeVh0LUQ4SUZxZEhPQmllV2pNWmZxdDhhZXJZQkVfTF9z?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "星空体育app昨夜今晨科技汇总：AI终端新品密集发布，算力价格战与监管回应同台上演 - 大武夷新闻网",
-      "tag_name": "大武夷新闻网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T19:00:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kRGwyY0tBTkV4NDZWbTlrb09mXzFtcllaaVYxOW9FaHRvVDdwWkxCZG41NEIwZk1WNzFfQVRLOFV0ZTRPN2RxcmpCYUFna01sczBvcUZLNW45TmU3N2lieUducEFObHYyYl9td3ZSSV8?oc=5",
+      "published_at": "2026-10-28T19:19:58Z",
+      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5",
       "kind": "news"
     },
     {
@@ -282,15 +300,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Slack competitor Atlassian Stride releases tools for developers - TechTarget",
-      "tag_name": "TechTarget",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T05:45:01Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenhINE9UVzZIQlhtelhyOVN5LVRpMlltZWJQTjFFWEx2U2NVdWFfSGxyaUoyVWI4aTh3YmR2U2pvd3VhbWZBbC1mQ0lRb2NRQkVLY2loOHRIWkpfMFRkSFFkSXNQWW9jTE1hUVRFYWVtSVd1b01SYy1yY1NaN1JBenl4QWhreXpGX1AydHF1Z0EwdHg3TTRHV0hzdU02RE11SXMteEFn?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-anthropic==1.7.7",
       "tag_name": "langchain-anthropic==1.7.7",
@@ -328,20 +337,11 @@
     },
     {
       "source": "news:zh",
-      "name": "Azure Container Apps Express 在新的通用沙箱层上正式发布 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
+      "name": "Muse之后，灵光2.0让Personal Agent接手中国式日常 - 雷峰网",
+      "tag_name": "雷峰网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T09:20:44Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qS3IweXJZWHY1MWxDSEJ0cm4xX0Q0UlZsNzVCR0gycHBQaTEzbzVtVllsRVNONXp0dHV0cnBiVEN6VlRIYWNJZmpFNUxuZUh5SjlUNWQ0c3hlUkZMQ3c?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "聚焦AI构建与产业落地 长沙举办1024程序员日活动 - 人民网",
-      "tag_name": "人民网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T08:04:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Tb3YwTjFEUEZEclBLLTJvRkFxOW9vaGJlRlY1Y0QxZ0o4QjFzUzRjUE1GWDV4OUVxQlduZzlTVlZwN3oxUWZ2dkw0eGlQa0EzYmV0alRnaVdoU1ZFUzlVWDBFQllVV3BYeEE?oc=5",
+      "published_at": "2026-10-27T09:56:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zUXM3OVUzVWhuMW5jX0pqa3I5Nllza2hsdy10M2g1bUhEaUpYQ1JZY3RLdEZaQ19KM3FGZWRKNjl6dUtsdHM0V0x3eDFWUldwNVBwS2QzVGJhTmVRcTNfVERqc21QdnZQVlhpNG5hdUxyOXUyRmc0?oc=5",
       "kind": "news"
     },
     {
@@ -387,6 +387,15 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-10-26T09:24:40Z",
       "html_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXV3YzdLLUNGRG1VdlQ5Q2JVSEFPc2tENDlzM2J6Y1RvaHhBbmxacGJlZ2UteUFrVWVMWllWRHM0YXQtdlJORWhOb1lvZTFPVVF6QzJVUUJzNnh3TWxxZlFjMnJMdEpmYzB6WEs3U25SLUVqcjgzVVJxZHI3b3ptaWtQdmw1eGVSNDBQdmF3SDVGckU?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "模型好选，搜索难做：一个投研 Agent 的两年开发历程 - InfoQ.cn",
+      "tag_name": "InfoQ.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-26T07:01:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fbENxaEJoSlgwVHliZjdPbzRtQzJycm5kckZia3FXVFpvN1k1YkVWLXZSejZhM3lNTm5KNXBJeWpkSkpMWEdoS2tDVWZWRnA0VWo2WkdBY3d5RTFHbHc?oc=5",
       "kind": "news"
     },
     {
@@ -576,15 +585,6 @@
       "body": "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https://github.com/user-attachments/assets/3c1741a5-710c-4bde-8ac7-096e40b495bb\" /></p>\r\n\r\n## Recursive Flint\r\n\r\n[Flint](https://ollama.com/library/flint) brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions.\r\n\r\nFlint is an Apache 2.0-licensed, 40B-parameter mixture-of-experts model with approximately 2.5B parameters active per token. In its [release evaluations](https://huggingface.co/RecursiveSI/flint#evaluation), Recursive reports 54.9% on Terminal-Bench 2.1 and 74.2% on SWE-bench Verified.\r\n\r\n```sh\r\nollama run flint\r\n```\r\n\r\n\r\nNote: Flint is supported on MacOS.  Other GPU support will be enabled in a subsequent release.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.7...v0.40.8",
       "published_at": "2026-10-21T16:20:30Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.36.0",
-      "tag_name": "v3.36.0",
-      "body": "## [3.36.0](https://github.com/openai/openai-python/compare/v3.35.1...v3.36.0) (2026-10-21)\n\n\n### Features\n\n* add Vertex AI support for the Responses API ([#4139](https://github.com/openai/openai-python/issues/4139)) ([3e63d33](https://github.com/openai/openai-python/commit/3e63d33f6258f47285007aaee30df251d5127820))\n* **api:** add 30-minute cache-write usage counts ([#4111](https://github.com/openai/openai-python/issues/4111)) ([5589146](https://github.com/openai/openai-python/commit/5589146d738e0c38758e117b8383a02c2e4e2ee7))\n* **api:** add compaction trigger IDs ([#4122](https://github.com/openai/openai-python/issues/4122)) ([0e5794d](https://github.com/openai/openai-python/commit/0e5794dc48b8f8d51f6047f8a0b1814eb1e65850))\n* **api:** add custom voice consent management ([#4135](https://github.com/openai/openai-python/issues/4135)) ([de6d70d](https://github.com/openai/openai-python/commit/de6d70d5c50ef1b9d3e5068b6e25ea52f447a8cb))\n* **types:** prepare native synchronous WebSocket option type ([#4118](https://github.com/openai/openai-python/issues/4118)) ([90c0bac](https://github.com/openai/openai-python/commit/90c0bacc07ddd5662598db52b3c3011973011973))\n\n\n### Bug Fixes\n\n* **api:** accept canonical batch responses in strict mode ([#4106](https://github.com/openai/openai-python/issues/4106)) ([6eaa90e](https://github.com/openai/openai-python/commit/6eaa90ee20b40bbe84a5b1a5031d7cf672c7d368))\n* clean up failed WebSocket setup and honor native options ([#4121](https://github.com/openai/openai-python/issues/4121)) ([b1a1a10](https://github.com/openai/openai-python/commit/b1a1a100d38d84dd556319e207880d85d23559cd))\n* end sync WebSocket recovery when an attempt is interrupted ([#4129](https://github.com/openai/openai-python/issues/4129)) ([337769b](https://github.com/openai/openai-python/commit/337769b3daf5772cf54cf11a14c17ff5b7a3ac27))\n* honor timed Translation receives during terminal cleanup ([#4132](https://github.com/openai/openai-python/issues/4132)) ([ca54146](https://github.com/openai/openai-python/commit/ca541462ba20dadb66eea6c67775f186dfb17e33))\n* preserve client headers in legacy Beta Realtime connections ([#4130](https://github.com/openai/openai-python/issues/4130)) ([8a2a2e0](https://github.com/openai/openai-python/commit/8a2a2e0c4fe76297a5dd2395e05ca473561644ac))\n* preserve declared aliases during Pydantic v1 validation ([#4119](https://github.com/openai/openai-python/issues/4119)) ([8b1cac9](https://github.com/openai/openai-python/commit/8b1cac931ccb32203010471b1f9d82e5c9957cff))\n* preserve Vertex API root for response lifecycle ([#4140](https://github.com/openai/openai-python/issues/4140)) ([c2b14f5](https://github.com/openai/openai-python/commit/c2b14f538de7af908d8f1fd50e6af60c0d79fcfd))\n* preserve WebSocket close across recovery and cancellation ([#4117](https://github.com/openai/openai-python/issues/4117)) ([4590ff1](https://github.com/openai/openai-python/commit/4590ff15006dfef3b55f4dc8b1b95c4a790d021b))\n* **realtime:** honor native options for legacy beta sockets ([#4120](https://github.com/openai/openai-python/issues/4120)) ([8968560](https://github.com/openai/openai-python/commit/8968560fb926240aea5fed8ee24e189eade57118))\n\n\n### Chores\n\n* **api:** clarify cache-write token totals ([#4136](https://github.com/openai/openai-python/issues/4136)) ([55b8b8a](https://github.com/openai/openai-python/commit/55b8b8a77c697c10ea89a14d6390456145687152))\n* **api:** clarify project API key update requirements ([#4131](https://github.com/openai/openai-python/issues/4131)) ([0e6be9f](https://github.com/openai/openai-python/commit/0e6be9f1f6193cdea7a3d9982b69424c22ecafda))\n* **api:** maintain voice consent compatibility ([#4137](https://github.com/openai/openai-python/issues/4137)) ([07abe06](https://github.com/openai/openai-python/commit/07abe065f058da56a92adc4168b6408b09babd34))\n* **api:** use neutral moderation examples ([#4104](https://github.com/openai/openai-python/issues/4104)) ([553703e](https://github.com/openai/openai-python/commit/553703e2d3db379a83e3ead9e40436b7a66f639e))\n* restore generated Castiron reporting scripts ([#4113](https://github.com/openai/openai-python/issues/4113)) ([9d12b56](https://github.com/openai/openai-python/commit/9d12b565554c08bcee6287c0d8f671b8c97ed911))\n* support next checkpoints in the trusted reporter ([#4128](https://github.com/openai/openai-python/issues/4128)) ([ae2a6c2](https://github.com/openai/openai-python/commit/ae2a6c2a79e462d1e5ee2240354a5714289e1670))\n\n\n### Documentation\n\n* plan the Python generated-code transition ([#4114](https://github.com/openai/openai-python/issues/4114)) ([6a52987](https://github.com/openai/openai-python/commit/6a52987f2da5c3bc9b700a7094c0cf14fe7e78dc))\n* record Python transition progress and batch follow-up work ([#4116](https://github.com/openai/openai-python/issues/4116)) ([46e3680](https://github.com/openai/openai-python/commit/46e36800ba5604044de46c88dc79f20dfd23dd35))",
-      "published_at": "2026-10-21T15:53:22Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.36.0",
       "kind": "release"
     },
     {
