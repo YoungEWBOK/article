@@ -1,7 +1,169 @@
 {
-  "generated_at": "2026-11-02T07:44:53.250079Z",
+  "generated_at": "2026-11-03T07:58:40.684718Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "ollama/ollama",
+      "name": "v0.40.14",
+      "tag_name": "v0.40.14",
+      "body": "## What's Changed\r\n* `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap\r\n* Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses\r\n* OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no `temperature`/`top_p` get the model's own values instead of 1.0, matching `/api/chat`\r\n* `/v1/responses` now preserves readable input content, including prior assistant refusals, instead of flattening it\r\n* Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state\r\n* `ollama launch codex` verifies ChatGPT routing before configuring, and reports a clear error when routing is unavailable\r\n* Faster top-k sampling on MLX for large vocabularies\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.13...v0.40.14",
+      "published_at": "2026-11-03T01:40:40Z",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.46",
+      "tag_name": "@ai-sdk/zai@3.0.46",
+      "body": "### Patch Changes\n\n- Updated dependencies [fa15312]\n  - @ai-sdk/provider-utils@5.0.74\n  - @ai-sdk/openai-compatible@3.0.84",
+      "published_at": "2026-11-03T01:24:34Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.46",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@5.0.38",
+      "tag_name": "@ai-sdk/xai@5.0.38",
+      "body": "### Patch Changes\n\n- Updated dependencies [fa15312]\n  - @ai-sdk/provider-utils@5.0.74",
+      "published_at": "2026-11-03T01:24:31Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.38",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@1.0.10",
+      "tag_name": "@ai-sdk/zai@1.0.10",
+      "body": "### Patch Changes\n\n- Updated dependencies [0a069bd]\n- Updated dependencies [0a069bd]\n- Updated dependencies [0a069bd]\n- Updated dependencies [0a069bd]\n  - @ai-sdk/openai-compatible@1.0.61\n  - @ai-sdk/provider-utils@3.0.44",
+      "published_at": "2026-11-03T01:22:22Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%401.0.10",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@3.0.149",
+      "tag_name": "@ai-sdk/xai@3.0.149",
+      "body": "### Patch Changes\n\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n  - @ai-sdk/openai-compatible@2.0.90\n  - @ai-sdk/provider-utils@4.0.64",
+      "published_at": "2026-11-03T01:22:05Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.149",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@2.0.18",
+      "tag_name": "@ai-sdk/zai@2.0.18",
+      "body": "### Patch Changes\n\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n  - @ai-sdk/openai-compatible@2.0.90\n  - @ai-sdk/provider-utils@4.0.64",
+      "published_at": "2026-11-03T01:21:59Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.18",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.162",
+      "tag_name": "ai@7.0.162",
+      "body": "### Patch Changes\n\n- 857ca45: Restore server-defined tool metadata, dynamic status, and title when validating tool approval continuations so approval policies receive the same tool definition fields as new model calls.\n- 4d6d830: Support a single telemetry operation for durable `WorkflowAgent` runs, including the prompt, final output, steps, and tools. Events recorded in the workflow are reported on completion or suspension with their original timestamps. For OpenTelemetry, pass the same `OpenTelemetryIdGenerator` instance as the tracer provider's `idGenerator` and `sampler` and as `new OpenTelemetry({ durable })`. This explicit bridge carries parent trace context and sampling across steps, reports model spans live with provider requests nested beneath them, and reconstructs the enclosing `invoke_agent` tree when the run completes. Without the bridge, existing live per-model tracing is preserved. Add typed experimental durable context hooks for telemetry integrations; remove reliance on process-global ID-generator detection.\n- Updated dependencies [fa15312]\n  - @ai-sdk/provider-utils@5.0.74\n  - @ai-sdk/gateway@4.0.135",
+      "published_at": "2026-11-03T01:20:31Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.162",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@5.0.285",
+      "tag_name": "ai@5.0.285",
+      "body": "### Patch Changes\n\n- 0a069bd: fix(ai): support cross-realm Uint8Array and ArrayBuffer in DefaultGeneratedFile\n- 0a069bd: fix(ai): handle cross-realm Uint8Array and ArrayBuffer in prompt data validation and conversion\n- Updated dependencies [0a069bd]\n- Updated dependencies [0a069bd]\n- Updated dependencies [0a069bd]\n  - @ai-sdk/provider-utils@3.0.44\n  - @ai-sdk/gateway@2.0.176",
+      "published_at": "2026-11-03T01:20:10Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.285",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.322",
+      "tag_name": "ai@6.0.322",
+      "body": "### Patch Changes\n\n- d900e58: fix(ai): support cross-realm Uint8Array and ArrayBuffer in DefaultGeneratedFile\n- d900e58: fix(ai): handle cross-realm Uint8Array and ArrayBuffer in prompt data validation and conversion\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n- Updated dependencies [d900e58]\n  - @ai-sdk/provider-utils@4.0.64\n  - @ai-sdk/gateway@3.0.228",
+      "published_at": "2026-11-03T01:19:41Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.322",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "DeepSeek上新模式强化智能体能力：一句话定制AI插件，公开提示词搞定3D可视化到视频编辑 - 华尔街见闻",
+      "tag_name": "华尔街见闻",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-02T21:57:18Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IazNsTmZZNlpBcHJ0S0xYZVc2OVVXeDBUREQtelhGVHpWS0pxbnZ1ekpqMlBFVkxTWG5TVHhzNU9pbmZHR1NKcEZvb3RacEdkM0hJ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-anthropic==1.7.9",
+      "tag_name": "langchain-anthropic==1.7.9",
+      "body": "Changes since langchain-anthropic==1.7.8\n\nrelease(anthropic): 1.7.9 (#41644)\nfix(anthropic): report streamed content-block tokens to callbacks (#41643)",
+      "published_at": "2026-11-02T20:14:18Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9",
+      "kind": "release"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v2.4.0",
+      "tag_name": "v2.4.0",
+      "body": "### Features\n\n* **api:** add GA methods for analytics, spend limits and RBAC\n* **api:** add named beta types for unified metrics and RBAC delete responses\n* **api:** add shared analytics order and increase request actor types\n* **api:** add tool_use_limit_reached_error and compaction_limit_reached_error session error types\n* **api:** add types for analytics group_by and spend limit period filters\n* **api:** add user_profile_id to External Keys and Workspaces\n\n\n### Bug Fixes\n\n* **api:** make spend_limit nullable in the spend limit increase request approve response\n* **api:** require always-sent analytics fields and drop the unused project product field\n* **client:** let pydantic validate params types that accept omit\n\n\n### Chores\n\n* **ci:** remove unused build upload steps\n* **docs:** clarify the Slack channel id description\n* **docs:** clarify what disabling the Compliance API stops\n* **docs:** clarify what the capability_access_all role action grants\n* **docs:** link Dreams model fields to the supported models section\n* **docs:** update example user ID in Admin API examples\n* **internal:** add a section for each repository's own review rules\n* **internal:** plainer wording in worker comments\n\n### Documentation\n\n* **client:** add missing await to the async parse() docstring example\n* **examples:** keep the message threads example valid on Sonnet 5.5\n* **examples:** use current model IDs\n* **readme:** point to the docs site for documentation\n* link to the SDK documentation instead of removed README sections",
+      "published_at": "2026-11-02T19:07:19Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain==1.4.8",
+      "tag_name": "langchain==1.4.8",
+      "body": "> [!WARNING]\n> **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later.\n\nChanges since langchain==1.4.7\n\nchore(langchain): bump langchain-core (#41640)\nrelease(langchain): 1.4.8 (#41636)\nchore(deps): bump pyasn1 from 0.6.4 to 0.6.5 in /libs/langchain_v1 (#41591)\nchore(deps): bump joserfc from 1.7.4 to 1.7.6 in /libs/langchain_v1 (#41587)\nchore(deps): bump authlib from 1.7.2 to 1.9.1 in /libs/langchain_v1 (#41539)\nchore(deps): bump the minor-and-patch group across 3 directories with 32 updates (#41465)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(deps): bump fastmcp from 4.0.11 to 4.1.2 in /libs/langchain_v1 (#41437)\nchore(deps): bump opentelemetry-api from 1.44.0 to 1.45.1 in /libs/langchain_v1 (#41423)\nchore(infra): relax third-party dependency upper bounds (#41407)",
+      "published_at": "2026-11-02T15:45:02Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-core==1.7.4",
+      "tag_name": "langchain-core==1.7.4",
+      "body": "> [!WARNING]\n> **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later.\n\nChanges since langchain-core==1.7.3\n\nrelease(core): 1.7.4 (#41635)\nfix(core): avoid mutating message content in Anthropic translator (#40213)",
+      "published_at": "2026-11-02T15:31:47Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-anthropic==1.7.8",
+      "tag_name": "langchain-anthropic==1.7.8",
+      "body": "Changes since langchain-anthropic==1.7.7\n\nrelease(anthropic): 1.7.8 (#41638)\nfix(anthropic): strip index from compaction blocks (#41637)\nfix(anthropic): handle null cache-creation token counts (#41553)",
+      "published_at": "2026-11-02T15:23:31Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "MCP Inspector Tutorial: Test a Server in 13 Steps - https://tech-insider.org/",
+      "tag_name": "https://tech-insider.org/",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-02T11:29:36Z",
+      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVjQ1aXExYzlYNkdMd0x2bnRPOGdtS3BiQkhzWDlLX2NqdzRoTlNFeVhTWGY3RFkwWHdKcVRwZ19QRUNjRDlkY1VZZWw2OUktcVhycUVFdHRWOTlwUWZtUnZCc0xNYTFjcnhuREZQXzRfdmExTVVqNlJ5U3FUYmtYaw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Lightspeed expands Connect API tools for developers and active traders - ROI-NJ",
+      "tag_name": "ROI-NJ",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-02T11:18:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQndkd3dtWWh4T3pRR0N2a3JwZnFxa3FBd1Q5cUFZN1FQT2tKRklvRGNGMmZvVjlfWFlMUElUMnJLNl92ekMyV2JSTGVzR3lydWtKd3YxZk1kNzhGeVZLUjZLWnZoRS1SWVJaUGhFTHNZVndIeDVpaVZENW16dHhGakZQRk01bWkzbF9TV3d3dDB6QmZ1M1Q3TlJzdFVXNDd5aU9JVmlaODZmS2VnM25F?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "novel-plus v6.3.2 发布，原创文学 CMS 系统 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-02T09:03:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SOU1rWGpJRUlIbVhjc25RNnRHeXF3YXVibDZlOWRfQTlYZkxvRzJGelVRYVhTaEY0TmhzdjViNzFTUXZRVEc3QkNkTQ?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:en",
       "name": "Byoky: Open-source wallet for AI API keys - Help Net Security",
@@ -21,12 +183,21 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "DeepSeek 最新发布 - 虎嗅网",
-      "tag_name": "虎嗅网",
+      "source": "news:en",
+      "name": "Introducing the Slack Code API: Your agents, your team, one code channel - Slack",
+      "tag_name": "Slack",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-01T07:55:11Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CR0RnLWZvbTE2eV84WENSYnRYSWU1V25lODVSM1Q1bURJbG9YZXk1WVlZdkt4QkJJYnJfb0haTVNDVnlraktFdHd3eHhIZHhn?oc=5",
+      "published_at": "2026-11-01T08:25:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zTWFHa0g5VGxBcjNuYzJjSjVORjlpTmltVmpubDJzZ25ZNzVOMEp6M2Z6YXRhRXE5anlGZ0tYZllBal9nY043bWoyeDgwY0hXSFJWSENhTlR2UXc1?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Pi Network Rolls Out Four Developer Tools Ahead of Ecosystem Summit as PI Holds Above $0.078 - BigGo Finance",
+      "tag_name": "BigGo Finance",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-31T08:25:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FMVNhdzN1ekZrWkItOU53ZVl1Ul85cDlmMENZYmNZRlZfMmNZblUzVmRNVmx5QzNvdTAtZm1fWHFINW5jNDhPbG1YZUdKbldDZExiZGp6ZldiVVlxTlhLdGplNmotSXp6MUpNM0RzNHcyYnpmWkE?oc=5",
       "kind": "news"
     },
     {
@@ -48,84 +219,12 @@
       "kind": "release"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.35",
-      "tag_name": "@ai-sdk/xai@5.0.35",
-      "body": "### Patch Changes\n\n- 89b76ce: Centralize xAI language, image, speech, transcription, and realtime capabilities in a shared model catalog, preserving request policies and generating capability tables from the same declarations.",
-      "published_at": "2026-10-30T22:19:56Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.35",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.159",
-      "tag_name": "ai@7.0.159",
-      "body": "### Patch Changes\n\n- Updated dependencies [cbc9ac0]\n  - @ai-sdk/gateway@4.0.132",
-      "published_at": "2026-10-30T22:18:02Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.159",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@1.0.9",
-      "tag_name": "@ai-sdk/zai@1.0.9",
-      "body": "### Patch Changes\n\n- Updated dependencies [a1a772f]\n  - @ai-sdk/provider-utils@3.0.43\n  - @ai-sdk/openai-compatible@1.0.60",
-      "published_at": "2026-10-30T19:36:02Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%401.0.9",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.283",
-      "tag_name": "ai@5.0.283",
-      "body": "### Patch Changes\n\n- Updated dependencies [f912b4e]\n- Updated dependencies [4968d4a]\n- Updated dependencies [a1a772f]\n  - @ai-sdk/gateway@2.0.174\n  - @ai-sdk/provider-utils@3.0.43",
-      "published_at": "2026-10-30T19:33:44Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.283",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.320",
-      "tag_name": "ai@6.0.320",
-      "body": "### Patch Changes\n\n- Updated dependencies [e161391]\n  - @ai-sdk/gateway@3.0.226",
-      "published_at": "2026-10-30T19:29:45Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.320",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.44",
-      "tag_name": "@ai-sdk/zai@3.0.44",
-      "body": "### Patch Changes\n\n- 7716e18: Support promises and synchronous or asynchronous callbacks in provider API key and token settings. Resolve credentials per authenticated request while preserving existing authentication behavior and synchronous credential serialization.\n\n  The experimental OpenAI Live `getServerWebSocketConfig()` method can now resolve asynchronously. Await its result before using the connection settings.\n\n- Updated dependencies [7716e18]\n- Updated dependencies [5c247e9]\n- Updated dependencies [dcd2f8d]\n  - @ai-sdk/openai-compatible@3.0.82\n  - @ai-sdk/provider-utils@5.0.72\n  - @ai-sdk/provider@4.0.35",
-      "published_at": "2026-10-30T15:43:43Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.44",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.34",
-      "tag_name": "@ai-sdk/xai@5.0.34",
-      "body": "### Patch Changes\n\n- 7716e18: Support promises and synchronous or asynchronous callbacks in provider API key and token settings. Resolve credentials per authenticated request while preserving existing authentication behavior and synchronous credential serialization.\n\n  The experimental OpenAI Live `getServerWebSocketConfig()` method can now resolve asynchronously. Await its result before using the connection settings.\n\n- Updated dependencies [7716e18]\n- Updated dependencies [5c247e9]\n- Updated dependencies [dcd2f8d]\n  - @ai-sdk/provider-utils@5.0.72\n  - @ai-sdk/provider@4.0.35",
-      "published_at": "2026-10-30T15:43:40Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.34",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.158",
-      "tag_name": "ai@7.0.158",
-      "body": "### Patch Changes\n\n- 8ba3a5c: fix(ai): repair partial JSON that ends with a minus sign at the start of an array\n- 5c247e9: feat(sandbox): add `stat`, `listDirectory`, and `deleteFile` to `Experimental_SandboxSession`, and specify that relative paths in every method resolve against the directory `run` and `spawn` start in\n\n  The just-bash and Vercel Sandbox adapters implement the new methods. Both now resolve a relative `workingDirectory` for `run` and `spawn` against the sandbox's working directory, and the just-bash adapter rejects writes to a directory instead of replacing it with a file.\n\n- Updated dependencies [7716e18]\n- Updated dependencies [f850782]\n- Updated dependencies [5c247e9]\n- Updated dependencies [dcd2f8d]\n  - @ai-sdk/gateway@4.0.131\n  - @ai-sdk/provider-utils@5.0.72\n  - @ai-sdk/provider@4.0.35",
-      "published_at": "2026-10-30T15:39:40Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.158",
-      "kind": "release"
-    },
-    {
       "source": "news:zh",
-      "name": ":fire::fire:开源接口平台 v6.3.1 发布，新增超时时间 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "让网站更轻松地表达 AI 训练偏好 - OpenAI",
+      "tag_name": "OpenAI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-30T15:28:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2cnZWWk4zZ3lxLVNhNDhRSDVsd0JxVjRuaTJrUUI4UXNrLUtvVHRuYXNCUmlkOHFNZ3JuQTJMOURmS1QzZWxPY1Rlaw?oc=5",
+      "published_at": "2026-10-30T20:23:12Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWtSTXJkSmo2RUk1UjRxc3p1VGhHbUJsdENVMXBzdGpDTTF1MjhWaEZwdFJCaWNscUV2N2dVOHc0dW1BWGN4SDNmMFpvdmNzT1lWTU1VUHFHYS1VY19Sblg1YjZGMnEtTkU2bU13bXFFWGVPVmZTZGxfRUxWSjg1M193WDVydlJYUHhOUDN3?oc=5",
       "kind": "news"
     },
     {
@@ -139,11 +238,20 @@
     },
     {
       "source": "news:zh",
-      "name": "NET 11 第 2 个候选版本发布，带来生产环境部署许可以及针对库、F#、MAUI 和 WinForms 的更新 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
+      "name": "Epoch AI 报告：开放权重 GLM 5.3 利用 Firefox 补丁窗口漏洞 - Unite.AI",
+      "tag_name": "Unite.AI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-30T08:31:53Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aLTRIUFpyVXBrSTBYUmRUcUFTN1JqaUVjMWZlSXRSWmNRanlpSmJvdkNhd1BJZXBPVWMtNVI2U1k0aUpwbm1rNXFaWVJMMjNBMEEwd05pVTlHcGZ4dkE?oc=5",
+      "published_at": "2026-10-29T23:02:07Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOHlYd1pSQXdKN3IzaWhYX1Fyd3hGeEVNWlFDSmdpVDdDNXo0RHlYWTRWeHpIRS1aSkJEalBJWkhFZmEwa3loRDNGVmR6T1BudndmYWZVX3lhRUZRWGtRaXgtVmgxTG5UMjB3ak56ZGc1UkN3Q09uU1FwWTl0a1dsWkZfcDdTeDNEVTVzS1lGck5hM3NqZ0E?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows - USA Today",
+      "tag_name": "USA Today",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-29T20:57:42Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5",
       "kind": "news"
     },
     {
@@ -165,66 +273,21 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "昨夜今晨：云开体育app手机下载端侧AI推理框架开源云开体育app手机下载联合实验室发布低功耗芯片验证数据 - CAIJING.COM.CN",
-      "tag_name": "CAIJING.COM.CN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T16:17:50Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QZ1pKV3BWZU5OaTFsd3JmMjhkdlF1S1BRd3M2aFN4WFoydFd5QjVRN2hmWXhvNDF4NjJCck9aVGtVRy1JR1ZSQW9iU2swNXJSdnV4aVFBcHk5UE4wNGMw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "2026年尊龙官方网站官网入口展示AI TOP产品线 推动本地AI生态系统普及 - 华龙网",
-      "tag_name": "华龙网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T16:15:04Z",
-      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ReHcyeDdvMUFfeTdwOGNyUTR4ZnhVWHBXaFZkWUFoU0hELXVob1A4M2ZhYWc0T1Rpdi1wbU5nd1o1UjRzUlJDemlRdTdZczdaanc2Y1FzYXFuR1ZxamhnVGlkUzJOUWZVLTVr?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "昨夜今晨：问鼎麻将胡了下载地址入口完成安全巡检终端厂商推送端侧AI更新云服务商调整模型API计费车联网安全标准征求意见 - 中财网",
-      "tag_name": "中财网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T16:14:44Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kQ1NzR3ZtWHp3T01PSngtMTNVUDRTNFhIY0NxejRhQzhualltMW1ReEdRZ0xqVGpEblFOcTFVVGlXYVoyUUV6RVNiQ0REaGRxZ2dZWllicG8?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "昨夜今晨：端侧AI适配提速 开元旗牌app下载聚焦开源模型生态扩容 - www.jn001.com",
-      "tag_name": "www.jn001.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T16:12:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TeEdBRFZWdDdyVXg1T3phb01nZm1aalEzV3FTTEtvcnlSTHNpclRFZk5tOVdJREZPdnk2S19VaHhBUjdpQl9xTnpZaUFHaUVnOExKZ2dIa2RyZDBSUTRDTW16bDBsdHc?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
-      "name": "Lightspeed Expands Lightspeed Connect API With AI-Ready Developer Resources and New Trading Functionality - Yahoo Finance",
-      "tag_name": "Yahoo Finance",
+      "name": "Cresta Opens Its AI Agent Platform With End-to-End Self-Service for Developers - PR Newswire",
+      "tag_name": "PR Newswire",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T13:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaTZHM1NRak44V2FRaEhEdDcyRFJmZnRLTlVhU1JtQ0ZNUkxBa1pyZUNNeVNTYTB0aFVnSmU0YnZuQWo3NmJtOHpidGg2M1hWWGhLUkhTQ3pNNUxDYXRjQ3NBZW9CeXN2bHAyM1g4bnFmSUxmRFdKdTlCRkV3RGsxdlFhUDRfX011d1RjOWFGWGFlWGlqOHEtU1NqZS0xMkFFLUJrUVJkamg?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Akai MPC Sample Key: 37 Keys, Open Firmware [2026] - shattered.io",
-      "tag_name": "shattered.io",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T07:15:36Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIZ1ZOemw3azduME54a2tpQ0d1S09ySEluVWVvMEVqUFVsZUFXZXg0WVBwSDVkNlhMN3dFQlR2UU9nMFdWZjM1OW5fR0xWWnRYYkVHYkduZGk4Mzc4YVdZZVdJYVBkYVlJQU96My1GQ3RHN3hxc3FTaEdNaU9LbEk?oc=5",
+      "published_at": "2026-10-29T14:01:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYjlkUHhkUy1sZGxxRGJrVUJFOGJTTjdsZWNiZzZNUDVDNEgydzJOVUY2M0gzZldRYnBTZGZ0ZkdESkZhYjdvSGJveWtXQkU2eUdVVnBUcGtwSXRIWWFJVElVZ3BGTjhQQU9ucTkzTmIzY1FWbjlhNHBnLURIak1xdnF5ZHFCOHVjSE9aczV0cFNoYzNUbVN2aGxkODRXRC1VdXlRVU9OSVZrTEt5bXdDZ2o0UU51M2t0OWlmZ1A4bE9mTTdEN2dtZzZXMEh0Q28?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "谷歌用Agent“武装”Android，应用可直接接入Gemini - 文学城",
-      "tag_name": "文学城",
+      "name": "Python 3.15 更新详解：新特性、底层变化及其对 AI、机器学习和智能体开发的影响 - QQ News",
+      "tag_name": "QQ News",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-29T02:48:15Z",
-      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2hMcWNEaWVDY1BlV0xNRGRBSVZ6QXoycXRtNDRHYzBLSWpwS2pCZEF3QkVVaXM4LVFKNGFmTUFNaC1DUjRTVlNlV0I0SmUyOTJyTXVvMGlhWDFZYWtuZ0dlZkpPSVlUZDVKYm5CZ1V3UGFfSFlYTXpZU0w3WlNOMQ?oc=5",
+      "published_at": "2026-10-29T11:57:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92cWstX2hBZjBYeTBsYTZQLUxIMk9VdDJCV3QxTWpWNkowNDlFeE0yei1YOEV3dFB4M0lubnRiU3hXeWRwU0JOWmEzSVgxY2tOb1F3OFhn?oc=5",
       "kind": "news"
     },
     {
@@ -237,6 +300,15 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "Meta's developer MCP gains six tools that let AI agents create apps - PPC Land",
+      "tag_name": "PPC Land",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-28T21:34:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcjFzZXRjSkdKR3ljSjFhSTFjaHFybE0zeFYzOGhDTWRENmR5SWxoQkpaYWNacE5pLXlleGpCZ0l2dFdQeWloc3lvcFUwLXdUVzBaS2d6TVZDVHhPUTk5MXM2OVJWMDJDcWdFeWU0NTYyaEREb0dsR3N1R2E4MC1LY0l1RVBJd1hQV2R1cA?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "ollama/ollama",
       "name": "v0.40.13",
       "tag_name": "v0.40.13",
@@ -244,33 +316,6 @@
       "published_at": "2026-10-28T19:55:04Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Anthropic just launched tools to show companies what their AI spending is buying - TechCrunch",
-      "tag_name": "TechCrunch",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T19:19:58Z",
-      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Solana Ships New Validator and SDK Releases After Alpenglow Upgrade - TradingView",
-      "tag_name": "TradingView",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T18:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa2pmYV9KcmV6N2VFRi16blYwandocmIwZGJSeF9aTE55SzRYbXVYSVdvNmtVU3p0d1pFeEI0Y3BVNkp4LWRaQ2tEeHNvcjZ3dHh2MVJDWTYtYUFEQ0I3V0RFOXRtWWcxbmFGMkJCLTVWdnUtdVhXeE9vM1pzbG54TjhEeV96YWpqYi00MTE1MlFCT1U2Yy15aXJjUVFYRWNnd0twOEthanY3LVNBaldqbnNZbE9wZC1LNmpKNUMyQXh4Qkk?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "PICO Put Its XR SDK Behind Ten AI Coding Assistants, and the Whole Install Is One npm Line - https://vr.org/",
-      "tag_name": "https://vr.org/",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-28T17:21:28Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHlQUWYyWEo4WkcySjMySUJhUTFxbWNmZkJTeE1LOG9XajNOSXlaN2FGNzlrSHI0aU83YlNGaFJFZGxRRmZncDRzY3lGTlVBY1J5OVBZWXBycVYzVTZlY0hiSHo1MW1tc1J4T0pPZ2RMRHNYbG9xYVNTU0k1amV5OUVrdEo5dThsa3ZFVEJR?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:en",
@@ -309,15 +354,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games | NVIDIA Technical Blog - NVIDIA Developer",
-      "tag_name": "NVIDIA Developer",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T17:05:38Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQTZ2bElMVHZyT0prSlRxQjJRTWoyaGFJSV8zaWx6RFZKYzY5ZXBfMzNJemNpVUNPRHc1d3hWdndidDU1WFhKVGtrV3kyS0FLSEJodm5hY1pTS21YQ2VWdVAxTDRyOGZNTkdVb1l2NTd4ekY0a2xfMlpsbThNdzgyc04zMVBPcFpBd09ucW9kSDdsRjg2Zmo2Z19SWWRqUEJFNHROWQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.40.0",
       "tag_name": "v3.40.0",
@@ -325,6 +361,15 @@
       "published_at": "2026-10-27T15:37:52Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.40.0",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "IBM 与 Kaggle 携手推出持续更新的 ScarfBench 迁移排行榜 - Unite.AI",
+      "tag_name": "Unite.AI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-10-27T12:18:01Z",
+      "html_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN2FyOGdBMEtfcXcxVDZaQXU4U3hZNkNvTHBHdGZTVWhOVFBoN3EyUFNpRUlLUC1oTl85MTFNSTByUnF4Nko3MlRBbjJIWXJsQktLNE5VQlhNTjhNd2tBLS1fSm1UWV96dWZ3M19TZjhGeTRta3BWd0VMOTQ3bkNvS0dKcXg2RFI1ZGJrQjIyMDJMdl9hbzk0MlNQTWJ2QQ?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -336,12 +381,12 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "Muse之后，灵光2.0让Personal Agent接手中国式日常 - 雷峰网",
-      "tag_name": "雷峰网",
+      "source": "news:en",
+      "name": "Two 18-Year-Olds From India Raise $1.3M From Y Combinator To Pioneer ‘Agent Relations’ and Take On AI SEO Incumbents - The Journal News | lohud.com",
+      "tag_name": "The Journal News | lohud.com",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-27T09:56:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zUXM3OVUzVWhuMW5jX0pqa3I5Nllza2hsdy10M2g1bUhEaUpYQ1JZY3RLdEZaQ19KM3FGZWRKNjl6dUtsdHM0V0x3eDFWUldwNVBwS2QzVGJhTmVRcTNfVERqc21QdnZQVlhpNG5hdUxyOXUyRmc0?oc=5",
+      "published_at": "2026-10-27T07:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPb2hERU13aEVkSC0wNnRjUi1HcXhhcjhlMDlGYW5lbGw5QUJKdmpRQkxlSUEwRjNKeTVDVXc5dl9EWWVWaENjcmhVaDFLcFdTQkpQWFpNS3ZENHF2WXNQMk9Bc0tkOWRNZjdtaUc0V29YcGRnMlk1TGZITjVaODhUd2RaYU9yYlBzWWVZUjRpbDJDMXgtQzFuNkNKVUxmS0lIaTJOeFlnMXlSV2dtTlRITVlkMms3YkdCc3V6YlJGSG5UOTdUQ0NQMzl6WVdNUnhRcVIwQ2ZnblpFT1dIY2pTYlFjRDBjWjJyX3NiWENnekFGamtDcHc?oc=5",
       "kind": "news"
     },
     {
@@ -351,15 +396,6 @@
       "body": "## Liquid AI LFM3\r\n\r\n[LFM3](https://ollama.com/library/lfm3) is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes:\r\n\r\n- [lfm3](https://ollama.com/library/lfm3): a 1.7B text model with a 256K-token context window\r\n- [lfm3-vl](https://ollama.com/library/lfm3-vl): adds image understanding\r\n- [lfm3-audio](https://ollama.com/library/lfm3-audio): speech recognition, translation, and text-to-speech in 18 languages\r\n- [lfm3-omni](https://ollama.com/library/lfm3-omni): text, images, and audio in one model\r\n\r\n```sh\r\nollama run lfm3\r\n```\r\n\r\n## d1 decision models\r\n\r\nLiquid AI's d1 models now come in a 2B size, built on LFM3. [d1](https://ollama.com/library/d1) makes decisions about text and images, and [d1-omni](https://ollama.com/library/d1-omni) adds audio.\r\n\r\n```sh\r\nollama run d1:2b \"I was charged twice for order 4417.\" --ask \"Is this a billing issue?\"\r\n```\r\n\r\nNote: lfm3 and d1 2b are supported on Apple hardware in this release.  Support for Linux/Windows coming soon.\r\n\r\n## What's Changed\r\n- Faster prompt processing on Apple silicon for Gemma 4, Flint and Laguna models\r\n- Speculative decoding now supports DFlash2 draft models on MLX\r\n- Gemma 4 keeps more detail in small images\r\n- `ollama launch` now works with OpenCode v2\r\n- Fixed tool-only assistant turns from Kimi CLI\r\n- Updated MLX and llama.cpp\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.11...v0.40.12",
       "published_at": "2026-10-27T00:07:12Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-openai==1.7.3",
-      "tag_name": "langchain-openai==1.7.3",
-      "body": "Changes since langchain-openai==1.7.2\n\ntest(openai): use current lightweight model in integration tests (#41509)\nrelease(openai): 1.7.3 (#41506)\nchore(model-profiles): refresh openai model profile data (#41505)\nbuild(infra): patch test-only Pillow without dropping Python 3.10 (#41484)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/partners/openai (#41379)\nchore(deps): bump certifi from 2025.10.5 to 2026.10.19 in /libs/partners/openai (#41380)\nchore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/partners/openai (#41362)\nchore(model-profiles): refresh model profile data (#41325)\nchore(deps): bump pytest from 9.0.3 to 9.1.1 in /libs/partners/openai (#41328)\nchore(deps): bump pygments from 2.20.0 to 2.21.0 in /libs/partners/openai (#41333)\nchore(deps): bump requests from 2.33.0 to 2.34.2 in /libs/partners/openai (#41331)\nchore(deps): bump orjson from 3.11.6 to 3.13.0 in /libs/partners/openai (#41329)\nfix: fix dependencies in some partner packages (#41266)",
-      "published_at": "2026-10-26T23:08:48Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
       "kind": "release"
     },
     {
@@ -379,33 +415,6 @@
       "published_at": "2026-10-26T16:35:03Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.38.0",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Recursive Flint Puts a Fast Agentic Coding Model on Developers’ Laptops - DevOps.com",
-      "tag_name": "DevOps.com",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T09:24:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXV3YzdLLUNGRG1VdlQ5Q2JVSEFPc2tENDlzM2J6Y1RvaHhBbmxacGJlZ2UteUFrVWVMWllWRHM0YXQtdlJORWhOb1lvZTFPVVF6QzJVUUJzNnh3TWxxZlFjMnJMdEpmYzB6WEs3U25SLUVqcjgzVVJxZHI3b3ptaWtQdmw1eGVSNDBQdmF3SDVGckU?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "模型好选，搜索难做：一个投研 Agent 的两年开发历程 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T07:01:14Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fbENxaEJoSlgwVHliZjdPbzRtQzJycm5kckZia3FXVFpvN1k1YkVWLXZSejZhM3lNTm5KNXBJeWpkSkpMWEdoS2tDVWZWRnA0VWo2WkdBY3d5RTFHbHc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Where's the bug? AI pinpoints and explains flaws in smart contracts - EurekAlert!",
-      "tag_name": "EurekAlert!",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-26T06:48:35Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbE0wWFFzUmtodno1WV9la19iN3N0MVJQXzBNTi1BU0tXN3U4eEtyUWRXVVl4eFE1NXZwS0JRYjBQVTZPQUh5SjE5Q1pjbjBjbjNlVWtFZ096ZHhI?oc=5",
-      "kind": "news"
     },
     {
       "source": "ollama/ollama",
@@ -525,15 +534,6 @@
       "kind": "release"
     },
     {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-core==1.7.0",
-      "tag_name": "langchain-core==1.7.0",
-      "body": "Changes since langchain-core==1.6.13\n\nrelease(core): 1.7.0 (#41418)\nfeat(core): emit `tool-call-delta` for streamed tool-call args (#41257)\n\n## Notes\n\n- Tool-call args now stream as `tool-call-delta` slices instead of `block-delta` snapshots of the args so far. If you read raw stream events and their `block-delta` args mid-stream, read `tool-call-delta` instead. `.tool_calls.get()` and `.output` are unchanged. To keep snapshots, pin `langchain-core<1.7`.\n- Since 1.6.13, iterating `ChatModelStream.tool_calls` yields each call's new args slice, not a snapshot of the args so far.",
-      "published_at": "2026-10-22T17:47:38Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
-      "kind": "release"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.36.1",
       "tag_name": "v3.36.1",
@@ -558,24 +558,6 @@
       "body": "### Features\n\n* **api:** add enforcement status, actions and filter to user profiles",
       "published_at": "2026-10-21T22:00:30Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain==1.4.7",
-      "tag_name": "langchain==1.4.7",
-      "body": "Changes since langchain==1.4.6\n\nchore(langchain): update lockfile (#41402)\nrelease(langchain): 1.4.7 (#41401)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 (#41370)\nfeat(core,langchain,standard-tests): read `tool-call-delta` in stream consumers (#41246)\nchore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/langchain_v1 (#41360)\nchore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/langchain_v1 (#41330)\nchore(deps): bump mcp from 2.1.1 to 2.2.0 in /libs/langchain_v1 (#41270)\nfeat(core): accept address inside LangChainTracer (#41006)",
-      "published_at": "2026-10-21T21:39:16Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-perplexity==1.4.2",
-      "tag_name": "langchain-perplexity==1.4.2",
-      "body": "Changes since langchain-perplexity==1.4.1\n\nrelease(perplexity): 1.4.2 (#41392)\nchore(model-profiles): refresh model profile data (#41354)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity (#41377)\nfix(perplexity): preserve Agent API search results (#41349)\nfix: fix dependencies in some partner packages (#41266)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/perplexity (#40947)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/perplexity (#40633)\nfix(perplexity): map Responses API cache tokens into input_token_details (#39923)\nfix(perplexity): emit search_context_size once per stream in _astream (#39924)\ndocs(perplexity): update `ChatPerplexity` docstring examples for Agent API (#39831)",
-      "published_at": "2026-10-21T17:31:04Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
       "kind": "release"
     },
     {
@@ -624,30 +606,12 @@
       "kind": "release"
     },
     {
-      "source": "ollama/ollama",
-      "name": "v0.40.6",
-      "tag_name": "v0.40.6",
-      "body": "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500\r\n* gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967\r\n* Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036\r\n* use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0",
-      "published_at": "2026-10-16T22:00:46Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "kind": "release"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v1.15.0",
       "tag_name": "v1.15.0",
       "body": "### Features\n\n* **api:** add between_tools to thinking types in model capabilities\n* **api:** add the speed parameter and usage.speed to Messages\n* **api:** return a Console organization's usage-tier spend cap as a read-only spend limit\n\n\n### Chores\n\n* **ci:** speed up breaking change detection\n* **docs:** describe headers on Managed Agents and telemetry endpoints\n* **internal:** simplify the script that formats code blocks in docs\n* **tests:** cover OpenTelemetry options and method default timeouts\n\n\n### Documentation\n\n* **api:** note that some models need a beta header to use speed",
       "published_at": "2026-10-15T19:45:15Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
-      "kind": "release"
-    },
-    {
-      "source": "anthropics/anthropic-sdk-python",
-      "name": "v1.14.0",
-      "tag_name": "v1.14.0",
-      "body": "### Features\n\n* **api:** add execution_identity to Managed Agents agents\n* **api:** add organization_type_not_supported error to spend limit lists\n* **api:** add telemetry destination test endpoint\n* **api:** add telemetry destinations to the Admin API\n* **client:** add native support for OpenTelemetry tracing\n\n  If your app registers a global tracer provider, the SDK will create spans with it after upgrading, and they'll be exported with the rest of your traces. Requests will also get trace context headers from the global propagator. To disable, pass `open_telemetry=False` to the client or set `ANTHROPIC_OPEN_TELEMETRY=false`. Learn more in the [documentation](https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk).\n\n\n### Bug Fixes\n\n* **api:** rename telemetry destination test response model\n* **client:** close dropped streams without waiting for the collector\n* **streaming:** pass unknown event types through the message stream helpers\n* **streaming:** stop raising \"Unexpected event order\" for an event before message_start\n\n\n### Chores\n\n* **docs:** correct prefill, thinking, fallback and model descriptions\n* **docs:** document the scope required to assign the managed role\n* **docs:** update model examples\n* **internal:** narrow the tripwire test rule in the contributor guides\n\n\n### Documentation\n\n* **api:** clarify when custom tool results can be sent\n* **api:** say is_enabled is always true for user spend limits",
-      "published_at": "2026-10-14T17:13:08Z",
-      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
       "kind": "release"
     }
   ]
