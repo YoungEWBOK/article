@@ -1,32 +1,113 @@
 {
-  "generated_at": "2026-11-06T07:58:29.213366Z",
+  "generated_at": "2026-11-07T07:15:55.359678Z",
   "source_count": 8,
   "items": [
     {
       "source": "news:zh",
-      "name": "微软一个月修复逾1100项Windows 11漏洞并警告黑客利用AI可在数小时内开发攻击工具- Windows 安全 - cnBeta.COM",
-      "tag_name": "cnBeta.COM",
+      "name": "法国Mistral扩展Studio企业级AI智能体平台 - 维度网",
+      "tag_name": "维度网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-06T06:12:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GTVZWRElKU1JEOHRwZHd2a3lPRTQxVEE2dC03aE55NEU2ZkpjU0JMbVJxN3VwVDQzcjExS0VzOTdsOVp5MkhwY2M4aFBlVzB4ZGVPVjViSEhnNEZaRVMtMQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "AMD FSR Upscaling 4.1.2 is now available for all Xbox Series X and S developers - TweakTown",
-      "tag_name": "TweakTown",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-06T04:59:14Z",
-      "html_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUhvTU1zREpja0FKV0E5WGRKN2VtSzdualBCcGFKQUVxY2Y4cXdJN3BjbjBpcGc2aWZTZDE2a3EwaGZndzJfa1Fkc2FlNjlMVVBFWVNPM3lFYkhEa2NkRE9wX1JkbEFIN0p3Ymp1bTRZREZDZXZQbk5LLXhjRTNSNVQtX3hwZU5od3dmTnJIMmYtNlJlalpOQVozM3RucGgwc3ZsY2xVRTNnWHZjQkpLalU3bkpEdl9KU2JaM1lFelo2Qjc1SkE4?oc=5",
+      "published_at": "2026-11-07T02:18:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nWFV6eDNPMkUxZlZ5dXlBcktNaGxxRFl5UWQwckJKVV9MYXBCSG9NdkE4UG1BcHN5ZTJqWkZzeWxrOXdsZDZiRmtsZjZWd2NkbFo1ZG5MTnk?oc=5",
       "kind": "news"
     },
     {
       "source": "news:zh",
-      "name": "OpenAI 宣布收购 Pierre，全面扩充 Codex 开发者工具生态 - AIBase",
-      "tag_name": "AIBase",
+      "name": "Amp推出Spaces：面向团队的AI智能体协同工作空间，实现目标驱动的多线程自动编排 - SmartHey",
+      "tag_name": "SmartHey",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-06T03:29:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkSG5OM0lES01nZUpBbzBvblNBbE5tRTJKOGphanNsYmZCVHUxX0doVE5RcERRbmtSMEJQRVNBTFowM096YUVYYVUzcTVFZw?oc=5",
+      "published_at": "2026-11-07T00:06:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TaWZHczRhb3ltblpJbnRXc0w4RnBLbUxIWW5HZ2h1dUxnTjFlQW5VMmF2Y0tJb2QxdE5oWmRWdmpPeVNyczBPMFdsWE1JWHJRSE05ZFBOX2s4VF96a2c?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@2.0.19",
+      "tag_name": "@ai-sdk/zai@2.0.19",
+      "body": "### Patch Changes\n\n- Updated dependencies [14c196a]\n- Updated dependencies [98eb47b]\n  - @ai-sdk/openai-compatible@2.0.91",
+      "published_at": "2026-11-06T22:23:12Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.19",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@3.0.150",
+      "tag_name": "@ai-sdk/xai@3.0.150",
+      "body": "### Patch Changes\n\n- Updated dependencies [14c196a]\n- Updated dependencies [98eb47b]\n  - @ai-sdk/openai-compatible@2.0.91",
+      "published_at": "2026-11-06T22:23:09Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.150",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.324",
+      "tag_name": "ai@6.0.324",
+      "body": "### Patch Changes\n\n- ba3743f: Preserve `toolChoice: 'none'` when SDK tools are omitted or empty so providers can disable native tools configured through provider options.\n\n  For Perplexity native tools, also update `@ai-sdk/perplexity` to `3.1.10` or a later compatible version, which includes the provider-side guard.\n\n- Updated dependencies [fbb8489]\n- Updated dependencies [26b7351]\n  - @ai-sdk/gateway@3.0.230",
+      "published_at": "2026-11-06T22:21:33Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.324",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.48",
+      "tag_name": "@ai-sdk/zai@3.0.48",
+      "body": "### Patch Changes\n\n- 9345eac: Refactor Z.AI model ID logic into a model catalog that declares capabilities and provider options, and generate provider capability documentation from it. Request behavior is unchanged.\n- Updated dependencies [b63c06a]\n- Updated dependencies [646a7e3]\n  - @ai-sdk/openai-compatible@3.0.86",
+      "published_at": "2026-11-06T19:46:48Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.48",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.175",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.175",
+      "body": "### Patch Changes\n\n- Updated dependencies [8e8033a]\n- Updated dependencies [a54f0fd]\n  - @ai-sdk/harness@1.0.175",
+      "published_at": "2026-11-06T19:46:45Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.175",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.96",
+      "tag_name": "@ai-sdk/workflow@2.0.96",
+      "body": "### Patch Changes\n\n- ai@7.0.164",
+      "published_at": "2026-11-06T19:46:42Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.96",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.164",
+      "tag_name": "@ai-sdk/vue@4.0.164",
+      "body": "### Patch Changes\n\n- ai@7.0.164",
+      "published_at": "2026-11-06T19:46:39Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.164",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.164",
+      "tag_name": "ai@7.0.164",
+      "body": "### Patch Changes\n\n- Updated dependencies [bace553]\n- Updated dependencies [6737c77]\n- Updated dependencies [bb4e2d0]\n  - @ai-sdk/gateway@4.0.137",
+      "published_at": "2026-11-06T19:43:30Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.164",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "qData 数据中台开源版 v1.6.6 发布：ETL 模块轻量化升级，优化定时任务磁盘占用问题 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-06T14:45:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlSGl4TW5vR0FyN1lvd0tvVnk4RGhBMjZiU1ZXQlFmWmUyb2NzNzB5V1ROd21CczMyR3pqZGN2MnhNR28xWFkzbzNOMA?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Threat actors use agentic AI tooling to find and abuse exposed secrets - Microsoft",
+      "tag_name": "Microsoft",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-05T23:46:50Z",
+      "html_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0N4VkVTajFxbXRpcGRTWWxJNi16TVlheExSbHc3NHdMYkhFLXlZeEdCTGxaaV9MNkp3Wm9nLU0waTA1MUVNQ1piRDZ2ZzQ2X1MzRi12N0Jfal9xM2ZPaTZNU1pReXhRempzZ3BJZ0F2X3c1bDZVRmo3QW9hQTZLQkFsOGR0S0Y5a0RyLXhpSEt5bEVSMi1ma0RITDM0UUdoR0RfcXRFS3Q1ajlUTDdBT3hzYzNBZm1lS0NfRmtWNW5ickp4QjRz?oc=5",
       "kind": "news"
     },
     {
@@ -57,6 +138,15 @@
       "kind": "release"
     },
     {
+      "source": "news:en",
+      "name": "Agent Hooks Are a Developer Tool, Not Access Control - Security Boulevard",
+      "tag_name": "Security Boulevard",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-05T18:48:35Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbWNMcGhlZHFvTVRZVlJhYnp2TUtvbzdsQ1k5YTRpOEhxWC1uVzlDb190MWlMOWRaUDFwT0FVdGh0QTlteUszR3VpZzRnWmhpejhJcms4Ty0yblRobXBLS1dUY0NpYjFuRmxIQTdOTUgtdjlBWjQxUk11aU10QjFoZUhfeXdPcHZVcHJPanRWTUdWMFlL?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "openai/openai-python",
       "name": "v3.47.0",
       "tag_name": "v3.47.0",
@@ -67,20 +157,29 @@
     },
     {
       "source": "news:zh",
-      "name": "Apple 发布更新版全球旅行转换插头套装 - Mezha.net",
-      "tag_name": "Mezha.net",
+      "name": "qKnow 智能体构建平台专业版 v3.1.5 发布：扩容工作流编排调用能力，上线 Text2SQL 插件，拓宽数据类智能应用构建边界 - OSCHINA",
+      "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T15:26:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcl9SNlVNNXBkaWc0cHV6dEtER3dBdDFFb3VfRnV2QU5sUDYySGNZS0l4UnBSeTEtbGtWRml0WTJSbWQ0dHc0b2FVbldLeFdIN1hIcEhDazB5ZnBjbUpmR2JGZjl5TTNnOW8wYi1qeWloYWh6QzdHbEZRajY3X3ZtbERuSzlZRUlzaGkxOHNXVHRpdk1MdGF6XzZYeFN6b1ZaNURN?oc=5",
+      "published_at": "2026-11-05T15:31:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CTEJnVlhFaWU2bjZRSFIybmhBTm5GVTFOcHB0TmFmSUpDYUxtX2VxNG1nZ3I1dTVUQy1aR2FtSXVqcUxkNmd1TUhGaw?oc=5",
       "kind": "news"
     },
     {
       "source": "news:en",
-      "name": "OpenAI Pierre Acquisition: 3 Open-Source Tools [2026] - tech-insider.org",
+      "name": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
       "tag_name": "tech-insider.org",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-05T07:45:21Z",
       "html_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldYM0RqVkVVTUJuVkNkajMyc1Nrb3BNSVo2QW1iNER5MDBkeEpyV2VMY3BRbFJlSVVkWjRIRUo2NTZqUW0tcWM3ZkowMXF2ekN5VWRZSE1TaC1SUzNBRlpGNjNfSXpRMHVtck1iWDNzZFA1d1ZINWxGUXRsYUJvSV9lZlNEby1jQUdzYlBTTWQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾 - 36氪",
+      "tag_name": "36氪",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-05T07:45:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3TkFyaktwMXVhbk5wRnR5cVlpS29iT3VOQUlNMk9vQi1uVWZWMllkdTVXTy1nNTE1UkVna3FJSkRJSGtyT0FGalZMSU5kUQ?oc=5",
       "kind": "news"
     },
     {
@@ -91,78 +190,6 @@
       "published_at": "2026-11-05T05:28:38Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Cb3hqejVzZGwyckJ4TDVGVTAyVXktNDB4WjJkdjdLR25HZlpYX0FvQ1JwMHlnLUwzUEk5dnQxcHNCN1MyYjVPYmh1YUI?oc=5",
       "kind": "news"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.47",
-      "tag_name": "@ai-sdk/zai@3.0.47",
-      "body": "### Patch Changes\n\n- Updated dependencies [36802d4]\n- Updated dependencies [e0143b0]\n- Updated dependencies [934100c]\n- Updated dependencies [add01ab]\n- Updated dependencies [5f19ea5]\n- Updated dependencies [892af4d]\n- Updated dependencies [89aff56]\n- Updated dependencies [41465fd]\n- Updated dependencies [9754014]\n- Updated dependencies [4bb73b0]\n- Updated dependencies [2e44144]\n  - @ai-sdk/provider@4.0.36\n  - @ai-sdk/openai-compatible@3.0.85\n  - @ai-sdk/provider-utils@5.0.75",
-      "published_at": "2026-11-05T01:16:32Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.47",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.39",
-      "tag_name": "@ai-sdk/xai@5.0.39",
-      "body": "### Patch Changes\n\n- 892af4d: feat (provider/xai): implement server-side realtime extensions\n\n  `XaiRealtimeModel` now implements `getServerWebSocketConfig()`, returning the upstream voice realtime WebSocket URL (with the `model` query param) plus header auth derived from the model's configured credentials. Unsupported endpoint intents are rejected. The event mapper now populates normalized `usage` on `response-done` and `input-transcription-completed` using xAI's OpenAI-compatible realtime wire shape.\n\n- 41465fd: Expose optional transcription word timings separately from segments and accept shared timestampGranularities. Explicit provider timing settings take precedence. OpenAI now sends timestamp_granularities only with verbose_json and warns when a requested timing is unavailable or excluded.\n- 2e44144: Support typed `output.uploadUrl` delivery for video generation, editing, and extension. Polling returns an explicit uploaded outcome without downloading or exposing the signed destination, including in request errors. Use camelCase `output.uploadUrl` instead of raw `output.upload_url` passthrough; the new option rejects null and requires an HTTPS URL.\n- Updated dependencies [36802d4]\n- Updated dependencies [e0143b0]\n- Updated dependencies [934100c]\n- Updated dependencies [892af4d]\n- Updated dependencies [89aff56]\n- Updated dependencies [41465fd]\n- Updated dependencies [9754014]\n- Updated dependencies [4bb73b0]\n- Updated dependencies [2e44144]\n  - @ai-sdk/provider@4.0.36\n  - @ai-sdk/provider-utils@5.0.75",
-      "published_at": "2026-11-05T01:16:29Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.39",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.174",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.174",
-      "body": "### Patch Changes\n\n- Updated dependencies [3bf70f8]\n  - @ai-sdk/harness@1.0.174",
-      "published_at": "2026-11-05T01:16:26Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.174",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.95",
-      "tag_name": "@ai-sdk/workflow@2.0.95",
-      "body": "### Patch Changes\n\n- 85b920f: feat(workflow): remove `experimental_transform` from `WorkflowAgent.stream()`\n\n  Stream transforms cannot reliably run across workflow step boundaries, so the option has been removed along with the `StreamTextTransform` type export.\n\n- Updated dependencies [5d18351]\n- Updated dependencies [8da48db]\n- Updated dependencies [fd7e8a7]\n- Updated dependencies [36802d4]\n- Updated dependencies [933dae3]\n- Updated dependencies [e0143b0]\n- Updated dependencies [934100c]\n- Updated dependencies [c389374]\n- Updated dependencies [892af4d]\n- Updated dependencies [892af4d]\n- Updated dependencies [89aff56]\n- Updated dependencies [1a1da8d]\n- Updated dependencies [41465fd]\n- Updated dependencies [9754014]\n- Updated dependencies [4bb73b0]\n- Updated dependencies [2e44144]\n  - ai@7.0.163\n  - @ai-sdk/provider@4.0.36\n  - @ai-sdk/provider-utils@5.0.75",
-      "published_at": "2026-11-05T01:16:23Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.95",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.163",
-      "tag_name": "@ai-sdk/vue@4.0.163",
-      "body": "### Patch Changes\n\n- Updated dependencies [5d18351]\n- Updated dependencies [8da48db]\n- Updated dependencies [fd7e8a7]\n- Updated dependencies [36802d4]\n- Updated dependencies [933dae3]\n- Updated dependencies [e0143b0]\n- Updated dependencies [934100c]\n- Updated dependencies [c389374]\n- Updated dependencies [892af4d]\n- Updated dependencies [89aff56]\n- Updated dependencies [1a1da8d]\n- Updated dependencies [41465fd]\n- Updated dependencies [9754014]\n- Updated dependencies [2e44144]\n  - ai@7.0.163\n  - @ai-sdk/provider-utils@5.0.75",
-      "published_at": "2026-11-05T01:16:20Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.163",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.163",
-      "tag_name": "ai@7.0.163",
-      "body": "### Patch Changes\n\n- 5d18351: fix(ai): detect downloaded audio types from bytes when servers return a generic or non-audio content type such as application/octet-stream\n- 8da48db: Respect `recordInputs` and `recordOutputs` when delivering telemetry events to integrations and the `ai:telemetry` channel. Filter nested content and omit raw span results when content recording is disabled, while preserving application results.\n- fd7e8a7: Preserve the order of text and complete function calls in streamed Google responses, including standalone thought signatures on empty text or reasoning parts.\n\n  Keep provider metadata on empty text parts when converting results to response messages so it can be passed back in subsequent requests.\n\n  Omit foreign-provider empty signature text when replaying history through Anthropic or Bedrock, preserving Bedrock’s existing native reasoning-history handling.\n\n- 36802d4: Support native URL transcription with an optional provider capability, keeping existing file-generation contracts unchanged. Groq sends HTTP(S) audio URLs through its `url` parameter without downloading and re-uploading them, avoiding the attachment upload limit. Supplying a custom `download` function retains local download behavior.\n\n  For telemetry integrations, `TranscriptionEndEvent.audio.byteLength` and `audio.mediaType` can now be `undefined` when a provider fetches the audio URL natively. Check for missing values before using them as a number or string. Downloaded and inline audio continue to report their metadata; streaming transcription metadata is unchanged.\n\n  Strip media fragments before sending URLs to Groq. If Groq rejects a redirect, fall back to the existing secure local downloader and file upload rather than failing previously working URL inputs. Other provider errors are preserved.\n\n- 933dae3: fix (ai): download deprecated `file-url` and `image-url` tool result content\n\n  Tool result content parts that use the deprecated `file-url` and `image-url`\n  types were converted to `file` parts with `{ type: 'url' }` data, but they were\n  never passed to the download function. When the model does not support the URL,\n  the provider received a bare URL instead of the file contents, even though the\n  replacement `file` part with `{ type: 'url' }` data was downloaded and inlined.\n\n  Downloaded legacy URL parts now use the same media type normalization as file\n  parts, resolving generic types from the response header or image bytes.\n  Legacy base64 data URLs also normalize to inline data with the media type from\n  their data URL, matching replacement file parts.\n\n- e0143b0: feat(ai): support provider-owned realtime transports\n\n  Add an optional `createTransport` interface and `provider` connection capability.\n\n- 934100c: Report the actual OpenAI Chat HTTP endpoint (also used by Azure Chat and Bedrock Mantle Chat) through optional request metadata and model-call end events. Record its host and port on OpenTelemetry chat spans without exposing URL credentials, paths, queries, or fragments. Expose only the sanitized HTTP origin in text and object generation results and step/finish callbacks. Providers that do not report an endpoint leave these attributes unset.\n- c389374: fix(ai): infer union output types when passing a union of schemas to `Output.object` and `Output.array`\n\n  Previously, passing a schema whose type is a union of schemas (e.g. a schema selected from a map at runtime) failed to type-check because the output type was inferred from the first union member only. The output type is now inferred as the union of the schemas' output types.\n\n- 892af4d: feat (ai): re-export realtime server-connection and usage types\n\n  Adds `Experimental_RealtimeServerConnection`, `Experimental_RealtimeSessionIntent`, and `Experimental_RealtimeUsage` aliases for the new experimental `RealtimeModelV4` server-side spec types.\n\n- 1a1da8d: stream steering messages to the ui and keep them in converted messages\n- 41465fd: Expose optional transcription word timings separately from segments and accept shared timestampGranularities. Explicit provider timing settings take precedence. OpenAI now sends timestamp_granularities only with verbose_json and warns when a requested timing is unavailable or excluded.\n- 9754014: Add typed streaming heartbeat parts. Anthropic emits them only with `includePings: true` (disabled by default), without requiring raw chunks. Core forwards pings through stream retries without storing them as generated content or sending them to UI message streams. Consumers with exhaustive stream-part switches must handle the new `ping` union variant when upgrading, even when the opt-in is disabled. Typed pings do not flush partial words during stream smoothing.\n- 2e44144: Represent videos delivered directly to caller-managed storage with an explicit uploaded outcome. Video generation reports `uploadedVideos` without downloading or synthesizing video bytes; access `video` only when `videos` is nonempty.\n- Updated dependencies [722d4a9]\n- Updated dependencies [acea2b5]\n- Updated dependencies [89aff56]\n- Updated dependencies [41465fd]\n- Updated dependencies [2e44144]\n- Updated dependencies [36802d4]\n- Updated dependencies [ef2dfb5]\n- Updated dependencies [e0143b0]\n- Updated dependencies [934100c]\n- Updated dependencies [892af4d]\n- Updated dependencies [892af4d]\n- Updated dependencies [89aff56]\n- Updated dependencies [32acf43]\n- Updated dependencies [41465fd]\n- Updated dependencies [9754014]\n- Updated dependencies [4bb73b0]\n- Updated dependencies [2e44144]\n  - @ai-sdk/gateway@4.0.136\n  - @ai-sdk/provider@4.0.36\n  - @ai-sdk/provider-utils@5.0.75",
-      "published_at": "2026-11-05T01:12:23Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.163",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@3.0.323",
-      "tag_name": "@ai-sdk/vue@3.0.323",
-      "body": "### Patch Changes\n\n- ai@6.0.323",
-      "published_at": "2026-11-05T01:09:55Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.323",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.323",
-      "tag_name": "ai@6.0.323",
-      "body": "### Patch Changes\n\n- Updated dependencies [8b1acb6]\n- Updated dependencies [cafcf53]\n  - @ai-sdk/gateway@3.0.229",
-      "published_at": "2026-11-05T01:09:22Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.323",
-      "kind": "release"
     },
     {
       "source": "openai/openai-python",
@@ -256,15 +283,6 @@
     },
     {
       "source": "news:en",
-      "name": "Tencent Hy4 Is a 770B Apache 2.0 Open Model [2026] - shattered.io",
-      "tag_name": "shattered.io",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-04T15:35:04Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeWVfRERMaC01UnBHN20xTmlTLWNha0g3WE1mRUdyTUJzSktlMWlQUGZyQVJvMjkwUl9CclFsdFZLdGVRcHFrbTBPc1VXay1aMmdKOWpMSnhIR0FZdnBMVmZrXzNaWlU3ak5wWGpMZEYtV3M5Rm1neExNTnZVNXU3Qy0zOHBqOGlwUEdR?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "OpenAI to acquire Pierre Computer Company, Inc. - OpenAI",
       "tag_name": "OpenAI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -274,11 +292,11 @@
     },
     {
       "source": "news:en",
-      "name": "STMicroelectronics sharpens agentic-AI coding with new STM32 tools - El Paso Times",
-      "tag_name": "El Paso Times",
+      "name": "STMicroelectronics sharpens agentic-AI coding with new STM32 tools - The Detroit News",
+      "tag_name": "The Detroit News",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-04T10:53:31Z",
-      "html_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR25lcV9oTVlwQTlLUHFNdnpPU1NRdkNEVkhKd0IwdU9BVXZFRFhVZ1pJSHJ3UkxOeFVjWVBaWEV2czhCeGFEMUlJclk0TTNsT1JoVng5OGZpeHBZWEVJM3prMTdEZVI0S3h1SkFSaDVOUk5GbUR2NlhWSEJFWlJhWDk5QzEzX0RseVlzOExMQVFaSUo4SUhzQ1pQeWhKS0NjdmFsbV9HNUc3ak1OOUtxbFpUOUd3THRta0g0N0piMA?oc=5",
+      "published_at": "2026-11-04T10:58:10Z",
+      "html_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1dxdTBXcTdFUGl1YTgzQjNsZmNNMGRjTm1lcmlDc2J4bkVSUlUycFJmeGhuNnJfN2J5aEtLN1FlXzhuWHlzLVIwSTJPUzNndklla1pveGFNdnJwaF9ScDVTelVOemkyd0FaQ3dyOEl4VUFWaDVpX052Z2U3M1l0QkprRzB6b0JWaEtLS25fVzdYNmVEcXQtWXVXSk9xcWZraWhqUGd0bHZONU1JT05vVzBSY01IVGZBa1R6MzY5cw?oc=5",
       "kind": "news"
     },
     {
@@ -300,15 +318,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "国行iPhone重磅更新！iOS 27.3 Beta 1发布：终于等来苹果AI 支持实时翻译等 - 手机新浪网",
-      "tag_name": "手机新浪网",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T23:58:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11Z21sM2FaUy11Y09oTUtLQlotcjV5U0dTcV9fa0FvUlZzM1hMQWp6RFlZUmw4TkItR0xEQnNYbXh6NkRMTVFOWVd6T1ZOLUNvSXl0aGVBX25ncGlabEdtS0xkNW51MFpkT29QV2hBVDY4WmJQT3dNbm9LeDl3bVE?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.15",
       "tag_name": "v0.40.15",
@@ -319,20 +328,11 @@
     },
     {
       "source": "news:zh",
-      "name": "国行iPhone重磅更新！iOS 27.3 Beta 1发布：终于等来苹果AI 支持实时翻译等 - 新浪财经",
-      "tag_name": "新浪财经",
+      "name": "国行iPhone重磅更新！iOS 27.3 Beta 1发布：终于等来苹果AI 支持实时翻译等 - 驱动之家",
+      "tag_name": "驱动之家",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-03T22:20:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LZExZMDBqWWJJSlVGQmE0WURETVBobjJKZTBaeDRlTm5oa3I5NDJvTWpvWmljaEVCdjJpX3l6N3AwQlFwcTFwVG5Nd2pyOEdpTFJDVTh1WGR2NGgyTnFVRzBLclBueFlSNURjNTVHcFQya1ZQTjh5Qms2VFNtazQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "苹果发布开发者测试版：AI听音功能与新版健康应用上线 - 华尔街见闻",
-      "tag_name": "华尔街见闻",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T21:20:32Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmX3Y4bXBOc1FtVFo4NFdfZ2tHa3p5enM3ZmZielMydmJfd2xJblBDUXpKVS0yMmFseEc1Ny1zLUhjc0NaVENQblItdXotTTB2YW9z?oc=5",
+      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85TnJCT3ZmMWZoQk54OVhWX1RwT2ptNGFPcm53TndjcjBoTFd4ZkU1djRhMUNkcnBoLXZtTXhiNWkyZW9oYjhxN2ZUMDVWY0FrelFmRXhFTC0?oc=5",
       "kind": "news"
     },
     {
@@ -354,15 +354,6 @@
       "kind": "release"
     },
     {
-      "source": "news:zh",
-      "name": "AI 复刻 Adobe 系列软件开发者坦言：项目远未准备就绪 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T18:56:02Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01VmpMSjhtT2g5VzlDRGhqdF9HMFNlanBydEpneEVaRVpCbGFZWlhZNmgxU2hGR2VjXy1SSDgxdElXSzFmYTVtOEU4M2JSQ0RsVmMwTkVVR2ZKcFZxUXc?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.43.0",
       "tag_name": "v3.43.0",
@@ -381,21 +372,21 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "DBPanel 1.1.3 发布：增强网站防护与版本化部署，新增空间清理- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T09:41:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpcTFFc0U2NFRQdk03bzVBQV84U184dDlOUGtRclVOM0twaVRMcnBicnZWR2twaC1ZV0d1T3hwZUdUWnV3Wl91dG55cw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
       "name": "What Google Cloud announced in AI this month – and how it helps you - Google Cloud",
       "tag_name": "Google Cloud",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-03T08:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Binance’s $6.34 Billion Hack: Developer Machines, AI Tooling, and Wallet Signing - Step Security",
+      "tag_name": "Step Security",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-03T08:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UWUxoVEh5TjRQVm01Zlhqc2NWQ00xclY2QmVPdV9FZmJNX25yUXdqMTF4ZlVXMklUWnVuY25yZzlOY1o4VUo1Q1NEeDZaY1I1S1dxRjY0SENhemlOZXhDcVZINFBfTHdCaWhjOW5QcjBuOGlPNF9DQWFwRkc?oc=5",
       "kind": "news"
     },
     {
@@ -451,15 +442,6 @@
       "published_at": "2026-10-31T00:26:41Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.42.0",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Suno’s new MCP tool lets users make songs inside ChatGPT, Claude, and Gemini – as its developer API gets a sign-in portal but remains in beta - Music Business Worldwide",
-      "tag_name": "Music Business Worldwide",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-10-30T08:47:23Z",
-      "html_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPSUprUEU5bGhBaGJxaTVJcEVhMWppc3U1M1drNGVsMU1yZ0tjT2JLNXBva3BZYU5pN2lGTm1jWi1JUjdBYlE1UHBtYkx0N09iY1BObGVqYVNoVmFocnZXLXRQb193M3JRUnFsZnBEUnFzUmtaVzZLSTlWalNNcW1LNi1yWmZiNTk4VThjWTNWTUxqc0lkZUhLV2tmbkpmQXN3MnRZUWx1QWVCbEZ5N0ltX2VxVm5MUEdWdXVnakhCbV9pcm9ibkcwdW94allaQkRFX1BUa1FuU195N2hwYkFERDc5cGcwcmUyMDdGeTQweEhrdUNDOWZOYVh5UUo4cWQwei1iNDk2VQ?oc=5",
-      "kind": "news"
     },
     {
       "source": "openai/openai-python",
