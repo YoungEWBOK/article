@@ -1,104 +1,122 @@
 {
-  "generated_at": "2026-11-07T07:15:55.359678Z",
+  "generated_at": "2026-11-08T07:27:20.038567Z",
   "source_count": 8,
   "items": [
     {
-      "source": "news:zh",
-      "name": "法国Mistral扩展Studio企业级AI智能体平台 - 维度网",
-      "tag_name": "维度网",
+      "source": "news:en",
+      "name": "AI Week in Review 26.11.07 - Substack",
+      "tag_name": "Substack",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-07T02:18:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nWFV6eDNPMkUxZlZ5dXlBcktNaGxxRFl5UWQwckJKVV9MYXBCSG9NdkE4UG1BcHN5ZTJqWkZzeWxrOXdsZDZiRmtsZjZWd2NkbFo1ZG5MTnk?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "Amp推出Spaces：面向团队的AI智能体协同工作空间，实现目标驱动的多线程自动编排 - SmartHey",
-      "tag_name": "SmartHey",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-07T00:06:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TaWZHczRhb3ltblpJbnRXc0w4RnBLbUxIWW5HZ2h1dUxnTjFlQW5VMmF2Y0tJb2QxdE5oWmRWdmpPeVNyczBPMFdsWE1JWHJRSE05ZFBOX2s4VF96a2c?oc=5",
+      "published_at": "2026-11-07T23:37:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTlaQXRsWU95VGtaRHR4N1pfZWZFZEJadkFoYWYwYkR4TVdqZVVKTWozQUt3WEhlR0VyQkxMT3JjU0hMTDhkTF9GYUl0UTdadjR5V0J5anhVOHRyU0tkMmdwaUVJR2tGeDNBYnRB?oc=5",
       "kind": "news"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/zai@2.0.19",
-      "tag_name": "@ai-sdk/zai@2.0.19",
-      "body": "### Patch Changes\n\n- Updated dependencies [14c196a]\n- Updated dependencies [98eb47b]\n  - @ai-sdk/openai-compatible@2.0.91",
-      "published_at": "2026-11-06T22:23:12Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.19",
+      "name": "@ai-sdk/zai@3.0.49",
+      "tag_name": "@ai-sdk/zai@3.0.49",
+      "body": "### Patch Changes\n\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/openai-compatible@3.0.87\n  - @ai-sdk/provider@4.0.37",
+      "published_at": "2026-11-07T19:31:54Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.49",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/xai@3.0.150",
-      "tag_name": "@ai-sdk/xai@3.0.150",
-      "body": "### Patch Changes\n\n- Updated dependencies [14c196a]\n- Updated dependencies [98eb47b]\n  - @ai-sdk/openai-compatible@2.0.91",
-      "published_at": "2026-11-06T22:23:09Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.150",
+      "name": "@ai-sdk/xai@5.0.40",
+      "tag_name": "@ai-sdk/xai@5.0.40",
+      "body": "### Patch Changes\n\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/provider@4.0.37",
+      "published_at": "2026-11-07T19:31:51Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.40",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "ai@6.0.324",
-      "tag_name": "ai@6.0.324",
-      "body": "### Patch Changes\n\n- ba3743f: Preserve `toolChoice: 'none'` when SDK tools are omitted or empty so providers can disable native tools configured through provider options.\n\n  For Perplexity native tools, also update `@ai-sdk/perplexity` to `3.1.10` or a later compatible version, which includes the provider-side guard.\n\n- Updated dependencies [fbb8489]\n- Updated dependencies [26b7351]\n  - @ai-sdk/gateway@3.0.230",
-      "published_at": "2026-11-06T22:21:33Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.324",
+      "name": "@ai-sdk/zai@2.0.20",
+      "tag_name": "@ai-sdk/zai@2.0.20",
+      "body": "### Patch Changes\n\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/openai-compatible@2.0.92",
+      "published_at": "2026-11-07T19:28:35Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.20",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.48",
-      "tag_name": "@ai-sdk/zai@3.0.48",
-      "body": "### Patch Changes\n\n- 9345eac: Refactor Z.AI model ID logic into a model catalog that declares capabilities and provider options, and generate provider capability documentation from it. Request behavior is unchanged.\n- Updated dependencies [b63c06a]\n- Updated dependencies [646a7e3]\n  - @ai-sdk/openai-compatible@3.0.86",
-      "published_at": "2026-11-06T19:46:48Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.48",
+      "name": "@ai-sdk/xai@3.0.151",
+      "tag_name": "@ai-sdk/xai@3.0.151",
+      "body": "### Patch Changes\n\n- 7957cfa: feat(xai): add `safetyIdentifier` Responses provider option\n\n  Sends `safety_identifier` with Responses API requests so xAI can attribute a policy violation to one end user, and exposes the echoed value on `providerMetadata.xai.safetyIdentifier`.\n\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/openai-compatible@2.0.92",
+      "published_at": "2026-11-07T19:28:32Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.151",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.175",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.175",
-      "body": "### Patch Changes\n\n- Updated dependencies [8e8033a]\n- Updated dependencies [a54f0fd]\n  - @ai-sdk/harness@1.0.175",
-      "published_at": "2026-11-06T19:46:45Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.175",
+      "name": "ai@7.0.165",
+      "tag_name": "ai@7.0.165",
+      "body": "### Patch Changes\n\n- 883fcde: remove transcription word timings from telemetry when recordOutputs is false\n- 6d21e8e: Sanitize provider request URLs before text generation results reach telemetry integrations and tracing subscribers, preventing endpoint credentials from being exposed.\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/provider@4.0.37\n  - @ai-sdk/gateway@4.0.138",
+      "published_at": "2026-11-07T19:27:48Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.165",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.96",
-      "tag_name": "@ai-sdk/workflow@2.0.96",
-      "body": "### Patch Changes\n\n- ai@7.0.164",
-      "published_at": "2026-11-06T19:46:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.96",
+      "name": "ai@6.0.325",
+      "tag_name": "ai@6.0.325",
+      "body": "### Patch Changes\n\n- 4ac871e: hide provider metadata from telemetry when recordOutputs is false\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/gateway@3.0.231",
+      "published_at": "2026-11-07T19:25:47Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.325",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.164",
-      "tag_name": "@ai-sdk/vue@4.0.164",
-      "body": "### Patch Changes\n\n- ai@7.0.164",
-      "published_at": "2026-11-06T19:46:39Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.164",
+      "name": "@ai-sdk/zai@1.0.11",
+      "tag_name": "@ai-sdk/zai@1.0.11",
+      "body": "### Patch Changes\n\n- Updated dependencies [49c554d]\n- Updated dependencies [db18e4f]\n- Updated dependencies [ce27f15]\n- Updated dependencies [b753c03]\n  - @ai-sdk/provider-utils@3.0.45\n  - @ai-sdk/openai-compatible@1.0.62",
+      "published_at": "2026-11-07T19:25:00Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%401.0.11",
       "kind": "release"
     },
     {
       "source": "vercel/ai",
-      "name": "ai@7.0.164",
-      "tag_name": "ai@7.0.164",
-      "body": "### Patch Changes\n\n- Updated dependencies [bace553]\n- Updated dependencies [6737c77]\n- Updated dependencies [bb4e2d0]\n  - @ai-sdk/gateway@4.0.137",
-      "published_at": "2026-11-06T19:43:30Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.164",
+      "name": "ai@5.0.286",
+      "tag_name": "ai@5.0.286",
+      "body": "### Patch Changes\n\n- f15d448: hide provider metadata from telemetry when recordOutputs is false\n- 417a92c: Preserve `toolChoice: 'none'` when SDK tools are omitted or empty so providers can disable native tools configured through provider options.\n\n  For Perplexity native tools, also update `@ai-sdk/perplexity` to `2.1.6` or a later compatible version, which includes the provider-side guard.\n\n- Updated dependencies [c6c7ae0]\n- Updated dependencies [49c554d]\n- Updated dependencies [ebc2cd9]\n- Updated dependencies [b753c03]\n- Updated dependencies [a7ebf30]\n  - @ai-sdk/gateway@2.0.177\n  - @ai-sdk/provider-utils@3.0.45",
+      "published_at": "2026-11-07T19:22:42Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.286",
       "kind": "release"
     },
     {
       "source": "news:zh",
-      "name": "qData 数据中台开源版 v1.6.6 发布：ETL 模块轻量化升级，优化定时任务磁盘占用问题 - OSCHINA",
+      "name": "DeepSeek Harness 0.2.2 发布,可将任务交给 Codex 和 Claude - Pasquale Pillitteri",
+      "tag_name": "Pasquale Pillitteri",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-07T17:29:22Z",
+      "html_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUm04SlBhT3lFZERwclpJWk1OaG9tc1hLWVFPT3VtNnU2bmVvampvbFZad19tdDZkeXFmWEV3dF9yVmFJaExGclI1RVJ5M29ERWt1WEc5blgtSXFZVW1QbnhjaC1pVWdHcTlyaGNtVzFvQnRzQTZsWU5lNjl3bHRVRzRsTnBSd0xyOGRSdG9FRnBTQQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing the Slack Code API: Your agents, your team, one code channel - Slack",
+      "tag_name": "Slack",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-07T15:34:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zTWFHa0g5VGxBcjNuYzJjSjVORjlpTmltVmpubDJzZ25ZNzVOMEp6M2Z6YXRhRXE5anlGZ0tYZllBal9nY043bWoyeDgwY0hXSFJWSENhTlR2UXc1?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "【AI 智能运维平台】本周更新：AI 智能体新增作业工具，支持脚本下发与文件分发- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-06T14:45:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlSGl4TW5vR0FyN1lvd0tvVnk4RGhBMjZiU1ZXQlFmWmUyb2NzNzB5V1ROd21CczMyR3pqZGN2MnhNR28xWFkzbzNOMA?oc=5",
+      "published_at": "2026-11-06T16:55:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fS0RVeWtRdmtTeWotOWpBTXFIUUEyb3NPLWtYSF9DSjBrM2F2Z2I4aTZoX0dnNFR4cndZOF83MEZabzNuVW85TzlYSQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Spotter AI Highlights Developer Success Stories Amid Continued Engineering Expansion - azcentral.com and The Arizona Republic",
+      "tag_name": "azcentral.com and The Arizona Republic",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-06T11:23:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSmI1M2lnVVdrTlhZNGlfYlB5S0F0al9qZTRfaURXbkg3NGhpMVdMSWY3bmxMSVZLNjNmc3I5VDR5ellYVXpKUVozUTRJUzhxdVFWQzRWTkNTWHpMOEdKdVE3TWZPS1JtOUJMQ0dnX0ROMW1fNGRlTUw2UE5vXzRkdXVmLTM3VTBEZWJOVngxbGN6eG1uTWlHTTdjMkQyOFBxRF84S2p1OWxfOEF2Ym1pVVZqbUdJWkFpZjJmZlByQUJjb29FUzZIX01uQlV4VWJRQ0tRWg?oc=5",
       "kind": "news"
     },
     {
@@ -138,15 +156,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Agent Hooks Are a Developer Tool, Not Access Control - Security Boulevard",
-      "tag_name": "Security Boulevard",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T18:48:35Z",
-      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbWNMcGhlZHFvTVRZVlJhYnp2TUtvbzdsQ1k5YTRpOEhxWC1uVzlDb190MWlMOWRaUDFwT0FVdGh0QTlteUszR3VpZzRnWmhpejhJcms4Ty0yblRobXBLS1dUY0NpYjFuRmxIQTdOTUgtdjlBWjQxUk11aU10QjFoZUhfeXdPcHZVcHJPanRWTUdWMFlL?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.47.0",
       "tag_name": "v3.47.0",
@@ -157,11 +166,11 @@
     },
     {
       "source": "news:zh",
-      "name": "qKnow 智能体构建平台专业版 v3.1.5 发布：扩容工作流编排调用能力，上线 Text2SQL 插件，拓宽数据类智能应用构建边界 - OSCHINA",
-      "tag_name": "OSCHINA",
+      "name": "Apple 发布更新版全球旅行转换插头套装 - Mezha.net",
+      "tag_name": "Mezha.net",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T15:31:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CTEJnVlhFaWU2bjZRSFIybmhBTm5GVTFOcHB0TmFmSUpDYUxtX2VxNG1nZ3I1dTVUQy1aR2FtSXVqcUxkNmd1TUhGaw?oc=5",
+      "published_at": "2026-11-05T15:26:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcl9SNlVNNXBkaWc0cHV6dEtER3dBdDFFb3VfRnV2QU5sUDYySGNZS0l4UnBSeTEtbGtWRml0WTJSbWQ0dHc0b2FVbldLeFdIN1hIcEhDazB5ZnBjbUpmR2JGZjl5TTNnOW8wYi1qeWloYWh6QzdHbEZRajY3X3ZtbERuSzlZRUlzaGkxOHNXVHRpdk1MdGF6XzZYeFN6b1ZaNURN?oc=5",
       "kind": "news"
     },
     {
@@ -175,20 +184,20 @@
     },
     {
       "source": "news:zh",
-      "name": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾 - 36氪",
-      "tag_name": "36氪",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T07:45:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3TkFyaktwMXVhbk5wRnR5cVlpS29iT3VOQUlNMk9vQi1uVWZWMllkdTVXTy1nNTE1UkVna3FJSkRJSGtyT0FGalZMSU5kUQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "英伟达发布CUDA Toolkit 13.5：正式支持Vera Rubin，升级多GPU通信 - 凤凰网科技",
       "tag_name": "凤凰网科技",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-05T05:28:38Z",
       "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Cb3hqejVzZGwyckJ4TDVGVTAyVXktNDB4WjJkdjdLR25HZlpYX0FvQ1JwMHlnLUwzUEk5dnQxcHNCN1MyYjVPYmh1YUI?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Gemini CLI v0.66.0 发布，聚焦 AI 编程中的使用摩擦 - remio",
+      "tag_name": "remio",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-05T01:54:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcUYxOUg3eWF5QTNCZWdhb0Niam5OcmM2V3BGQWRoRFN4WEtvSEdPc1FzNmI5MHdnVGh4S3liX0dLaGpwd09KRmp0Q0pZeURKTFE4b1JJQklGVzRVeXM5ZmhLQ1FRRDNkVUVPM1p6bjJwUXhGSzF2SmQxRE0wdGM1RWpuVkFISEZYcG5JeDc5VDVTeTREMmdGbktvblM?oc=5",
       "kind": "news"
     },
     {
@@ -208,15 +217,6 @@
       "published_at": "2026-11-05T00:22:12Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
       "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Meta's API v27 may add catalog products to new ads by default - PPC Land",
-      "tag_name": "PPC Land",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-04T21:14:02Z",
-      "html_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDNQN0tSc0diN2NzOTFOcmtkcGpPbUp1S1FnVEtqX20tQ2VDUG15all3b2k5aURobVpPcWk4WmlGX2xmWFplcmRLQl9TMnpheDNNTHVPbTlIc2ROS29vYUFxZDBkc2RrczhiSFRSaVR1bVVhOVdnZHVQQUoxcUVqQU9PWVo?oc=5",
-      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -336,15 +336,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Amazon rewrites its software engineering playbook for an era when AI writes the code - GeekWire",
-      "tag_name": "GeekWire",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T20:26:54Z",
-      "html_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjNaNlZ1aGFDMUd4c1p4YTc0bllabG9rM09HSVZFY0RIR2xMUFRTQkhGZVA0V2psU053SWtDc0dmQ3Ita0UyWUJvdXVPUGJsc2EwaDNmOUhmVi1JcVFGUHhPa3cyUkE5S0x5RGYyNFFKVHplU3otS0lLaGNjWG5OVFBGOWdram5YNExVOG81ZldrLThQdWQ5ek9hbDd6d1dWOWZtMzBsX0JDLV9GV2xDTTk0SkF1QQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.44.0",
       "tag_name": "v3.44.0",
@@ -352,6 +343,15 @@
       "published_at": "2026-11-03T20:20:42Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.44.0",
       "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "AI 复刻 Adobe 系列软件开发者坦言：项目远未准备就绪 - InfoQ.cn",
+      "tag_name": "InfoQ.cn",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-03T18:56:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01VmpMSjhtT2g5VzlDRGhqdF9HMFNlanBydEpneEVaRVpCbGFZWlhZNmgxU2hGR2VjXy1SSDgxdElXSzFmYTVtOEU4M2JSQ0RsVmMwTkVVR2ZKcFZxUXc?oc=5",
+      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -373,20 +373,20 @@
     },
     {
       "source": "news:en",
-      "name": "What Google Cloud announced in AI this month – and how it helps you - Google Cloud",
-      "tag_name": "Google Cloud",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T08:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "Binance’s $6.34 Billion Hack: Developer Machines, AI Tooling, and Wallet Signing - Step Security",
       "tag_name": "Step Security",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-03T08:00:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UWUxoVEh5TjRQVm01Zlhqc2NWQ00xclY2QmVPdV9FZmJNX25yUXdqMTF4ZlVXMklUWnVuY25yZzlOY1o4VUo1Q1NEeDZaY1I1S1dxRjY0SENhemlOZXhDcVZINFBfTHdCaWhjOW5QcjBuOGlPNF9DQWFwRkc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "What Google Cloud announced in AI this month – and how it helps you - Google Cloud",
+      "tag_name": "Google Cloud",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-03T08:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
       "kind": "news"
     },
     {
@@ -418,11 +418,11 @@
     },
     {
       "source": "news:en",
-      "name": "Lightspeed expands Connect API tools for developers and active traders - ROI-NJ",
-      "tag_name": "ROI-NJ",
+      "name": "How to Connect Claude Code to VS Code: 2026 Setup Guide - SitePoint",
+      "tag_name": "SitePoint",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-02T11:18:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQndkd3dtWWh4T3pRR0N2a3JwZnFxa3FBd1Q5cUFZN1FQT2tKRklvRGNGMmZvVjlfWFlMUElUMnJLNl92ekMyV2JSTGVzR3lydWtKd3YxZk1kNzhGeVZLUjZLWnZoRS1SWVJaUGhFTHNZVndIeDVpaVZENW16dHhGakZQRk01bWkzbF9TV3d3dDB6QmZ1M1Q3TlJzdFVXNDd5aU9JVmlaODZmS2VnM25F?oc=5",
+      "published_at": "2026-11-02T15:09:50Z",
+      "html_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RNko0bnNWb0pOaUlBcnZnZEljb3dXTnlYb1JHejJaR0MxZDgwM096NVBPcjBja1ZaWnpicVVQQTdOLWhPQktSdURpQ29LRHB1Q1pqcHVtTXZRVm04eUxLLVgyM0I1MHdpbC1Fbl9tQm1RZHRLaTFFVF9oblpsUHM?oc=5",
       "kind": "news"
     },
     {
