@@ -1,7 +1,151 @@
 {
-  "generated_at": "2026-11-08T07:27:20.038567Z",
+  "generated_at": "2026-11-09T08:03:57.660129Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": ":clap:日志审计系统 WGLOG v2.3.1 正式发布 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-09T04:32:54Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4zMWVXb0V4UDBoMEhZTFZjeFNvYmhBVk5RWFROQ215Q2I4UXFTN05tTWNTbmFwSTB3Sk45THV3Z2pvTVdELVZaSzF2SQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing the Slack Code API: Your agents, your team, one code channel - Slack",
+      "tag_name": "Slack",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-09T03:25:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zTWFHa0g5VGxBcjNuYzJjSjVORjlpTmltVmpubDJzZ25ZNzVOMEp6M2Z6YXRhRXE5anlGZ0tYZllBal9nY043bWoyeDgwY0hXSFJWSENhTlR2UXc1?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@3.0.326",
+      "tag_name": "@ai-sdk/vue@3.0.326",
+      "body": "### Patch Changes\n\n- ai@6.0.326",
+      "published_at": "2026-11-09T02:57:49Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.326",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@6.0.326",
+      "tag_name": "ai@6.0.326",
+      "body": "### Patch Changes\n\n- Updated dependencies [706b42a]\n  - @ai-sdk/gateway@3.0.232",
+      "published_at": "2026-11-09T02:57:25Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.326",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.177",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.177",
+      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.177",
+      "published_at": "2026-11-09T02:56:31Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.177",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.98",
+      "tag_name": "@ai-sdk/workflow@2.0.98",
+      "body": "### Patch Changes\n\n- ai@7.0.166",
+      "published_at": "2026-11-09T02:56:28Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.98",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.166",
+      "tag_name": "@ai-sdk/vue@4.0.166",
+      "body": "### Patch Changes\n\n- ai@7.0.166",
+      "published_at": "2026-11-09T02:56:25Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.166",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/tui@1.0.167",
+      "tag_name": "@ai-sdk/tui@1.0.167",
+      "body": "### Patch Changes\n\n- ai@7.0.166",
+      "published_at": "2026-11-09T02:56:22Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/tui%401.0.167",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/tool-web-fetch@1.0.16",
+      "tag_name": "@ai-sdk/tool-web-fetch@1.0.16",
+      "body": "### Patch Changes\n\n- ai@7.0.166",
+      "published_at": "2026-11-09T02:56:19Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/tool-web-fetch%401.0.16",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.166",
+      "tag_name": "ai@7.0.166",
+      "body": "### Patch Changes\n\n- Updated dependencies [44db225]\n  - @ai-sdk/gateway@4.0.139",
+      "published_at": "2026-11-09T02:54:58Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.166",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "LG AI Research Opens Free API Access to Its K-EXAONE 2.5 Model - Unite.AI",
+      "tag_name": "Unite.AI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-09T02:24:03Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdEg5OEs1M1BIWTQ5b09oS2JtMWxGRDNyOFJtcDRQQkFnd3BVdG5UeTY3bVlNSjFBODZlQnA4S3FWcFR1OFlkd0J1b19WLXlkaENsUW1NZ1laNVdYcU9FQXlSbkRzeTAyVS1kWXJicnFYT0NSLTE5UXR3VGFJbzhtb2NVajE1YkRHNVBvbQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "某知名互联网公司限制员工使用外部AI？知情人士这样回应 - 新华网客户端",
+      "tag_name": "新华网客户端",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-09T00:30:24Z",
+      "html_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU2RBY1N1TURubmpSTkpJaXp3ZGpVVkY1SXVVUHVZYnhacjlUeEhiT2o1S3gtMHpjMWNuQzJDWWNLWUdBcWN5SmNWVERRVEJHNEdsSm9xV3VKa1ZMLWxPRXJ3S1ZwYU5sRVlwVHUyekpXUndiV3FHZ1I4TDJpci1UX1J2NUtDbFBXVWpqMktIbVNHdkhCTkhsV3ZB?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "科学研究 - 编程语言“PHP”曝出重大漏洞，凸显网络社会的脆弱性 - 客观日本",
+      "tag_name": "客观日本",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-08T23:45:34Z",
+      "html_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5McXRPUnYxWHRPR25YOVRObFVVekUtbWd6S2diLTRDREg1cXlvNVNlQmdHZ19QTURyR0ZaNUY5M1R4ajZFM3RGdDY2TmJNQUpzQVdGWXZsejJVeUp4dXZDSHJpTGhZVDh2UHVnQTlBa2hSbzE1eFpZ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "html-golive - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-08T18:18:38Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jMVNxXzJhbmpfNUJDbHlCU1F1MG9QbVZTbUU4a3hHR0MzS3lTVUluM0c2bktXTnVObXBxS2VCb1VMZmtNQzNIcmU3TmdKdw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "OpenAI Agents SDK alpha changes three configuration surfaces - Forkast News",
+      "tag_name": "Forkast News",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-08T13:47:08Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0o0eTZNUzRvLUZNNGhnWnNfQjNGNlIzelhSSVJPcHNhdmFybnk4TG9KeTQzVEhNQzhib0kzUV92NFIyNjJMcUE2ZnlPajJxblUtb1dLLVhpZW1MRjgycFcwTllEWkxaekdKRVZNZ3d2a0ZZOEV1alRtVVZqUmYwdUJZNnpmOW5ycXc?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "World of Warcraft addon creator makes code private as AI rivals copy years of work - The Cool Down",
+      "tag_name": "The Cool Down",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-08T07:40:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNaEdfd2VwbU5pTmx1TFJlcGJhdmw0eVN2OHZkLVROSmJwdnRYWUgxNnJDcHhpRk1sUnlBNjhxVDE4dFVzaUZKWTYySEdNaEF1R1BvVmxoQl9XMmtHUXVFSkVtU3RjR2NiNWh5RmZKbDV0V0loNUU4UkFkZnM?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:en",
       "name": "AI Week in Review 26.11.07 - Substack",
@@ -12,93 +156,12 @@
       "kind": "news"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@3.0.49",
-      "tag_name": "@ai-sdk/zai@3.0.49",
-      "body": "### Patch Changes\n\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/openai-compatible@3.0.87\n  - @ai-sdk/provider@4.0.37",
-      "published_at": "2026-11-07T19:31:54Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.49",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@5.0.40",
-      "tag_name": "@ai-sdk/xai@5.0.40",
-      "body": "### Patch Changes\n\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/provider@4.0.37",
-      "published_at": "2026-11-07T19:31:51Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.40",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@2.0.20",
-      "tag_name": "@ai-sdk/zai@2.0.20",
-      "body": "### Patch Changes\n\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/openai-compatible@2.0.92",
-      "published_at": "2026-11-07T19:28:35Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.20",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/xai@3.0.151",
-      "tag_name": "@ai-sdk/xai@3.0.151",
-      "body": "### Patch Changes\n\n- 7957cfa: feat(xai): add `safetyIdentifier` Responses provider option\n\n  Sends `safety_identifier` with Responses API requests so xAI can attribute a policy violation to one end user, and exposes the echoed value on `providerMetadata.xai.safetyIdentifier`.\n\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/openai-compatible@2.0.92",
-      "published_at": "2026-11-07T19:28:32Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%403.0.151",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.165",
-      "tag_name": "ai@7.0.165",
-      "body": "### Patch Changes\n\n- 883fcde: remove transcription word timings from telemetry when recordOutputs is false\n- 6d21e8e: Sanitize provider request URLs before text generation results reach telemetry integrations and tracing subscribers, preventing endpoint credentials from being exposed.\n- Updated dependencies [6400cf8]\n- Updated dependencies [f608c05]\n- Updated dependencies [cab9c1f]\n- Updated dependencies [c70adf6]\n  - @ai-sdk/provider-utils@5.0.76\n  - @ai-sdk/provider@4.0.37\n  - @ai-sdk/gateway@4.0.138",
-      "published_at": "2026-11-07T19:27:48Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.165",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.325",
-      "tag_name": "ai@6.0.325",
-      "body": "### Patch Changes\n\n- 4ac871e: hide provider metadata from telemetry when recordOutputs is false\n- Updated dependencies [f0dee4b]\n  - @ai-sdk/provider-utils@4.0.65\n  - @ai-sdk/gateway@3.0.231",
-      "published_at": "2026-11-07T19:25:47Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.325",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/zai@1.0.11",
-      "tag_name": "@ai-sdk/zai@1.0.11",
-      "body": "### Patch Changes\n\n- Updated dependencies [49c554d]\n- Updated dependencies [db18e4f]\n- Updated dependencies [ce27f15]\n- Updated dependencies [b753c03]\n  - @ai-sdk/provider-utils@3.0.45\n  - @ai-sdk/openai-compatible@1.0.62",
-      "published_at": "2026-11-07T19:25:00Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%401.0.11",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.286",
-      "tag_name": "ai@5.0.286",
-      "body": "### Patch Changes\n\n- f15d448: hide provider metadata from telemetry when recordOutputs is false\n- 417a92c: Preserve `toolChoice: 'none'` when SDK tools are omitted or empty so providers can disable native tools configured through provider options.\n\n  For Perplexity native tools, also update `@ai-sdk/perplexity` to `2.1.6` or a later compatible version, which includes the provider-side guard.\n\n- Updated dependencies [c6c7ae0]\n- Updated dependencies [49c554d]\n- Updated dependencies [ebc2cd9]\n- Updated dependencies [b753c03]\n- Updated dependencies [a7ebf30]\n  - @ai-sdk/gateway@2.0.177\n  - @ai-sdk/provider-utils@3.0.45",
-      "published_at": "2026-11-07T19:22:42Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.286",
-      "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "DeepSeek Harness 0.2.2 发布,可将任务交给 Codex 和 Claude - Pasquale Pillitteri",
-      "tag_name": "Pasquale Pillitteri",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-07T17:29:22Z",
-      "html_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUm04SlBhT3lFZERwclpJWk1OaG9tc1hLWVFPT3VtNnU2bmVvampvbFZad19tdDZkeXFmWEV3dF9yVmFJaExGclI1RVJ5M29ERWt1WEc5blgtSXFZVW1QbnhjaC1pVWdHcTlyaGNtVzFvQnRzQTZsWU5lNjl3bHRVRzRsTnBSd0xyOGRSdG9FRnBTQQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:en",
-      "name": "Introducing the Slack Code API: Your agents, your team, one code channel - Slack",
-      "tag_name": "Slack",
+      "name": "AI Governance Platforms: Only 28% Keep Audit Trails [2026] - https://tech-insider.org/",
+      "tag_name": "https://tech-insider.org/",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-07T15:34:56Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zTWFHa0g5VGxBcjNuYzJjSjVORjlpTmltVmpubDJzZ25ZNzVOMEp6M2Z6YXRhRXE5anlGZ0tYZllBal9nY043bWoyeDgwY0hXSFJWSENhTlR2UXc1?oc=5",
+      "published_at": "2026-11-06T20:24:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHlUSklRUWIwSE1POTBzSWNtMEphRmoxWi1NeEZ6OERJZlZoUVZUS2FCcWFiRnRtS21LVk9mUGlKSmZtNC03YXZfRUhBVFZiMG1hN1ZjdHlLa2JaTlhtOUNLSDFldjlrZ25DazVlMWtET3B1S1UzMkJlRWVmR1hyeHl1WEM4NDB1ZFI1RnJDdzM0eUpo?oc=5",
       "kind": "news"
     },
     {
@@ -108,24 +171,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-06T16:55:00Z",
       "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fS0RVeWtRdmtTeWotOWpBTXFIUUEyb3NPLWtYSF9DSjBrM2F2Z2I4aTZoX0dnNFR4cndZOF83MEZabzNuVW85TzlYSQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Spotter AI Highlights Developer Success Stories Amid Continued Engineering Expansion - azcentral.com and The Arizona Republic",
-      "tag_name": "azcentral.com and The Arizona Republic",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-06T11:23:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSmI1M2lnVVdrTlhZNGlfYlB5S0F0al9qZTRfaURXbkg3NGhpMVdMSWY3bmxMSVZLNjNmc3I5VDR5ellYVXpKUVozUTRJUzhxdVFWQzRWTkNTWHpMOEdKdVE3TWZPS1JtOUJMQ0dnX0ROMW1fNGRlTUw2UE5vXzRkdXVmLTM3VTBEZWJOVngxbGN6eG1uTWlHTTdjMkQyOFBxRF84S2p1OWxfOEF2Ym1pVVZqbUdJWkFpZjJmZlByQUJjb29FUzZIX01uQlV4VWJRQ0tRWg?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Threat actors use agentic AI tooling to find and abuse exposed secrets - Microsoft",
-      "tag_name": "Microsoft",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T23:46:50Z",
-      "html_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0N4VkVTajFxbXRpcGRTWWxJNi16TVlheExSbHc3NHdMYkhFLXlZeEdCTGxaaV9MNkp3Wm9nLU0waTA1MUVNQ1piRDZ2ZzQ2X1MzRi12N0Jfal9xM2ZPaTZNU1pReXhRempzZ3BJZ0F2X3c1bDZVRmo3QW9hQTZLQkFsOGR0S0Y5a0RyLXhpSEt5bEVSMi1ma0RITDM0UUdoR0RfcXRFS3Q1ajlUTDdBT3hzYzNBZm1lS0NfRmtWNW5ickp4QjRz?oc=5",
       "kind": "news"
     },
     {
@@ -174,21 +219,12 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
-      "tag_name": "tech-insider.org",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T07:45:21Z",
-      "html_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldYM0RqVkVVTUJuVkNkajMyc1Nrb3BNSVo2QW1iNER5MDBkeEpyV2VMY3BRbFJlSVVkWjRIRUo2NTZqUW0tcWM3ZkowMXF2ekN5VWRZSE1TaC1SUzNBRlpGNjNfSXpRMHVtck1iWDNzZFA1d1ZINWxGUXRsYUJvSV9lZlNEby1jQUdzYlBTTWQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
-      "name": "英伟达发布CUDA Toolkit 13.5：正式支持Vera Rubin，升级多GPU通信 - 凤凰网科技",
-      "tag_name": "凤凰网科技",
+      "name": "Serve Robotics推出Physical AI Services，向其他机器人制造商销售技术 - Mezha.net",
+      "tag_name": "Mezha.net",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T05:28:38Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Cb3hqejVzZGwyckJ4TDVGVTAyVXktNDB4WjJkdjdLR25HZlpYX0FvQ1JwMHlnLUwzUEk5dnQxcHNCN1MyYjVPYmh1YUI?oc=5",
+      "published_at": "2026-11-05T15:26:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQTZVTHRsQW1rZEJnUU1BdF92eFNZUXNvOW81aUE0QmF3RFR1M1hmWWpiRWZBdDUzZGxsMHdTaU41WW0yMEl1Q0YwaVRoVXZ0ZmxjZjhwSk5ZSWJxN3JwVnlQclB2Q0I0T0N3VHlkanBXaDBUWkJQbDgySHdxdHE3bmRzNlFtT0NSQzQ2RjhqamFKdXRSUm9HUVk0dmlXeTFHNTQtNw?oc=5",
       "kind": "news"
     },
     {
@@ -373,15 +409,6 @@
     },
     {
       "source": "news:en",
-      "name": "Binance’s $6.34 Billion Hack: Developer Machines, AI Tooling, and Wallet Signing - Step Security",
-      "tag_name": "Step Security",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-03T08:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UWUxoVEh5TjRQVm01Zlhqc2NWQ00xclY2QmVPdV9FZmJNX25yUXdqMTF4ZlVXMklUWnVuY25yZzlOY1o4VUo1Q1NEeDZaY1I1S1dxRjY0SENhemlOZXhDcVZINFBfTHdCaWhjOW5QcjBuOGlPNF9DQWFwRkc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
       "name": "What Google Cloud announced in AI this month – and how it helps you - Google Cloud",
       "tag_name": "Google Cloud",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -397,15 +424,6 @@
       "published_at": "2026-11-03T01:40:40Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软推出 dotnetup：多版本管理更省心，安装方式却让开发者皱眉 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-02T20:51:48Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NNjFPWW9GSXZBYUd5cS1PRzA5Tlp1NnVvbU9oZTd3SlpSejdZTXdCX09ndUQxT1dCLVJIOHBHTHdYaXdvY29PTldaTFhuMHdIb1JVczNKamthTEtpcmc?oc=5",
-      "kind": "news"
     },
     {
       "source": "anthropics/anthropic-sdk-python",
