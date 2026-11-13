@@ -1,7 +1,160 @@
 {
-  "generated_at": "2026-11-12T08:24:19.341370Z",
+  "generated_at": "2026-11-13T08:05:56.405642Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/zai@3.0.54",
+      "tag_name": "@ai-sdk/zai@3.0.54",
+      "body": "### Patch Changes\n\n- Updated dependencies [6d50947]\n  - @ai-sdk/provider-utils@5.0.81\n  - @ai-sdk/openai-compatible@3.0.92",
+      "published_at": "2026-11-13T06:02:01Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.54",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/xai@5.0.45",
+      "tag_name": "@ai-sdk/xai@5.0.45",
+      "body": "### Patch Changes\n\n- Updated dependencies [6d50947]\n  - @ai-sdk/provider-utils@5.0.81",
+      "published_at": "2026-11-13T06:01:58Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.45",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow-harness@1.0.183",
+      "tag_name": "@ai-sdk/workflow-harness@1.0.183",
+      "body": "### Patch Changes\n\n- Updated dependencies [71bef69]\n  - @ai-sdk/harness@1.0.183",
+      "published_at": "2026-11-13T06:01:55Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.183",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/workflow@2.0.104",
+      "tag_name": "@ai-sdk/workflow@2.0.104",
+      "body": "### Patch Changes\n\n- b161730: fix(workflow): `WorkflowAgent` now accepts `onError` and `onAbort` in the constructor, like `ToolLoopAgent`. They are called before the callbacks passed to `generate()` or `stream()`. An error thrown by an `onError` or `onAbort` callback no longer replaces the error or result of the run.\n- c591e12: fix(workflow): tools called by `WorkflowAgent` no longer receive the system prompt or the assistant message that contains the current tool call in `options.messages`. The `messages` passed to `onToolExecutionStart` and `onToolExecutionEnd` no longer contain the system prompt either. This matches `ToolLoopAgent`, `generateText`, and `streamText`.\n- ec23d2d: fix(workflow): `model`, `toolChoice`, `activeTools`, and generation settings returned from `prepareStep` in `WorkflowAgent` now apply to the current step only, like in `ToolLoopAgent`. Before, an override returned for one step stayed in effect for all later steps.\n- 1876747: fix(workflow): `WorkflowAgent.stream()` now aggregates `totalUsage` the same way as `ToolLoopAgent`. Token details such as cached and reasoning tokens are kept, and counts that the provider did not report stay `undefined` instead of becoming `0`.\n- Updated dependencies [6d50947]\n- Updated dependencies [79d2004]\n  - @ai-sdk/provider-utils@5.0.81\n  - ai@7.0.172",
+      "published_at": "2026-11-13T06:01:52Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.104",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/vue@4.0.172",
+      "tag_name": "@ai-sdk/vue@4.0.172",
+      "body": "### Patch Changes\n\n- Updated dependencies [6d50947]\n- Updated dependencies [79d2004]\n  - @ai-sdk/provider-utils@5.0.81\n  - ai@7.0.172",
+      "published_at": "2026-11-13T06:01:49Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.172",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/voyage@2.0.82",
+      "tag_name": "@ai-sdk/voyage@2.0.82",
+      "body": "### Patch Changes\n\n- Updated dependencies [6d50947]\n  - @ai-sdk/provider-utils@5.0.81",
+      "published_at": "2026-11-13T06:01:46Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/voyage%402.0.82",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "@ai-sdk/valibot@3.0.81",
+      "tag_name": "@ai-sdk/valibot@3.0.81",
+      "body": "### Patch Changes\n\n- Updated dependencies [6d50947]\n  - @ai-sdk/provider-utils@5.0.81",
+      "published_at": "2026-11-13T06:01:43Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/valibot%403.0.81",
+      "kind": "release"
+    },
+    {
+      "source": "vercel/ai",
+      "name": "ai@7.0.172",
+      "tag_name": "ai@7.0.172",
+      "body": "### Patch Changes\n\n- 79d2004: Require an explicit `experimental_download` hook for remote file URLs in `experimental_extract` and `experimental_decide` instead of silently downloading through global fetch. Callers can use `createDownload({ fetch })` with a DNS-protected transport for untrusted URLs; inline file data continues to work without a hook.\n- Updated dependencies [6d50947]\n  - @ai-sdk/provider-utils@5.0.81\n  - @ai-sdk/gateway@4.0.145",
+      "published_at": "2026-11-13T05:57:52Z",
+      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.172",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "从AI编程到AI研发,织灵2.5发布,推动数字研发团队进入企业项目 - 中华网",
+      "tag_name": "中华网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-13T02:20:14Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rV1JVbDJjZ0N2bkhTUGpoemd0ek9BMEM5cEk0eURuZW1lZVp5cVk3WkdMQlZvSjdvb2dMZmdlN1o0M3RnOUk4TGpWREZhXzJoWkhDVlFLbzhMXzRGS0E?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "AI把整个软件生态打成筛子，全栈开发者的至暗时刻 - 36Kr",
+      "tag_name": "36Kr",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T23:12:35Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HcnhpWHg4XzZ4LV9EMHZpeEEyZXFvSjRkdXBPbEFMcThDSHlNQXE5YzdJclR3Y3hOVmdNNVowSDJYUlZ6aHJtRmtPREZ5UQ?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "AWS Releases Free API Emulation Tool; AI Agents Autonomously Generated Entire Codebase - BigGo Finance",
+      "tag_name": "BigGo Finance",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T22:25:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mdWZONkFDMnFnOF9memlUYm5ld3B6bDNyS25JVTJ3MnAtTDFKMkN3cXJacGx2UHFia0lsRXFuekZ1X3BiODgwbkhnemVsaGZmcVItallQbEVpUG5jRmNyUkVxRWl0eHIyaVBFRUlJbkJSalJHSkE?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.50.0",
+      "tag_name": "v3.50.0",
+      "body": "## [3.50.0](https://github.com/openai/openai-python/compare/v3.49.0...v3.50.0) (2026-11-12)\n\n\n### Features\n\n* **api:** expose reasoning input transformations on responses ([#4268](https://github.com/openai/openai-python/issues/4268)) ([734f75b](https://github.com/openai/openai-python/commit/734f75b5219da0fd74b24afefae81c71af81fcf6))\n\n\n### Chores\n\n* **deps:** bump astral-sh/setup-uv from 10.3.0 to 10.3.3 ([#4261](https://github.com/openai/openai-python/issues/4261)) ([0ebd006](https://github.com/openai/openai-python/commit/0ebd00647f6088fb100b03440c6c4554bbab549d))\n\n\n### Documentation\n\n* simplify review handoff instructions ([#4266](https://github.com/openai/openai-python/issues/4266)) ([141a89a](https://github.com/openai/openai-python/commit/141a89aa7fbb7f13a979bda930831a5fe38bc3a4))",
+      "published_at": "2026-11-12T19:26:07Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.50.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "AI Video Maker APIXO AI Adds Seedream 5.5 With 30% Off API Pricing - The Des Moines Register",
+      "tag_name": "The Des Moines Register",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T15:27:04Z",
+      "html_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjl6VWxHa1JKRnVYOHNGYUt1MWpFN2JLSmNsXzQxWTJqbjNreVA2dEMxV2VwOWpqSkVIZzRUV19NYU91XzNzV2FhR0F4ZnhDTHhxbER4NUhjZlBmYjNxV0oxS2RISlNWNjRYWTJaeHhSVXU4S25qOW1yRkhoZ0s4aV9ueF9vRlE3Sk9tOGxRbHBPU2xQNDVEamc0TnVzWUNzNmNsSzRsRkRRcFpxVWJyb2NJQmIyNlNUYVZlYi05SERuSzEzX1E?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "GitHub Trending 日榜速报：AI 工具链与效率工具领跑开源生态 - CSDN",
+      "tag_name": "CSDN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T14:29:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FWWhBRjVfYVJYcDlSREFpWFlqMGVCZEEwcU5lQUhHbTVGek96czladUNKX2FzT19oVzY1ZHlBMzE2OGlpR04taVVGQ19xVVZLejB5di05TjdaWHhnQ180?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "React 19.3 更新解读：AI 编程时代，StyleX 为何成为赢家 - CSDN",
+      "tag_name": "CSDN",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T12:21:13Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5odDRuZ2NqNE5RZ2JvckNvc2hmYmFobWdwUmk3b1NnVWRGbVNSa19rNEwzbkR3QWM2R3laZm9tNU1CbF9GYjNLSWJ1WmdOTVllc01qczh6VlVqQVJQVVRF?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": ".NET 11 正式发布，C# 15 补上了它欠缺二十年的东西 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T11:23:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYTFFRUV83bkFaR1BlNC03R3hXRkF5M1lRVnB2bE9QZnRNUm9obGZ1LUdyalVjZUFMM2ZzMVdHazk5bC1CdUl5ZF91djdGVkp0bjVHblUtVFg1djVjWUlNTmw5enpFZnR5LXQ0QXFGMWpzVU5B?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Tuya Releases Open-Source Skill Enabling Meta Muse to Control Smart Devices Across 3,000+ Categories - TradingView",
+      "tag_name": "TradingView",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-12T10:17:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ2VuMUZEV3NBNzY4N0tMckxkendmZjZoTlBZMldpVTN4RU9ncTRld2ktbVh2cU1HS0Rka1ZQalpjNm5QOFFzVXhnRVBycU9Hanl4NzFnWTNGR1N2bjBSNkhYTlMxdlZzQTVpcjBQaFR5bmhoQzhZN29pYmtBaGJOZkIxMkxuNzFZNU5vUUhOVzlsS2g2Zms0LUFHVTMxcUN0Tm5QUFVYUU4yMUdBcTJxWV84U3ZIM1dlMUJJd0hxMHJlMFNKRUZkalVwdktRb1Q1RVYyZGNJbDd6enF0T0Z0b19HZ0QzYU03VTdnTE5TUUh2Zw?oc=5",
+      "kind": "news"
+    },
     {
       "source": "news:en",
       "name": "Top 6 AI Text to Speech Tools in 2026: Features, Strengths and Limits - SitePoint",
@@ -25,17 +178,8 @@
       "name": "InfoQ 2026 年趋势报告：AI、ML 与数据工程 - InfoQ 中文",
       "tag_name": "InfoQ 中文",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T02:26:16Z",
+      "published_at": "2026-11-12T02:40:06Z",
       "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yOHg3QTJfempYRWE3eWxyem8yR2J1UU1ieWptY0VwbkxxUjNSbVhOOE1ONzZLa2RKZmtJZzZyVF9rLWFZUFBvS2JycktmSkNXZE4zUjFiQ1lua05zeGc?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Google Unveils Gemini Decision 1: Its First-Ever Decision-Making AI Model That Tops 7 Out of 9 Benchmarks With Up to 92.2% Accuracy - 36Kr",
-      "tag_name": "36Kr",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T00:50:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ucnN5c085VkpralBOeEJWZjZRdmNkaWR3bFFIUDJ6RGNNWFJXeTY2c3h2d0FBOU1fX09jajVmaVpzYmhhV0ZKNjB4YWowb0phM2JF?oc=5",
       "kind": "news"
     },
     {
@@ -45,15 +189,6 @@
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-11T21:50:17Z",
       "html_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlFmUXFxemFmTmVqOXoxcWtXczd2TmpKMnBqeEpUNkVrU3daYWdYSlFpMDVQMGloZkpJWi1uNzhMelV4aTlrVkF1a09pODdQVnJ4aE1NNkpiQko3ODA3ZlhEX2tLZVpkU21yV2JuT3JXbjZCc1BLN2hoejhPeUE1SFhYRUloTGVTZTF6Z2lhYk9vVTJIazZYc082YnVWRnJ2?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "RHEL 10.3 和 9.9 带来可用于生产环境的 AI 诊断功能 - Unite.AI",
-      "tag_name": "Unite.AI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T20:57:03Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmNMS2dNMElpdklCWGF5OE1zS19NOGZkSE9YUW5oX1FKVTFnTUxZWkJJX2hqUFVkX04xMHNkWWdoM2ZhemxwLVNFRWw2bURVWDZWQVp6QmVoS1Q3SVczWGJudmFCUzg1bVFseEpqaE4yVXYwYWp0b19wa2VwcllvVDRORnR2Z0JYNEtj?oc=5",
       "kind": "news"
     },
     {
@@ -75,57 +210,12 @@
       "kind": "news"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow-harness@1.0.181",
-      "tag_name": "@ai-sdk/workflow-harness@1.0.181",
-      "body": "### Patch Changes\n\n- @ai-sdk/harness@1.0.181",
-      "published_at": "2026-11-11T18:38:07Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.181",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/workflow@2.0.102",
-      "tag_name": "@ai-sdk/workflow@2.0.102",
-      "body": "### Patch Changes\n\n- efd2905: fix(workflow): End the final step's telemetry when streaming stops on a client-side tool, preserving the step span and its model call in the agent trace.\n- Updated dependencies [91a67c2]\n- Updated dependencies [84b1cb0]\n  - ai@7.0.170",
-      "published_at": "2026-11-11T18:38:04Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.102",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@4.0.170",
-      "tag_name": "@ai-sdk/vue@4.0.170",
-      "body": "### Patch Changes\n\n- Updated dependencies [91a67c2]\n- Updated dependencies [84b1cb0]\n  - ai@7.0.170",
-      "published_at": "2026-11-11T18:38:01Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%404.0.170",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@7.0.170",
-      "tag_name": "ai@7.0.170",
-      "body": "### Patch Changes\n\n- 91a67c2: Fix excessive CPU usage when streaming long arrays with `Output.array` or `streamObject`. Parse and validate completed elements incrementally instead of repeatedly processing the entire accumulated array on every text chunk.\n- 84b1cb0: Cancel pending send-now operations when a later stop or dispose occurs, preventing an abandoned chat's queued messages and history from being sent through a replacement transport.\n- Updated dependencies [eaeb37e]\n  - @ai-sdk/gateway@4.0.143",
-      "published_at": "2026-11-11T18:36:16Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%407.0.170",
-      "kind": "release"
-    },
-    {
       "source": "news:en",
       "name": "Gemini Decisions API: Fast, calibrated multimodal decisions - blog.google",
       "tag_name": "blog.google",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
       "published_at": "2026-11-11T18:22:43Z",
       "html_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTGVFa0w0cmk4aTZOc0dVWnc5bm5lSzRZOE9aQldlcTZZUGc4MGNNWGlTbDFJYUlibHJoQ2xpOEdrUFpPODBQOGluNUhVQWxvY2ZuWE84TVN3NVJza04xVXlBcW1kVkl1WjZMM2RxREktM2Z3bVVqbTBkUnJuTy0tRl9KSkxuT2pzY0Zib1dKV24?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Guava Adds WebRTC SDK, SIP Calling and Warm Transfers to Get Voice Agents onto Calls - Morningstar",
-      "tag_name": "Morningstar",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T17:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPb0lNYk01al9RU1dZZUhsY245WUNLdk54STlnMGJJNVFZbUhCVzdNWm96cU5nTmxpaVVpbl9JSFBIMTI0dEFuOUZEWEd0aWhGakF3SFFzMlEyUW9mc3lubUxabzU5SjY2S2JkMXlqTG5vcEFzYUV1UEZmdmt0cTh4MVN5MWtpRkNraDJHdFRzRDVPUmVCM0QzZnEtTWNrRzJLQmpGZkxaUS1FZXp2T1MtTUg3VW5fckQyN1FZRnZ4Q2VvMVZRRnBEdHYtZWpYOFU0TUJ5U1Vja3BWenhuc1E?oc=5",
       "kind": "news"
     },
     {
@@ -166,20 +256,11 @@
     },
     {
       "source": "news:zh",
-      "name": "qOntology 本体建模平台开源版 v1.1.2 发布：完善项目版本展示，优化建模交互与页面布局 - OSCHINA",
+      "name": "openKylin 社区 2026 年度贡献榜单公布！ - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T11:41:16Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RM19mYkViV0xFRS1rVkdBekVXakR5ekljcEJ0d2J6Njdma0R2azJNdDBxMnA5YlhmcTZMcURkczNKdjRqNFpkcjdRbw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "AI Deployment Tools for SDLC | DevOps Guide | AWS Marketplace - Amazon Web Services (AWS)",
-      "tag_name": "Amazon Web Services (AWS)",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T10:34:40Z",
-      "html_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TOVZWcWNRMDVNWkk5d2dBMVd2NHA2dTA0cjRJd1ZiRWZXYmNYREljWHhCSzNNOFRERklEQkd3NDdCc3dWYlNDWTNzNnJpMU5tUUVqdnFRQXJfYzFUVUo0SlQybEdud0JfVkh1U3ZnVWtRclpDRkpB?oc=5",
+      "published_at": "2026-11-11T09:43:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1UWVpPNGQxWTJiclc1ZTduUG9ueVo2RF9vZnIzM2VDQ1FnWGZrRDlhYXdYNm5lSk1kZkdFaVpHUVRxaGRka3hCSWpQbw?oc=5",
       "kind": "news"
     },
     {
@@ -192,42 +273,6 @@
       "kind": "news"
     },
     {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@3.0.330",
-      "tag_name": "@ai-sdk/vue@3.0.330",
-      "body": "### Patch Changes\n\n- Updated dependencies [1b19ee5]\n  - ai@6.0.330",
-      "published_at": "2026-11-11T06:16:58Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%403.0.330",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@6.0.330",
-      "tag_name": "ai@6.0.330",
-      "body": "### Patch Changes\n\n- 1b19ee5: Fix excessive CPU usage when streaming long arrays with `Output.array` or `streamObject`. Parse and validate completed elements incrementally instead of repeatedly processing the entire accumulated array on every text chunk.",
-      "published_at": "2026-11-11T06:16:25Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%406.0.330",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "@ai-sdk/vue@2.0.289",
-      "tag_name": "@ai-sdk/vue@2.0.289",
-      "body": "### Patch Changes\n\n- Updated dependencies [bdbf015]\n  - ai@5.0.289",
-      "published_at": "2026-11-11T06:15:11Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/%40ai-sdk/vue%402.0.289",
-      "kind": "release"
-    },
-    {
-      "source": "vercel/ai",
-      "name": "ai@5.0.289",
-      "tag_name": "ai@5.0.289",
-      "body": "### Patch Changes\n\n- bdbf015: Fix excessive CPU usage when streaming long arrays with `streamObject` array output. Parse and validate completed elements incrementally instead of repeatedly processing the entire accumulated array on every text chunk.\n- Updated dependencies [71955f0]\n- Updated dependencies [7d50c2f]\n  - @ai-sdk/gateway@2.0.180",
-      "published_at": "2026-11-11T06:14:35Z",
-      "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.289",
-      "kind": "release"
-    },
-    {
       "source": "news:en",
       "name": "AI Release Management Tools | DevOps Guide | AWS Marketplace - Amazon Web Services (AWS)",
       "tag_name": "Amazon Web Services (AWS)",
@@ -237,39 +282,12 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "MiniMax Releases \"H3-Image\" That Generates 4K Images in 10 Seconds for Free, Offers API at Less Than Half the Price of Major Tools - BigGo Finance",
-      "tag_name": "BigGo Finance",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T02:25:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qaWhwUmc2bFhuci1SMnRqRktwcUx6ZEVaaUdTRUh5UXowaVJScEp1WHVYeklwUjBsaVlDS1Z1VG1LcUhyY0hlQVIwU1Q2SzFkenhydGhlRkhaN2U4am1tWmZwUUpwOWF3TlRITkJhck5wWHdfV2c?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
-      "name": "微软正式发布.NET 11：开发更省时，AI工具更齐全 - 新浪网",
-      "tag_name": "新浪网",
+      "name": "微软正式发布.NET 11：开发更省时，AI工具更齐全 - 凤凰网科技",
+      "tag_name": "凤凰网科技",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T01:49:25Z",
-      "html_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jSk1hemhocWpnSGM1US1HX0dfbmo5amlFRURsdFRWQzlMRFBiWDNwT3lyOGVRN2V3YUJoVW1DaDA5TXdFdDJoa3kzcU9qTlVGLWdZSEQ5dm11UGhBT2VBWngzTko1QnIxamw4ZGZ4eWFsYU1mOC1jYllBNFFxZw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "谷歌旗舰Gemini 4 Carbon 正式发布：多智能体协作一夜造游戏，网络安全与科学推理迎来质的飞跃 - AIBase",
-      "tag_name": "AIBase",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T01:15:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0VWZTbFZDd2k1cktyUmhVUHViZ2ZhQkVsR1dvcmgwQmVyOEJSVlhzMmRWcl9MbGVmVS1mLXVPMnVDakpxd21nSWgxVl95dw?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
-      "name": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上 - 爱范儿",
-      "tag_name": "爱范儿",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T00:26:39Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1vYW9QNEtHS3RsTEdaemkxaGIzelNuZlJLWUhpRTFRTld2S19xVjQtS19CRUtOSnBHWWVEUk5XTGF3Mk0?oc=5",
+      "published_at": "2026-11-11T01:34:28Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82b0tMU2Rpdy0wVmtZRWhObjBmRmxabFdaSnFIQ05zQ29OSmt3S2t0T3JNNXNFa0ZJbTZrdXM5TEg3RUhHVEFneGdEY1E?oc=5",
       "kind": "news"
     },
     {
@@ -318,6 +336,15 @@
       "kind": "news"
     },
     {
+      "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-10T08:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "openai/openai-python",
       "name": "v3.49.0",
       "tag_name": "v3.49.0",
@@ -334,6 +361,15 @@
       "published_at": "2026-11-10T04:08:27Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
+      "tag_name": "Anthropic",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-10T02:08:56Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "kind": "news"
     },
     {
       "source": "langchain-ai/langchain",
@@ -372,15 +408,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "LG Opens K-EXAONE 2.5 API Free, Claims 70% Gain [2026] - shattered.io",
-      "tag_name": "shattered.io",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-09T09:58:53Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcUhSakJuTVlIcjYxMGQ4MGI0RkI4a3pPMjVKbDdLNFY1WWNRWWhsTlRmcHZidUp5ZkxtamxoWnBDUm5pX2xQWDJuQ2Vzc2V3THE5NVhSYTdGX29uSHVJRkpkcVotUnJsMWhzdUsxbWpTWnZ1dlBzYlpkZEktM3VrOHJGellycUVh?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "langchain-ai/langchain",
       "name": "langchain-typesafe==0.0.2",
       "tag_name": "langchain-typesafe==0.0.2",
@@ -388,15 +415,6 @@
       "published_at": "2026-11-05T22:56:58Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "微软借助 AI 修复更多 Windows 漏洞，补丁部署却进展缓慢 - Unite.AI",
-      "tag_name": "Unite.AI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T21:27:03Z",
-      "html_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV1E0TjlQWEpZQ0FuelZiM0RXZUdIOFZBMkxGLVBteFAzbUl3SmRlUDBfck8xdjUxZEphYkplT0tpTmg3WDFQdHhJaDB2dXNPZmxLWXBHYXhZQ0trblh5Vi1vQS1FZG1fWGhiX2ptTlZ5YXBkRDE4WHpIRkEwQ3YwUGNBcVJQSXM2WFh3ai1JSHFCQnZw?oc=5",
-      "kind": "news"
     },
     {
       "source": "anthropics/anthropic-sdk-python",
@@ -415,15 +433,6 @@
       "published_at": "2026-11-05T18:04:10Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "Apple 发布更新版全球旅行转换插头套装 - Mezha.net",
-      "tag_name": "Mezha.net",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-05T15:43:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcl9SNlVNNXBkaWc0cHV6dEtER3dBdDFFb3VfRnV2QU5sUDYySGNZS0l4UnBSeTEtbGtWRml0WTJSbWQ0dHc0b2FVbldLeFdIN1hIcEhDazB5ZnBjbUpmR2JGZjl5TTNnOW8wYi1qeWloYWh6QzdHbEZRajY3X3ZtbERuSzlZRUlzaGkxOHNXVHRpdk1MdGF6XzZYeFN6b1ZaNURN?oc=5",
-      "kind": "news"
     },
     {
       "source": "openai/openai-python",
@@ -504,15 +513,6 @@
       "body": "### Features\n\n* **api:** add GA methods for analytics, spend limits and RBAC\n* **api:** add named beta types for unified metrics and RBAC delete responses\n* **api:** add shared analytics order and increase request actor types\n* **api:** add tool_use_limit_reached_error and compaction_limit_reached_error session error types\n* **api:** add types for analytics group_by and spend limit period filters\n* **api:** add user_profile_id to External Keys and Workspaces\n\n\n### Bug Fixes\n\n* **api:** make spend_limit nullable in the spend limit increase request approve response\n* **api:** require always-sent analytics fields and drop the unused project product field\n* **client:** let pydantic validate params types that accept omit\n\n\n### Chores\n\n* **ci:** remove unused build upload steps\n* **docs:** clarify the Slack channel id description\n* **docs:** clarify what disabling the Compliance API stops\n* **docs:** clarify what the capability_access_all role action grants\n* **docs:** link Dreams model fields to the supported models section\n* **docs:** update example user ID in Admin API examples\n* **internal:** add a section for each repository's own review rules\n* **internal:** plainer wording in worker comments\n\n### Documentation\n\n* **client:** add missing await to the async parse() docstring example\n* **examples:** keep the message threads example valid on Sonnet 5.5\n* **examples:** use current model IDs\n* **readme:** point to the docs site for documentation\n* link to the SDK documentation instead of removed README sections",
       "published_at": "2026-11-02T19:07:19Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.42.1",
-      "tag_name": "v3.42.1",
-      "body": "## [3.42.1](https://github.com/openai/openai-python/compare/v3.42.0...v3.42.1) (2026-11-01)\n\n\n### Bug Fixes\n\n* **api:** preserve Responses WebSocket connection behavior ([#4221](https://github.com/openai/openai-python/issues/4221)) ([38075d8](https://github.com/openai/openai-python/commit/38075d8c6d90ba03557e991eb75991e65cfee88b))\n* **realtime:** validate beta WebSocket authentication profiles ([#4218](https://github.com/openai/openai-python/issues/4218)) ([3622a97](https://github.com/openai/openai-python/commit/3622a973d5db2adb26e6ef5c7dd8626b6af075ed))\n\n\n### Refactors\n\n* **websocket:** add SDK-owned Responses policy helpers ([#4219](https://github.com/openai/openai-python/issues/4219)) ([83ed269](https://github.com/openai/openai-python/commit/83ed2699a0b591e544325da40cffc3862f62abe6))",
-      "published_at": "2026-11-01T20:56:19Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
       "kind": "release"
     },
     {
