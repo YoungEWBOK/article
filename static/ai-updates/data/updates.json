@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-14T07:38:48.739076Z",
+  "generated_at": "2026-11-15T07:54:58.049037Z",
   "source_count": 8,
   "items": [
+    {
+      "source": "news:zh",
+      "name": "【华西计算机】1114｜DeepSeek发布全家桶API，开发者可轻松复刻完整DeepSeek App - Sohu",
+      "tag_name": "Sohu",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-14T14:52:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZU00M0VsLXYyd1M5dVRiRjh1WjlCZF9OUlJKQmRQS0FXcU9EckdkVzVva3RRR1AzRUNNYlBEQUN1bXJfRTVMY1BSVVZqWjRGZU5ZMU1tZ2dpZVRLeXNuQUpnUS1IbWhvSW9PVTRobkZORjRYazRLMGlhNGRpakM2WlhYYWRwdUpMa1JIUQ?oc=5",
+      "kind": "news"
+    },
     {
       "source": "vercel/ai",
       "name": "ai@6.0.332",
@@ -19,15 +28,6 @@
       "published_at": "2026-11-13T23:43:05Z",
       "html_url": "https://github.com/vercel/ai/releases/tag/ai%405.0.290",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "云开官网登录入口2026技术发布全梳理：模型矩阵、Agent平台与AI基础设施全面升级 - DoNews",
-      "tag_name": "DoNews",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T22:45:16Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CZE54amxmYndLZEw0QnRBV2tjdHNUSVNTSjEyTHJ0NjVWLTBzMnAzekp1OEM3RWFBcU9MU1pkc1paOTExOEJjZHdmSFNyZWRTVmNneURZNkY?oc=5",
-      "kind": "news"
     },
     {
       "source": "vercel/ai",
@@ -67,11 +67,11 @@
     },
     {
       "source": "news:en",
-      "name": "Runpod – AI Developer Cloud, GPU Training & Serverless Inference - Quasa.io",
-      "tag_name": "Quasa.io",
+      "name": "llama.cpp reaches version 1.0 for local AI tools - Tbreak UAE",
+      "tag_name": "Tbreak UAE",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T17:09:09Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU2ZQU1FlMDJUaVdYUXR3VVJXemR5S1lnUHI3Sm1pNjdaMDVZZ0M1LUFQQWp1MnhnYWZibWZualUySEVSc0E5R1pWWFBSWWdET1RJUzJ6dXFmOE9MTEpfNFp5a3Znb2x0UERVSmtJS3Y0ZkZsWDF4VkdjbTlKbW9TQTRMWnBzUDhqTXc?oc=5",
+      "published_at": "2026-11-13T18:49:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SWUVqR3FmWS00ZDdhUEpqa1N0cDd0V0hnZjdfd3FOS1ZVNzVCaUhPc2RXMS1kLWZkTEtORzhrbWZPSEhaUmJVNFNPYzh6ZnJzN2lMN0hTYTdjZmhG?oc=5",
       "kind": "news"
     },
     {
@@ -130,11 +130,11 @@
     },
     {
       "source": "news:zh",
-      "name": "从AI编程到AI研发,织灵2.5发布,推动数字研发团队进入企业项目 - 中华网",
-      "tag_name": "中华网",
+      "name": "Qt 1.16.0 更新解读：MCP 工具发布与智能体式开发实战 - CSDN",
+      "tag_name": "CSDN",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T02:20:14Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rV1JVbDJjZ0N2bkhTUGpoemd0ek9BMEM5cEk0eURuZW1lZVp5cVk3WkdMQlZvSjdvb2dMZmdlN1o0M3RnOUk4TGpWREZhXzJoWkhDVlFLbzhMXzRGS0E?oc=5",
+      "published_at": "2026-11-13T04:33:11Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FaW9laGJBcDlTcGdwRHBCSUhLTkg2NFRrajJaZHdfZl9vVEtGdzZ3UWpaWnFBRk9MT3k0aTVwNUhLTndNTEZqWDRiMVBIN0hWVnNRZy1pN2J4X19tb1RV?oc=5",
       "kind": "news"
     },
     {
@@ -175,20 +175,11 @@
     },
     {
       "source": "news:zh",
-      "name": ".NET 11 正式发布，C# 15 补上了它欠缺二十年的东西 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "name": "全球化筑基，AI 赋能新体验，openKylin 3.0 SP1 正式发布- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T11:23:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYTFFRUV83bkFaR1BlNC03R3hXRkF5M1lRVnB2bE9QZnRNUm9obGZ1LUdyalVjZUFMM2ZzMVdHazk5bC1CdUl5ZF91djdGVkp0bjVHblUtVFg1djVjWUlNTmw5enpFZnR5LXQ0QXFGMWpzVU5B?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Tuya Releases Open-Source Skill Enabling Meta Muse to Control Smart Devices Across 3,000+ Categories - TradingView",
-      "tag_name": "TradingView",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T10:17:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ2VuMUZEV3NBNzY4N0tMckxkendmZjZoTlBZMldpVTN4RU9ncTRld2ktbVh2cU1HS0Rka1ZQalpjNm5QOFFzVXhnRVBycU9Hanl4NzFnWTNGR1N2bjBSNkhYTlMxdlZzQTVpcjBQaFR5bmhoQzhZN29pYmtBaGJOZkIxMkxuNzFZNU5vUUhOVzlsS2g2Zms0LUFHVTMxcUN0Tm5QUFVYUU4yMUdBcTJxWV84U3ZIM1dlMUJJd0hxMHJlMFNKRUZkalVwdktRb1Q1RVYyZGNJbDd6enF0T0Z0b19HZ0QzYU03VTdnTE5TUUh2Zw?oc=5",
+      "published_at": "2026-11-12T15:13:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yTGJzbWxsYkpIYUFZc1p6TVNrOUROVVdLMkFraFpITjFNdTV5NXlSNnRNMTZZaFBwNzFZa2YyRDREOHlWQVdjdDFrTQ?oc=5",
       "kind": "news"
     },
     {
@@ -202,20 +193,20 @@
     },
     {
       "source": "news:zh",
-      "name": "InfoQ 2026 年趋势报告：AI、ML 与数据工程 - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
+      "name": "Jync 捷同v2.1.0 发布：CDC 流内DDL 闭环，ETL 支持主键更新- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T02:40:06Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yOHg3QTJfempYRWE3eWxyem8yR2J1UU1ieWptY0VwbkxxUjNSbVhOOE1ONzZLa2RKZmtJZzZyVF9rLWFZUFBvS2JycktmSkNXZE4zUjFiQ1lua05zeGc?oc=5",
+      "published_at": "2026-11-12T04:41:57Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwS1FJbTJvTnBTNDFiUHM3VW9qc1g2ZzBfN0dETjBBQ1drRnRGSUtmVHlORS1DQnN5ZW0yc2dKOEs4dGwyTkZoREIzRQ?oc=5",
       "kind": "news"
     },
     {
       "source": "news:en",
-      "name": "Tether BotPsy Beats Larger Qwen AI in Company Tests - Bitcoin Foundation",
-      "tag_name": "Bitcoin Foundation",
+      "name": "Google Unveils Gemini Decision 1: Its First-Ever Decision-Making AI Model That Tops 7 Out of 9 Benchmarks With Up to 92.2% Accuracy - 36Kr",
+      "tag_name": "36Kr",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T21:50:17Z",
-      "html_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlFmUXFxemFmTmVqOXoxcWtXczd2TmpKMnBqeEpUNkVrU3daYWdYSlFpMDVQMGloZkpJWi1uNzhMelV4aTlrVkF1a09pODdQVnJ4aE1NNkpiQko3ODA3ZlhEX2tLZVpkU21yV2JuT3JXbjZCc1BLN2hoejhPeUE1SFhYRUloTGVTZTF6Z2lhYk9vVTJIazZYc082YnVWRnJ2?oc=5",
+      "published_at": "2026-11-12T00:50:19Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ucnN5c085VkpralBOeEJWZjZRdmNkaWR3bFFIUDJ6RGNNWFJXeTY2c3h2d0FBOU1fX09jajVmaVpzYmhhV0ZKNjB4YWowb0phM2JF?oc=5",
       "kind": "news"
     },
     {
@@ -271,15 +262,6 @@
       "published_at": "2026-11-11T15:22:07Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成 PPT - InfoQ.cn",
-      "tag_name": "InfoQ.cn",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T13:09:54Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Wc0llaUVvZlJGN1JCWW4tWUpLSVVuWW5hNE1uSkZpM2JFREM5MXoyVW9xS080UHhUZGhETjg4SzlLOHBPQW9TaU9ycEJKNEJSSXdIMTFUWGZILXhWUGc?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -388,6 +370,15 @@
       "published_at": "2026-11-09T20:54:19Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
+      "tag_name": "Anthropic",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-09T18:56:17Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "kind": "news"
     },
     {
       "source": "anthropics/anthropic-sdk-python",
