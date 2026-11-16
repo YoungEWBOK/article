@@ -1,15 +1,87 @@
 {
-  "generated_at": "2026-11-15T07:54:58.049037Z",
+  "generated_at": "2026-11-16T08:02:38.168136Z",
   "source_count": 8,
   "items": [
     {
+      "source": "news:en",
+      "name": "Alibaba Launches Qwen4-Max With Lower API Prices - The Defiant",
+      "tag_name": "The Defiant",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T03:28:38Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1l1QWRja2lMdGVUTXhpSXpuVVkzWnRSS0x5QmRTRWFiUm4xWFR4LU4xNDNpZDJvTG9zc3JIMER3NWpJaXBhdUlFRVZ4S1BNZXRiR0dnMGdrRWRKYk5DZlVnbUVWQjVHRGNna2ZwX3I4RGJiVWk0X3RlbU5LNXNoNTdxMHNLUkM5U3c?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Vercel UI SDK: Behaviors & AI Agent Bridge - CASRAI",
+      "tag_name": "CASRAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T02:28:47Z",
+      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vaUtzd1hpeDdmdy0wV1Q3clRPRE1iXzhmRWhPTnAxcWVFbGJqOC1QTGg2M2pMSnBPaUxyNHAtQXBGQVN6eU8xM1dwZXVIZFlKcVNzdEJ4OHB6ZlZhV0ZvWEF3dFRDb1NLVmRrbE5QZHZBZmhfOG5mTA?oc=5",
+      "kind": "news"
+    },
+    {
       "source": "news:zh",
-      "name": "【华西计算机】1114｜DeepSeek发布全家桶API，开发者可轻松复刻完整DeepSeek App - Sohu",
+      "name": "直接多出6GB内存！Windows优化工具大版本更新：Win11占用狂降54% - Sohu",
       "tag_name": "Sohu",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-14T14:52:47Z",
-      "html_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZU00M0VsLXYyd1M5dVRiRjh1WjlCZF9OUlJKQmRQS0FXcU9EckdkVzVva3RRR1AzRUNNYlBEQUN1bXJfRTVMY1BSVVZqWjRGZU5ZMU1tZ2dpZVRLeXNuQUpnUS1IbWhvSW9PVTRobkZORjRYazRLMGlhNGRpakM2WlhYYWRwdUpMa1JIUQ?oc=5",
+      "published_at": "2026-11-16T02:19:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0dGbGk5RE16Q1B2NnRURjlOblJZZzVxNlJYaE10N0Nfbk4yV2dZaEhYN3VFaVExMDBiNmdwSDIwbDZjMldOdzZqVldDS2UtZWtKZmkzNjFCcXNzSWE3TEpSXzhvakNWblhGUU5YY0FrbFNsMWlsMFZYdktRVnQxMmJIOGdXWFFY?oc=5",
       "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-mistralai==1.2.0",
+      "tag_name": "langchain-mistralai==1.2.0",
+      "body": "Changes since langchain-mistralai==1.1.6\n\nfix(mistralai): fix streaming behavior for reasoning models (#41887)\nfix(groq,mistralai,xai): bump deps (#41884)\nchore(model-profiles): refresh model profile data (#41861)\nrelease(mistralai): 1.2.0 (#41859)\nfeat(mistralai): route `ChatMistralAI` through LangSmith gateway (#41840)\nchore(model-profiles): refresh model profile data (#41828)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(deps): patch newer-python security lock resolutions (#41585)\nchore(model-profiles): refresh model profile data (#41573)\nchore(model-profiles): refresh model profile data (#41556)\nchore(model-profiles): refresh model profile data (#41432)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(model-profiles): refresh model profile data (#41415)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/mistralai (#41383)\nchore(model-profiles): refresh model profile data (#41325)\nfix: fix dependencies in some partner packages (#41266)\nchore(model-profiles): refresh model profile data (#41145)\nchore(model-profiles): refresh model profile data (#41117)\nchore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/partners/mistralai (#41091)\nchore(deps): bump fsspec from 2025.9.0 to 2026.6.0 in /libs/partners/mistralai (#41073)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/mistralai (#40956)\nchore(model-profiles): refresh model profile data (#40902)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/mistralai (#40636)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#39954)\nfeat(core): add standard model exception types (#39538)\nfix(partners): isolate unit tests from network [closes #39727] (#39729)\nchore(model-profiles): refresh model profile data (#39166)\nchore(deps): refresh lockfiles (#38746)",
+      "published_at": "2026-11-15T22:38:03Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-groq==1.2.0",
+      "tag_name": "langchain-groq==1.2.0",
+      "body": "Changes since langchain-groq==1.1.3\n\nfix(groq): specify reasoning_effort in integration tests (#41886)\nfix(groq,mistralai,xai): bump deps (#41884)\nrelease(groq): 1.2.0 (#41856)\nfeat(groq): route `ChatGroq` through LangSmith gateway (#41837)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(model-profiles): refresh model profile data (#41432)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(model-profiles): refresh model profile data (#41354)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/groq (#41386)\nfix: fix dependencies in some partner packages (#41266)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/groq (#40960)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/groq (#40638)\nchore(model-profiles): refresh model profile data (#40009)\ndocs(groq): remove duplicate `method` block from `with_structured_output` docstring (#39978)\nchore(model-profiles): refresh model profile data (#39256)\nfix(groq): update reasoning integration model (#38976)\nchore(deps): refresh lockfiles (#38746)\nfeat(groq): map context-length errors to `ContextOverflowError` (#37676)\nchore(model-profiles): refresh model profile data (#38663)\nfix(groq): use `qwen` for tool choice integration tests (#38380)\ntest(groq): xfail flaky tool choice test (#38365)\nfix(groq): replace deprecated Groq llama models (#38363)\nfeat(groq): add `performance` service tier (#38339)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/groq (#38310)\nchore: bump langsmith from 0.8.0 to 0.8.18 in /libs/partners/groq (#38312)\ndocs: refresh `README` installation and resources (#38119)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nrelease(core): 1.4.6 (#38061)\nfeat(core,partners): add package version tracking to tracing metadata (#35295)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nchore(model-profiles): refresh model profile data (#38012)",
+      "published_at": "2026-11-15T21:49:09Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-xai==1.4.0",
+      "tag_name": "langchain-xai==1.4.0",
+      "body": "Changes since langchain-xai==1.3.0\n\nfix(groq,mistralai,xai): bump deps (#41884)\nrelease(xai): 1.4.0 (#41857)\nfeat(xai): route `ChatXAI` through LangSmith gateway (#41838)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(model-profiles): refresh model profile data (#41651)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/partners/xai (#41374)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/xai (#41371)\nchore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/partners/xai (#41361)\nchore(model-profiles): refresh model profile data (#41325)\nfix: fix dependencies in some partner packages (#41266)\nchore(model-profiles): refresh model profile data (#41017)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/xai (#40942)\nchore(model-profiles): refresh model profile data (#40747)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/xai (#40628)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#40217)\ndocs(xai): point structured outputs guide link to official xAI docs (#40026)\nfix(xai): recompute total_tokens after adding reasoning tokens to output (#39667)\nchore(model-profiles): refresh model profile data (#39692)\nchore(model-profiles): refresh model profile data (#39625)\nchore: bump aiohttp from 3.14.1 to 3.14.3 in /libs/partners/xai (#39241)\nchore(model-profiles): refresh model profile data (#39166)\nchore(model-profiles): refresh model profile data (#39050)",
+      "published_at": "2026-11-15T21:35:20Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
+      "kind": "release"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-deepseek==1.2.0",
+      "tag_name": "langchain-deepseek==1.2.0",
+      "body": "Changes since langchain-deepseek==1.1.1\n\nrelease(deepseek): 1.2.0 (#41858)\nfeat(deepseek): route `ChatDeepSeek` through LangSmith gateway (#41839)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/deepseek (#41389)\nchore(model-profiles): refresh model profile data (#41325)\nchore(model-profiles): refresh model profile data (#41283)\nfix: fix dependencies in some partner packages (#41266)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/deepseek (#40962)\nchore(model-profiles): refresh model profile data (#40804)\nchore(model-profiles): refresh model profile data (#40780)",
+      "published_at": "2026-11-15T21:34:41Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:zh",
+      "name": "必须开放了：Akai 发布免费的 MPC Plugin SDK 开发工具软件 - Midifan",
+      "tag_name": "Midifan",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-15T19:41:15Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GLWZLZkpWNEFzOTJlUHhWM1JqWFE4aS1FMElvQzAwNHcwWERHT04zQTl6SldHcGJCZkNJamxacng0aHJhSV9rdk9IdkRHOXJ0WFY4RVlUZjBrcWRKM3hjUkVLUlNHdw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "langchain-ai/langchain",
+      "name": "langchain-core==1.8.1",
+      "tag_name": "langchain-core==1.8.1",
+      "body": "Changes since langchain-core==1.8.0\n\nrelease(core): 1.8.1 (#41855)\nchore(deps): bump soupsieve from 4.0 to 4.1 in /libs/core (#41850)\nfeat(core): per-context LangSmith gateway override via `langsmith_gateway` (#41836)\nchore(deps): bump soupsieve from 2.9 to 4.0 in /libs/core (#41833)",
+      "published_at": "2026-11-15T14:57:11Z",
+      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
+      "kind": "release"
     },
     {
       "source": "vercel/ai",
@@ -67,11 +139,11 @@
     },
     {
       "source": "news:en",
-      "name": "llama.cpp reaches version 1.0 for local AI tools - Tbreak UAE",
-      "tag_name": "Tbreak UAE",
+      "name": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock | Artificial Intelligence - Amazon Web Services (AWS)",
+      "tag_name": "Amazon Web Services (AWS)",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T18:49:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SWUVqR3FmWS00ZDdhUEpqa1N0cDd0V0hnZjdfd3FOS1ZVNzVCaUhPc2RXMS1kLWZkTEtORzhrbWZPSEhaUmJVNFNPYzh6ZnJzN2lMN0hTYTdjZmhG?oc=5",
+      "published_at": "2026-11-13T18:44:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNDhuWHJsYkZJQ3p6R1g3bkNsa25JSHVCY3hwQWJQTzNVN0k3Q3hkRXYySnJHWVJ4dWkyVGctUUtLaGYxZkhnWm9uRDliZ0JJMi0xM0d3YjB2ZVpCQVRyV19ab2c3a2RCUTRiclZKTGxfZi03V0p4b1ljRkpSbnlOUFhOVDN1amFVenNmTXRibHdNYXBzMDZvSWxtNC04RS1ld3JDbTNDNGtQNmtFQ2JuRlZLZ1ZkNWJTUUVnemlLN3d5TXJlRnlobk1acWFxTWs?oc=5",
       "kind": "news"
     },
     {
@@ -82,6 +154,15 @@
       "published_at": "2026-11-13T16:48:27Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
       "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-13T15:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "kind": "news"
     },
     {
       "source": "news:en",
@@ -175,24 +256,6 @@
     },
     {
       "source": "news:zh",
-      "name": "全球化筑基，AI 赋能新体验，openKylin 3.0 SP1 正式发布- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T15:13:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yTGJzbWxsYkpIYUFZc1p6TVNrOUROVVdLMkFraFpITjFNdTV5NXlSNnRNMTZZaFBwNzFZa2YyRDREOHlWQVdjdDFrTQ?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Top 6 AI Text to Speech Tools in 2026: Features, Strengths and Limits - SitePoint",
-      "tag_name": "SitePoint",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T08:00:07Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3FEdXktOE1KbnBhcHZRbGlQT0tuVl9ZTnFKczNXc2xOMUFKb0dMajhXNlp5QjFyMnE5OFVyZDcwWFFWZ0hlWFItNjF5YmlQLUttZ2ZqWGRNR2V4b0hPTWdGY05RNWNMc2h5RE9OM2M0VXJNbTFzTXBCRmF4Wk5RYllhczhOc2ZrSGk3dnM0TExQbFlEQUVjYk93?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "Jync 捷同v2.1.0 发布：CDC 流内DDL 闭环，ETL 支持主键更新- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "tag_name": "OSCHINA",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -201,12 +264,12 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "Google Unveils Gemini Decision 1: Its First-Ever Decision-Making AI Model That Tops 7 Out of 9 Benchmarks With Up to 92.2% Accuracy - 36Kr",
-      "tag_name": "36Kr",
+      "source": "news:zh",
+      "name": "RHEL 10.3 和 9.9 带来可用于生产环境的 AI 诊断功能 - Unite.AI",
+      "tag_name": "Unite.AI",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T00:50:19Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ucnN5c085VkpralBOeEJWZjZRdmNkaWR3bFFIUDJ6RGNNWFJXeTY2c3h2d0FBOU1fX09jajVmaVpzYmhhV0ZKNjB4YWowb0phM2JF?oc=5",
+      "published_at": "2026-11-11T20:57:03Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmNMS2dNMElpdklCWGF5OE1zS19NOGZkSE9YUW5oX1FKVTFnTUxZWkJJX2hqUFVkX04xMHNkWWdoM2ZhemxwLVNFRWw2bURVWDZWQVp6QmVoS1Q3SVczWGJudmFCUzg1bVFseEpqaE4yVXYwYWp0b19wa2VwcllvVDRORnR2Z0JYNEtj?oc=5",
       "kind": "news"
     },
     {
@@ -252,15 +315,6 @@
       "body": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x.\n\nChanges since langchain==1.4.10\n\nrelease(langchain): 1.5.0 (#41798)\nfix(langchain): mark `ModelRouterMiddleware` as beta (#41797)\nfeat(langchain): Remove EOL'd Python 3.10 from langchain_v1 (#41301)\nfeat(langchain): add model router and auto mode middleware (#41766)\ndocs(langchain): explain Baseten minimum version (#41777)",
       "published_at": "2026-11-11T15:47:22Z",
       "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-core==1.8.0",
-      "tag_name": "langchain-core==1.8.0",
-      "body": "**`langchain-core` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve `langchain-core` 1.7.x.\n\nChanges since langchain-core==1.7.7\n\nrelease(core): 1.8.0 (#41796)\nfeat(core): Remove EOL Python 3.10 support (#41267)\nfeat(core): add decision models (#41765)",
-      "published_at": "2026-11-11T15:22:07Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
       "kind": "release"
     },
     {
@@ -318,13 +372,13 @@
       "kind": "release"
     },
     {
-      "source": "langchain-ai/langchain",
-      "name": "langchain==1.4.10",
-      "tag_name": "langchain==1.4.10",
-      "body": "Changes since langchain==1.4.9\n\nrelease(langchain): 1.4.10 (#41778)\nfix(langchain): keep middleware-internal model calls off the `messages` stream (#41579)\nchore(deps): patch newer-python security lock resolutions (#41585)\nfix(langchain): omit trace inputs from `ModelRefusalMiddleware` (#41689)",
-      "published_at": "2026-11-10T18:37:31Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
-      "kind": "release"
+      "source": "news:zh",
+      "name": "IPO路演日加码企业办公市场！Anthropic推出多款AI工具，正面挑战微软Office - 华尔街见闻",
+      "tag_name": "华尔街见闻",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-10T21:11:55Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBucXlqM0xCYXZYTWlwNE5SaU5VeTJQUWRSODh3WW5LclhpbHJCQW1BaFFVX3NfTzJQcnZQaExTNDVQbVhUUGVjZlhQcGpwdkhhaVJJ?oc=5",
+      "kind": "news"
     },
     {
       "source": "anthropics/anthropic-sdk-python",
@@ -354,33 +408,6 @@
       "kind": "release"
     },
     {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-core==1.7.7",
-      "tag_name": "langchain-core==1.7.7",
-      "body": "Changes since langchain-core==1.7.6\n\nrelease(core): 1.7.7 (#41776)\nfix(core): cap nesting depth in `load()` (#41742)\nchore(deps): patch newer-python security lock resolutions (#41585)",
-      "published_at": "2026-11-10T04:08:27Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
-      "kind": "release"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-fireworks==1.7.3",
-      "tag_name": "langchain-fireworks==1.7.3",
-      "body": "Changes since langchain-fireworks==1.7.2\n\nrelease(fireworks): 1.7.3 (#41773)\nfix(fireworks): default `max_tokens` from model profiles (#41772)\nchore(model-profiles): refresh model profile data (#41762)\nchore(model-profiles): refresh model profile data (#41745)",
-      "published_at": "2026-11-09T20:54:19Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
-      "kind": "release"
-    },
-    {
-      "source": "news:en",
-      "name": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
-      "tag_name": "Anthropic",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-09T18:56:17Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "anthropics/anthropic-sdk-python",
       "name": "v2.7.0",
       "tag_name": "v2.7.0",
@@ -405,24 +432,6 @@
       "body": "## [3.48.0](https://github.com/openai/openai-python/compare/v3.47.0...v3.48.0) (2026-11-09)\n\n\n### Features\n\n* **api:** add stream options for agent sessions ([#4251](https://github.com/openai/openai-python/issues/4251)) ([c6fc264](https://github.com/openai/openai-python/commit/c6fc264689d384d5caec150fafa1a9567c4a3f56))\n* **api:** recognize gpt-6-rosalind in beta Responses ([#4257](https://github.com/openai/openai-python/issues/4257)) ([3774b7e](https://github.com/openai/openai-python/commit/3774b7ed775b4bff99b45ef961c5d1f6c82b8e99))\n\n\n### Chores\n\n* **api:** retain agent scheduling support ([#4255](https://github.com/openai/openai-python/issues/4255)) ([a1175a3](https://github.com/openai/openai-python/commit/a1175a35ba6aa2d6bf98d26088a572ab0c5f4453))\n* **deps:** bump locked multidict from 6.9.1 to 7.1.0 ([#4259](https://github.com/openai/openai-python/pull/4259)) ([28cdb1b](https://github.com/openai/openai-python/commit/28cdb1beef191368a61a25bbf56371065387deb4))\n* **deps-dev:** bump the python-maintenance group with 5 updates ([#4258](https://github.com/openai/openai-python/issues/4258)) ([4b10e22](https://github.com/openai/openai-python/commit/4b10e223452ae7450a5423ee30c13115ae9652ef))\n* **deps-dev:** bump types-requests from 2.33.0.20261006 to 2.33.0.20261030 ([#4260](https://github.com/openai/openai-python/issues/4260)) ([de498d7](https://github.com/openai/openai-python/commit/de498d730cafa51f5fb0640f0335719957ea1733))\n\n\n### Documentation\n\n* consolidate AGENTS.md guidance ([#4254](https://github.com/openai/openai-python/issues/4254)) ([44b1555](https://github.com/openai/openai-python/commit/44b1555aff1c22998c008c84400e7acce39fb928))",
       "published_at": "2026-11-09T16:12:58Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.48.0",
-      "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "某知名互联网公司限制员工使用外部AI？知情人士这样回应 - 新华网客户端",
-      "tag_name": "新华网客户端",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-09T00:30:24Z",
-      "html_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU2RBY1N1TURubmpSTkpJaXp3ZGpVVkY1SXVVUHVZYnhacjlUeEhiT2o1S3gtMHpjMWNuQzJDWWNLWUdBcWN5SmNWVERRVEJHNEdsSm9xV3VKa1ZMLWxPRXJ3S1ZwYU5sRVlwVHUyekpXUndiV3FHZ1I4TDJpci1UX1J2NUtDbFBXVWpqMktIbVNHdkhCTkhsV3ZB?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "langchain-ai/langchain",
-      "name": "langchain-typesafe==0.0.2",
-      "tag_name": "langchain-typesafe==0.0.2",
-      "body": "Changes since langchain-typesafe==0.0.1\n\nrelease(typesafe): 0.0.2 (#41720)\nfeat(typesafe): accept a `classifier` in experimental middleware (#41657)",
-      "published_at": "2026-11-05T22:56:58Z",
-      "html_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
       "kind": "release"
     },
     {
