@@ -1,15 +1,96 @@
 {
-  "generated_at": "2026-11-16T08:02:38.168136Z",
+  "generated_at": "2026-11-17T09:16:48.469815Z",
   "source_count": 8,
   "items": [
     {
-      "source": "news:en",
-      "name": "Alibaba Launches Qwen4-Max With Lower API Prices - The Defiant",
-      "tag_name": "The Defiant",
+      "source": "news:zh",
+      "name": "OpenAI发布新图像分类器及ChatGPT警告机制以打击儿童性虐待材料-AI应用 - 至顶网",
+      "tag_name": "至顶网",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-16T03:28:38Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1l1QWRja2lMdGVUTXhpSXpuVVkzWnRSS0x5QmRTRWFiUm4xWFR4LU4xNDNpZDJvTG9zc3JIMER3NWpJaXBhdUlFRVZ4S1BNZXRiR0dnMGdrRWRKYk5DZlVnbUVWQjVHRGNna2ZwX3I4RGJiVWk0X3RlbU5LNXNoNTdxMHNLUkM5U3c?oc=5",
+      "published_at": "2026-11-17T03:33:45Z",
+      "html_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pc04yaFhyX1pMdWh1aWwySUgyOFZrNzhEUlZZZmZRcEF3WW0zS0ZodXhEVkhzMjhyMEtzVzktYzBXblVwRGllb3N4c0Q4T010SWhNX3B0N2ZMb1pXdUhYanpWdnl6THpBVmtKc1BrRQ?oc=5",
       "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "Palo Alto Networks报告：企业难以追踪和保障云端AI智能体安全 - 至顶网",
+      "tag_name": "至顶网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-17T03:05:31Z",
+      "html_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VclN2bHl4M2pGcS1nYk1NQnNMNm0tWlc1akQxQjNpSkpvVzlCWUpUSXBielcxSGtnSENoMzJkaFlhQlpvRjlWLXo1UExkRFJxajdsNGJwMGtMWnQ4X1ZWQVhUU29DMW81cVRfNDBFbFE?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:zh",
+      "name": "从外贸SEO到AI建站：MaxGrowth探索B2B出海增长新路径 - 衡阳新闻网",
+      "tag_name": "衡阳新闻网",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-17T01:20:29Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUkt1VlVkWmVicjJzSWdmenNTUldiMVJHWHlsRzJBZjlBLXZUcEdjVmowN2F2bWdDT2t0SDVCbURoZHZQMkdxRWE5N18waEFJTk1ORTVqNFJPbUZaNVVDeWZrNEU?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "openai/openai-python",
+      "name": "v3.52.0",
+      "tag_name": "v3.52.0",
+      "body": "## [3.52.0](https://github.com/openai/openai-python/compare/v3.51.0...v3.52.0) (2026-11-16)\n\n\n### Features\n\n* **api:** add schedule pause reasons ([#4278](https://github.com/openai/openai-python/issues/4278)) ([a996ce2](https://github.com/openai/openai-python/commit/a996ce2df402c241d042f6d0164361536a99e31a))\n* **api:** deliver beta Agents session errors as stream events ([#4281](https://github.com/openai/openai-python/issues/4281)) ([690fba9](https://github.com/openai/openai-python/commit/690fba90a013d7ece4eff2c3b33937564e3bdde9))",
+      "published_at": "2026-11-16T22:40:22Z",
+      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.52.0",
+      "kind": "release"
+    },
+    {
+      "source": "news:en",
+      "name": "Google to test Gemini agent that flags AdMob setup errors - PPC Land",
+      "tag_name": "PPC Land",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T21:04:55Z",
+      "html_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDl1cjVRTE9kbmNjbTd1eEhOREpUd1U3ZWpRV0M0ZG56clpLd3ZHTmhpT3hZcWEwWFdSZ2VnMkNJdW9xYTBBZUkzWnJlamp2UjlBQWktWUZiaFNXOFJqLWQzTU1KWU5uWUQ3R0RoVTBOSGpqc2k3ck1xOTJ4NEEtYw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Llama.cpp promises stable API with major version rules - Developer Tech News",
+      "tag_name": "Developer Tech News",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T17:51:26Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOHdUU2RzRUtIQThrcXRycWVva09DMVlEUWJvM1ljdnh2ZVJnay10WHMzM1l3aTZrNUNXR2F0dmxmMTFPT2dIWUNVOXVwSXRUMHhyMEI4Ry1CQ1NFVUJCa28zbzBxVENNbG5vX3JGalNvQ1d3VTBjWUhNY3pwaTFLdm1fbUs4ZjRFM2pLWV9MYw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Google Unveils Ask AdMob and AI Agent Tools for App Monetization - Unite.AI",
+      "tag_name": "Unite.AI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T17:27:02Z",
+      "html_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONHJoTk8xM0JpcUV0MlhNYmd0cDQ0YzJveGU0UXdzN3ZMQkRDcjQzYnk3TlRyRzk5dHBXUHlkTzYxc2lFTjVlc2dkdUx2Z2FhNnA3NnBFc0l3Q3haT01PWC1lTFJZZzVMc2RoOHNwWE5XcVdBcXBpOGlZM0c1eFJyMGZiZUw4NEhkX0xBdWJIcw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "Strengthening the fight against online child sexual abuse with new tools and support - OpenAI",
+      "tag_name": "OpenAI",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T17:19:12Z",
+      "html_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0ZC1UYUtkd0JZU043eUgyaDZuV0UxTzdCRFZqX281andjdGtXTl9IN1g5dTgxSmpDRlJ2b2FFN1M1dHVfTjEzVWVMeEpERjI0RktYNzZNUzUzRW1XSDExY0psTTJ2Z1pOQ0cw?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "news:en",
+      "name": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM - TechCrunch",
+      "tag_name": "TechCrunch",
+      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
+      "published_at": "2026-11-16T17:00:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbjJ4OWhkMHlCSTdyUTFheTBjV1A0N2xQNVczbkFjRzJhUmJmR2lXX3QwZ0lZeVpWeWJWTXA4cmNnM1gwWTgyNEhjU0V6a2RzQ05HYlk3aHAxVDNycUdGOUIyX0VCWFpreW1qa21VZkhBY055WnJHbVNKeWd3UFJ2bHdaczAwMDFIT1ZDSTljc05neERDbXhyWUdRd3NaanZ5d1A1dGo0TndKWVNjU1E?oc=5",
+      "kind": "news"
+    },
+    {
+      "source": "anthropics/anthropic-sdk-python",
+      "name": "v2.9.0",
+      "tag_name": "v2.9.0",
+      "body": "### Features\n\n* **api:** add source and error codes to the RBAC Role read endpoints\n* **api:** add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle\n\n\n### Bug Fixes\n\n* **credentials:** write the credentials file on Windows with Python 3.12 and earlier\n* **tools:** compare directory names exactly when confining file tool and upload paths on Windows\n* **tools:** fully resolve file tool paths that pass through a dangling symlink\n* **tools:** ignore ripgrep config files in the agent toolset's grep tool\n* **tools:** keep an existing skill directory when the download or extraction that would replace it fails\n* **tools:** keep the session tool runner's max_idle countdown running when a session thread terminates\n\n  If the runner fails to read the session's event history after a reconnect, a termination that then arrives on the event stream still cancels the countdown, until the next idle or successful read.\n\n* **tools:** leave symlinks that point outside /memories out of listings\n* **tools:** look for ripgrep only in absolute `PATH` entries in the agent toolset's grep tool\n\n  The tool no longer runs an `rg` from a relative or empty `PATH` entry or, on Windows, from the current directory. On Windows it looks for `rg.exe`, so an `rg.cmd`, `rg.bat` or `rg.com` is no longer used. With no other `rg` on `PATH`, the tool uses its built-in search.\n\n* **tools:** pass over an rg inside the directories the agent toolset's file tools can write\n\n  `grep` passes over an `rg` that resolves to somewhere inside `workdir` or `allowed_roots`, whatever the letter case of the names. It uses the next `rg` on `PATH`, or the built-in search when there is none. With a `workdir` that holds every `rg` on the host, such as `/`, every search is a built-in search. `rg` no longer gets the `ANTHROPIC_*` variables of the process, like the shell of `bash`.\n\n* **tools:** read memory files only through the path that was validated\n* **tools:** read only regular files in the grep tool's built-in search\n\n  The built-in search of `grep` passes over a FIFO or a device in the directory it walks, as ripgrep does. Reading one could block the search, and the event loop with it, forever.\n\n* **tools:** stop EnvironmentWorker from running tools for a terminated session\n\n  For a terminated session, the worker now force-stops the work item right after it retrieves the session, before it downloads skills or memory stores. It no longer raises `SessionMemoryError` for such a session. The API reports an archived session as `terminated`.\n\n* **tools:** stop the grep tool after 30 seconds of CPU time when ripgrep is not installed\n* **tools:** stop the session tool runner from running the tool calls of a terminated session thread\n\n  The runner also no longer yields these calls, including a denied call (`confirmation=\"deny\"`) and a call to a tool that it does not own. The one exception is a call whose tool is already running when the thread terminates: the runner yields it with `posted=False` and posts no result.\n\n\n### Chores\n\n* **api:** deprecate old beta header values\n\n  The API still accepts these values, but a later release removes them from the SDKs. Delete `prompt-caching-2024-07-31`, `pdfs-2024-09-25`, `token-counting-2024-11-01`, `token-efficient-tools-2025-02-19`, `extended-cache-ttl-2025-04-11`, `cache-diagnosis-2026-04-07` and `ce-user-management-2026-07-13` from your requests. `files-api-2025-04-14` and `skills-2025-10-02` select the beta response shapes, so follow the Files API and Skills migration guides before you delete them.\n\n  In C#, the `AnthropicBeta` enum's members have new numbers, so code compiled against an earlier SDK version sends a different beta value, with no error, until you rebuild it.\n\n* **api:** stop sending an old beta header on batch requests\n\n  `beta.messages.batches` no longer sends `message-batches-2024-09-24`, which the API doesn't need. If your client sets a default `anthropic-beta` header, these requests now send it, where in some SDKs the old value replaced it. The API still accepts the old value. If you set it yourself, delete it: a later release removes it from the SDKs.\n\n* **docs:** add an example value for the workspace name\n* **docs:** clarify when the auto permission policy denies a tool call\n* **docs:** clarify which workspaces an external key can be attached to\n* **docs:** recommend multiagent_20261001 over the coordinator type\n* **docs:** say when organization_id is required on plugin reads\n* **tests:** let idle test workers take queued tests",
+      "published_at": "2026-11-16T16:47:17Z",
+      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0",
+      "kind": "release"
     },
     {
       "source": "news:en",
@@ -22,11 +103,11 @@
     },
     {
       "source": "news:zh",
-      "name": "直接多出6GB内存！Windows优化工具大版本更新：Win11占用狂降54% - Sohu",
-      "tag_name": "Sohu",
+      "name": "直接多出6GB内存！Windows优化工具大版本更新：Win11占用狂降54% - 驱动之家",
+      "tag_name": "驱动之家",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-16T02:19:31Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0dGbGk5RE16Q1B2NnRURjlOblJZZzVxNlJYaE10N0Nfbk4yV2dZaEhYN3VFaVExMDBiNmdwSDIwbDZjMldOdzZqVldDS2UtZWtKZmkzNjFCcXNzSWE3TEpSXzhvakNWblhGUU5YY0FrbFNsMWlsMFZYdktRVnQxMmJIOGdXWFFY?oc=5",
+      "published_at": "2026-11-16T02:19:00Z",
+      "html_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTYlRUWnJqNnRWMERhRG4wYnFBOVZiLU9GcVRoVnJ3R2M3UE1JUkxQbHl2ZTdiUjlsYkE2eVFRMnVDeGVTdWFlNVpBZkVuVy1PRXpISlFrSHA?oc=5",
       "kind": "news"
     },
     {
@@ -156,24 +237,6 @@
       "kind": "release"
     },
     {
-      "source": "news:en",
-      "name": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "tag_name": "OpenAI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T15:00:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:en",
-      "name": "Llama.cpp V1.0.0 Sets API Stability Rules for Local AI Tools - Unite.AI",
-      "tag_name": "Unite.AI",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T14:23:03Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRk9tMVNfX01hZzFhZGkteDMyR3QyREdxWmpfM3kybVRRTTEwYUtyczVCaE15dGFEOHROM1dOTTZONkJ0NVVTci0zSUZsN1BFVk9DOE5XdlhyRlVSTU10M21lX3FqNUxMYkZTZUZZWWVpVnpIcDB3TmF4Ny1haVdnN2d0U3ZNdDByMFE?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
       "name": "【每日瞰AI】谷歌发布Gemini 4 Hydrogen，接入搜索和免费开发工具； 百度推出大模型交易平台「词元所」，首月日均调用超7000 亿词元 - 电子工程专辑EE Times China",
       "tag_name": "电子工程专辑EE Times China",
@@ -211,15 +274,6 @@
     },
     {
       "source": "news:zh",
-      "name": "Qt 1.16.0 更新解读：MCP 工具发布与智能体式开发实战 - CSDN",
-      "tag_name": "CSDN",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-13T04:33:11Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FaW9laGJBcDlTcGdwRHBCSUhLTkg2NFRrajJaZHdfZl9vVEtGdzZ3UWpaWnFBRk9MT3k0aTVwNUhLTndNTEZqWDRiMVBIN0hWVnNRZy1pN2J4X19tb1RV?oc=5",
-      "kind": "news"
-    },
-    {
-      "source": "news:zh",
       "name": "Meta Connect 大量公告解读：XR开发者如何抓住AI与平台新机会 - CSDN",
       "tag_name": "CSDN",
       "body": "新闻检索线索；请打开原文核实内容与发布时间。",
@@ -237,15 +291,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "AWS Releases Free API Emulation Tool; AI Agents Autonomously Generated Entire Codebase - BigGo Finance",
-      "tag_name": "BigGo Finance",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T22:25:00Z",
-      "html_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mdWZONkFDMnFnOF9memlUYm5ld3B6bDNyS25JVTJ3MnAtTDFKMkN3cXJacGx2UHFia0lsRXFuekZ1X3BiODgwbkhnemVsaGZmcVItallQbEVpUG5jRmNyUkVxRWl0eHIyaVBFRUlJbkJSalJHSkE?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "openai/openai-python",
       "name": "v3.50.0",
       "tag_name": "v3.50.0",
@@ -253,15 +298,6 @@
       "published_at": "2026-11-12T19:26:07Z",
       "html_url": "https://github.com/openai/openai-python/releases/tag/v3.50.0",
       "kind": "release"
-    },
-    {
-      "source": "news:zh",
-      "name": "Jync 捷同v2.1.0 发布：CDC 流内DDL 闭环，ETL 支持主键更新- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "tag_name": "OSCHINA",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-12T04:41:57Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwS1FJbTJvTnBTNDFiUHM3VW9qc1g2ZzBfN0dETjBBQ1drRnRGSUtmVHlORS1DQnN5ZW0yc2dKOEs4dGwyTkZoREIzRQ?oc=5",
-      "kind": "news"
     },
     {
       "source": "news:zh",
@@ -336,15 +372,6 @@
       "kind": "news"
     },
     {
-      "source": "news:en",
-      "name": "AI Release Management Tools | DevOps Guide | AWS Marketplace - Amazon Web Services (AWS)",
-      "tag_name": "Amazon Web Services (AWS)",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T04:31:33Z",
-      "html_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aQ2lVaDlidXUtUE9iaVJlWHFsVDlvOVE0WmItNkFrNFd0dnBLb1AtM1FTakhoQUVOclpWalZnY2VqYXBGSkVhSkhpMFNNS1I4bE1QakVYbGpoQ044REFVLVBHdHRHV1Y4SGhrVS01OFRrSHNvaVo0YQ?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "news:zh",
       "name": "微软正式发布.NET 11：开发更省时，AI工具更齐全 - 新浪网",
       "tag_name": "新浪网",
@@ -354,21 +381,12 @@
       "kind": "news"
     },
     {
-      "source": "news:zh",
-      "name": "微软正式发布.NET 11：开发更省时，AI工具更齐全 - 凤凰网科技",
-      "tag_name": "凤凰网科技",
-      "body": "新闻检索线索；请打开原文核实内容与发布时间。",
-      "published_at": "2026-11-11T01:34:28Z",
-      "html_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82b0tMU2Rpdy0wVmtZRWhObjBmRmxabFdaSnFIQ05zQ29OSmt3S2t0T3JNNXNFa0ZJbTZrdXM5TEg3RUhHVEFneGdEY1E?oc=5",
-      "kind": "news"
-    },
-    {
       "source": "ollama/ollama",
       "name": "v0.40.17",
-      "tag_name": "v0.40.17-rc0",
+      "tag_name": "v0.40.17-rc1",
       "body": "## What's Changed\r\n* Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583\r\n* cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409\r\n* llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640\r\n* rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163\r\n* mlx: support concurrent generation by @dhiltgen in https://github.com/ollama/ollama/pull/19197\r\n* llama.cpp: version bump b12257 by @dhiltgen in https://github.com/ollama/ollama/pull/19646\r\n* MLX, MLX-C: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/19647\r\n\r\n## New Contributors\r\n* @rpreslar4765 made their first contribution in https://github.com/ollama/ollama/pull/17163\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.16...v0.40.17-rc0",
       "published_at": "2026-11-10T22:25:00Z",
-      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
       "kind": "release"
     },
     {
@@ -486,15 +504,6 @@
       "body": "## MiMo V2.6\r\n\r\nXiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.\r\n\r\n```sh\r\nollama run mimo-v2.6\r\n```\r\n\r\n## AutoTrust decision models\r\n\r\n[AutoTrust](https://ollama.com/library/autotrust-jev) decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images.\r\n\r\n```sh\r\nollama run autotrust-jev \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\r\n```\r\n\r\nNote: autotrust-jev is supported on Apple silicon in this release.\r\n\r\n## What's Changed\r\n\r\n - ollama launch now supports Kimi Code CLI — the successor to kimi-cli — and offers to migrate existing kimi-cli setups\r\n - ollama launch now fills in Pi's model list automatically so models can be picked inside Pi, and Claude Desktop's model\r\n   picker shows Ollama's actual model names\r\n - Recurrent and vision GGUF models can now serve more than one request at a time\r\n - Qwen3 and Qwen3.5 models using long-context (YaRN) scaling\r\n - Running ollama with no arguments opens the welcome launcher\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15",
       "published_at": "2026-11-03T22:52:31Z",
       "html_url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
-      "kind": "release"
-    },
-    {
-      "source": "openai/openai-python",
-      "name": "v3.44.0",
-      "tag_name": "v3.44.0",
-      "body": "## [3.44.0](https://github.com/openai/openai-python/compare/v3.43.0...v3.44.0) (2026-11-03)\n\n\n### Features\n\n* **api:** add workload identity providers and federation rules ([#4237](https://github.com/openai/openai-python/issues/4237)) ([12709d7](https://github.com/openai/openai-python/commit/12709d708ad03291d8a81371a55a4dadfbcce31d))",
-      "published_at": "2026-11-03T20:20:42Z",
-      "html_url": "https://github.com/openai/openai-python/releases/tag/v3.44.0",
       "kind": "release"
     },
     {
@@ -639,15 +648,6 @@
       "body": "### Features\n\n* **api:** add support for message threads\n* **api:** add usage and cost reports by dimension, mark older reports legacy\n\n\n### Bug Fixes\n\n* **client:** stop suggesting math.inf in the max_retries error message\n* **tools:** leave the tool runner's history to the caller after `append_messages()`, and keep the current reply out of the `set_messages_params()` callback\n* **tools:** keep running the tool runner's function tools when `set_messages_params()` gives `tools` as definitions, and stop running one it takes out of `tools`\n* **tools:** give the `set_messages_params()` callback of a tool runner its `tools` as definitions again\n* **tools:** keep a tool runner's `betas`, `user_profile_id` and `workspace_id` when `set_messages_params()` leaves them out\n\n\n### Chores\n\n* **deps:** bump certifi in the dev lockfile\n* **docs:** clarify plugin content scan and validation descriptions\n* **docs:** clarify plugin served_version_pinned and updated_at\n* **docs:** fix usage and cost report examples and ending_at docs\n* **docs:** rate limit model lists vary by organization and workspace",
       "published_at": "2026-10-23T13:10:10Z",
       "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
-      "kind": "release"
-    },
-    {
-      "source": "anthropics/anthropic-sdk-python",
-      "name": "v2.1.0",
-      "tag_name": "v2.1.0",
-      "body": "### Features\n\n* **api:** add enforcement status, actions and filter to user profiles",
-      "published_at": "2026-10-21T22:00:30Z",
-      "html_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
       "kind": "release"
     }
   ]
